@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16201d" media="(prefers-color-scheme: dark)">
+<title>Conteúdos CRK Paisagismo · análise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;
+  --card:#f6f4f0;
+  --linha:#dbd7d0;
+  --txt:#445d57;
+  --tit:#bb7048;
+  --det:#916442;
+  --suave:#adb5a0;
+  --acento:#a4dfc3;
+  --foco:#916442;
+  --sel-bg:#445d57;
+  --sel-tx:#ffffff;
+  --btn-bg:#445d57;
+  --btn-tx:#ffffff;
+  --tag-bg:#dbd7d0;
+  --tag-tx:#445d57;
+  --fonte-tit:"Comfortaa","Trebuchet MS",system-ui,sans-serif;
+  --fonte-corpo:"Open Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#16201d;
+    --card:#1f2b27;
+    --linha:#34453f;
+    --txt:#e4e1da;
+    --tit:#e39a72;
+    --det:#d4ad84;
+    --suave:#6f7d72;
+    --foco:#a4dfc3;
+    --sel-bg:#a4dfc3;
+    --sel-tx:#16201d;
+    --btn-bg:#a4dfc3;
+    --btn-tx:#16201d;
+    --tag-bg:#34453f;
+    --tag-tx:#e4e1da;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:var(--fonte-corpo);font-size:16px;line-height:1.6}
+button,textarea,a{font:inherit}
+:focus-visible{outline:3px solid var(--foco);outline-offset:2px}
+.so-leitor{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.coluna{max-width:640px;margin:0 auto;padding:0 20px}
+
+/* cabeçalho */
+.topo{padding-top:max(36px,env(safe-area-inset-top));padding-bottom:24px}
+.rotulo{margin:0 0 10px;font-size:14px;color:var(--det);font-weight:600}
+h1{margin:0 0 14px;font-family:var(--fonte-tit);font-weight:700;font-size:clamp(28px,8.4vw,38px);line-height:1.18;color:var(--tit);letter-spacing:-.01em}
+.instrucao{margin:0;max-width:34em}
+
+/* abas */
+.abas-faixa{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--linha)}
+.abas{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.aba{min-height:60px;padding:8px 2px 6px;background:none;border:0;border-bottom:3px solid transparent;color:var(--det);font-family:var(--fonte-tit);font-weight:700;font-size:13.5px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.aba[aria-selected="true"]{color:var(--txt);border-bottom-color:var(--tit)}
+.num{display:inline-block;min-width:24px;padding:0 7px;border-radius:12px;background:var(--tag-bg);color:var(--tag-tx);font-family:var(--fonte-corpo);font-size:12.5px;font-weight:700;line-height:20px;text-align:center}
+.aba[aria-selected="true"] .num{background:var(--tit);color:#fff}
+@media (prefers-color-scheme:dark){.aba[aria-selected="true"] .num{color:#16201d}}
+.num.zero{opacity:.7}
+
+/* painéis */
+main.coluna{padding-top:24px;padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+.nota-aba{margin:0 0 18px;font-size:15px;color:var(--det)}
+.vazio,.estado{padding:28px 20px;border:1px dashed var(--suave);border-radius:16px;text-align:center}
+.estado button{margin-top:12px}
+
+/* cartões */
+.cartao{background:var(--card);border:1px solid var(--linha);border-radius:18px;padding:20px 18px 22px;margin:0 0 22px}
+.cartao h2{margin:10px 0 14px;font-family:var(--fonte-tit);font-weight:700;font-size:19px;line-height:1.35;color:var(--tit);overflow-wrap:anywhere}
+.etiquetas{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tag{display:inline-block;padding:3px 12px;border-radius:14px;background:var(--tag-bg);color:var(--tag-tx);font-size:13px;font-weight:600}
+.funcao{font-size:13.5px;color:var(--det);font-weight:600}
+.espera{display:inline-block;padding:3px 12px;border-radius:14px;border:1.5px solid var(--det);color:var(--det);font-size:13px;font-weight:700}
+
+/* blocos de texto */
+.bloco{border-top:1px solid var(--linha);padding:2px 0}
+.bloco summary{min-height:48px;display:flex;align-items:center;gap:8px;cursor:pointer;font-weight:700;color:var(--txt);list-style:none}
+.bloco summary::-webkit-details-marker{display:none}
+.bloco summary::before{content:"";width:8px;height:8px;border-right:2px solid var(--det);border-bottom:2px solid var(--det);transform:rotate(-45deg);transition:transform .15s;flex:none;margin:0 4px 0 2px}
+.bloco[open] summary::before{transform:rotate(45deg)}
+.corpo{padding:0 0 16px 22px}
+.corpo p{margin:0 0 10px}
+.corpo ul{margin:0 0 10px;padding-left:20px}
+.corpo li{margin:0 0 6px}
+.corpo h4{margin:16px 0 6px;font-family:var(--fonte-tit);font-size:15px;color:var(--det)}
+.corpo h4:first-child{margin-top:2px}
+.bloco.validar .corpo{border-left:4px solid var(--acento);padding-left:14px;margin-left:8px}
+
+/* resposta */
+.resposta{margin-top:12px;padding-top:18px;border-top:2px solid var(--linha)}
+.resposta .tit-resp{margin:0 0 10px;font-weight:700}
+.status{display:flex;flex-direction:column;gap:10px}
+.status button{min-height:48px;padding:10px 16px;border-radius:12px;border:1.5px solid var(--txt);background:transparent;color:var(--txt);font-weight:600;text-align:left;cursor:pointer;display:flex;align-items:center;gap:10px}
+.status button .ic{flex:none;width:22px;text-align:center;font-size:17px}
+.status button[aria-pressed="true"]{background:var(--sel-bg);color:var(--sel-tx);border-color:var(--sel-bg)}
+.atual{margin:10px 0 18px;font-size:14px;color:var(--det)}
+.resposta label{display:block;margin-bottom:6px;font-weight:700}
+.resposta textarea{width:100%;min-height:96px;padding:12px 14px;border:1.5px solid var(--txt);border-radius:12px;background:var(--bg);color:var(--txt);font-size:16px;line-height:1.5;resize:vertical}
+.resposta textarea::placeholder{color:var(--det);opacity:.9}
+
+/* mídia */
+.midia{margin:0 0 14px}
+.aviso{padding:16px;border:1.5px dashed var(--suave);border-radius:12px;font-size:15px}
+video{display:block;width:100%;max-height:72vh;border-radius:12px;background:#000}
+.carrossel{position:relative}
+.viewport{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:12px;background:var(--linha);-webkit-overflow-scrolling:touch}
+.viewport::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;display:flex}
+.slide img{width:100%;height:100%;object-fit:contain;display:block}
+.seta{position:absolute;top:calc(50% - 22px);width:44px;height:44px;border-radius:50%;border:1.5px solid #445d57;background:rgba(255,255,255,.92);color:#445d57;font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.seta.ant{left:8px}.seta.prox{right:8px}
+.seta:disabled{opacity:.35;cursor:default}
+.contador{position:absolute;top:10px;right:10px;padding:2px 12px;border-radius:14px;background:rgba(68,93,87,.92);color:#fff;font-size:13px;font-weight:700}
+.bolinhas{display:flex;justify-content:center;gap:6px;margin:12px 0 8px}
+.bolinhas i{width:8px;height:8px;border-radius:4px;background:var(--suave);transition:width .15s,background .15s}
+.bolinhas i.on{width:22px;background:var(--tit)}
+.miniaturas{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 6px;scrollbar-width:thin}
+.miniaturas button{flex:none;width:52px;height:65px;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;background:var(--linha);cursor:pointer;opacity:.75}
+.miniaturas button[aria-current="true"]{border-color:var(--tit);opacity:1}
+.miniaturas img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* botões */
+.btn{min-height:48px;padding:10px 18px;border-radius:12px;border:1.5px solid var(--btn-bg);background:transparent;color:var(--txt);font-weight:700;font-size:15px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-align:center;text-decoration:none}
+.btn.primario{background:var(--btn-bg);color:var(--btn-tx)}
+.btn[disabled],.btn[aria-disabled="true"]{opacity:.45;cursor:default;pointer-events:none}
+.copiar-leg{margin-top:4px}
+
+/* barra fixa */
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bg);border-top:1px solid var(--linha);padding:12px 0 max(12px,env(safe-area-inset-bottom))}
+.barra .coluna{display:flex;flex-direction:column;gap:10px}
+.prog p{margin:0 0 6px;font-size:14px;font-weight:700}
+.trilho{height:6px;border-radius:3px;background:var(--linha);overflow:hidden}
+.trilho span{display:block;height:100%;width:0;background:var(--acento);border-radius:3px;transition:width .25s}
+@media (prefers-color-scheme:light){.trilho span{background:var(--txt)}}
+.botoes{display:flex;gap:10px}
+.botoes .btn{flex:1 1 0;padding:10px 8px;font-size:14.5px}
+.botoes .btn.primario{flex:1.45 1 0}
+
+/* rodapé */
+.rodape{padding:20px 0 6px;text-align:center}
+.rodape img{height:28px;width:auto;opacity:.85}
+.marca{font-family:var(--fonte-tit);font-weight:700;font-size:13px;color:var(--det)}
+
+/* cópia manual */
+dialog{width:min(560px,calc(100% - 32px));border:1.5px solid var(--txt);border-radius:16px;background:var(--bg);color:var(--txt);padding:20px}
+dialog::backdrop{background:rgba(22,32,29,.55)}
+dialog h3{margin:0 0 8px;font-family:var(--fonte-tit);color:var(--tit);font-size:18px}
+dialog textarea{width:100%;min-height:180px;padding:12px;border:1.5px solid var(--txt);border-radius:12px;background:var(--card);color:var(--txt);font-size:15px}
+dialog .btn{margin-top:12px;width:100%}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media (min-width:480px){
+  .status{flex-direction:row;flex-wrap:wrap}
+  .status button{flex:1 1 auto}
+}
+</style>
+</head>
+<body>
+<div class="coluna">
+  <header class="topo">
+    <p class="rotulo">Camila Koerich · análise de conteúdo</p>
+    <h1>O que está esperando por você</h1>
+    <p class="instrucao">Veja cada ideia, roteiro e criativo, toque no status que combina e, se quiser, escreva uma observação. Quando terminar, envie tudo pelo WhatsApp. Suas respostas ficam salvas neste aparelho.</p>
+  </header>
+</div>
+
+<div class="abas-faixa">
+  <div class="coluna"><div class="abas" id="abas" role="tablist" aria-label="Etapas do conteúdo"></div></div>
+</div>
+
+<main class="coluna" id="conteudo">
+  <div id="paineis"><div class="estado" role="status">Carregando os conteúdos…</div></div>
+  <footer class="rodape">
+    <img src="logo.png" alt="CRK Arquitetura e Paisagismo" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'marca',textContent:'CRK Arquitetura e Paisagismo'}))">
+  </footer>
+</main>
+
+<div class="barra" role="region" aria-label="Enviar respostas">
+  <div class="coluna">
+    <div class="prog">
+      <p id="progTxt">0 de 0 itens respondidos</p>
+      <div class="trilho" aria-hidden="true"><span id="progBar"></span></div>
+    </div>
+    <div class="botoes">
+      <a class="btn primario" id="btnWa" href="#" target="_blank" rel="noopener" aria-disabled="true">Enviar pelo WhatsApp</a>
+      <button class="btn" id="btnCopiar" type="button" disabled>Copiar resposta</button>
+    </div>
+  </div>
+</div>
+
+<div class="so-leitor" id="avisoVivo" role="status" aria-live="polite"></div>
+
+<dialog id="copiaManual" aria-labelledby="copiaTit">
+  <h3 id="copiaTit">Copie o texto à mão</h3>
+  <p>O aparelho bloqueou a cópia automática. Toque na caixa, selecione tudo e copie.</p>
+  <label class="so-leitor" for="copiaTexto">Texto para copiar</label>
+  <textarea id="copiaTexto" readonly></textarea>
+  <button class="btn primario" type="button" id="copiaFechar">Fechar</button>
+</dialog>
+
+<noscript><div class="coluna"><p>Esta página precisa de JavaScript para mostrar os conteúdos.</p></div></noscript>
+
+<script>
+/* ---------- configuração ---------- */
+const WA_NUM = '';            // WhatsApp que recebe as respostas: DDI + DDD + número, só dígitos (ex.: '5548999999999'). Vazio: o WhatsApp pergunta para quem enviar.
+const KEY = 'crk-conteudos-v1';
+const DADOS_URL = 'dados.json';
+
+const ETAPAS = [
+  { k:'ideia', aba:'Ideias', nome:'Ideia', analise:'análise de ideia',
+    vazio:'Nenhuma ideia esperando por você agora.',
+    status:[{k:'ajuste',rot:'Ajuste de ideia',ic:'✎'},{k:'aprovado',rot:'Ideia aprovada',ic:'✓'},{k:'naoaprovado',rot:'Ideia não aprovada',ic:'✕'}] },
+  { k:'roteiro', aba:'Roteiros', nome:'Roteiro', analise:'análise de roteiro',
+    vazio:'Nenhum roteiro esperando por você agora.',
+    status:[{k:'ajuste',rot:'Ajuste de roteiro',ic:'✎'},{k:'aprovado',rot:'Roteiro aprovado',ic:'✓'}] },
+  { k:'criativo', aba:'Criativos', nome:'Criativo', analise:'análise criativa',
+    vazio:'Nenhum criativo esperando por você agora.',
+    status:[{k:'ajuste',rot:'Ajuste criativo',ic:'✎'},{k:'aprovado',rot:'Criativo aprovado',ic:'✓'}] },
+  { k:'aprovado', aba:'Aprovados', nome:'Aprovado', leitura:true,
+    vazio:'Quando você aprovar um criativo, ele aparece aqui, aguardando programação.' }
+];
+const etapaDe = k => ETAPAS.find(e => e.k === k);
+
+/* ---------- estado ---------- */
+let ITENS = [];
+let S = { d:{}, o:{} };
+try {
+  const r = localStorage.getItem(KEY);
+  if (r) { const p = JSON.parse(r); S.d = p.d || {}; S.o = p.o || {}; }
+} catch (e) {}
+/* grava na hora: ao tocar em "Enviar pelo WhatsApp" a página vai para segundo plano e um atraso poderia perder o último toque */
+function salvar(){
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+}
+
+/* ---------- utilitários ---------- */
+const $ = id => document.getElementById(id);
+const reduz = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+function el(tag, cls, txt){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (txt != null) n.textContent = txt;
+  return n;
+}
+function avisar(txt){ const v = $('avisoVivo'); v.textContent = ''; setTimeout(() => { v.textContent = txt; }, 30); }
+
+function renderTexto(box, texto){
+  let ul = null;
+  for (const linha of String(texto).split('\n')) {
+    if (!linha.trim()) { ul = null; continue; }
+    if (linha.startsWith('# ')) { ul = null; box.append(el('h4', null, linha.slice(2))); }
+    else if (linha.startsWith('- ')) {
+      if (!ul) { ul = el('ul'); box.append(ul); }
+      ul.append(el('li', null, linha.slice(2)));
+    } else { ul = null; box.append(el('p', null, linha)); }
+  }
+}
+
+async function copiarTexto(txt){
+  try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(txt); return true; } } catch (e) {}
+  try {
+    const ta = el('textarea'); ta.value = txt; ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+    document.body.append(ta); ta.select(); ta.setSelectionRange(0, txt.length);
+    const ok = document.execCommand('copy'); ta.remove(); return ok;
+  } catch (e) { return false; }
+}
+async function copiarComAviso(txt, botao, rotuloOk){
+  const ok = await copiarTexto(txt);
+  if (ok) {
+    const antes = botao.textContent;
+    botao.textContent = rotuloOk; avisar(rotuloOk);
+    setTimeout(() => { botao.textContent = antes; }, 2200);
+  } else {
+    const d = $('copiaManual'); $('copiaTexto').value = txt;
+    if (d.showModal) d.showModal(); else d.setAttribute('open', '');
+    $('copiaTexto').focus(); $('copiaTexto').select(); $('copiaTexto').scrollTop = 0;
+  }
+}
+$('copiaFechar').addEventListener('click', () => { const d = $('copiaManual'); if (d.close) d.close(); else d.removeAttribute('open'); });
+
+/* ---------- respostas ---------- */
+const analisaveis = () => ITENS.filter(i => !etapaDe(i.etapa).leitura);
+const respondido = i => !!(S.d[i.id] || (S.o[i.id] || '').trim());
+const pendentes = e => ITENS.filter(i => i.etapa === e.k && !S.d[i.id]).length;
+
+function mensagem(){
+  const partes = ['Olá! Minhas respostas sobre os conteúdos:'];
+  for (const i of analisaveis()) {
+    if (!respondido(i)) continue;
+    const e = etapaDe(i.etapa);
+    const st = S.d[i.id] ? e.status.find(s => s.k === S.d[i.id]).rot.toLowerCase() : e.analise;
+    const obs = (S.o[i.id] || '').trim();
+    let b = '*#' + i.numero + ' · ' + i.titulo + '* (' + e.nome + ')\nStatus: ' + st;
+    if (obs) b += '\nObservação: ' + obs;
+    partes.push(b);
+  }
+  return partes.join('\n\n');
+}
+
+function atualizarBarra(){
+  const total = analisaveis().length;
+  const feitos = analisaveis().filter(respondido).length;
+  $('progTxt').textContent = feitos + ' de ' + total + (total === 1 ? ' item respondido' : ' itens respondidos');
+  $('progBar').style.width = (total ? feitos / total * 100 : 0) + '%';
+  const wa = $('btnWa'), cp = $('btnCopiar');
+  if (feitos) {
+    wa.href = 'https://wa.me/' + WA_NUM + '?text=' + encodeURIComponent(mensagem());
+    wa.removeAttribute('aria-disabled'); cp.disabled = false;
+  } else {
+    wa.href = '#'; wa.setAttribute('aria-disabled', 'true'); cp.disabled = true;
+  }
+}
+function atualizarAbas(){
+  ETAPAS.forEach(e => {
+    const n = $('num-' + e.k), a = $('aba-' + e.k);
+    const qtd = e.leitura ? ITENS.filter(i => i.etapa === e.k).length : pendentes(e);
+    n.textContent = qtd; n.classList.toggle('zero', qtd === 0);
+    a.setAttribute('aria-label', e.aba + ', ' + qtd + (e.leitura ? (qtd === 1 ? ' item' : ' itens') : (qtd === 1 ? ' pendente' : ' pendentes')));
+  });
+}
+function atualizarTudo(){ atualizarAbas(); atualizarBarra(); }
+
+$('btnWa').addEventListener('click', ev => { if ($('btnWa').getAttribute('aria-disabled') === 'true') ev.preventDefault(); });
+$('btnCopiar').addEventListener('click', () => copiarComAviso(mensagem(), $('btnCopiar'), 'Resposta copiada'));
+
+/* ---------- carrossel ---------- */
+function carrossel(imgs, rotulo){
+  const box = el('div', 'carrossel');
+  box.setAttribute('role', 'group'); box.setAttribute('aria-roledescription', 'carrossel'); box.setAttribute('aria-label', rotulo);
+  const vp = el('div', 'viewport'); vp.tabIndex = 0;
+  vp.setAttribute('aria-label', rotulo + ': use as setas do teclado para trocar de slide');
+  imgs.forEach((src, n) => {
+    const s = el('div', 'slide'); const im = el('img');
+    im.src = src; im.alt = 'Slide ' + (n + 1) + ' de ' + imgs.length + ' — ' + rotulo; im.loading = n ? 'lazy' : 'eager'; im.decoding = 'async';
+    s.append(im); vp.append(s);
+  });
+  const ant = el('button', 'seta ant', '‹'); ant.type = 'button'; ant.setAttribute('aria-label', 'Slide anterior');
+  const prox = el('button', 'seta prox', '›'); prox.type = 'button'; prox.setAttribute('aria-label', 'Próximo slide');
+  const cont = el('div', 'contador'); cont.setAttribute('aria-hidden', 'true');
+  const bol = el('div', 'bolinhas'); bol.setAttribute('aria-hidden', 'true');
+  const mini = el('div', 'miniaturas');
+  const dots = [], thumbs = [];
+  imgs.forEach((src, n) => {
+    const d = el('i'); bol.append(d); dots.push(d);
+    const b = el('button'); b.type = 'button'; b.setAttribute('aria-label', 'Ir para o slide ' + (n + 1));
+    const t = el('img'); t.src = src; t.alt = ''; t.loading = 'lazy'; b.append(t);
+    b.addEventListener('click', () => ir(n)); mini.append(b); thumbs.push(b);
+  });
+  let atual = 0;
+  function marcar(n){
+    atual = n;
+    cont.textContent = (n + 1) + ' / ' + imgs.length;
+    dots.forEach((d, k) => d.classList.toggle('on', k === n));
+    thumbs.forEach((b, k) => { if (k === n) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+    ant.disabled = n === 0; prox.disabled = n === imgs.length - 1;
+    const b = thumbs[n];
+    mini.scrollTo({ left: b.offsetLeft - (mini.clientWidth - b.clientWidth) / 2, behavior: reduz() ? 'auto' : 'smooth' });
+  }
+  function ir(n){
+    n = Math.max(0, Math.min(imgs.length - 1, n));
+    vp.scrollTo({ left: n * vp.clientWidth, behavior: reduz() ? 'auto' : 'smooth' });
+    marcar(n);
+  }
+  let raf = 0;
+  vp.addEventListener('scroll', () => {
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => {
+      const n = Math.round(vp.scrollLeft / (vp.clientWidth || 1));
+      if (n !== atual) marcar(n);
+    });
+  }, { passive: true });
+  vp.addEventListener('keydown', ev => {
+    if (ev.key === 'ArrowLeft') { ev.preventDefault(); ir(atual - 1); }
+    if (ev.key === 'ArrowRight') { ev.preventDefault(); ir(atual + 1); }
+  });
+  ant.addEventListener('click', () => ir(atual - 1));
+  prox.addEventListener('click', () => ir(atual + 1));
+  const area = el('div', 'carrossel'); area.append(vp, ant, prox, cont);
+  box.append(area, bol);
+  if (imgs.length > 1) box.append(mini);
+  if (imgs.length < 2) { ant.hidden = prox.hidden = bol.hidden = true; }
+  marcar(0);
+  return box;
+}
+
+function blocoMidia(i){
+  const m = i.midia;
+  if (!m) {
+    if (i.avisoMidia) { const w = el('div', 'midia'); w.append(el('div', 'aviso', i.avisoMidia)); return w; }
+    return null;
+  }
+  const w = el('div', 'midia');
+  const rot = '#' + i.numero + ' · ' + i.titulo;
+  if (m.tipo === 'video') {
+    const v = el('video'); v.controls = true; v.playsInline = true; v.preload = 'metadata';
+    if (m.poster) v.poster = m.poster;
+    v.src = m.arquivo; v.setAttribute('aria-label', 'Vídeo: ' + rot);
+    v.append(document.createTextNode('Seu aparelho não conseguiu abrir este vídeo.'));
+    w.append(v);
+  } else if (m.tipo === 'carrossel' && m.arquivos && m.arquivos.length) {
+    w.append(carrossel(m.arquivos, rot));
+  } else return null;
+  return w;
+}
+
+/* ---------- cartões ---------- */
+function cartao(i){
+  const e = etapaDe(i.etapa);
+  const art = el('article', 'cartao'); art.id = 'c-' + i.id;
+  const tit = el('h2', null, '#' + i.numero + ' · ' + i.titulo); tit.id = 't-' + i.id;
+  art.setAttribute('aria-labelledby', tit.id);
+
+  const et = el('div', 'etiquetas');
+  if (i.formato) et.append(el('span', 'tag', i.formato));
+  if (i.funcao) et.append(el('span', 'funcao', 'Função: ' + i.funcao));
+  if (e.leitura) et.append(el('span', 'espera', 'Aguardando programação'));
+  art.append(et, tit);
+
+  const md = blocoMidia(i); if (md) art.append(md);
+
+  const blocos = e.leitura ? i.blocos.filter(b => b.t === 'Legenda') : i.blocos;
+  blocos.forEach(b => {
+    const d = el('details', 'bloco' + (b.t === 'Para validar' ? ' validar' : '')); d.open = true;
+    d.append(el('summary', null, b.t));
+    const c = el('div', 'corpo'); renderTexto(c, b.x); d.append(c); art.append(d);
+  });
+
+  if (e.leitura) {
+    const leg = i.blocos.find(b => b.t === 'Legenda');
+    if (leg) {
+      const b = el('button', 'btn copiar-leg', 'Copiar legenda'); b.type = 'button';
+      b.addEventListener('click', () => copiarComAviso(leg.x, b, 'Legenda copiada'));
+      art.append(b);
+    }
+    return art;
+  }
+
+  const r = el('section', 'resposta'); r.setAttribute('aria-label', 'Sua resposta para ' + tit.textContent);
+  const rt = el('p', 'tit-resp', 'Seu status'); rt.id = 's-' + i.id;
+  const grupo = el('div', 'status'); grupo.setAttribute('role', 'group'); grupo.setAttribute('aria-labelledby', rt.id);
+  const atual = el('p', 'atual'); atual.setAttribute('aria-live', 'polite');
+  const pinta = () => {
+    const st = S.d[i.id];
+    atual.textContent = 'Status atual: ' + (st ? e.status.find(s => s.k === st).rot.toLowerCase() : e.analise);
+    grupo.querySelectorAll('button').forEach(bt => bt.setAttribute('aria-pressed', String(bt.dataset.k === st)));
+  };
+  e.status.forEach(s => {
+    const bt = el('button'); bt.type = 'button'; bt.dataset.k = s.k;
+    bt.append(el('span', 'ic', s.ic), document.createTextNode(s.rot));
+    bt.addEventListener('click', () => {
+      if (S.d[i.id] === s.k) delete S.d[i.id]; else S.d[i.id] = s.k;
+      salvar(); pinta(); atualizarTudo();
+    });
+    grupo.append(bt);
+  });
+  const lab = el('label', null, 'Observação'); lab.htmlFor = 'o-' + i.id;
+  const ta = el('textarea'); ta.id = 'o-' + i.id; ta.rows = 3; ta.value = S.o[i.id] || '';
+  ta.placeholder = 'Escreva aqui o que quer ajustar ou comentar';
+  ta.addEventListener('input', () => { S.o[i.id] = ta.value; salvar(); atualizarTudo(); });
+  r.append(rt, grupo, atual, lab, ta); art.append(r);
+  pinta();
+  return art;
+}
+
+/* ---------- abas e painéis ---------- */
+function montar(){
+  const abas = $('abas'), pain = $('paineis');
+  abas.textContent = ''; pain.textContent = '';
+  ETAPAS.forEach(e => {
+    const a = el('button', 'aba'); a.type = 'button'; a.id = 'aba-' + e.k;
+    a.setAttribute('role', 'tab'); a.setAttribute('aria-controls', 'p-' + e.k);
+    a.append(document.createTextNode(e.aba), Object.assign(el('span', 'num'), { id: 'num-' + e.k }));
+    a.addEventListener('click', () => abrir(e.k));
+    a.addEventListener('keydown', ev => {
+      const idx = ETAPAS.findIndex(x => x.k === e.k);
+      let alvo = null;
+      if (ev.key === 'ArrowRight') alvo = (idx + 1) % ETAPAS.length;
+      if (ev.key === 'ArrowLeft') alvo = (idx - 1 + ETAPAS.length) % ETAPAS.length;
+      if (ev.key === 'Home') alvo = 0;
+      if (ev.key === 'End') alvo = ETAPAS.length - 1;
+      if (alvo !== null) { ev.preventDefault(); abrir(ETAPAS[alvo].k); $('aba-' + ETAPAS[alvo].k).focus(); }
+    });
+    abas.append(a);
+
+    const p = el('section'); p.id = 'p-' + e.k; p.setAttribute('role', 'tabpanel'); p.setAttribute('aria-labelledby', 'aba-' + e.k); p.hidden = true;
+    if (e.leitura) p.append(el('p', 'nota-aba', 'Estes criativos já foram aprovados e aguardam programação. Aqui você só consulta e copia a legenda.'));
+    const lista = ITENS.filter(i => i.etapa === e.k);
+    if (!lista.length) p.append(el('div', 'vazio', e.vazio));
+    lista.forEach(i => p.append(cartao(i)));
+    pain.append(p);
+  });
+  atualizarTudo();
+  const primeira = ETAPAS.find(e => ITENS.some(i => i.etapa === e.k)) || ETAPAS[0];
+  abrir(primeira.k, true);
+}
+function abrir(k, inicial){
+  ETAPAS.forEach(e => {
+    const sel = e.k === k;
+    $('aba-' + e.k).setAttribute('aria-selected', String(sel));
+    $('aba-' + e.k).tabIndex = sel ? 0 : -1;
+    $('p-' + e.k).hidden = !sel;
+  });
+  if (!inicial) {
+    const topoAbas = document.querySelector('.abas-faixa').offsetTop;
+    if (window.scrollY > topoAbas) window.scrollTo({ top: topoAbas, behavior: reduz() ? 'auto' : 'smooth' });
+  }
+}
+
+/* ---------- carregar dados ---------- */
+async function carregar(){
+  const pain = $('paineis');
+  pain.textContent = '';
+  const ld = el('div', 'estado', 'Carregando os conteúdos…'); ld.setAttribute('role', 'status'); pain.append(ld);
+  try {
+    const r = await fetch(DADOS_URL, { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    ITENS = Array.isArray(j.itens) ? j.itens : [];
+    montar();
+  } catch (err) {
+    pain.textContent = '';
+    const b = el('div', 'estado', 'Não consegui carregar os conteúdos. Confira sua conexão e tente de novo.');
+    b.setAttribute('role', 'alert');
+    const t = el('button', 'btn', 'Tentar de novo'); t.type = 'button'; t.addEventListener('click', carregar);
+    b.append(document.createElement('br'), t); pain.append(b);
+  }
+}
+carregar();
+</script>
+</body>
+</html>
