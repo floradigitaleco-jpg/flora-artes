@@ -1,0 +1,382 @@
+<title>Conteúdos CRK Paisagismo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Open+Sans:wght@400;600;700&family=Dancing+Script:wght@600&display=swap">
+<style>
+/* Layout: coluna única de leitura, cartões brancos sobre o bege da CRK, abas por etapa e resposta final pelo WhatsApp. */
+:root{
+--bg:#dbd7d0;--fg:#445d57;--muted:#56665f;--card:#fbfaf7;--line:#c4bfb5;
+--terra:#bb7048;--accent:#916442;--accent-fg:#ffffff;--sage:#adb5a0;--mint:#a4dfc3;
+--ok:#1f5a43;--ok-bg:#d3eee0;--warn:#7a4220;--warn-bg:#f2dccb;--bad:#8a2f26;--bad-bg:#f0d7d3;
+--display:'Comfortaa','Trebuchet MS',system-ui,sans-serif;--body:'Open Sans',system-ui,sans-serif;--script:'Dancing Script','Brush Script MT',cursive}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d2a27;--fg:#dbd7d0;--muted:#adb5a0;--card:#25342f;--line:#3a4b45;--terra:#d9895f;--accent:#d9895f;--accent-fg:#1d2a27;--sage:#6f7d73;--mint:#a4dfc3;--ok:#a4dfc3;--ok-bg:#1f4a3a;--warn:#f0c9a8;--warn-bg:#4a3524;--bad:#f2b3ab;--bad-bg:#4d2a27;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d2a27;--fg:#dbd7d0;--muted:#adb5a0;--card:#25342f;--line:#3a4b45;--terra:#d9895f;--accent:#d9895f;--accent-fg:#1d2a27;--sage:#6f7d73;--mint:#a4dfc3;--ok:#a4dfc3;--ok-bg:#1f4a3a;--warn:#f0c9a8;--warn-bg:#4a3524;--bad:#f2b3ab;--bad-bg:#4d2a27;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:660px;margin:0 auto}
+header{margin-bottom:26px}
+.mark{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.04em;color:var(--terra)}
+.mark span{font-weight:500;color:var(--fg);letter-spacing:.02em}
+.eyebrow{font-family:var(--display);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;margin-top:22px;color:var(--fg)}
+h1{font-family:var(--display);font-weight:700;font-size:42px;line-height:1.12;margin:8px 0 12px;color:var(--terra);text-wrap:balance}
+.lead{margin:0;font-size:16px;max-width:60ch}
+.assina{font-family:var(--script);font-size:26px;line-height:1.2;color:var(--accent);margin:14px 0 0}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow-x:auto}
+.tab{flex:0 0 auto;background:none;border:0;border-bottom:3px solid transparent;color:var(--fg);opacity:.8;font-family:var(--display);font-weight:700;font-size:14px;padding:11px 14px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.tab[aria-selected="true"]{opacity:1;border-bottom-color:var(--terra)}
+.tab .n{background:var(--accent);color:var(--accent-fg);border-radius:999px;font-family:var(--body);font-weight:600;font-size:12px;min-width:22px;height:22px;padding:0 7px;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+.tab .n.zero{background:var(--line);color:var(--fg)}
+button:focus-visible,summary:focus-visible,textarea:focus-visible,a:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.empty{padding:28px 0;font-size:15px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 18px;margin-bottom:18px;min-width:0}
+.item h2{font-family:var(--display);font-weight:700;font-size:19px;line-height:1.35;margin:0 0 12px;text-wrap:balance}
+.pills{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:0 0 16px}
+.fmt{display:inline-block;background:var(--accent);color:var(--accent-fg);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:600;letter-spacing:.02em}
+.fn{font-size:14px;color:var(--muted)}
+.blk{margin:0 0 18px;padding-left:12px;border-left:3px solid var(--sage)}
+.blk b{display:block;font-family:var(--display);font-size:15px;line-height:1.3;font-weight:700;color:var(--accent);margin-bottom:4px}
+.blk div{white-space:pre-wrap;overflow-wrap:anywhere}
+details.det{margin:0 0 16px;border-top:1px solid var(--line);padding-top:10px}
+details.det summary{cursor:pointer;font-family:var(--display);font-weight:700;font-size:14px;color:var(--accent);padding:4px 0}
+details.det .blk{margin-top:12px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+.tag{font:inherit;font-size:14px;font-weight:600;border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:8px 16px;cursor:pointer}
+.tag[aria-pressed="true"].t-an{background:var(--line)}
+.tag[aria-pressed="true"].t-aj{background:var(--warn-bg);color:var(--warn);border-color:var(--warn)}
+.tag[aria-pressed="true"].t-ok{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.tag[aria-pressed="true"].t-no{background:var(--bad-bg);color:var(--bad);border-color:var(--bad)}
+.note{font-size:14px;color:var(--muted);margin:4px 0 0}
+.cm{margin-top:14px}
+.cm label{display:block;font-family:var(--display);font-weight:700;font-size:14px;color:var(--accent);margin-bottom:6px}
+.cm textarea{width:100%;min-height:78px;resize:vertical;font:inherit;font-size:15px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.send{margin-top:8px;padding:20px 18px;border:1px dashed var(--accent);border-radius:12px}
+.send h2{font-family:var(--display);font-weight:700;font-size:22px;margin:0 0 6px;color:var(--terra)}
+.send p{margin:0 0 12px;font-size:15px}
+.count{font-weight:600}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--accent-fg);border:0;border-radius:999px;font:inherit;font-weight:700;font-size:15px;padding:12px 22px;cursor:pointer;text-decoration:none}
+.btn.sec{background:transparent;color:var(--fg);border:1px solid var(--accent)}
+.btn[aria-disabled="true"],.btn:disabled{opacity:.45;cursor:default}
+.send details{margin-top:14px}
+.send summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--accent)}
+.send textarea{width:100%;min-height:150px;margin-top:8px;font:inherit;font-size:14px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+@media (max-width:420px){h1{font-size:34px}.item{padding:18px 14px}}
+</style>
+<div class="wrap">
+<header>
+<div class="mark">CRK <span>Arquitetura e Paisagismo</span></div>
+<div class="eyebrow">Análise de conteúdo · Camila Koerich</div>
+<h1>O que está esperando por você</h1>
+<p class="lead">Veja as ideias e os roteiros da CRK. Marque cada item como aprovado ou peça ajustes, escreva o que precisa mudar e, no fim, envie tudo pelo WhatsApp.</p>
+<p class="assina">Paisagismo autoral pensado para o seu jeito de viver</p>
+</header>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div id="list"></div>
+<section class="send" id="foot"></section>
+</div>
+<script>
+/* WhatsApp da Flora Digital que recebe a resposta: DDI + DDD + número, só dígitos (ex.: 5548999999999).
+   Vazio abre o WhatsApp para a Camila escolher o contato. */
+const NUM='';
+const KEY='crk-analise-v1';
+const ETAPAS=[
+ {k:'ideia',aba:'Ideias',tit:'IDEIAS',vals:[null,'aj','ok','no'],tags:['em análise','ajustar a ideia','ideia aprovada','ideia não aprovada'],ok:'ideia aprovada',aj:'precisa de ajuste',no:'ideia não aprovada',vazio:'Nenhuma ideia para analisar agora. Quando houver, ela aparece aqui.'},
+ {k:'roteiro',aba:'Roteiros',tit:'ROTEIROS',vals:[null,'aj','ok'],tags:['em análise','ajustar o roteiro','roteiro aprovado'],ok:'roteiro aprovado',aj:'precisa de ajuste',no:'roteiro não aprovado',vazio:'Nenhum roteiro para analisar agora.'},
+ {k:'criativo',aba:'Criativos',tit:'CRIATIVOS',vals:[null,'aj','ok'],tags:['em análise','ajustar a arte','criativo aprovado'],ok:'criativo aprovado',aj:'precisa de ajuste',no:'criativo não aprovado',vazio:'Nenhum criativo para analisar agora.'},
+ {k:'aprovado',aba:'Aprovados',tit:'APROVADOS',vals:[],tags:[],vazio:'Nenhum criativo aprovado aguardando programação.'}
+];
+const CLS={null:'t-an',aj:'t-aj',ok:'t-ok',no:'t-no'};
+
+const ITENS=[
+/* ---------- IDEIAS ---------- */
+{id:'i14',etapa:'ideia',n:14,ord:140,titulo:'Você não precisa chegar sabendo exatamente o que quer para começar um projeto de paisagismo',formato:'Reels [Selfie]',funcao:'Qualificar',tema:'Tema 3 · O processo do projeto',
+ blocos:[
+  {t:'Gancho',x:'“Você não precisa chegar com o espaço externo pronto na cabeça.”'},
+  {t:'Dor de quem vai ler',x:'A Erica tem medo de contratar sem saber o que esperar e acha que precisa chegar com referências e decisões prontas.'},
+  {t:'Por que abordar',x:'Quem trava nessa dúvida adia o contato, e o paisagismo acaba ficando para o fim da obra. O conteúdo tira a barreira de entrada e mostra como a conversa inicial funciona.'},
+  {t:'Como executar',x:'Reels [Selfie] de 20 a 25 s: gancho com a frase, corpo com 3 perguntas que a Camila faz no início (como vocês usam a casa, o que incomoda hoje, o que não pode faltar) e CTA “Clique na bio e fale comigo”.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: vídeo da Camila gravando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de uma conversa inicial com cliente (só mesa, planta e anotações, sem identificar a pessoa) ou do caderno com anotações dela.'}]},
+
+{id:'i16',etapa:'ideia',n:16,ord:160,titulo:'Se sua arquitetura tem grandes aberturas, envolva o paisagismo enquanto essas vistas ainda podem ser planejadas',formato:'Carrossel',funcao:'',tema:'',
+ blocos:[
+  {t:'O que comunica',x:'Grandes aberturas transformam a paisagem externa em parte permanente da experiência dos ambientes internos.'},
+  {t:'Percepção desejada',x:'Se a arquitetura foi desenhada para olhar para fora, essas vistas também precisam ser planejadas enquanto ainda há liberdade de decisão.'},
+  {t:'Relação com a persona',x:'Orienta a Erica, já pronta para agir, quando grandes janelas ou portas de vidro fazem parte do projeto e o exterior ainda pode ser integrado a elas.'},
+  {t:'Limite da narrativa',x:'Fica no planejamento das vistas enquadradas pelas aberturas. Não amplia para toda a fachada, materiais de transição ou compatibilização completa entre disciplinas.'},
+  {t:'Como executar',x:'Começar pelas grandes aberturas da casa e conduzir o olhar para a paisagem enquadrada por elas.'}],
+ det:[{t:'Material necessário',x:'Localizar registros de grandes esquadrias, interiores voltados para o espaço externo e vistas paisagísticas planejadas.'}]},
+
+{id:'i17',etapa:'ideia',n:17,ord:170,titulo:'O que eu observo na primeira visita ao terreno, antes de desenhar qualquer coisa',formato:'Stories [Bastidor]',funcao:'Converter',tema:'Tema 3 · O processo do projeto',
+ blocos:[
+  {t:'Gancho',x:'“Antes de desenhar, eu olho isso.”'},
+  {t:'Dor de quem vai ler',x:'Não sabe como o projeto começa nem o que a paisagista olha.'},
+  {t:'Por que abordar',x:'O bastidor mostra o processo real e reduz o medo de contratar, levando ao contato. A Camila gosta de mostrar bastidores de raciocínio e visitas de obra.'},
+  {t:'Como executar',x:'Sequência de 4 a 5 stories feitos no próprio terreno:\n1) onde bate o sol e em que hora\n2) vistas e aberturas da casa\n3) níveis e caimento\n4) o que ela pergunta à família\n5) CTA “Clique na bio e fale comigo”'}],
+ det:[{t:'Material necessário',x:'Obrigatório: fotos ou vídeos curtos feitos pela Camila durante uma visita (terreno, sol, aberturas, níveis), sem identificar o cliente.\nOpcional: foto da prancheta, trena ou planta em mãos na visita.'}]},
+
+{id:'i18',etapa:'ideia',n:18,ord:180,titulo:'Quanto mais a obra avança, menor a liberdade de decisão',formato:'Carrossel',funcao:'',tema:'',
+ blocos:[
+  {t:'O que comunica',x:'Cada etapa concluída da obra pode fechar possibilidades que antes estavam disponíveis para a área externa.'},
+  {t:'Percepção desejada',x:'Antecipar o paisagismo preserva liberdade de escolha, sem significar que o espaço externo precise ser executado imediatamente.'},
+  {t:'Relação com a persona',x:'É relevante para a Erica quando a obra já avança e ela começa a perceber que decisões de piso, níveis, acessos e infraestrutura condicionam o que ainda pode ser feito.'},
+  {t:'Limite da narrativa',x:'Fica na redução progressiva das possibilidades. Não detalha um erro técnico, não fala de retrabalho ou custo e não vira urgência comercial.'},
+  {t:'Como executar',x:'Construir uma progressão da obra em que cada etapa concluída reduz as decisões ainda abertas para o exterior.'}],
+ det:[{t:'Material necessário',x:'Localizar registros de diferentes fases de obra e decisões externas já executadas.'}]},
+
+{id:'i20',etapa:'ideia',n:20,ord:200,titulo:'Com orçamento limitado, a ordem das decisões importa mais do que a quantidade de plantas',formato:'Carrossel [Numerado]',funcao:'Qualificar',tema:'Tema 4 · Investimento e orçamento',
+ blocos:[
+  {t:'Gancho',x:'“Orçamento curto não precisa virar espaço externo improvisado.”'},
+  {t:'Dor de quem vai ler',x:'Medo de estourar o orçamento da obra e de sobrar pouco para o espaço externo.'},
+  {t:'Por que abordar',x:'Orçamento é a objeção mais ouvida antes de contratar. Abordar de forma educativa evita promessa de custo e mostra raciocínio, sem falar em preço.'},
+  {t:'Como executar',x:'Carrossel numerado, em sequência de prioridades:\ncapa com a frase\n1) o que define o espaço (níveis, circulação, drenagem)\n2) o que é difícil de refazer (infraestrutura, irrigação, pontos de luz)\n3) o que pode ser plantado por fases\n4) o que dá para deixar para depois sem perder a ideia do conjunto\nCTA'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: planta ou render de projeto dividido em etapas (identificado como render) ou foto de espaço externo executado por fases.'}]},
+
+{id:'i22',etapa:'ideia',n:22,ord:220,titulo:'Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso',formato:'Carrossel [Pílula]',funcao:'Atrair',tema:'Tema 5 · Espaço externo que cabe na rotina',
+ blocos:[
+  {t:'Gancho',x:'“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”'},
+  {t:'Dor de quem vai ler',x:'Quer usar o espaço externo sem trabalhar para ele. É uma dúvida que a Camila escuta bastante.'},
+  {t:'Por que abordar',x:'Responde com honestidade (todo espaço externo pede algum cuidado) e posiciona a CRK como quem projeta para a rotina real da família. Sem promessa absoluta de “baixa manutenção”, sempre com contexto técnico.'},
+  {t:'Como executar',x:'Carrossel [Pílula] em pergunta e resposta:\npergunta na capa\nresposta honesta\nescolha de espécies pelo porte e pelo crescimento\nacesso, irrigação e podas planejados\na rotina da família define a frequência de cuidado\nCTA'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: foto de espaço externo da CRK já maduro, com anos de plantio; foto do sistema de irrigação ou do acesso para cuidado integrado ao projeto.'}]},
+
+{id:'i23',etapa:'ideia',n:23,ord:230,titulo:'Quando a área externa funciona, a família passa a usar a casa de outro jeito',formato:'Reels [Experiência]',funcao:'Atrair',tema:'Tema 8 · Casa nova – vida nova',
+ blocos:[
+  {t:'Gancho',x:'A imagem de uma manhã no espaço externo, com o som do espaço (sem narração).'},
+  {t:'Dor de quem vai ler',x:'A casa está pronta, mas a área externa não entra na rotina. O desejo é ver a família curtindo o lado de fora.'},
+  {t:'Por que abordar',x:'Conteúdo de sensibilidade e vivência, que desperta desejo sem explicar técnica e equilibra a linha editorial entre raciocínio técnico e experiência de morar.'},
+  {t:'Como executar',x:'Reels de 10 a 15 s com planos de uso (café na sombra, circulação, crianças ao fundo, luz do fim da tarde), sem narração, com frase curta no final e CTA na legenda.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: vídeos de 5 a 10 s de um espaço externo da CRK já executado, na vertical, com som ambiente, de preferência com uso real (cadeiras, pessoas de costas, crianças). Confirmar autorização do cliente.\nOpcional: fotos do mesmo espaço em horários diferentes (manhã, fim da tarde, noite com iluminação).'}]},
+
+{id:'i24',etapa:'ideia',n:24,ord:240,titulo:'No litoral de Florianópolis, o projeto começa lendo vento, sol e maresia, e só depois escolhe as plantas',formato:'Carrossel [Galeria]',funcao:'Atrair',tema:'Tema 6 · Natureza e clima local',
+ blocos:[
+  {t:'Gancho',x:'“Antes de escolher as plantas, a gente lê o vento, o sol e a maresia do terreno.”'},
+  {t:'Dor de quem vai ler',x:'Quer um espaço externo que dê certo em Florianópolis e teme escolher plantas bonitas que não se adaptam ao vento, ao sol e à maresia do terreno.'},
+  {t:'Por que abordar',x:'Mostra o olhar local da CRK e coloca o projeto antes da lista de espécies, reforçando que paisagismo é leitura de contexto.'},
+  {t:'Como executar',x:'Carrossel [Galeria]: capa com a frase; 4 fotos de projetos, cada uma com uma leitura de clima em uma linha (vento, sol da tarde, maresia, solo); CTA.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada, se houver fotos no portfólio.\nOpcional: 4 a 6 fotos de projetos executados perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio.'}]},
+
+{id:'i29',etapa:'ideia',n:29,ord:290,titulo:'O valor de um projeto de paisagismo não paga plantas: paga decisões',formato:'Estático [Frase]',funcao:'Converter',tema:'Tema 4 · Investimento e orçamento',
+ blocos:[
+  {t:'Gancho',x:'“O que você paga num projeto de paisagismo não são plantas. São decisões.”'},
+  {t:'Dor de quem vai ler',x:'A Erica quer entender por que o valor varia tanto entre projetos e teme pagar por algo que não enxerga.'},
+  {t:'Por que abordar',x:'Transparente e consultivo, reforça o raciocínio de projeto e evita que ele seja visto como “só um desenho de plantas”. Sem citar valores nem prometer resultado.'},
+  {t:'Como executar',x:'Estático com a frase na arte e, na legenda, uma explicação acolhedora do que compõe o valor (análise do terreno, projeto, acompanhamento).'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: foto de pranchas do projeto ou do caderno de anotações da Camila para o fundo da arte (sem dados de clientes).'}]},
+
+{id:'i30',etapa:'ideia',n:30,ord:300,titulo:'Terreno com muita sombra: o que dá para criar de bonito nesse espaço',formato:'Stories [Vitrine]',funcao:'Atrair',tema:'Tema 6 · Natureza e clima local',
+ blocos:[
+  {t:'Gancho',x:'“Sombra não é defeito do terreno. É ponto de partida.”'},
+  {t:'Dor de quem vai ler',x:'A Erica tem um terreno com muita sombra e acha que só dá para ter um espaço escuro e sem graça. É uma dor que a Camila escuta bastante.'},
+  {t:'Por que abordar',x:'Mostra que cada condição do terreno vira ponto de partida do projeto, com visão técnica e acolhedora, pela vitrine de projetos reais.'},
+  {t:'Como executar',x:'Sequência de 3 a 4 stories:\n1) frase de abertura\n2 e 3) fotos reais de projetos da Camila, com uma linha de texto\n4) convite para conversar'}],
+ det:[{t:'Material necessário',x:'Obrigatório: 2 a 3 fotos reais de projetos da Camila em áreas sombreadas (verticais, boa resolução).\nOpcional: uma foto do antes de um terreno sombreado, para mostrar a transformação.'}]},
+
+/* ---------- ROTEIROS ---------- */
+{id:'r13s',etapa:'roteiro',n:13,ord:130,titulo:'Meu espaço é pequeno. Vale a pena contratar uma paisagista?',formato:'Stories',funcao:'',tema:'',
+ blocos:[
+  {t:'Story 1 · Interação',x:'Narração da Camila:\nDeixa eu te fazer uma pergunta: você acha que, só porque o seu espaço é pequeno, não vale a pena contratar uma paisagista?\n\nTexto na tela:\n“Espaço pequeno precisa de paisagista?”\n\nEnquete:\n• Sim, tenho essa dúvida\n• Nunca pensei nisso'},
+  {t:'Story 2 · Explicação',x:'Narração da Camila:\nNa verdade, é justamente em um espaço pequeno que cada escolha precisa ser ainda mais bem pensada, para aproveitar cada parte sem prejudicar a circulação ou a função do ambiente.\n\nTexto na tela:\n“Cada escolha faz diferença.”'},
+  {t:'Story 3 · Fechamento',x:'Narração da Camila:\nO olhar de uma paisagista ajuda a enxergar possibilidades e fazer o espaço funcionar melhor para a sua rotina. Se quiser aproveitar melhor o seu, clique no link e fale comigo.\n\nTexto na tela:\n“Quer aproveitar melhor o seu espaço?”\n\nBotão de link:\n“Falar com a Camila”'}],
+ det:[]},
+
+{id:'r13r',etapa:'roteiro',n:13,ord:131,titulo:'Meu espaço é pequeno. Vale a pena contratar uma paisagista?',formato:'Reels',funcao:'',tema:'',
+ blocos:[
+  {t:'Objetivo do conteúdo',x:'Responder a uma dúvida real de lead e mostrar que, justamente por o espaço ser pequeno, o olhar profissional se torna ainda mais importante para aproveitar bem cada parte e trazer funcionalidade ao ambiente.'},
+  {t:'Orientação para a Camila',x:'Camila, neste vídeo vamos testar uma abertura como se você estivesse começando uma conversa particular com quem está assistindo.\n\nComece olhando diretamente para a câmera e diga “Deixa eu te contar uma coisa” de forma leve e natural. Faça uma pequena pausa depois dessa frase, como se estivesse prestes a compartilhar algo importante com uma cliente.\n\nA intenção é despertar curiosidade e fazer a pessoa sentir que você está conversando diretamente com ela. Não precisa decorar palavra por palavra: fale no seu ritmo, preservando a ideia principal.'},
+  {t:'Fala da Camila',x:'Deixa eu te contar uma coisa. (pausa, respira)\n\nSe você tem um espaço pequeno e fica se perguntando se vale a pena contratar uma paisagista, a resposta é sim.\n\nE é justamente por ele ser pequeno que cada escolha precisa ser muito bem pensada.\n\nQuando existe pouco espaço, é preciso entender o que realmente cabe ali, garantir uma boa circulação e organizar cada elemento para que o ambiente tenha função.\n\nO olhar profissional ajuda a enxergar possibilidades e aproveitar melhor cada parte, sem deixar o espaço carregado ou difícil de usar.\n\nPorque paisagismo não é encher o ambiente de plantas. É fazer aquele espaço funcionar para você e para a sua rotina.\n\nEspaço pequeno não precisa de menos planejamento. Precisa de escolhas mais precisas.\n\nSe você quer aproveitar melhor o seu espaço, clique no link da bio e fale comigo.'},
+  {t:'Legenda',x:'Quando o espaço é pequeno, cada escolha tem ainda mais impacto.\n\nÉ preciso pensar no que realmente cabe naquele ambiente, na circulação e na maneira como ele será utilizado no dia a dia.\n\nCom o olhar de uma paisagista, é possível identificar possibilidades, aproveitar melhor cada parte e criar um espaço agradável, funcional e conectado à rotina da casa.\n\nUm espaço pequeno não precisa de menos planejamento. Ele precisa de escolhas mais precisas.\n\nVocê tem um espaço pequeno e ainda não sabe como aproveitá-lo? Clique no link da bio e fale comigo.'}],
+ det:[{t:'Direção de gravação e de edição',x:'Gravação:\n• plano médio ou mais fechado, olhando diretamente para a câmera\n• falar como se estivesse respondendo a uma única cliente\n• tom natural, próximo e explicativo\n\nEdição:\n• Camila aparecendo nos primeiros segundos para fortalecer a sensação de conversa\n• legendas durante toda a fala\n• destacar na tela: “É justamente por ele ser pequeno.”, “Aproveitar melhor cada parte.” e “Escolhas mais precisas.”\n• imagens de espaços pequenos entre alguns trechos, voltando para a Camila no fechamento e na CTA'}]},
+
+{id:'r15',etapa:'roteiro',n:15,ord:150,titulo:'Planejar antes não significa executar antes',formato:'Carrossel',funcao:'',tema:'',
+ blocos:[
+  {t:'Objetivo',x:'Mostrar que planejamento e execução são etapas diferentes e que o paisagismo pode ser pensado durante a construção, mesmo que o jardim seja implantado posteriormente.'},
+  {t:'Slide 1 · Atrair',x:'Planejar o paisagismo não significa ter que executá-lo agora.\n\nVisual: casa em construção, terreno ou área externa ainda sem jardim. Capa limpa, com poucos elementos competindo com a frase.'},
+  {t:'Slide 2 · Permanecer',x:'Durante uma construção, é comum concentrar o orçamento e a atenção na casa.\n\nPor isso, muitas pessoas deixam o jardim para depois.\n\nE não há problema nisso.\n\nVisual: obra em andamento ou área externa inacabada, com a última frase em destaque.'},
+  {t:'Slide 3 · Envolver',x:'Mas existe uma diferença entre:\n\ndeixar a execução para depois\n\ne\n\ndeixar para pensar no jardim depois.\n\nVisual: slide gráfico e minimalista, com as duas frases em destaque.'},
+  {t:'Slide 4 · Envolver',x:'Quando o paisagismo entra no planejamento, é possível entender como a área externa deverá se relacionar com a casa e com a rotina de quem vai viver ali.\n\nVisual: Camila analisando um projeto ou observando um terreno; também pode ser um projeto 3D que mostre a integração entre casa e jardim.'},
+  {t:'Slide 5 · Envolver',x:'É nesse momento que desejos como sombra, privacidade, espaço para convivência e proximidade com a natureza podem ser considerados.\n\nMesmo que tudo isso só seja executado mais adiante.\n\nVisual: jardim pronto que represente convivência e bem-estar, com a conexão com a casa visível.'},
+  {t:'Slide 6 · Concluir',x:'A execução pode acontecer no momento mais adequado e até ser realizada por etapas.\n\nO planejamento serve para que essas possibilidades continuem existindo quando esse momento chegar.\n\nVisual: implantação ou composição simples de uma área antes e depois, com a frase final em destaque.'},
+  {t:'Slide 7 · CTA',x:'Está construindo ou reformando, mas pretende executar o jardim somente depois?\n\nVocê já pode começar pelo planejamento.\n\nClique no link da bio e converse comigo.\n\nVisual: Camila ou um projeto finalizado, com a CTA clara e sem excesso de texto.'},
+  {t:'Legenda',x:'Nem sempre o jardim pode ser executado junto com a construção da casa — e não há problema em deixá-lo para outro momento.\n\nO que precisa ser diferenciado é a execução do planejamento.\n\nVocê pode decidir implantar o jardim depois, quando o orçamento e a fase da obra permitirem. Mas considerar o paisagismo durante o desenvolvimento da casa ajuda a preservar as possibilidades da área externa.\n\nÉ nesse planejamento que desejos como sombra, privacidade, convivência e integração com a natureza começam a encontrar lugar no projeto.\n\nA execução pode acontecer depois e até ser organizada por etapas. O importante é não esperar a casa estar completamente pronta para começar a pensar no espaço externo.\n\nAssim, quando chegar o momento de executar, o jardim não precisará ser criado apenas a partir do que restou.\n\nEstá construindo ou reformando e quer incluir o paisagismo no planejamento?\n\nClique no link da bio e converse comigo.'}],
+ det:[{t:'Direção geral do carrossel',x:'Linguagem acolhedora e esclarecedora. A intenção não é pressionar a pessoa a executar o espaço externo imediatamente, mas ajudá-la a perceber que pode decidir com antecedência.\n\nPassagem visual entre três momentos: 1) casa em construção ou área externa vazia; 2) Camila planejando ou representação do projeto; 3) espaço externo executado e integrado à casa.'}]},
+
+{id:'r19',etapa:'roteiro',n:19,ord:190,titulo:'Você está planejando a casa inteira. E o lado de fora?',formato:'Carrossel [Dividido]',funcao:'',tema:'',
+ blocos:[
+  {t:'Formato',x:'Carrossel [Dividido] (Comparação), 7 slides. Cada slide é dividido ao meio: lado esquerdo com o interior, lado direito com o exterior da mesma casa. O último slide traz a chamada suave “Clique na bio e fale comigo”.'},
+  {t:'Slide 1 · Atrair',x:'“Você já decidiu o piso, a cor e a iluminação da casa. E o lado de fora?”\n\nImagem: interior de um projeto acabado à esquerda; área externa ainda sem projeto à direita.'},
+  {t:'Slide 2 · Permanecer',x:'“Dentro, cada ambiente tem função, luz e circulação pensadas.”\n\nImagem: sala ou cozinha planejada à esquerda; fachada ou entrada da mesma casa à direita.'},
+  {t:'Slide 3 · Permanecer',x:'“Fora, muita gente deixa para depois. O espaço fica sem decisão.”\n\nImagem: interior pronto à esquerda; terreno ou área externa vazia à direita.'},
+  {t:'Slide 4 · Permanecer',x:'“Mas é a mesma casa: o que você vê da sala, onde toma café, por onde a família passa.”\n\nImagem: vista de dentro para fora, com a janela ou porta de vidro.'},
+  {t:'Slide 5 · Envolver',x:'“Hoje, quando você olha pela janela da sala, o que gostaria de ver?”\n\nImagem: a mesma vista, com espaço para o leitor imaginar.'},
+  {t:'Slide 6 · Permanecer',x:'“Pensar o espaço externo junto com a casa é completar o projeto, não acrescentar uma camada no final.”\n\nImagem: projeto da CRK com interior e exterior integrados.'},
+  {t:'Slide 7 · Concluir',x:'“A casa não termina na porta. Clique na bio e fale comigo.”\n\nImagem: área externa da CRK pronta, vista a partir do interior.'},
+  {t:'Legenda',x:'Quando a gente planeja uma casa, quase tudo dentro dela já tem um motivo: onde a luz entra, por onde se circula, o que fica à vista. O lado de fora, muitas vezes, fica para depois. Mas a experiência de morar não termina na porta. O que você vê da sala, onde a família se reúne e como a casa se relaciona com o exterior fazem parte do mesmo projeto. Se a sua casa está em planejamento, vale olhar para fora junto com o resto. Clique na bio e fale comigo.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada, se houver fotos no portfólio.\nOpcional: pares de fotos do mesmo projeto da CRK (interior planejado e área externa, com o mesmo enquadramento quando possível); uma foto de dentro para fora, pela janela ou porta de vidro; foto de terreno ou área externa ainda sem projeto, sem identificar o cliente.'}]},
+
+{id:'r21',etapa:'roteiro',n:21,ord:210,titulo:'A parte do espaço externo que ninguém vê é a que mais pesa depois da obra: nível e drenagem',formato:'Reels [Dinâmico]',funcao:'Qualificar',tema:'Tema 7 · A técnica invisível',
+ blocos:[
+  {t:'Formato',x:'Reels [Dinâmico] de 25 a 30 s, com narração da Camila e legenda sobre imagens de obra.'},
+  {t:'Gancho (0 a 3 s)',x:'Imagem do espaço externo pronto.\nTexto na tela: “O que não aparece na foto”\nNarração: “Esse é o pedaço do espaço externo que não aparece na foto.”'},
+  {t:'Corpo (3 a 22 s)',x:'Três imagens de obra, uma por vez, com legenda curta na tela:\n1) Nível do terreno: “Nível: define para onde a água vai”\n2) Piso com caimento e canaletas: “Caimento e canaletas”\n3) Tubulação e caixas de passagem: “Drenagem embaixo do piso”'},
+  {t:'Fechamento (22 a 28 s)',x:'Volta ao espaço pronto.\nTexto na tela: “O que faz funcionar fica por baixo.”'},
+  {t:'CTA e música',x:'Último quadro com “Clique na bio e fale comigo”, repetido na legenda. Música suave, só como apoio.'},
+  {t:'Narração (texto corrido)',x:'Esse é o pedaço do espaço externo que não aparece na foto. Quando a gente olha um espaço pronto, quase tudo o que importa já está escondido: o nível do terreno, o caimento do piso, a drenagem. É isso que decide se a água vai embora ou se fica parada depois de uma chuva forte. E isso precisa ser pensado junto com o projeto, antes de a obra fechar essa parte. O que você vê na foto é o resultado. O que faz funcionar fica por baixo.'},
+  {t:'Legenda',x:'A foto mostra o resultado. O que faz o espaço funcionar depois da obra está embaixo dela: o nível do terreno, o caimento do piso, a drenagem. Isso precisa ser pensado junto com o projeto, enquanto ainda dá para compatibilizar. Clique na bio e fale comigo.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra em andamento mostrando nível, drenagem ou tubulação (sem identificar o cliente).\nOpcional: foto do mesmo trecho depois de pronto; detalhe de canaleta ou caixa de passagem integrada ao projeto.'}]},
+
+{id:'r25',etapa:'roteiro',n:25,ord:250,titulo:'Antes de desenhar o espaço externo, a gente lê o que a arquitetura já disse: piso, muro e fachada',formato:'Estático [Leia a legenda]',funcao:'Atrair',tema:'Tema 2 · Integração arquitetura + paisagismo',
+ blocos:[
+  {t:'Imagem',x:'Foto da fachada com o espaço externo já integrado, no mesmo ângulo da casa (ou render do projeto, identificado como render). A imagem é simples e forte; o conteúdo está na legenda.'},
+  {t:'Texto na arte',x:'Título: “Antes da planta, eu leio o piso, o muro e a fachada.”\nApoio (pequeno): “O que a arquitetura já disse”'},
+  {t:'Legenda',x:'Antes de escolher uma planta, eu leio a casa.\n\nO piso diz muito sobre o espaço: o tom, a textura, por onde as pessoas vão circular. O muro e a fachada mostram as cores, os materiais e a proporção que o espaço externo precisa respeitar.\n\nCom isso entendido, a vegetação entra para conversar com a arquitetura, não para competir com ela. Isso muda o porte das plantas, as cores e até o lugar onde o verde fica. É assim que o espaço externo parece ter sido pensado junto com a casa.\n\nSe a sua casa está em projeto ou em obra, é um bom momento para olhar para fora. Clique na bio e fale comigo.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: foto da fachada com o espaço externo já integrado (mesmo ângulo da casa); detalhes de piso, muro e vegetação lado a lado; render do projeto, identificado como render.'}]},
+
+{id:'r26',etapa:'roteiro',n:26,ord:260,titulo:'Em que fase está a sua obra? A resposta muda o que ainda dá para decidir no espaço externo',formato:'Stories [Enquete]',funcao:'Qualificar',tema:'Tema 1 · Paisagismo desde o início',
+ blocos:[
+  {t:'Dia 1 · Enquete (1 story)',x:'Fundo com foto de obra em andamento (ou vídeo curto da Camila chamando para votar, do banco de chamadas).\nTexto na tela: “Em que fase está a sua obra?”\nOpções da enquete: “Ainda no projeto da casa” / “Em obra” / “No acabamento” / “Já moro aqui”\n\nA enquete é publicada manualmente.'},
+  {t:'Dia 2 · Resposta, story 1',x:'“Ontem eu perguntei em que fase está a sua obra. Em qualquer uma delas, ainda tem algo a decidir no espaço externo.”\n(Se houver resultado, mostrar o print da enquete.)'},
+  {t:'Dia 2 · Resposta, story 2',x:'O que ainda dá para decidir em cada fase:\n• No projeto da casa: níveis, acessos e vistas.\n• Em obra: drenagem, pontos de água e de luz.\n• No acabamento: pisos externos, plantio e iluminação.\n• Já morando: um projeto que respeita o que já existe.'},
+  {t:'Dia 2 · Resposta, story 3',x:'“Quer entender o que ainda dá para decidir na sua?”\nCTA: “Clique na bio e fale comigo”'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) chamando para votar; foto de obra em andamento.'}]},
+
+{id:'r27',etapa:'roteiro',n:27,ord:270,titulo:'O que você gostaria de saber antes de contratar uma paisagista?',formato:'Stories [Caixinha]',funcao:'Converter',tema:'Tema 3 · O processo do projeto',
+ blocos:[
+  {t:'Dia 1 · Caixinha (1 story)',x:'Fundo simples na identidade da CRK (ou vídeo curto da Camila convidando a perguntar, do banco de chamadas).\nTexto na tela: “O que você gostaria de saber antes de contratar uma paisagista?”\nFigurinha de caixinha de perguntas.\n\nA caixinha é publicada manualmente.'},
+  {t:'Dia 2 · Resposta (2 a 3 stories)',x:'Escritos depois que as perguntas chegarem.\n\nCada story: print da pergunta recebida (sem identificar quem perguntou) + resposta da Camila em texto curto ou vídeo de até 20 s, no tom de primeira reunião: “Foi pensado para...”, “Isso faz diferença porque...”.\n\nÚltimo story: “Ficou com outra dúvida? Clique na bio e fale comigo.”\n\nSe chegarem poucas perguntas, completar com as dúvidas mais comuns, por exemplo “Preciso chegar sabendo exatamente o que quero?”.'}],
+ det:[{t:'Material necessário',x:'Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) convidando a perguntar.'}]}
+];
+
+const $=id=>document.getElementById(id);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const etapaOf=k=>ETAPAS.find(e=>e.k===k);
+const itensDe=k=>ITENS.filter(x=>x.etapa===k).sort((a,b)=>a.ord-b.ord);
+const cut=(s,n)=>s.length>n?s.slice(0,n-1).trim()+'…':s;
+
+let S={dec:{},obs:{}};
+try{const r=localStorage.getItem(KEY);if(r){const p=JSON.parse(r);if(p&&typeof p==='object'){S.dec=p.dec||{};S.obs=p.obs||{}}}}catch(e){}
+let saveT=null;
+function save(){clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}},200)}
+let aba=0;
+
+const respondido=it=>!!(S.dec[it.id]||(S.obs[it.id]||'').trim());
+const analisaveis=()=>ITENS.filter(x=>x.etapa!=='aprovado');
+
+function renderTabs(){
+ const t=$('tabs');t.textContent='';
+ ETAPAS.forEach((e,i)=>{
+  const its=itensDe(e.k);
+  const pend=its.filter(x=>!S.dec[x.id]).length;
+  const b=el('button','tab');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-selected',i===aba);
+  b.append(el('span',null,e.aba),el('span','n'+(pend?'':' zero'),pend));
+  b.onclick=()=>{aba=i;renderList()};
+  t.append(b);
+ });
+}
+
+function bloco(b){const k=el('div','blk');k.append(el('b',null,b.t),el('div',null,b.x));return k}
+
+function card(it,e){
+ const c=el('article','item');
+ c.append(el('h2',null,'#'+it.n+' · '+it.titulo));
+ const m=el('div','pills');
+ if(it.formato)m.append(el('span','fmt',it.formato));
+ if(it.funcao)m.append(el('span','fn','Função: '+it.funcao));
+ if(it.tema)m.append(el('span','fn',it.tema));
+ if(m.childNodes.length)c.append(m);
+ it.blocos.forEach(b=>c.append(bloco(b)));
+ if(it.det&&it.det.length){
+  const d=el('details','det');d.append(el('summary',null,it.det[0].t));
+  it.det.forEach(b=>{const k=el('div','blk');k.append(el('div',null,b.x));d.append(k)});
+  c.append(d);
+ }
+ const tg=el('div','tags');tg.setAttribute('role','group');tg.setAttribute('aria-label','Status de #'+it.n);
+ const note=el('p','note','Escreva abaixo o que precisa mudar.');
+ const btns=[];
+ const pinta=()=>{
+  const cur=S.dec[it.id]||null;
+  btns.forEach((b,i)=>b.setAttribute('aria-pressed',e.vals[i]===cur));
+  note.hidden=cur!=='aj';
+ };
+ e.tags.forEach((nome,i)=>{
+  const b=el('button','tag '+CLS[e.vals[i]],nome);b.type='button';
+  b.onclick=()=>{
+   if(e.vals[i]===null)delete S.dec[it.id];else S.dec[it.id]=e.vals[i];
+   save();pinta();renderTabs();updateFoot();
+  };
+  btns.push(b);tg.append(b);
+ });
+ pinta();
+ c.append(tg,note);
+ const cm=el('div','cm');
+ const lb=el('label',null,'Observações');lb.setAttribute('for','obs-'+it.id);
+ const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que você quer comentar ou mudar…';
+ ta.value=S.obs[it.id]||'';
+ ta.oninput=()=>{S.obs[it.id]=ta.value;save();updateFoot()};
+ cm.append(lb,ta);c.append(cm);
+ return c;
+}
+
+function renderList(){
+ renderTabs();
+ const e=ETAPAS[aba],box=$('list');
+ $('foot').hidden=e.k==='aprovado';
+ box.textContent='';
+ const its=itensDe(e.k);
+ if(!its.length){box.append(el('p','empty',e.vazio));return}
+ its.forEach(it=>box.append(card(it,e)));
+}
+
+function msg(){
+ const out=['Oi, Dominik! Segue a minha análise dos conteúdos da CRK:'];
+ const pend=[];
+ ETAPAS.filter(e=>e.k!=='aprovado').forEach(e=>{
+  const lines=[];
+  itensDe(e.k).forEach(it=>{
+   const d=S.dec[it.id],o=(S.obs[it.id]||'').trim();
+   const rot='#'+it.n+' '+it.formato;
+   if(!d&&!o){pend.push(rot);return}
+   let l='• '+rot+' · '+cut(it.titulo,70)+(d?' — '+e[d]:'');
+   if(o)l+='\n  Observação: '+o.replace(/\n/g,'\n  ');
+   lines.push(l);
+  });
+  if(lines.length)out.push('',e.tit,...lines);
+ });
+ if(pend.length)out.push('','Ainda não analisei: '+pend.join('; '));
+ out.push('','Camila');
+ return out.join('\n');
+}
+
+let prev=null,wa=null,cp=null,cnt=null;
+function renderFoot(){
+ const f=$('foot');f.textContent='';
+ f.append(el('h2',null,'Terminou de analisar?'));
+ f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, o WhatsApp abre com a sua resposta pronta, é só mandar para a Flora Digital.'));
+ cnt=el('p','count');f.append(cnt);
+ const acts=el('div','acts');
+ wa=el('a','btn','Enviar pelo WhatsApp');wa.target='_blank';wa.rel='noopener';
+ wa.onclick=ev=>{if(wa.getAttribute('aria-disabled')==='true')ev.preventDefault()};
+ cp=el('button','btn sec','Copiar resposta');cp.type='button';
+ acts.append(wa,cp);f.append(acts);
+ const nt=el('p','note');nt.hidden=true;f.append(nt);
+ const d=el('details');d.append(el('summary',null,'Ver a mensagem que será enviada'));
+ prev=el('textarea');prev.readOnly=true;prev.id='previa';prev.setAttribute('aria-label','Mensagem que será enviada');
+ d.append(prev);f.append(d);
+ cp.onclick=async()=>{
+  try{await navigator.clipboard.writeText(msg());cp.textContent='Copiada';setTimeout(()=>{cp.textContent='Copiar resposta'},2000)}
+  catch(x){d.open=true;prev.focus();prev.select();nt.textContent='Selecione o texto abaixo e copie.';nt.hidden=false}
+ };
+ updateFoot();
+}
+function updateFoot(){
+ if(!wa)return;
+ const its=analisaveis();
+ const n=its.filter(respondido).length;
+ cnt.textContent=n+' de '+its.length+' itens com resposta';
+ const m=msg();
+ prev.value=m;
+ const base=NUM?'https://wa.me/'+NUM:'https://wa.me/';
+ wa.href=base+'?text='+encodeURIComponent(m);
+ const off=n===0;
+ wa.setAttribute('aria-disabled',off);cp.disabled=off;
+}
+renderList();renderFoot();
+</script>
