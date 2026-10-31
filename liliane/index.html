@@ -1,234 +1,444 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f3f8ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1d221c" media="(prefers-color-scheme: dark)">
 <title>Conteúdos Liliane Amarante</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="robots" content="noindex,nofollow">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Inter:wght@400;600&family=Poppins:wght@500;600&display=swap">
 <style>
-/* Identidade Liliane Amarante: cinza #373435, sálvia #999e71, verde #334632, off-white #f3f8ea */
-:root{--bg:#F3F8EA;--fg:#282829;--muted:#5C6358;--line:#D6DDC4;--card:#FEFEFE;--accent:#334632;--accent-fg:#F3F8EA;--pill:#334632;--pill-fg:#F3F8EA;--sage:#999E71;--stage:#282829;
---ok:#2C5A33;--ok-bg:#DDEBD6;--warn:#7A5516;--warn-bg:#F3E7CC;--bad:#8C2F2F;--bad-bg:#F4DADA;
---display:'Cormorant Garamond',Georgia,serif;--head:'Poppins',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A2018;--fg:#F3F8EA;--muted:#A8AF9A;--line:#323C2E;--card:#232B20;--accent:#B3B88C;--accent-fg:#1A2018;--pill:#999E71;--pill-fg:#1A2018;--sage:#999E71;--stage:#10150F;--ok:#A8D6A9;--ok-bg:#1F3A25;--warn:#F0C98A;--warn-bg:#44311A;--bad:#F2A3A3;--bad-bg:#4A2222;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#1A2018;--fg:#F3F8EA;--muted:#A8AF9A;--line:#323C2E;--card:#232B20;--accent:#B3B88C;--accent-fg:#1A2018;--pill:#999E71;--pill-fg:#1A2018;--sage:#999E71;--stage:#10150F;--ok:#A8D6A9;--ok-bg:#1F3A25;--warn:#F0C98A;--warn-bg:#44311A;--bad:#F2A3A3;--bad-bg:#4A2222;color-scheme:dark}
+/* Identidade Liliane Amarante: cinza #373435, sálvia #999e71, verde #334632, off-white #f3f8ea, preto #282829 */
+:root{
+  --bg:#f3f8ea;--fg:#282829;--muted:#5b5e57;--line:#d6ddc4;--card:#fbfdf6;
+  --tit:#334632;--det:#59603a;--accent:#334632;--accent-fg:#f3f8ea;
+  --pill:#334632;--pill-fg:#f3f8ea;--sage:#999e71;--stage:#22281f;
+  --aj-bg:#efe9c4;--aj-fg:#54450f;--aj-bd:#a8963a;
+  --ok-bg:#d3e4c1;--ok-fg:#1f3a1f;--ok-bd:#334632;
+  --no-bg:#373435;--no-fg:#f3f8ea;--no-bd:#373435;
+  --display:'Poppins','Trebuchet MS',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --serif:'Cormorant Garamond',Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1d221c;--fg:#e8eddc;--muted:#b0b8a0;--line:#39432f;--card:#262d24;
+    --tit:#c9cf9f;--det:#b3b98c;--accent:#999e71;--accent-fg:#1d221c;
+    --pill:#999e71;--pill-fg:#1d221c;--sage:#6c7352;--stage:#12160f;
+    --aj-bg:#4a4326;--aj-fg:#efe3a3;--aj-bd:#c9b45a;
+    --ok-bg:#2f4a2e;--ok-fg:#d3e8c0;--ok-bd:#999e71;
+    --no-bg:#4a4647;--no-fg:#efebe9;--no-bd:#8c8788;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1d221c;--fg:#e8eddc;--muted:#b0b8a0;--line:#39432f;--card:#262d24;
+  --tit:#c9cf9f;--det:#b3b98c;--accent:#999e71;--accent-fg:#1d221c;
+  --pill:#999e71;--pill-fg:#1d221c;--sage:#6c7352;--stage:#12160f;
+  --aj-bg:#4a4326;--aj-fg:#efe3a3;--aj-bd:#c9b45a;
+  --ok-bg:#2f4a2e;--ok-fg:#d3e8c0;--ok-bd:#999e71;
+  --no-bg:#4a4647;--no-fg:#efebe9;--no-bd:#8c8788;
+  color-scheme:dark;
+}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));font-size:16px;line-height:1.55}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;padding-block:max(28px,env(safe-area-inset-top)) max(56px,env(safe-area-inset-bottom));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .wrap{max-width:640px;margin:0 auto}
+button,textarea,a{font:inherit}
+:focus-visible{outline:3px solid var(--det);outline-offset:2px}
+
+.so-leitor{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+[hidden]{display:none!important}
+
 header{margin-bottom:22px}
-.eyebrow{font-family:var(--head);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:var(--display);font-weight:600;font-size:42px;line-height:1.05;margin:8px 0 10px;text-wrap:balance}
+.logo{display:block;height:72px;width:auto;margin:0 0 14px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo{background:#f3f8ea;border-radius:14px;padding:6px 10px;height:84px}}
+:root[data-theme="dark"] .logo{background:#f3f8ea;border-radius:14px;padding:6px 10px;height:84px}
+.eyebrow{font-family:var(--serif);font-style:italic;font-size:20px;font-weight:600;color:var(--det)}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(28px,8.6vw,38px);line-height:1.18;margin:8px 0 12px;color:var(--tit);text-wrap:balance;letter-spacing:-.01em}
 header p{color:var(--muted);margin:0;font-size:15px}
-.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:20px;overflow-x:auto}
-.tab{flex:0 0 auto;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);font-family:var(--head);font-weight:500;font-size:14px;padding:10px 14px;cursor:pointer;display:flex;gap:8px;align-items:center}
-.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--accent)}
-.tab .n{background:var(--accent);color:var(--accent-fg);border-radius:999px;font-size:12px;min-width:20px;height:20px;padding:0 6px;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+
+.tabs-faixa{position:sticky;top:0;z-index:5;background:var(--bg);margin:0 -16px 20px;padding:0 16px;border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1 1 0;background:none;border:0;border-bottom:3px solid transparent;color:var(--det);font-family:var(--display);font-weight:600;font-size:14px;padding:6px 4px;min-height:60px;cursor:pointer;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--sage)}
+.tab .n{background:var(--accent);color:var(--accent-fg);border-radius:999px;font-family:var(--body);font-size:12.5px;font-weight:600;min-width:22px;height:22px;padding:0 6px;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
 .tab .n.zero{background:var(--line);color:var(--muted)}
-button:focus-visible,summary:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
 .empty{color:var(--muted);padding:28px 0;font-size:15px}
-.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:16px;min-width:0}
-.item h2{font-family:var(--head);font-weight:600;font-size:20px;line-height:1.25;margin:0 0 10px;text-wrap:balance}
-.fmt{display:inline-block;background:var(--pill);color:var(--pill-fg);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:500;letter-spacing:.02em}
-.pills{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 14px}
-.fn{display:inline-block;color:var(--muted);padding:4px 2px;font-size:14px}
+.estado{padding:28px 20px;border:1px dashed var(--sage);border-radius:12px;text-align:center}
+.estado .btn{margin-top:12px}
+.nota-aba{margin:0 0 16px;font-size:15px;color:var(--muted)}
+
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:18px;min-width:0}
+.item h2{font-family:var(--display);font-weight:600;font-size:19px;line-height:1.35;margin:0 0 12px;color:var(--tit);overflow-wrap:anywhere;text-wrap:balance}
+.pills{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 16px}
+.fmt{display:inline-block;background:var(--pill);color:var(--pill-fg);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:600}
+.fn{display:inline-block;color:var(--muted);padding:4px 2px;font-size:14px;font-weight:600}
+
+.blk{margin:0 0 18px;padding-left:12px;border-left:3px solid var(--sage);min-width:0}
+.blk b{display:block;font-family:var(--display);font-size:16px;line-height:1.3;font-weight:600;color:var(--det);margin-bottom:6px}
+.blk p{margin:0 0 8px;overflow-wrap:anywhere}
+.blk ul{margin:0 0 8px;padding-left:20px}
+.blk li{margin:0 0 5px;overflow-wrap:anywhere}
+.blk > :last-child{margin-bottom:0}
+
 .leg{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
-.leg b{display:block;font-family:var(--head);font-size:19px;font-weight:600;color:var(--accent);margin-bottom:4px}
-.leg div{white-space:pre-wrap;overflow-wrap:anywhere}
-.leg button{margin-top:8px;background:none;border:1px solid var(--line);color:var(--fg);border-radius:999px;font:inherit;font-size:13px;padding:5px 14px;cursor:pointer}
-.tags{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 12px}
-.tag{font:inherit;font-size:14px;border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:7px 14px;cursor:pointer}
-.tag[aria-pressed="true"].t-an{background:var(--line)}
-.tag[aria-pressed="true"].t-aj{background:var(--warn-bg);color:var(--warn);border-color:var(--warn)}
-.tag[aria-pressed="true"].t-ok{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
-.tag[aria-pressed="true"].t-no{background:var(--bad-bg);color:var(--bad);border-color:var(--bad)}
-.blk{margin:0 0 20px;padding-left:12px;border-left:3px solid var(--sage)}
-.blk b{display:block;font-family:var(--head);font-size:19px;line-height:1.25;font-weight:600;color:var(--accent);margin-bottom:5px}
-.blk div{white-space:pre-wrap;overflow-wrap:anywhere}
-.dots{position:absolute;left:0;right:0;bottom:12px;display:flex;justify-content:center;gap:6px;pointer-events:none}
-.dots span{width:7px;height:7px;border-radius:50%;background:rgba(243,248,234,.5);box-shadow:0 0 0 1px rgba(20,26,18,.25)}
-.dots span.on{background:#F3F8EA}
-.canva{display:inline-block;margin-top:6px;background:var(--accent);color:var(--accent-fg);border-radius:999px;padding:9px 18px;font-size:15px;font-weight:500;text-decoration:none}
-.vid{display:block;width:100%;max-width:340px;aspect-ratio:9/16;margin:6px 0 16px;background:var(--stage);border-radius:8px}
-.stage{position:relative;background:var(--stage);border-radius:8px;overflow:hidden;aspect-ratio:4/5;max-width:100%;touch-action:pan-y}
-.stage img{width:100%;height:100%;object-fit:contain;display:block}
-.nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(20,26,18,.62);color:#F3F8EA;font-size:22px;cursor:pointer}
+.leg b{display:block;font-family:var(--display);font-size:16px;font-weight:600;color:var(--det);margin-bottom:6px}
+.leg p{margin:0 0 8px;overflow-wrap:anywhere}
+
+.tags{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0 10px}
+.tags.n3 .tag:last-child{grid-column:1/-1}
+@media (min-width:680px){.tags{grid-template-columns:repeat(var(--n,4),auto)}.tags.n3 .tag:last-child{grid-column:auto}}
+.tag{display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.25;font-size:15px;min-height:44px;border:1.5px solid var(--sage);background:transparent;color:var(--fg);border-radius:999px;padding:8px 10px;cursor:pointer}
+@media (max-width:420px){.tag{font-size:14px;padding:8px 4px}}
+.tag[aria-pressed="true"]{font-weight:600}
+.tag[aria-pressed="true"].t-an{background:var(--line);border-color:var(--muted)}
+.tag[aria-pressed="true"].t-aj{background:var(--aj-bg);color:var(--aj-fg);border-color:var(--aj-bd)}
+.tag[aria-pressed="true"].t-ok{background:var(--ok-bg);color:var(--ok-fg);border-color:var(--ok-bd)}
+.tag[aria-pressed="true"].t-no{background:var(--no-bg);color:var(--no-fg);border-color:var(--no-bd)}
+.note{font-size:14px;color:var(--muted);margin:6px 0 0}
+
+.cm{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.cm h3{font-family:var(--display);font-size:16px;color:var(--det);font-weight:600;margin:0 0 8px}
+.cm textarea{width:100%;min-height:96px;resize:vertical;font-size:16px;line-height:1.5;color:var(--fg);background:var(--bg);border:1.5px solid var(--fg);border-radius:8px;padding:10px 12px}
+.cm textarea::placeholder{color:var(--muted);opacity:1}
+
+a.wa,.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:10px;background:var(--accent);color:var(--accent-fg);border:1.5px solid var(--accent);border-radius:999px;font-weight:600;font-size:15px;padding:9px 20px;text-decoration:none;cursor:pointer;text-align:center}
+a.wa[aria-disabled="true"]{opacity:.45;cursor:default}
+.btn.sec{background:transparent;color:var(--fg);border-color:var(--fg)}
+.btn.sec[disabled]{opacity:.45;cursor:default}
+
+.vid{display:block;width:100%;max-width:340px;aspect-ratio:9/16;margin:4px 0 8px;background:var(--stage);border-radius:8px}
+.aviso{padding:14px;border:1.5px dashed var(--sage);border-radius:8px;font-size:15px;color:var(--muted)}
+.stage{position:relative;background:var(--stage);border-radius:8px;overflow:hidden}
+.viewport{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;touch-action:pan-x pan-y}
+.viewport::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;display:flex}
+.slide img{width:100%;height:100%;object-fit:contain;display:block}
+.nav{position:absolute;top:calc(50% - 22px);width:44px;height:44px;border-radius:50%;border:0;background:rgba(20,28,25,.66);color:#fff;font-size:24px;line-height:1;cursor:pointer;padding:0;display:flex;align-items:center;justify-content:center}
 .nav[disabled]{opacity:.25;cursor:default}
 .prev{left:10px}.next{right:10px}
-.count{position:absolute;right:10px;top:10px;background:rgba(20,26,18,.62);color:#F3F8EA;font-size:13px;padding:3px 10px;border-radius:999px;font-variant-numeric:tabular-nums}
-.thumbs{display:grid;grid-template-columns:repeat(8,1fr);gap:6px;margin-top:10px}
-.thumb{position:relative;padding:0;border:2px solid transparent;background:none;border-radius:3px;cursor:pointer;opacity:.6;aspect-ratio:4/5;overflow:hidden}
+.count{position:absolute;right:10px;top:10px;background:rgba(20,28,25,.66);color:#fff;font-size:13px;padding:3px 10px;border-radius:999px;font-variant-numeric:tabular-nums}
+.dots{position:absolute;left:0;right:0;bottom:10px;display:flex;justify-content:center;gap:6px;pointer-events:none}
+.dots span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.5);box-shadow:0 0 0 1px rgba(20,28,25,.3)}
+.dots span.on{background:#fff}
+.thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:10px;padding:2px 2px 6px;scrollbar-width:thin}
+.thumb{flex:none;width:52px;height:65px;position:relative;padding:0;border:2px solid transparent;background:var(--line);border-radius:6px;cursor:pointer;opacity:.7;overflow:hidden}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.thumb[aria-current="true"]{border-color:var(--accent);opacity:1}
-.thumb .bd{position:absolute;right:2px;top:2px;background:var(--accent);color:var(--accent-fg);font-size:11px;line-height:1;min-width:16px;height:16px;border-radius:8px;display:flex;align-items:center;justify-content:center}
-.cm{margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
-.cm h3{font-family:var(--head);font-size:16px;color:var(--accent);font-weight:600;margin:0 0 8px}
-.cm-list{display:flex;flex-direction:column;gap:8px;margin-bottom:10px}
-.cm-item{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
-.cm-top{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--muted)}
-.cm-txt{white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px}
-.cm-del{background:none;border:0;color:var(--muted);font:inherit;font-size:13px;cursor:pointer;text-decoration:underline;padding:0}
-.cm textarea{width:100%;min-height:70px;resize:vertical;font:inherit;font-size:15px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
-.cm-send{margin-top:8px;background:var(--accent);color:var(--accent-fg);border:0;border-radius:999px;font:inherit;font-weight:500;font-size:14px;padding:8px 18px;cursor:pointer}
-.cm-send[disabled]{opacity:.5}
-.cm-note{color:var(--muted);font-size:13px;margin:6px 0 0}
-.send{margin-top:8px;padding:18px;border:1px dashed var(--sage);border-radius:10px}
-.send h2{font-family:var(--display);font-weight:600;font-size:26px;margin:0 0 4px}
-.send p{margin:0 0 10px;font-size:14px;color:var(--muted)}
-.send button{background:var(--accent);color:var(--accent-fg);border:0;border-radius:999px;font:inherit;font-weight:500;font-size:15px;padding:10px 20px;cursor:pointer}
-.send button[disabled]{opacity:.5;cursor:default}
-.send .st{margin-top:10px;font-size:14px}
-.note{font-size:14px;color:var(--muted);margin-top:6px}
-@media (max-width:420px){h1{font-size:36px}.thumbs{gap:4px}}
-@media (prefers-reduced-motion:no-preference){.stage img{transition:opacity .15s}}
-a.wa{display:inline-block;margin-top:8px;background:var(--accent);color:var(--accent-fg);border-radius:999px;font-weight:500;font-size:14px;padding:8px 18px;text-decoration:none}a.wa.big{font-size:15px;padding:10px 20px;margin-top:0}a.wa[aria-disabled="true"]{opacity:.45;cursor:default}.vid{display:block;width:100%;max-width:340px;aspect-ratio:9/16;margin:6px 0 16px;background:var(--stage);border-radius:8px}
+.thumb[aria-current="true"]{border-color:var(--sage);opacity:1}
+
+.send{margin-top:8px;padding:18px;border:1.5px dashed var(--sage);border-radius:12px}
+.send h2{font-family:var(--display);font-weight:600;font-size:22px;margin:0 0 6px;color:var(--tit)}
+.send p{margin:0 0 6px;font-size:15px;color:var(--muted)}
+.send .acoes{display:flex;flex-wrap:wrap;gap:10px}
+.send .st{margin-top:12px;font-size:14px;font-weight:600;color:var(--fg)}
+
+dialog{width:min(560px,calc(100% - 32px));border:1.5px solid var(--fg);border-radius:12px;background:var(--bg);color:var(--fg);padding:20px}
+dialog::backdrop{background:rgba(18,22,15,.6)}
+dialog h3{margin:0 0 8px;font-family:var(--display);color:var(--tit);font-size:18px}
+dialog textarea{width:100%;min-height:180px;padding:12px;border:1.5px solid var(--fg);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px}
+dialog .btn{width:100%}
+
+.envd{margin-top:24px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.envd summary{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:8px 16px;font-family:var(--display);font-weight:600;font-size:16px;color:var(--det);list-style:none}
+.envd summary::-webkit-details-marker{display:none}
+.envd summary::before{content:"›";display:inline-block;margin-right:10px;transition:transform .15s}
+.envd[open] summary::before{transform:rotate(90deg)}
+.envd .corpo{padding:0 16px 16px}
+.envd .corpo>p{margin:0 0 12px;font-size:14px;color:var(--muted)}
+.env-it{border-top:1px solid var(--line);padding:12px 0}
+.env-it h3{font-family:var(--display);font-weight:600;font-size:15px;line-height:1.35;margin:0 0 4px;color:var(--tit);overflow-wrap:anywhere}
+.env-it p{margin:0;font-size:14px;color:var(--muted);overflow-wrap:anywhere}
+.env-it .btn{margin-top:8px;min-height:44px}
+.toast{margin:0 0 14px;padding:12px 14px;border:1.5px solid var(--ok-bd);background:var(--ok-bg);color:var(--ok-fg);border-radius:10px;font-size:15px;font-weight:600}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
+</head>
+<body>
 <div class="wrap">
 <header>
+<img class="logo" src="img/logo-liliane.png" width="458" height="400" alt="Liliane Amarante, arquitetura e paisagismo">
 <div class="eyebrow">Liliane Amarante · análise de conteúdo</div>
 <h1>O que está esperando por você</h1>
 <p>Veja ideias, roteiros e criativos. Marque cada item como aprovado ou peça ajustes, escreva o que mudar e envie tudo pelo WhatsApp.</p>
 </header>
-<div class="tabs" role="tablist" id="tabs"></div>
-<div id="list"></div>
-<section class="send" id="foot"></section>
+<div class="tabs-faixa"><div class="tabs" role="tablist" id="tabs" aria-label="Etapas do conteúdo"></div></div>
+<div id="list"><div class="estado" role="status">Carregando os conteúdos…</div></div>
+<section class="send" id="foot" hidden></section>
+<details class="envd" id="envd" hidden></details>
 </div>
+<div class="so-leitor" id="avisoVivo" role="status" aria-live="polite"></div>
+<dialog id="copiaManual" aria-labelledby="copiaTit">
+<h3 id="copiaTit">Copie o texto à mão</h3>
+<p>O aparelho bloqueou a cópia automática. Toque na caixa, selecione tudo e copie.</p>
+<label class="so-leitor" for="copiaTexto">Texto para copiar</label>
+<textarea id="copiaTexto" readonly></textarea>
+<button class="btn" type="button" id="copiaFechar">Fechar</button>
+</dialog>
+<noscript><p>Esta página precisa de JavaScript para mostrar os conteúdos.</p></noscript>
 <script>
-const ITENS=[{"blocos": [{"t": "Legenda", "x": "O som da água muda a forma como a gente vive o jardim. 🌿\n\nUma cascata bem pensada cria uma pausa no dia: acalma, abafa o ruído de fora e convida a ficar. Por isso, ao projetar, eu penso também no que se ouve, não só no que se vê.\n\n#PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"}], "etapa": "criativo", "formato": "Reels [Experiência]", "funcao": "Atrair", "ideia": 32, "legenda": "O som da água muda a forma como a gente vive o jardim. 🌿\n\nUma cascata bem pensada cria uma pausa no dia: acalma, abafa o ruído de fora e convida a ficar. Por isso, ao projetar, eu penso também no que se ouve, não só no que se vê.\n\n#PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom", "ordem": 1, "poster": "img/c32-poster.jpg", "single": true, "titulo": "O som da água muda o ritmo do dia", "video": "videos/ideia-32-som-da-agua.mp4", "id": "c32"}, {"blocos": [{"t": "Slides (6)", "x": "1. Jardim bom é jardim vivido. Não apenas admirado pela janela.\n2. Um jardim pode estar impecável e, ainda assim, permanecer vazio.\n3. Porque beleza, sozinha, não faz ninguém querer ficar.\n4. É o projeto que cria motivos para usar o espaço: sentar, caminhar, conversar, tomar um café ou simplesmente desacelerar.\n5. Quando o jardim acompanha a rotina da casa, ele deixa de ser cenário e passa a fazer parte da vida.\n6. Para mim, um bom projeto não termina na paisagem. Ele começa nos momentos que serão vividos ali."}], "canva": "https://canva.link/fpt2gwyddbguwu6", "etapa": "aprovado", "ext": ".jpg", "formato": "Carrossel [Numerado]", "funcao": "Atrair", "ideia": 36, "legenda": "Há jardins que impressionam à primeira vista. E há jardins que, além de bonitos, convidam a entrar, sentar e permanecer.\n\nNo meu trabalho, penso a estética junto com a rotina de quem vai viver o espaço. A circulação, os lugares de pausa, as vistas, os sons e a forma como a família deseja aproveitar a área externa fazem parte do projeto.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa fazer sentido para a vida que acontece nela.\n\nQue momento você gostaria que o seu jardim proporcionasse com mais frequência?", "n": 6, "ordem": 1, "pre": "img/c36-", "titulo": "Jardim bom é jardim vivido.", "id": "c36"}, {"blocos": [{"t": "Por que esta ideia", "x": "Marcelo vê referências bonitas, mas não consegue avaliar sozinho se uma espécie funciona no terreno dele. Mostra o critério por trás da escolha de uma planta e aproxima o público da forma de pensar da Liliane, sem vender planta. Completa a série \"Por que eu uso\" (guaimbê e pitosporo)."}, {"t": "Gancho", "x": "\"Por que eu uso capim-do-Texas nos meus projetos.\""}, {"t": "Como executar", "x": "Carrossel [Etiqueta]: slide 1 com o nome da planta; slides do meio com critério de escolha, versatilidade e aplicação no projeto, cada um com foto real; um slide com pergunta ao público; último slide com convite suave para conversar."}, {"t": "O que precisamos da Liliane", "x": "Os critérios dela para usar essa planta (áudio de 1 a 2 minutos ou texto), para o conteúdo sair na voz dela. Fotos reais de projetos com a planta são opcionais."}], "etapa": "ideia", "formato": "Carrossel [Etiqueta]", "funcao": "Qualificar", "ideia": 5, "ordem": 1, "titulo": "Por que eu uso: Capim-do-Texas", "id": "i05"}, {"blocos": [{"t": "Por que esta ideia", "x": "Quem já tem árvores ou plantas no terreno teme perder algo de valor ou conviver com algo que atrapalha o projeto. Mostra a leitura do terreno e tira uma dúvida que costuma travar o primeiro contato."}, {"t": "Gancho", "x": "\"Já tem plantas no seu terreno? Elas entram na conversa do projeto.\""}, {"t": "Como executar", "x": "Reels [Misto] de 20 a 30 s: a Liliane no terreno explicando o que observa antes de decidir o que fica, com imagens de projeto real e convite à conversa no final."}, {"t": "O que precisamos da Liliane", "x": "Gravação dela em um terreno com plantas existentes (pode ser numa visita técnica), explicando como avalia o que aproveitar."}], "etapa": "ideia", "formato": "Reels [Misto]", "funcao": "Qualificar", "ideia": 9, "ordem": 2, "titulo": "Já tenho plantas no terreno. Dá para aproveitar no projeto?", "id": "i09"}, {"blocos": [{"t": "Por que esta ideia", "x": "Conteúdo sensorial, de identificação: mostra a vivência de um espaço sem explicar nada. Traduz a palavra \"vivência\", central na sua marca, em uma cena do dia a dia e atrai quem ainda está no momento de desejo."}, {"t": "Gancho", "x": "A própria cena, com o jardim aparecendo ao fundo da xícara nos primeiros segundos. Texto opcional na tela: \"O dia também pode começar do lado de fora.\""}, {"t": "Como executar", "x": "Reels [Experiência] de 10 a 20 s, com som ambiente real e sem narração: xícara na mesa ou no banco, jardim ao fundo, luz da manhã."}, {"t": "O que precisamos da Liliane", "x": "Vídeo vertical de 10 a 20 s da cena, gravado de manhã, em jardim dela ou de cliente com autorização."}], "etapa": "ideia", "formato": "Reels [Experiência]", "funcao": "Atrair", "ideia": 10, "ordem": 3, "titulo": "Um café, uma manhã e o jardim ao fundo", "id": "i10"}, {"blocos": [{"t": "Por que esta ideia", "x": "Marcelo não sabe avaliar sozinho se sol forte, sombra ou meia-sombra limita o projeto. A resposta mostra a condição real do espaço do público e abre uma conversa técnica com quem já está pensando no assunto."}, {"t": "Gancho", "x": "\"Hoje quero perguntar uma coisa para vocês: quanto sol o seu jardim recebe?\""}, {"t": "Como executar", "x": "Dia 1: Enquete com três opções (sol o dia todo, só parte do dia, quase nada) e Caixinha para contar como é o sol e a sombra no espaço. Dia 2: Stories de resposta com o resultado e a Liliane comentando o que observa em cada condição de luz. A figurinha é colocada manualmente."}, {"t": "O que precisamos da Liliane", "x": "Nada para o dia 1. Para o dia 2: uma fala curta dela (20 a 30 s) sobre cada condição de luz."}], "etapa": "ideia", "formato": "Stories [Enquete]", "funcao": "Qualificar", "ideia": 12, "ordem": 4, "titulo": "Quanto sol o seu jardim recebe de verdade?", "id": "i12"}, {"blocos": [{"t": "Por que esta ideia", "x": "Quem acompanha e está avaliando contratar não vê o que acontece antes da obra. Mostra como a Liliane pensa e decide (mesa, croqui, tela) e ajuda o seguidor a avaliar se esse método combina com ele. A caixinha final revela em que momento o seguidor está."}, {"t": "Gancho", "x": "\"Antes de ter jardim, tem isto aqui.\""}, {"t": "Como executar", "x": "4 ou 5 stories no mesmo dia: mesa com croqui, tela com o desenho, amostras ou plantas escolhidas e uma frase curta sobre o que ela decide ali. O último é uma Caixinha: \"Em que etapa está o seu jardim? Ainda sonhando, com terreno, ou já com projeto?\""}, {"t": "O que precisamos da Liliane", "x": "3 a 5 fotos ou vídeos curtos dela trabalhando em um projeto (sem dados do cliente) e uma frase sobre o que está decidindo naquele momento."}], "etapa": "ideia", "formato": "Stories [Bastidor]", "funcao": "Qualificar", "ideia": 14, "ordem": 5, "titulo": "Antes do jardim existir, o projeto nasce na mesa", "id": "i14"}, {"blocos": [{"t": "Formato", "x": "5 stories no mesmo dia: quatro vitrines com foto real de projeto (uma por tipo de espaço) e uma Caixinha no final. A figurinha da Caixinha é colocada manualmente."}, {"t": "Story 1 (abertura)", "x": "Texto na tela: Cada espaço da casa pede uma pergunta diferente.\nImagem: vista geral de um projeto da Liliane."}, {"t": "Story 2 (varanda)", "x": "Texto na tela: Varanda: em que momentos do dia você quer estar aqui?"}, {"t": "Story 3 (quintal)", "x": "Texto na tela: Quintal: quem vai usar este espaço, e para quê?"}, {"t": "Story 4 (piscina e fachada)", "x": "Corte 1: Piscina: o que você quer ver, sentir e ter de privacidade ao redor?\nCorte 2: Fachada: que impressão você quer que a casa dê a quem chega?"}, {"t": "Story 5 (caixinha)", "x": "Texto na tela: Qual é o seu espaço e o que te incomoda nele?\nFigurinha: Caixinha de perguntas."}, {"t": "Para a Liliane validar", "x": "As 4 perguntas dos stories 2 a 4 são uma sugestão no tom dela: valide ou troque por frases suas. As fotos são de projetos reais que já estão no Drive."}], "etapa": "roteiro", "formato": "Stories [Vitrine]", "funcao": "Qualificar", "ideia": 16, "ordem": 1, "titulo": "Varanda, quintal, piscina ou fachada: cada espaço pede um olhar", "id": "r16"}, {"blocos": [{"t": "Formato", "x": "Carrossel [Numerado], 6 slides, 1080 × 1350. Um checklist visual para salvar e responder em família."}, {"t": "Slide 1", "x": "Antes de escolher uma planta, responda estas 4 perguntas sobre a sua rotina."}, {"t": "Slide 2", "x": "1. Em quais momentos você gostaria de usar mais a área externa?\nCafé da manhã, fim de tarde, refeições, fins de semana ou momentos de descanso?"}, {"t": "Slide 3", "x": "2. Quem precisa se sentir confortável ali?\nCrianças, pets, convidados, pessoas mais velhas ou toda a família ao mesmo tempo?"}, {"t": "Slide 4", "x": "3. O que faria você evitar esse espaço?\nSol forte, falta de privacidade, manutenção excessiva, circulação ruim ou pouca iluminação?"}, {"t": "Slide 5", "x": "4. Que experiência você gostaria de repetir ali?\nReceber, descansar, brincar, cozinhar, tomar café ou simplesmente ficar mais perto da natureza?"}, {"t": "Slide 6", "x": "O jardim ideal começa nas respostas, não nas plantas.\nSalve este post e responda essas perguntas com quem vive a casa com você.\nSe esse tipo de olhar ajuda você a pensar melhor os espaços, me acompanhe por aqui."}, {"t": "Imagens (projetos reais da Liliane)", "x": "Slide 1: visão geral de um projeto convidativo. Slide 2: diferentes momentos de uso. Slide 3: cenas com família, crianças ou pets. Slide 4: sombra, privacidade, circulação e iluminação. Slide 5: uma cena forte de experiência (mesa externa, descanso, piscina, vegetação). Slide 6: composição limpa com a frase final em destaque."}, {"t": "Legenda", "x": "Antes de escolher espécies ou pensar na estética do jardim, vale entender como esse espaço precisa funcionar na vida real.\n\nEssas perguntas parecem simples, mas ajudam a revelar prioridades que mudam completamente as decisões de um projeto.\n\nUm jardim pensado para receber não nasce das mesmas escolhas de um espaço pensado para crianças, privacidade ou descanso.\n\nSalve este post para responder com calma e compartilhe com alguém que também está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"}], "etapa": "roteiro", "formato": "Carrossel [Numerado]", "funcao": "Qualificar", "ideia": 26, "ordem": 2, "titulo": "O paisagismo ideal começa entendendo como você vive o espaço", "id": "r26"}, {"blocos": [{"t": "Formato", "x": "Reels [Tela dupla], de 20 a 30 s. Em cima, 2 ou 3 cenas de jardim de projeto sendo usado por uma família com criança ou pet. Embaixo, a Liliane falando para a câmera."}, {"t": "Gancho (0 a 3 s)", "x": "Texto na tela: Tem criança ou pet em casa?\nFala: Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto."}, {"t": "Narração (a Liliane grava)", "x": "Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto. Quando a família tem criança ou animal de estimação, o jardim precisa funcionar de outro jeito. Eu começo pelo uso: onde as crianças vão correr e brincar, por onde o pet vai circular e onde fica o canto de descanso. Só depois eu escolho as plantas, com critério para cada área, pensando em quem vai estar ali todos os dias. Assim o espaço fica bonito e continua fazendo sentido para a vida da família. Salva este vídeo e me conta nos comentários: quem usa o seu jardim, crianças, pets ou os dois?"}, {"t": "Texto na tela", "x": "Primeiro o uso. Depois as plantas.\nNo final: Quem usa o seu jardim?"}, {"t": "Legenda", "x": "Quando a casa tem criança ou pet, o jardim precisa ser pensado de outro jeito. 🌿\n\nAntes de escolher as plantas, eu observo como a família vive: onde as crianças brincam, por onde o pet circula, onde ficam os momentos de descanso. É a partir desse uso que organizo o espaço e escolho a vegetação de cada área.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa funcionar para quem vive nele todos os dias.\n\nQuem usa o seu jardim: crianças, pets ou os dois? Conta aqui nos comentários.\n\nSe quiser conversar sobre o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"}, {"t": "Para a Liliane validar", "x": "A narração traz só o raciocínio geral e não cita espécies. Se quiser falar de plantas a evitar ou cuidados específicos, você mesma diz quais."}], "etapa": "roteiro", "formato": "Reels [Tela dupla]", "funcao": "Qualificar", "ideia": 59, "ordem": 3, "titulo": "Tem criança ou pet em casa? O que pensar antes de escolher as plantas", "id": "r59"}, {"blocos": [{"t": "Formato", "x": "Estático [Leia a legenda], 1080 × 1350. A imagem traz só a pergunta; o conteúdo fica na legenda."}, {"t": "Imagem", "x": "Foto real de jardim de projeto da Liliane, ou detalhe de planta com luz natural, sem pessoas e com respiro para o texto."}, {"t": "Texto na imagem", "x": "O que mais de 10 anos de jardim me ensinaram?\nAssinatura discreta: Liliane Amarante.\n\nVariação em primeira pessoa, se preferir: \"O que eu aprendi com mais de 10 anos criando jardins?\""}, {"t": "Legenda", "x": "Mais de 10 anos criando jardins me ensinaram algumas coisas que levo para cada projeto. 🌿\n\n1. Um espaço bonito não precisa de mais plantas. Precisa de intenção. Cada decisão, do caminho à sombra, muda a forma como a família vive o espaço.\n\n2. A natureza tem o seu tempo. Um projeto bem feito se completa com os anos, e isso faz parte do resultado.\n\n3. Cada terreno tem o seu jeito. O projeto começa por observá-lo: o sol, a casa e a rotina de quem vai estar ali.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"}, {"t": "Para a Liliane validar", "x": "Os 3 aprendizados da legenda são propostas no tom dela. Valide ou troque pelos seus antes de a arte ser feita."}], "etapa": "roteiro", "formato": "Estático [Leia a legenda]", "funcao": "Atrair", "ideia": 60, "ordem": 4, "titulo": "O que dez anos de jardim me ensinaram", "id": "r60"}];
-const WA_NUM='';
-const ETAPAS=[
- {k:'ideia',aba:'Ideias',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada'],vazio:'Nenhuma ideia para analisar agora.'},
- {k:'roteiro',aba:'Roteiros',tags:['análise de roteiro','ajuste de roteiro','roteiro aprovado'],vazio:'Nenhum roteiro para analisar agora.'},
- {k:'criativo',aba:'Criativos',tags:['análise criativa','ajuste criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'},
- {k:'aprovado',aba:'Aprovados',tags:[],vazio:'Nenhum criativo aprovado aguardando programação.'}
-];
-const NOME_ETAPA={ideia:'Ideia',roteiro:'Roteiro',criativo:'Criativo'};
-const CLS=['t-an','t-aj','t-ok','t-no'],VAL=[null,'ajuste','aprovado','naoaprovado'];
+const WA_NUM='';            // WhatsApp que recebe as respostas: DDI + DDD + número, só dígitos (ex.: '5548999999999'). Vazio: o WhatsApp pergunta para quem enviar.
 const KEY='liliane-aprovacao-v1';
+const DADOS_URL='dados.json';
+
+const ETAPAS=[
+ {k:'ideia',aba:'Ideias',nome:'Ideia',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada'],vazio:'Nenhuma ideia para analisar agora.'},
+ {k:'roteiro',aba:'Roteiros',nome:'Roteiro',tags:['análise de roteiro','ajuste de roteiro','roteiro aprovado'],vazio:'Nenhum roteiro para analisar agora.'},
+ {k:'criativo',aba:'Criativos',nome:'Criativo',tags:['análise criativa','ajuste criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'},
+ {k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando programação.'}
+];
+const CLS=['t-an','t-aj','t-ok','t-no'],VAL=[null,'ajuste','aprovado','naoaprovado'];
+const etapaDe=k=>ETAPAS.find(e=>e.k===k);
 const $=id=>document.getElementById(id);
-const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
-let decisoes={},obs={},aba=0;const pos={};const links=[];
-try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');decisoes=s.d||{};obs=s.o||{}}catch(e){}
-function save(){try{localStorage.setItem(KEY,JSON.stringify({d:decisoes,o:obs}))}catch(e){}}
-function stat(it){const d=decisoes[it.id];return d==='ajuste'?1:d==='aprovado'?2:d==='naoaprovado'?3:0}
+const reduz=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+
+let ITENS=[],decisoes={},obs={},enviados={},aba=0,aviso='';
+const links=[];
+try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');decisoes=s.d||{};obs=s.o||{};enviados=s.e||{}}catch(e){}
+/* grava na hora: ao tocar em "Enviar pelo WhatsApp" a página vai para segundo plano e um atraso poderia perder o último toque */
+function save(){try{localStorage.setItem(KEY,JSON.stringify({d:decisoes,o:obs,e:enviados}))}catch(e){}}
+function stat(it){const i=VAL.indexOf(decisoes[it.id]);return i<0?0:i}
+const foiEnv=it=>!!enviados[it.id];
+const analisaveis=()=>ITENS.filter(i=>!etapaDe(i.etapa).leitura&&!foiEnv(i));
+const respondido=it=>stat(it)>0||!!(obs[it.id]||'').trim();
+
 function wa(msg){return 'https://wa.me/'+WA_NUM+'?text='+encodeURIComponent(msg)}
 function linha(it){
- const e=ETAPAS.find(x=>x.k===it.etapa);if(!e||!e.tags.length)return null;
+ const e=etapaDe(it.etapa);if(!e||e.leitura)return null;
  const i=stat(it),o=(obs[it.id]||'').trim();
  if(!i&&!o)return null;
- return '• #'+it.ideia+' '+it.titulo+' ('+NOME_ETAPA[it.etapa]+')'+(i?': '+e.tags[i]:'')+(o?'\n  '+o:'');
+ return '*#'+it.numero+' · '+it.titulo+'* ('+e.nome+')\nStatus: '+e.tags[i]+(o?'\nObservação: '+o:'');
 }
+function msgTudo(){return 'Oi! Aqui é a Liliane. Minhas respostas sobre os conteúdos:\n\n'+ITENS.filter(i=>!foiEnv(i)).map(linha).filter(Boolean).join('\n\n')}
 function setLink(a,msg){
  if(msg){a.href=wa(msg);a.target='_blank';a.rel='noopener';a.removeAttribute('aria-disabled')}
- else{a.removeAttribute('href');a.setAttribute('aria-disabled','true')}
+ else{a.removeAttribute('href');a.removeAttribute('target');a.setAttribute('aria-disabled','true')}
 }
-function updateLinks(){
- links.forEach(f=>f());
-}
+function updateLinks(){links.forEach(f=>f())}
 
-function renderTabs(){
- const t=$('tabs');t.textContent='';
- ETAPAS.forEach((e,i)=>{
-  const its=ITENS.filter(x=>x.etapa===e.k);
-  const pend=e.k==='aprovado'?its.length:its.filter(x=>stat(x)===0).length;
-  const b=el('button','tab');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-selected',i===aba);
-  b.append(el('span',null,e.aba));
-  b.append(el('span','n'+(pend?'':' zero'),pend));
-  b.onclick=()=>{aba=i;render()};t.append(b);
- });
-}
-
-function obsBox(it){
- const wrap=el('div','cm');
- wrap.append(el('h3',null,'Observações'));
- const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que precisa mudar ou o que você achou…';ta.setAttribute('aria-label','Observações');
- ta.value=obs[it.id]||'';
- const a=el('a','wa','Enviar este item pelo WhatsApp');
- const upd=()=>{const l=linha(it);setLink(a,l?'Oi! Aqui é a Liliane. Sobre este conteúdo:\n\n'+l:'')};
- ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();updateLinks()});
- links.push(upd);upd();
- wrap.append(ta,a);return wrap;
-}
-
-function card(it,e){
- const c=el('article','item');
- c.append(el('h2',null,'#'+it.ideia+' · '+it.titulo));
- const m=el('div','pills');
- if(it.formato)m.append(el('span','fmt',it.formato));
- if(it.funcao)m.append(el('span','fn','Função: '+it.funcao));
- if(m.childNodes.length)c.append(m);
- if(!it.pre&&(it.etapa==='criativo'||it.etapa==='aprovado')){
-  const bx=el('div','blk');bx.append(el('b',null,'Criativo'));
-  if(it.video){const v=el('video','vid');v.controls=true;v.playsInline=true;v.preload='metadata';v.src=it.video;if(it.poster)v.poster=it.poster;v.setAttribute('aria-label','Vídeo: '+it.titulo);bx.append(v)}
-  (it.blocos||[]).forEach(b=>{const k=el('div','blk');k.append(el('b',null,b.t),el('div',null,b.x));bx.append(k)});
-  if(it.canva){const a=el('a','canva','Abrir o carrossel no Canva');a.href=it.canva;a.target='_blank';a.rel='noopener';bx.append(a)}
-  c.append(bx);
- }else if(it.etapa==='criativo'||it.etapa==='aprovado'){
-  const n=it.n||1,src=i=>it.single?it.pre+it.ext:it.pre+(i+1)+it.ext;
-  const s=pos[it.id]||0;
-  const st=el('div','stage');const im=el('img');im.src=src(s);im.alt=it.titulo+(it.single?'':', slide '+(s+1));st.append(im);
-  if(!it.single){
-   const pv=el('button','nav prev','‹');pv.type='button';pv.setAttribute('aria-label','Slide anterior');pv.disabled=s===0;pv.onclick=()=>{pos[it.id]=s-1;render()};
-   const nx=el('button','nav next','›');nx.type='button';nx.setAttribute('aria-label','Próximo slide');nx.disabled=s===n-1;nx.onclick=()=>{pos[it.id]=s+1;render()};
-   st.append(pv,nx,el('div','count',(s+1)+' / '+n));
-   const dt=el('div','dots');for(let i=0;i<n;i++)dt.append(el('span',i===s?'on':''));st.append(dt);
-   let x0=null;st.addEventListener('touchstart',ev=>{x0=ev.touches[0].clientX},{passive:true});
-   st.addEventListener('touchend',ev=>{if(x0===null)return;const d=ev.changedTouches[0].clientX-x0;x0=null;if(Math.abs(d)>40){const t=d<0?s+1:s-1;if(t>=0&&t<n){pos[it.id]=t;render()}}});
-  }
-  c.append(st);
-  if(!it.single){
-   const th=el('div','thumbs');
-   for(let i=0;i<n;i++){
-    const b=el('button','thumb');b.type='button';b.setAttribute('aria-label','Slide '+(i+1));if(i===s)b.setAttribute('aria-current','true');
-    const ti=el('img');ti.src=src(i);ti.alt='';b.append(ti);
-    b.onclick=()=>{pos[it.id]=i;render()};th.append(b);
-   }
-   c.append(th);
-  }
- }else{
-  (it.blocos||[]).forEach(b=>{const k=el('div','blk');k.append(el('b',null,b.t),el('div',null,b.x));c.append(k)});
+function renderTexto(box,texto){
+ let ul=null;
+ for(const ln of String(texto).split('\n')){
+  if(!ln.trim()){ul=null;continue}
+  if(ln.startsWith('- ')){if(!ul){ul=el('ul');box.append(ul)}ul.append(el('li',null,ln.slice(2)))}
+  else{ul=null;box.append(el('p',null,ln))}
  }
- if(e.k==='aprovado'){
-  const lg=el('div','leg');lg.append(el('b',null,'Legenda'));
-  lg.append(el('div',null,it.legenda||'Legenda no roteiro.'));
-  if(it.legenda){const cb=el('button',null,'Copiar legenda');cb.type='button';cb.onclick=async()=>{try{await navigator.clipboard.writeText(it.legenda);cb.textContent='Copiada'}catch(x){cb.textContent='Selecione e copie o texto'}};lg.append(cb)}
-  c.append(lg);
-  c.append(el('p','note','Aprovado. Aguardando a programação nas redes.'));return c}
- const tg=el('div','tags');tg.setAttribute('role','group');tg.setAttribute('aria-label','Status');
- const cur=stat(it);
- e.tags.forEach((nome,i)=>{
-  const b=el('button','tag '+CLS[i],nome);b.type='button';b.setAttribute('aria-pressed',i===cur);
-  b.onclick=()=>{if(VAL[i]===null)delete decisoes[it.id];else decisoes[it.id]=VAL[i];save();render()};
-  tg.append(b);
+}
+function blocoTexto(titulo,texto){const k=el('div','blk');k.append(el('b',null,titulo));renderTexto(k,texto);return k}
+
+function avisar(t){const v=$('avisoVivo');v.textContent='';setTimeout(()=>{v.textContent=t},30)}
+async function copiarTexto(txt){
+ try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(txt);return true}}catch(e){}
+ try{const ta=el('textarea');ta.value=txt;ta.setAttribute('readonly','');ta.style.cssText='position:fixed;top:0;left:0;opacity:0';document.body.append(ta);ta.select();ta.setSelectionRange(0,txt.length);const ok=document.execCommand('copy');ta.remove();return ok}catch(e){return false}
+}
+async function copiarComAviso(txt,botao,ok){
+ if(await copiarTexto(txt)){const antes=botao.textContent;botao.textContent=ok;avisar(ok);setTimeout(()=>{botao.textContent=antes},2200)}
+ else{const d=$('copiaManual');$('copiaTexto').value=txt;if(d.showModal)d.showModal();else d.setAttribute('open','');$('copiaTexto').focus();$('copiaTexto').select();$('copiaTexto').scrollTop=0}
+}
+$('copiaFechar').onclick=()=>{const d=$('copiaManual');if(d.close)d.close();else d.removeAttribute('open')};
+
+/* ---------- enviados ---------- */
+function marcarEnviados(lista){
+ const agora=new Date().toISOString();
+ lista.forEach(it=>{const l=linha(it);if(!l)return;const i=stat(it);enviados[it.id]={s:etapaDe(it.etapa).tags[i],o:(obs[it.id]||'').trim(),t:agora}});
+ save();
+}
+function depoisDeEnviar(lista){
+ /* espera o WhatsApp abrir antes de tirar o item da tela */
+ setTimeout(()=>{
+  const n=lista.filter(it=>linha(it)).length;if(!n)return;
+  marcarEnviados(lista);
+  aviso=n===1?'Enviado. O item saiu desta lista e está guardado em "Enviados", no fim da página.':n+' itens enviados. Eles saíram desta lista e estão guardados em "Enviados", no fim da página.';
+  montar(aba);avisar(aviso);
+ },500);
+}
+function desfazer(it){delete enviados[it.id];save();aviso='';montar(aba)}
+function montarEnviados(){
+ const d=$('envd'),its=ITENS.filter(foiEnv);d.textContent='';
+ if(!its.length){d.hidden=true;return}
+ d.hidden=false;
+ const sm=el('summary',null,'Enviados ('+its.length+')');d.append(sm);
+ const c=el('div','corpo');c.append(el('p',null,'Estes itens já foram enviados pelo WhatsApp e não aparecem mais nas abas. Se precisar, volte um item para a análise.'));
+ its.sort((a,b)=>String(enviados[b.id].t).localeCompare(String(enviados[a.id].t))).forEach(it=>{
+  const e=etapaDe(it.etapa),r=enviados[it.id],w=el('div','env-it');
+  w.append(el('h3',null,'#'+it.numero+' · '+it.titulo));
+  w.append(el('p',null,e.nome+' · '+r.s+(r.o?' · Observação: '+r.o:'')));
+  const b=el('button','btn sec','Voltar para análise');b.type='button';b.setAttribute('aria-label','Voltar #'+it.numero+' para análise');b.onclick=()=>desfazer(it);w.append(b);c.append(w);
  });
- c.append(tg);
- if(cur===1)c.append(el('p','note','Escreva abaixo o que precisa mudar.'));
- c.append(obsBox(it));
+ d.append(c);
+}
+
+/* ---------- carrossel ---------- */
+function carrossel(imgs,rotulo){
+ const box=el('div');box.setAttribute('role','group');box.setAttribute('aria-roledescription','carrossel');box.setAttribute('aria-label',rotulo);
+ const st=el('div','stage'),vp=el('div','viewport');vp.tabIndex=0;vp.setAttribute('aria-label',rotulo+': use as setas do teclado para trocar de slide');
+ imgs.forEach((src,n)=>{const s=el('div','slide'),im=el('img');im.src=src;im.alt='Slide '+(n+1)+' de '+imgs.length+': '+rotulo;im.loading=n?'lazy':'eager';im.decoding='async';s.append(im);vp.append(s)});
+ const pv=el('button','nav prev','‹'),nx=el('button','nav next','›'),ct=el('div','count'),dt=el('div','dots');
+ pv.type=nx.type='button';pv.setAttribute('aria-label','Slide anterior');nx.setAttribute('aria-label','Próximo slide');ct.setAttribute('aria-hidden','true');dt.setAttribute('aria-hidden','true');
+ const th=el('div','thumbs'),pontos=[],mini=[];
+ imgs.forEach((src,n)=>{
+  pontos.push(dt.appendChild(el('span')));
+  const b=el('button','thumb');b.type='button';b.setAttribute('aria-label','Ir para o slide '+(n+1));
+  const t=el('img');t.src=src;t.alt='';t.loading='lazy';b.append(t);b.onclick=()=>ir(n);th.append(b);mini.push(b);
+ });
+ let cur=0;
+ function marcar(n){
+  cur=n;ct.textContent=(n+1)+' / '+imgs.length;
+  pontos.forEach((p,k)=>p.classList.toggle('on',k===n));
+  mini.forEach((b,k)=>{if(k===n)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')});
+  pv.disabled=n===0;nx.disabled=n===imgs.length-1;
+  const b=mini[n];th.scrollTo({left:b.offsetLeft-(th.clientWidth-b.clientWidth)/2,behavior:reduz()?'auto':'smooth'});
+ }
+ function ir(n){n=Math.max(0,Math.min(imgs.length-1,n));vp.scrollTo({left:n*vp.clientWidth,behavior:reduz()?'auto':'smooth'});marcar(n)}
+ let raf=0;
+ vp.addEventListener('scroll',()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(()=>{const n=Math.round(vp.scrollLeft/(vp.clientWidth||1));if(n!==cur)marcar(n)})},{passive:true});
+ vp.addEventListener('keydown',ev=>{if(ev.key==='ArrowLeft'){ev.preventDefault();ir(cur-1)}if(ev.key==='ArrowRight'){ev.preventDefault();ir(cur+1)}});
+ pv.onclick=()=>ir(cur-1);nx.onclick=()=>ir(cur+1);
+ st.append(vp);
+ if(imgs.length>1){st.append(pv,nx,ct,dt)}
+ box.append(st);
+ if(imgs.length>1)box.append(th);
+ marcar(0);
+ return box;
+}
+
+function blocoCriativo(it){
+ const m=it.midia,bx=el('div','blk');bx.append(el('b',null,'Criativo'));
+ if(m&&m.tipo==='video'){
+  const v=el('video','vid');v.controls=true;v.playsInline=true;v.preload='metadata';v.src=m.arquivo;if(m.poster)v.poster=m.poster;
+  v.setAttribute('aria-label','Vídeo: '+it.titulo);v.append(document.createTextNode('Seu aparelho não conseguiu abrir este vídeo.'));bx.append(v);
+ }else if(m&&m.tipo==='carrossel'&&m.arquivos&&m.arquivos.length){
+  bx.append(carrossel(m.arquivos,'#'+it.numero+' · '+it.titulo));
+ }else{
+  bx.append(el('div','aviso',it.avisoMidia||'O criativo desta peça ainda não está aqui.'));
+ }
+ return bx;
+}
+
+/* ---------- cartão ---------- */
+function card(it,e){
+ const c=el('article','item');c.id='c-'+it.id;
+ const h=el('h2',null,'#'+it.numero+' · '+it.titulo);h.id='t-'+it.id;c.setAttribute('aria-labelledby',h.id);c.append(h);
+ const m=el('div','pills');
+ if(it.formato&&it.etapa!=='criativo')m.append(el('span','fmt',it.formato));
+ if(it.funcao&&it.etapa!=='criativo')m.append(el('span','fn','Função: '+it.funcao));
+ if(m.childNodes.length)c.append(m);
+
+ if(it.etapa==='criativo'||it.etapa==='aprovado')c.append(blocoCriativo(it));
+
+ const leg=(it.blocos||[]).find(b=>b.t==='Legenda');
+ if(e.leitura){
+  if(leg){
+   const lg=el('div','leg');lg.append(el('b',null,'Legenda'));renderTexto(lg,leg.x);
+   const cb=el('button','btn sec','Copiar legenda');cb.type='button';cb.style.marginTop='4px';cb.onclick=()=>copiarComAviso(leg.x,cb,'Legenda copiada');lg.append(cb);c.append(lg);
+  }
+  c.append(el('p','note','Aprovado. Aguardando a programação nas redes.'));
+  return c;
+ }
+ (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
+
+ const tg=el('div','tags'+(e.tags.length===3?' n3':''));tg.style.setProperty('--n',e.tags.length);tg.setAttribute('role','group');tg.setAttribute('aria-label','Status de #'+it.numero);
+ const nota=el('p','note','Escreva abaixo o que precisa mudar.');
+ const btns=e.tags.map((nome,i)=>{
+  const b=el('button','tag '+CLS[i],nome);b.type='button';
+  b.onclick=()=>{if(VAL[i]===null)delete decisoes[it.id];else decisoes[it.id]=VAL[i];save();pinta();atualizarTudo()};
+  tg.append(b);return b;
+ });
+ const pinta=()=>{const cur=stat(it);btns.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===cur)));nota.hidden=cur!==1};
+ c.append(tg,nota);
+
+ const wrap=el('div','cm');wrap.append(el('h3',null,'Observações'));
+ const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que precisa mudar ou o que você achou…';ta.setAttribute('aria-label','Observações sobre #'+it.numero);ta.value=obs[it.id]||'';
+ ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();atualizarTudo()});
+ const a=el('a','wa','Enviar este item pelo WhatsApp');a.addEventListener('click',ev=>{if(a.getAttribute('aria-disabled')==='true'){ev.preventDefault();return}depoisDeEnviar([it])});
+ links.push(()=>{const l=linha(it);setLink(a,l?'Oi! Aqui é a Liliane. Minha resposta sobre este conteúdo:\n\n'+l:'')});
+ wrap.append(ta,a);c.append(wrap);
+ pinta();
  return c;
 }
 
-function render(){
+/* ---------- abas, painéis e rodapé ---------- */
+function montar(manter){
  links.length=0;
- renderTabs();
- const e=ETAPAS[aba],box=$('list');
- $('foot').hidden=e.k==='aprovado';
- box.textContent='';
- const its=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>(a.ordem||0)-(b.ordem||0));
- if(!its.length){box.append(el('p','empty',e.vazio));renderFoot();return}
- its.forEach(it=>box.append(card(it,e)));
- renderFoot();
+ const t=$('tabs'),box=$('list');t.textContent='';box.textContent='';
+ ETAPAS.forEach((e,i)=>{
+  const b=el('button','tab');b.type='button';b.id='aba-'+e.k;b.setAttribute('role','tab');b.setAttribute('aria-controls','p-'+e.k);
+  b.append(el('span',null,e.aba));const n=el('span','n');n.id='n-'+e.k;b.append(n);
+  b.onclick=()=>abrir(i);
+  b.onkeydown=ev=>{let j=null;if(ev.key==='ArrowRight')j=(i+1)%ETAPAS.length;if(ev.key==='ArrowLeft')j=(i-1+ETAPAS.length)%ETAPAS.length;if(ev.key==='Home')j=0;if(ev.key==='End')j=ETAPAS.length-1;if(j!==null){ev.preventDefault();abrir(j);$('aba-'+ETAPAS[j].k).focus()}};
+  t.append(b);
+  const p=el('section');p.id='p-'+e.k;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby','aba-'+e.k);p.hidden=true;
+  const todos=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>a.numero-b.numero),its=todos.filter(x=>!foiEnv(x));
+  if(aviso&&manter===i){const tt=el('p','toast',aviso);tt.setAttribute('role','status');p.append(tt)}
+  if(e.leitura&&its.length)p.append(el('p','nota-aba','Estes criativos já foram aprovados. Aqui você só consulta e copia a legenda.'));
+  if(!its.length)p.append(el('p','empty',todos.length?'Tudo desta etapa já foi enviado. Obrigada!':e.vazio));
+  its.forEach(it=>p.append(card(it,e)));
+  box.append(p);
+ });
+ montarRodape();
+ montarEnviados();
+ atualizarTudo();
+ if(typeof manter==='number'){abrir(manter,true);return}
+ const primeira=ETAPAS.findIndex(e=>ITENS.some(x=>x.etapa===e.k&&!foiEnv(x)));
+ abrir(primeira<0?0:primeira,true);
 }
-function renderFoot(){
+function abrir(i,inicial){
+ aba=i;
+ ETAPAS.forEach((e,j)=>{const b=$('aba-'+e.k);b.setAttribute('aria-selected',String(j===i));b.tabIndex=j===i?0:-1;$('p-'+e.k).hidden=j!==i});
+ $('foot').hidden=ETAPAS[i].leitura;
+ if(!inicial){const topo=document.querySelector('.tabs-faixa').offsetTop;if(window.scrollY>topo)window.scrollTo({top:topo,behavior:reduz()?'auto':'smooth'})}
+}
+let stRod=null,btnTudo=null,btnCopia=null;
+function montarRodape(){
  const f=$('foot');f.textContent='';
  f.append(el('h2',null,'Terminou de analisar?'));
- f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, abre o WhatsApp com a mensagem pronta para a Flora Digital.'));
- const a=el('a','wa big','Enviar tudo pelo WhatsApp');
- const st=el('p','st','Marque ao menos um item para poder enviar.');
- const upd=()=>{
-  const ls=ITENS.map(linha).filter(Boolean);
-  setLink(a,ls.length?'Oi! Aqui é a Liliane. Minha análise dos conteúdos:\n\n'+ls.join('\n'):'');
-  st.hidden=ls.length>0;
- };
- links.push(upd);upd();
- f.append(a,st);
+ f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, abre o WhatsApp com a mensagem pronta para a Flora Digital e os itens enviados saem da lista.'));
+ const ac=el('div','acoes');
+ btnTudo=el('a','wa','Enviar tudo pelo WhatsApp');
+ btnCopia=el('button','btn sec','Copiar resposta');btnCopia.type='button';
+ btnCopia.onclick=()=>{if(!btnCopia.disabled)copiarComAviso(msgTudo(),btnCopia,'Resposta copiada')};
+ ac.append(btnTudo,btnCopia);
+ stRod=el('p','st');stRod.setAttribute('aria-live','polite');
+ f.append(ac,stRod);
+ btnTudo.addEventListener('click',ev=>{if(btnTudo.getAttribute('aria-disabled')==='true'){ev.preventDefault();return}depoisDeEnviar(ITENS.filter(i=>!foiEnv(i)))});
+ links.push(()=>{
+  const ls=ITENS.filter(i=>!foiEnv(i)).map(linha).filter(Boolean);
+  setLink(btnTudo,ls.length?msgTudo():'');btnCopia.disabled=!ls.length;
+  const tot=analisaveis().length,fe=analisaveis().filter(respondido).length;
+  stRod.textContent=fe+' de '+tot+(tot===1?' item respondido':' itens respondidos')+(fe?'.':'. Marque ao menos um item para poder enviar.');
+ });
 }
-render();
+function atualizarTudo(){
+ ETAPAS.forEach(e=>{
+  const its=ITENS.filter(x=>x.etapa===e.k&&!foiEnv(x)),n=$('n-'+e.k);
+  const pend=e.leitura?its.length:its.filter(x=>stat(x)===0).length;
+  n.textContent=pend;n.classList.toggle('zero',!pend);
+  $('aba-'+e.k).setAttribute('aria-label',e.aba+', '+pend+(e.leitura?(pend===1?' item':' itens'):(pend===1?' pendente':' pendentes')));
+ });
+ updateLinks();
+}
+
+async function carregar(){
+ const box=$('list');box.textContent='';
+ const ld=el('div','estado','Carregando os conteúdos…');ld.setAttribute('role','status');box.append(ld);
+ try{
+  const r=await fetch(DADOS_URL,{cache:'no-store'});if(!r.ok)throw new Error(r.status);
+  const j=await r.json();ITENS=Array.isArray(j.itens)?j.itens:[];montar();
+ }catch(err){
+  box.textContent='';
+  const b=el('div','estado','Não consegui carregar os conteúdos. Confira sua conexão e tente de novo.');b.setAttribute('role','alert');
+  const t=el('button','btn','Tentar de novo');t.type='button';t.onclick=carregar;b.append(document.createElement('br'),t);box.append(b);
+ }
+}
+carregar();
 </script>
-</body></html>
+</body>
+</html>

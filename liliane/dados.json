@@ -1,0 +1,328 @@
+{
+ "cliente": "Liliane Amarante",
+ "atualizadoEm": "2026-10-30",
+ "itens": [
+  {
+   "id": "i05",
+   "etapa": "ideia",
+   "numero": 5,
+   "titulo": "Por que eu uso: Capim-do-Texas",
+   "formato": "Carrossel [Etiqueta]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Marcelo vê referências bonitas, mas não consegue avaliar sozinho se uma espécie funciona no terreno dele. Mostra o critério por trás da escolha de uma planta e aproxima o público da forma de pensar da Liliane, sem vender planta. Completa a série \"Por que eu uso\" (guaimbê e pitosporo)."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Por que eu uso capim-do-Texas nos meus projetos.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Etiqueta]: slide 1 com o nome da planta; slides do meio com critério de escolha, versatilidade e aplicação no projeto, cada um com foto real; um slide com pergunta ao público; último slide com convite suave para conversar."
+    },
+    {
+     "t": "O que precisamos da Liliane",
+     "x": "Os critérios dela para usar essa planta (áudio de 1 a 2 minutos ou texto), para o conteúdo sair na voz dela. Fotos reais de projetos com a planta são opcionais."
+    }
+   ]
+  },
+  {
+   "id": "i09",
+   "etapa": "ideia",
+   "numero": 9,
+   "titulo": "Já tenho plantas no terreno. Dá para aproveitar no projeto?",
+   "formato": "Reels [Misto]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Quem já tem árvores ou plantas no terreno teme perder algo de valor ou conviver com algo que atrapalha o projeto. Mostra a leitura do terreno e tira uma dúvida que costuma travar o primeiro contato."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Já tem plantas no seu terreno? Elas entram na conversa do projeto.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Misto] de 20 a 30 s: a Liliane no terreno explicando o que observa antes de decidir o que fica, com imagens de projeto real e convite à conversa no final."
+    },
+    {
+     "t": "O que precisamos da Liliane",
+     "x": "Gravação dela em um terreno com plantas existentes (pode ser numa visita técnica), explicando como avalia o que aproveitar."
+    }
+   ]
+  },
+  {
+   "id": "i10",
+   "etapa": "ideia",
+   "numero": 10,
+   "titulo": "Um café, uma manhã e o jardim ao fundo",
+   "formato": "Reels [Experiência]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Conteúdo sensorial, de identificação: mostra a vivência de um espaço sem explicar nada. Traduz a palavra \"vivência\", central na sua marca, em uma cena do dia a dia e atrai quem ainda está no momento de desejo."
+    },
+    {
+     "t": "Gancho",
+     "x": "A própria cena, com o jardim aparecendo ao fundo da xícara nos primeiros segundos. Texto opcional na tela: \"O dia também pode começar do lado de fora.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Experiência] de 10 a 20 s, com som ambiente real e sem narração: xícara na mesa ou no banco, jardim ao fundo, luz da manhã."
+    },
+    {
+     "t": "O que precisamos da Liliane",
+     "x": "Vídeo vertical de 10 a 20 s da cena, gravado de manhã, em jardim dela ou de cliente com autorização."
+    }
+   ]
+  },
+  {
+   "id": "i12",
+   "etapa": "ideia",
+   "numero": 12,
+   "titulo": "Quanto sol o seu jardim recebe de verdade?",
+   "formato": "Stories [Enquete]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Marcelo não sabe avaliar sozinho se sol forte, sombra ou meia-sombra limita o projeto. A resposta mostra a condição real do espaço do público e abre uma conversa técnica com quem já está pensando no assunto."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Hoje quero perguntar uma coisa para vocês: quanto sol o seu jardim recebe?\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Dia 1: Enquete com três opções (sol o dia todo, só parte do dia, quase nada) e Caixinha para contar como é o sol e a sombra no espaço. Dia 2: Stories de resposta com o resultado e a Liliane comentando o que observa em cada condição de luz. A figurinha é colocada manualmente."
+    },
+    {
+     "t": "O que precisamos da Liliane",
+     "x": "Nada para o dia 1. Para o dia 2: uma fala curta dela (20 a 30 s) sobre cada condição de luz."
+    }
+   ]
+  },
+  {
+   "id": "i14",
+   "etapa": "ideia",
+   "numero": 14,
+   "titulo": "Antes do jardim existir, o projeto nasce na mesa",
+   "formato": "Stories [Bastidor]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Quem acompanha e está avaliando contratar não vê o que acontece antes da obra. Mostra como a Liliane pensa e decide (mesa, croqui, tela) e ajuda o seguidor a avaliar se esse método combina com ele. A caixinha final revela em que momento o seguidor está."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Antes de ter jardim, tem isto aqui.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "4 ou 5 stories no mesmo dia: mesa com croqui, tela com o desenho, amostras ou plantas escolhidas e uma frase curta sobre o que ela decide ali. O último é uma Caixinha: \"Em que etapa está o seu jardim? Ainda sonhando, com terreno, ou já com projeto?\""
+    },
+    {
+     "t": "O que precisamos da Liliane",
+     "x": "3 a 5 fotos ou vídeos curtos dela trabalhando em um projeto (sem dados do cliente) e uma frase sobre o que está decidindo naquele momento."
+    }
+   ]
+  },
+  {
+   "id": "r16",
+   "etapa": "roteiro",
+   "numero": 16,
+   "titulo": "Varanda, quintal, piscina ou fachada: cada espaço pede um olhar",
+   "formato": "Stories [Vitrine]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "5 stories no mesmo dia: quatro vitrines com foto real de projeto (uma por tipo de espaço) e uma Caixinha no final. A figurinha da Caixinha é colocada manualmente."
+    },
+    {
+     "t": "Story 1 (abertura)",
+     "x": "Texto na tela: Cada espaço da casa pede uma pergunta diferente.\nImagem: vista geral de um projeto da Liliane."
+    },
+    {
+     "t": "Story 2 (varanda)",
+     "x": "Texto na tela: Varanda: em que momentos do dia você quer estar aqui?"
+    },
+    {
+     "t": "Story 3 (quintal)",
+     "x": "Texto na tela: Quintal: quem vai usar este espaço, e para quê?"
+    },
+    {
+     "t": "Story 4 (piscina e fachada)",
+     "x": "Corte 1: Piscina: o que você quer ver, sentir e ter de privacidade ao redor?\nCorte 2: Fachada: que impressão você quer que a casa dê a quem chega?"
+    },
+    {
+     "t": "Story 5 (caixinha)",
+     "x": "Texto na tela: Qual é o seu espaço e o que te incomoda nele?\nFigurinha: Caixinha de perguntas."
+    },
+    {
+     "t": "Para a Liliane validar",
+     "x": "As 4 perguntas dos stories 2 a 4 são uma sugestão no tom dela: valide ou troque por frases suas. As fotos são de projetos reais que já estão no Drive."
+    }
+   ]
+  },
+  {
+   "id": "r26",
+   "etapa": "roteiro",
+   "numero": 26,
+   "titulo": "O paisagismo ideal começa entendendo como você vive o espaço",
+   "formato": "Carrossel [Numerado]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Numerado], 6 slides, 1080 × 1350. Um checklist visual para salvar e responder em família."
+    },
+    {
+     "t": "Slide 1",
+     "x": "Antes de escolher uma planta, responda estas 4 perguntas sobre a sua rotina."
+    },
+    {
+     "t": "Slide 2",
+     "x": "1. Em quais momentos você gostaria de usar mais a área externa?\nCafé da manhã, fim de tarde, refeições, fins de semana ou momentos de descanso?"
+    },
+    {
+     "t": "Slide 3",
+     "x": "2. Quem precisa se sentir confortável ali?\nCrianças, pets, convidados, pessoas mais velhas ou toda a família ao mesmo tempo?"
+    },
+    {
+     "t": "Slide 4",
+     "x": "3. O que faria você evitar esse espaço?\nSol forte, falta de privacidade, manutenção excessiva, circulação ruim ou pouca iluminação?"
+    },
+    {
+     "t": "Slide 5",
+     "x": "4. Que experiência você gostaria de repetir ali?\nReceber, descansar, brincar, cozinhar, tomar café ou simplesmente ficar mais perto da natureza?"
+    },
+    {
+     "t": "Slide 6",
+     "x": "O jardim ideal começa nas respostas, não nas plantas.\nSalve este post e responda essas perguntas com quem vive a casa com você.\nSe esse tipo de olhar ajuda você a pensar melhor os espaços, me acompanhe por aqui."
+    },
+    {
+     "t": "Imagens (projetos reais da Liliane)",
+     "x": "Slide 1: visão geral de um projeto convidativo. Slide 2: diferentes momentos de uso. Slide 3: cenas com família, crianças ou pets. Slide 4: sombra, privacidade, circulação e iluminação. Slide 5: uma cena forte de experiência (mesa externa, descanso, piscina, vegetação). Slide 6: composição limpa com a frase final em destaque."
+    },
+    {
+     "t": "Legenda",
+     "x": "Antes de escolher espécies ou pensar na estética do jardim, vale entender como esse espaço precisa funcionar na vida real.\n\nEssas perguntas parecem simples, mas ajudam a revelar prioridades que mudam completamente as decisões de um projeto.\n\nUm jardim pensado para receber não nasce das mesmas escolhas de um espaço pensado para crianças, privacidade ou descanso.\n\nSalve este post para responder com calma e compartilhe com alguém que também está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+    }
+   ]
+  },
+  {
+   "id": "r59",
+   "etapa": "roteiro",
+   "numero": 59,
+   "titulo": "Tem criança ou pet em casa? O que pensar antes de escolher as plantas",
+   "formato": "Reels [Tela dupla]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Reels [Tela dupla], de 20 a 30 s. Em cima, 2 ou 3 cenas de jardim de projeto sendo usado por uma família com criança ou pet. Embaixo, a Liliane falando para a câmera."
+    },
+    {
+     "t": "Gancho (0 a 3 s)",
+     "x": "Texto na tela: Tem criança ou pet em casa?\nFala: Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto."
+    },
+    {
+     "t": "Narração (a Liliane grava)",
+     "x": "Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto. Quando a família tem criança ou animal de estimação, o jardim precisa funcionar de outro jeito. Eu começo pelo uso: onde as crianças vão correr e brincar, por onde o pet vai circular e onde fica o canto de descanso. Só depois eu escolho as plantas, com critério para cada área, pensando em quem vai estar ali todos os dias. Assim o espaço fica bonito e continua fazendo sentido para a vida da família. Salva este vídeo e me conta nos comentários: quem usa o seu jardim, crianças, pets ou os dois?"
+    },
+    {
+     "t": "Texto na tela",
+     "x": "Primeiro o uso. Depois as plantas.\nNo final: Quem usa o seu jardim?"
+    },
+    {
+     "t": "Legenda",
+     "x": "Quando a casa tem criança ou pet, o jardim precisa ser pensado de outro jeito. 🌿\n\nAntes de escolher as plantas, eu observo como a família vive: onde as crianças brincam, por onde o pet circula, onde ficam os momentos de descanso. É a partir desse uso que organizo o espaço e escolho a vegetação de cada área.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa funcionar para quem vive nele todos os dias.\n\nQuem usa o seu jardim: crianças, pets ou os dois? Conta aqui nos comentários.\n\nSe quiser conversar sobre o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+    },
+    {
+     "t": "Para a Liliane validar",
+     "x": "A narração traz só o raciocínio geral e não cita espécies. Se quiser falar de plantas a evitar ou cuidados específicos, você mesma diz quais."
+    }
+   ]
+  },
+  {
+   "id": "r60",
+   "etapa": "roteiro",
+   "numero": 60,
+   "titulo": "O que dez anos de jardim me ensinaram",
+   "formato": "Estático [Leia a legenda]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Estático [Leia a legenda], 1080 × 1350. A imagem traz só a pergunta; o conteúdo fica na legenda."
+    },
+    {
+     "t": "Imagem",
+     "x": "Foto real de jardim de projeto da Liliane, ou detalhe de planta com luz natural, sem pessoas e com respiro para o texto."
+    },
+    {
+     "t": "Texto na imagem",
+     "x": "O que mais de 10 anos de jardim me ensinaram?\nAssinatura discreta: Liliane Amarante.\n\nVariação em primeira pessoa, se preferir: \"O que eu aprendi com mais de 10 anos criando jardins?\""
+    },
+    {
+     "t": "Legenda",
+     "x": "Mais de 10 anos criando jardins me ensinaram algumas coisas que levo para cada projeto. 🌿\n\n1. Um espaço bonito não precisa de mais plantas. Precisa de intenção. Cada decisão, do caminho à sombra, muda a forma como a família vive o espaço.\n\n2. A natureza tem o seu tempo. Um projeto bem feito se completa com os anos, e isso faz parte do resultado.\n\n3. Cada terreno tem o seu jeito. O projeto começa por observá-lo: o sol, a casa e a rotina de quem vai estar ali.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+    },
+    {
+     "t": "Para a Liliane validar",
+     "x": "Os 3 aprendizados da legenda são propostas no tom dela. Valide ou troque pelos seus antes de a arte ser feita."
+    }
+   ]
+  },
+  {
+   "id": "c32",
+   "etapa": "criativo",
+   "numero": 32,
+   "titulo": "O som da água muda o ritmo do dia",
+   "formato": "Reels [Experiência]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "O som da água muda a forma como a gente vive o jardim. 🌿\n\nUma cascata bem pensada cria uma pausa no dia: acalma, abafa o ruído de fora e convida a ficar. Por isso, ao projetar, eu penso também no que se ouve, não só no que se vê.\n\n#PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+    }
+   ],
+   "midia": {
+    "tipo": "video",
+    "arquivo": "videos/ideia-32-som-da-agua.mp4",
+    "poster": "img/c32-poster.jpg"
+   }
+  },
+  {
+   "id": "c36",
+   "etapa": "aprovado",
+   "numero": 36,
+   "titulo": "Jardim bom é jardim vivido.",
+   "formato": "Carrossel [Numerado]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "Há jardins que impressionam à primeira vista. E há jardins que, além de bonitos, convidam a entrar, sentar e permanecer.\n\nNo meu trabalho, penso a estética junto com a rotina de quem vai viver o espaço. A circulação, os lugares de pausa, as vistas, os sons e a forma como a família deseja aproveitar a área externa fazem parte do projeto.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa fazer sentido para a vida que acontece nela.\n\nQue momento você gostaria que o seu jardim proporcionasse com mais frequência?"
+    }
+   ],
+   "midia": {
+    "tipo": "carrossel",
+    "arquivos": [
+     "img/c36-1.jpg",
+     "img/c36-2.jpg",
+     "img/c36-3.jpg",
+     "img/c36-4.jpg",
+     "img/c36-5.jpg",
+     "img/c36-6.jpg"
+    ]
+   }
+  }
+ ]
+}
