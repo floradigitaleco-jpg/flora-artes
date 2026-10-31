@@ -59,6 +59,7 @@ details.det .blk{margin-top:12px}
 .send details{margin-top:14px}
 .send summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--accent)}
 .send textarea{width:100%;min-height:150px;margin-top:8px;font:inherit;font-size:14px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.row1{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .dock{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.1);padding-top:10px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .dock-in{max-width:660px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .dock-n{font-size:14px;font-weight:600;min-width:0}
@@ -70,7 +71,7 @@ details.det .blk{margin-top:12px}
 <div class="mark">CRK <span>Arquitetura e Paisagismo</span></div>
 <div class="eyebrow">Análise de conteúdo · Camila Koerich</div>
 <h1>O que está esperando por você</h1>
-<p class="lead">Veja as ideias e os roteiros da CRK. Marque cada item como aprovado ou peça ajustes, escreva o que precisa mudar e, no fim, envie tudo pelo WhatsApp.</p>
+<p class="lead">Veja as ideias e os roteiros da CRK. Marque cada item como aprovado ou peça ajustes, escreva o que precisa mudar e clique em Enviar resposta. O item sai da lista e a Flora Digital recebe na hora.</p>
 <p class="assina">Paisagismo autoral pensado para o seu jeito de viver</p>
 </header>
 <div class="tabs" role="tablist" id="tabs"></div>
@@ -82,6 +83,12 @@ details.det .blk{margin-top:12px}
 /* WhatsApp da Flora Digital que recebe a resposta: DDI + DDD + número, só dígitos (ex.: 5548999999999).
    Vazio abre o WhatsApp para a Camila escolher o contato. */
 const NUM='';
+const HOOK='https://hook.us2.make.com/javphwafznlw9taw1tr3tptskfcjwlzm',CLIENTE='crk-paisagismo';
+const KS='crk-enviadas-v1';let SENT={};
+try{const r=localStorage.getItem(KS);if(r)SENT=JSON.parse(r)||{}}catch(e){}
+const saveSent=()=>{try{localStorage.setItem(KS,JSON.stringify(SENT))}catch(e){}};
+const jaEnviado=it=>!!SENT[it.id]&&SENT[it.id].e===it.etapa;
+let aviso='';
 const KEY='crk-analise-v1';
 const ETAPAS=[
  {k:'ideia',aba:'Ideias',tit:'IDEIAS',vals:[null,'aj','ok','no'],tags:['em análise','ajustar a ideia','ideia aprovada','ideia não aprovada'],ok:'ideia aprovada',aj:'precisa de ajuste',no:'ideia não aprovada',vazio:'Nenhuma ideia para analisar agora. Quando houver, ela aparece aqui.'},
@@ -253,7 +260,7 @@ const ITENS=[
 const $=id=>document.getElementById(id);
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 const etapaOf=k=>ETAPAS.find(e=>e.k===k);
-const itensDe=k=>ITENS.filter(x=>x.etapa===k).sort((a,b)=>a.ord-b.ord);
+const itensDe=k=>ITENS.filter(x=>x.etapa===k&&!jaEnviado(x)).sort((a,b)=>a.ord-b.ord);
 const cut=(s,n)=>s.length>n?s.slice(0,n-1).trim()+'…':s;
 
 let S={dec:{},obs:{}};
@@ -263,7 +270,21 @@ function save(){clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setIt
 let aba=0;
 
 const respondido=it=>!!(S.dec[it.id]||(S.obs[it.id]||'').trim());
-const analisaveis=()=>ITENS.filter(x=>x.etapa!=='aprovado');
+const analisaveis=()=>ITENS.filter(x=>x.etapa!=='aprovado'&&!jaEnviado(x));
+const pronto=it=>{const d=S.dec[it.id];return !!d&&(d!=='aj'||(S.obs[it.id]||'').trim().length>0)};
+const prontos=()=>analisaveis().filter(pronto);
+async function enviar(its){
+ let ok=0;
+ for(const it of its){
+  const e=etapaOf(it.etapa),d=S.dec[it.id],i=e.vals.indexOf(d);
+  try{
+   await fetch(HOOK,{method:'POST',mode:'no-cors',body:new URLSearchParams({cliente:CLIENTE,item:it.id,etapa:it.etapa,ideia:it.n,titulo:it.titulo,tag:d,rotulo:e.tags[i],obs:(S.obs[it.id]||'').trim(),ts:Date.now()})});
+   SENT[it.id]={e:it.etapa,ts:Date.now()};delete S.dec[it.id];delete S.obs[it.id];ok++;
+  }catch(x){aviso='Não consegui enviar agora. Confira a internet e tente de novo.';break}
+ }
+ if(ok){saveSent();save();aviso=ok===1?'Resposta enviada. Obrigada!':ok+' respostas enviadas. Obrigada!'}
+ renderList();updateFoot();
+}
 
 function renderTabs(){
  const t=$('tabs');t.textContent='';
@@ -305,7 +326,7 @@ function card(it,e){
   const b=el('button','tag '+CLS[e.vals[i]],nome);b.type='button';
   b.onclick=()=>{
    if(e.vals[i]===null)delete S.dec[it.id];else S.dec[it.id]=e.vals[i];
-   save();pinta();renderTabs();updateFoot();
+   save();pinta();renderTabs();updateFoot();if(typeof sb!=='undefined')sb.disabled=!pronto(it);
   };
   btns.push(b);tg.append(b);
  });
@@ -315,8 +336,11 @@ function card(it,e){
  const lb=el('label',null,'Observações');lb.setAttribute('for','obs-'+it.id);
  const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que você quer comentar ou mudar…';
  ta.value=S.obs[it.id]||'';
- ta.oninput=()=>{S.obs[it.id]=ta.value;save();updateFoot()};
+ ta.oninput=()=>{S.obs[it.id]=ta.value;save();updateFoot();sb.disabled=!pronto(it)};
  cm.append(lb,ta);c.append(cm);
+ const sd=el('div','row1');const sb=el('button','btn','Enviar resposta');sb.type='button';sb.disabled=!pronto(it);
+ sb.onclick=async()=>{sb.disabled=true;await enviar([it])};
+ sd.append(el('span','note','Ao enviar, o item sai desta lista.'),sb);c.append(sd);
  return c;
 }
 
@@ -355,14 +379,14 @@ function renderDock(){
  const d=$('dock');d.textContent='';
  const inn=el('div','dock-in');
  dcnt=el('span','dock-n');
- dwa=el('a','btn','Enviar pelo WhatsApp');dwa.target='_blank';dwa.rel='noopener';
- dwa.onclick=ev=>{if(dwa.getAttribute('aria-disabled')==='true')ev.preventDefault()};
+ dwa=el('button','btn','Enviar todas as respostas');dwa.type='button';
+ dwa.onclick=async()=>{const p=prontos();if(!p.length)return;dwa.disabled=true;await enviar(p)};
  inn.append(dcnt,dwa);d.append(inn);
 }
 function renderFoot(){
  const f=$('foot');f.textContent='';
- f.append(el('h2',null,'Terminou de analisar?'));
- f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, o WhatsApp abre com a sua resposta pronta, é só mandar para a Flora Digital.'));
+ f.append(el('h2',null,'Prefere responder pelo WhatsApp?'));
+ f.append(el('p',null,'Use o botão Enviar resposta de cada item (ou Enviar todas as respostas, na barra de baixo). Se preferir, o botão abaixo abre o WhatsApp com a sua resposta pronta.'));
  cnt=el('p','count');f.append(cnt);
  const acts=el('div','acts');
  wa=el('a','btn','Enviar pelo WhatsApp');wa.target='_blank';wa.rel='noopener';
@@ -390,8 +414,8 @@ function updateFoot(){
  wa.href=base+'?text='+encodeURIComponent(m);
  const off=n===0;
  wa.setAttribute('aria-disabled',off);cp.disabled=off;
- dwa.href=wa.href;dwa.setAttribute('aria-disabled',off);
- dcnt.textContent=off?'Marque um item para poder enviar':n+' de '+its.length+' respondidos';
+ const np=prontos().length;dwa.disabled=!np;
+ dcnt.textContent=aviso||(np?np+(np===1?' resposta pronta para enviar':' respostas prontas para enviar'):'Marque um item para poder enviar');
 }
 renderList();renderDock();renderFoot();
 </script>
