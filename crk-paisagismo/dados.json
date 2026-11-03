@@ -29,6 +29,84 @@
    }
   },
   {
+   "id": "ideia-19",
+   "etapa": "ideia",
+   "numero": 19,
+   "titulo": "Você está planejando a casa inteira. E o lado de fora?",
+   "formato": "Carrossel [Dividido]",
+   "funcao": null,
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "O que comunica: coloca lado de dentro e lado de fora na mesma lógica de planejamento, mostrando que a experiência da casa não termina na porta.\nPercepção desejada: reconhecer que dedicar atenção ao interior e adiar o exterior é planejar só parte da forma de viver a casa.\nLimite: fica no contraste entre interior planejado e exterior esquecido; não entra em erros técnicos, custos ou chamada de contratação."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Você já decidiu o piso, a cor e a iluminação da casa. E o lado de fora?”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Formato principal: Reels. Contrastar ambientes internos já planejados com a área externa ainda ausente das decisões e terminar deslocando o olhar para fora.\n- Stories: sequência de dois, com interação sobre quando o espaço externo costuma entrar no planejamento e fechamento mostrando que o exterior também participa da experiência da casa.\n- Execução escolhida pelo rodízio: Carrossel [Dividido] (Comparação), com interior à esquerda e exterior à direita da mesma casa."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: pares de fotos do mesmo projeto da CRK (interior planejado e área externa); uma foto de dentro para fora, pela janela ou porta de vidro; foto de terreno ou área externa ainda sem projeto, sem identificar o cliente.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-21",
+   "etapa": "ideia",
+   "numero": 21,
+   "titulo": "A parte do espaço externo que ninguém vê é a que mais pesa depois da obra: nível e drenagem",
+   "formato": "Reels [Dinâmico]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: drenagem, nível e irrigação que só dão problema depois da obra pronta. Dúvida real: “Qual é a relação entre paisagismo e drenagem da área externa?”.\nFunção (Qualificar): mostra o domínio técnico que não aparece na foto e por que o projeto precisa entrar enquanto dá para compatibilizar.\nPor que agora: reforça que paisagismo é mais do que escolher plantas e sustenta a meta de entrar mais cedo na jornada da obra."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Esse é o pedaço do espaço externo que não aparece na foto.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Reels [Dinâmico] (gancho, corpo, CTA), porque narração com legenda sobre imagens de obra mostra o invisível (caimento, canaletas, cortes de nível) sem depender da Camila em cena.\n- Reels: 20 a 30 s. Gancho com o que não se vê depois; 3 imagens de obra com legenda curta (nível, drenagem, tubulação); fechamento com o espaço pronto; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Tópicos): um tópico por slide: nível, drenagem, irrigação, iluminação; CTA.\n- Estático (Leia a legenda): foto de obra com o caimento marcado e legenda explicando o porquê.\n- Stories: bastidor com 3 fotos de obra e uma frase em cada."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra em andamento mostrando nível, drenagem ou tubulação (sem identificar o cliente).\nOpcional: foto do mesmo trecho depois de pronto; detalhe de canaleta ou caixa de passagem integrada ao projeto.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-22",
+   "etapa": "ideia",
+   "numero": 22,
+   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
+   "formato": "Carrossel [Pílula]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: querer usar o espaço externo sem trabalhar para ele. Dúvida real, que a Camila escuta bastante: “Existe realmente um espaço externo de baixa manutenção?”.\nFunção (Atrair): dúvida muito frequente, com alto potencial de salvamento e compartilhamento por quem ainda está se informando.\nPor que agora: responde com honestidade (todo espaço externo pede algum cuidado) e posiciona a CRK como quem projeta para a rotina real da família. Sem promessa absoluta de “baixa manutenção”."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Carrossel [Pílula] (Dúvida), porque o formato pergunta e resposta combina com uma dúvida que o público já faz e deixa cada resposta curta e salvável.\n- Carrossel: pergunta na capa; resposta honesta; escolha de espécies pelo porte e pelo crescimento; acesso, irrigação e podas planejados; a rotina da família define a frequência de cuidado; CTA.\nOutras possibilidades:\n- Estático (Frase): “Manutenção compatível com a rotina começa no projeto.”\n- Reels (Selfie): Camila responde a dúvida em 20 s.\n- Stories: enquete “Quanto tempo por semana você teria para cuidar do espaço externo?”."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada.\nOpcional: foto de espaço externo da CRK já maduro, com anos de plantio; foto do sistema de irrigação ou do acesso para cuidado integrado ao projeto.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
    "id": "ideia-24",
    "etapa": "ideia",
    "numero": 24,
@@ -51,6 +129,84 @@
     {
      "t": "O que precisamos",
      "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: 4 a 6 fotos de projetos executados perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio.\nSe não tiver, o design cria a arte e os elementos gráficos (fotos de projeto seguem sendo só do portfólio real)."
+    }
+   ]
+  },
+  {
+   "id": "ideia-25",
+   "etapa": "ideia",
+   "numero": 25,
+   "titulo": "Antes de desenhar o espaço externo, a gente lê o que a arquitetura já disse: piso, muro e fachada",
+   "formato": "Estático [Leia a legenda]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: espaço externo desconectado da casa e medo de que o exterior “não combine” com o que já foi construído. Dúvida real: “Como materiais, vegetação e arquitetura são combinados?”.\nFunção (Atrair): mostra o método da Camila (entender a casa antes de pensar o espaço externo) de forma simples e salvável.\nPor que agora: reforça a integração com a arquitetura, posicionamento central da CRK, e conversa também com arquitetos."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Antes de escolher a planta, eu leio o piso, o muro e a fachada.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Estático [Leia a legenda] (Raciocínio), porque é uma explicação que pede texto, e a imagem só precisa ser forte (casa e espaço externo juntos).\n- Estático: foto ou render (identificado) com a frase de gancho; legenda em 3 parágrafos; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Raciocínio): capa; material do piso; cor e textura do muro e da fachada; como a vegetação responde; CTA.\n- Reels (Selfie): Camila diante da fachada explicando o que olha primeiro.\n- Stories: grade com 4 detalhes de materiais de um projeto."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada.\nOpcional: foto da fachada com o espaço externo já integrado (mesmo ângulo da casa); detalhes de piso, muro e vegetação lado a lado; render do projeto, identificado como render.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-26",
+   "etapa": "ideia",
+   "numero": 26,
+   "titulo": "Em que fase está a sua obra? A resposta muda o que ainda dá para decidir no espaço externo",
+   "formato": "Stories [Enquete]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: não saber se ainda dá tempo de pensar o espaço externo. Dúvida real: “Minha obra está quase pronta. Ainda vale a pena fazer um projeto?”.\nFunção (Qualificar): a enquete segmenta a audiência por fase da obra e mostra à Camila quem está chegando cedo ou tarde.\nPor que agora: trabalha o Tema 1 com uma interação simples, sem repetir os conteúdos sobre “o paisagismo por último”."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Em que fase está a sua obra?”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Stories [Enquete] com Stories [Resposta] no dia seguinte, porque a pergunta curta gera resposta rápida e a resposta do dia 2 entrega valor sem pressão.\n- Dia 1: enquete com 4 opções (ainda no projeto da casa, em obra, acabamento, já moro).\n- Dia 2 (Resposta): 2 stories dizendo o que ainda dá para decidir em cada fase, sem urgência artificial; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Comparação): o que dá para decidir em cada fase da obra.\n- Reels (Tela dupla): obra em cima, Camila comentando embaixo."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) chamando para votar, do Banco de chamadas; foto de obra em andamento.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-27",
+   "etapa": "ideia",
+   "numero": 27,
+   "titulo": "O que você gostaria de saber antes de contratar uma paisagista?",
+   "formato": "Stories [Caixinha]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: medo de contratar sem saber o que esperar. A caixinha serve justamente para descobrir novas dúvidas.\nFunção (Converter): abre conversa direta e leva quem está decidindo para o contato.\nPor que agora: as perguntas viram insumo para o banco de Dúvidas e para as próximas ideias."
+    },
+    {
+     "t": "Gancho",
+     "x": "“O que você gostaria de saber antes de contratar uma paisagista?”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Stories [Caixinha] com Stories [Resposta] no dia seguinte, porque o público pergunta com liberdade e a Camila responde na própria voz.\n- Dia 1: caixinha com a pergunta.\n- Dia 2 (Resposta): 2 a 3 respostas escolhidas, com CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Dúvida): as 5 perguntas mais comuns antes de contratar, respondidas.\n- Reels (Selfie): Camila responde a pergunta mais recebida."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) convidando a perguntar, do Banco de chamadas.\nSe não tiver, o design cria."
     }
    ]
   },
@@ -473,6 +629,52 @@
     {
      "t": "Legenda",
      "x": "A foto mostra o resultado. O que faz o espaço funcionar depois da obra está embaixo dela: o nível do terreno, o caimento do piso, a drenagem. Isso precisa ser pensado junto com o projeto, enquanto ainda dá para compatibilizar. Clique na bio e fale comigo."
+    }
+   ]
+  },
+  {
+   "id": "roteiro-22",
+   "etapa": "roteiro",
+   "numero": 22,
+   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
+   "formato": "Carrossel [Pílula]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Pílula] (Dúvida) · 7 slides · método A.P.E.C. Sem promessa de “baixa manutenção”."
+    },
+    {
+     "t": "Slide 1 · Atrair (capa)",
+     "x": "“Existe espaço externo que não dá trabalho?”"
+    },
+    {
+     "t": "Slide 2 · Permanecer",
+     "x": "“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”"
+    },
+    {
+     "t": "Slide 3 · Permanecer",
+     "x": "“As espécies são escolhidas pelo porte e pelo crescimento.” Plantas que se mantêm no tamanho previsto pedem menos intervenção ao longo do tempo."
+    },
+    {
+     "t": "Slide 4 · Permanecer",
+     "x": "“Acesso, irrigação e podas são planejados desde o projeto.” O cuidado fica possível e organizado, em vez de virar improviso."
+    },
+    {
+     "t": "Slide 5 · Permanecer",
+     "x": "“A rotina da sua família define a frequência de cuidado.” Quanto tempo por semana você tem? Essa resposta orienta as decisões do projeto."
+    },
+    {
+     "t": "Slide 6 · Envolver",
+     "x": "“Quanto tempo por semana você teria para cuidar do seu espaço externo?” Convite para responder nos comentários."
+    },
+    {
+     "t": "Slide 7 · Concluir",
+     "x": "“O cuidado certo é o que cabe na sua vida. Clique na bio e fale comigo.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
     }
    ]
   },
