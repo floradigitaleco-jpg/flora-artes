@@ -55,24 +55,118 @@
    ]
   },
   {
-   "id": "roteiro-13",
-   "etapa": "roteiro",
-   "numero": 13,
-   "titulo": "Meu espaço é pequeno. Vale a pena contratar uma paisagista?",
-   "formato": "Stories",
-   "funcao": null,
+   "id": "ideia-31",
+   "etapa": "ideia",
+   "numero": 31,
+   "titulo": "Por que a irrigação precisa ser pensada antes de o piso ser assentado",
+   "formato": "Carrossel [Cartões]",
+   "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Story 1 · Interação",
-     "x": "Narração da Camila: Deixa eu te fazer uma pergunta: você acha que, só porque o seu espaço é pequeno, não vale a pena contratar uma paisagista?\nTexto na tela: “Espaço pequeno precisa de paisagista?”\nEnquete: “Sim, tenho essa dúvida” ou “Nunca pensei nisso”."
+     "t": "Por que esta ideia",
+     "x": "A dor: pensar em plantas só no fim da obra, sem saber que parte do que mantém o espaço bonito passa por baixo do piso e precisa ser decidida antes.\nFunção (Qualificar): mostra o raciocínio técnico da Camila e leva quem está construindo a chamar a paisagista cedo.\nPor que agora: reforça que o que não aparece na foto final decide como o espaço vai funcionar com o tempo. Ângulo novo: irrigação e tubulação antes do piso (a ideia 21 fala de nível e drenagem)."
     },
     {
-     "t": "Story 2 · Explicação",
-     "x": "Narração da Camila: Na verdade, é justamente em um espaço pequeno que cada escolha precisa ser ainda mais bem pensada, para aproveitar cada parte sem prejudicar a circulação ou a função do ambiente.\nTexto na tela: “Cada escolha faz diferença.”"
+     "t": "Gancho",
+     "x": "“A parte do jardim que ninguém vê é decidida antes do piso.”"
     },
     {
-     "t": "Story 3 · Fechamento",
-     "x": "Narração da Camila: O olhar de uma paisagista ajuda a enxergar possibilidades e fazer o espaço funcionar melhor para a sua rotina. Se quiser aproveitar melhor o seu, clique no link e fale comigo.\nTexto na tela: “Quer aproveitar melhor o seu espaço?”\nBotão de link: “Falar com a Camila”."
+     "t": "Como executar",
+     "x": "Sugestão: Carrossel [Cartões] (Tópicos), porque cada ponto técnico cabe em um cartão e o layout não foi usado nas últimas 8 semanas.\n- Carrossel: 7 slides. Capa com a frase; o que passa por baixo do piso; por que decidir antes; o que muda quando a irrigação é planejada; pergunta final; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Estático (Leia a legenda): foto de obra com o piso ainda aberto e a explicação na legenda.\n- Reels (Misto): Camila na obra e imagens dos pontos de atenção.\n- Stories: 3 stories de bastidor de obra."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: nada.\nOpcional: foto real de uma obra com o piso ou o canteiro ainda abertos, sem identificar o cliente.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-32",
+   "etapa": "ideia",
+   "numero": 32,
+   "titulo": "A primeira pergunta que eu faço não é qual planta: é quanto tempo você quer dedicar ao jardim",
+   "formato": "Stories [Selfie]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: querer um espaço bonito, mas ter rotina cheia e temer que ele vire mais uma tarefa.\nFunção (Qualificar): mostra como a Camila conduz a conversa e filtra quem quer um projeto pensado para a vida real.\nPor que agora: o tempo disponível é informação de projeto, não detalhe. Responder isso antes tranquiliza e aproxima."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Antes de escolher qualquer planta, eu pergunto outra coisa.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Stories [Selfie] (3 stories), porque a Camila falando direto para a câmera passa o jeito consultivo dela e o layout não foi usado nas últimas 8 semanas.\n- Stories: 1) a pergunta e o porquê; 2) como a resposta muda o projeto; 3) convite “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Reels (Selfie): a mesma ideia em 20 s.\n- Carrossel (Raciocínio): do tempo disponível às decisões de projeto.\n- Estático (Leia a legenda): a pergunta na imagem e a explicação na legenda."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: 3 vídeos curtos da Camila falando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de um espaço externo de projeto dela como fundo do último story.\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "ideia-33",
+   "etapa": "ideia",
+   "numero": 33,
+   "titulo": "Quando arquiteta e paisagista conversam antes da obra, o morador sente a diferença",
+   "formato": "Reels [Misto]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: contratar arquitetura e paisagismo separados e temer que os dois não conversem, deixando o lado de fora como um “extra”.\nFunção (Converter): mostra que a CRK trabalha junto da arquitetura e reduz a insegurança de quem está perto de decidir.\nPor que agora: reforça a integração com a arquitetura e mostra o que o morador ganha, sem criticar outros profissionais. Ângulo novo: a parceria vista pelo morador (a ideia 25 é sobre ler piso, muro e fachada)."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Quando a arquiteta e a paisagista conversam antes da obra, quem mora sente a diferença.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Sugestão: Reels [Misto] (gancho, corpo, CTA), porque a Camila aparece falando e imagens de projetos integrados mostram o que muda para o morador.\n- Reels: 25 s. Gancho com a frase; corpo com dois ganhos para o morador (vistas pensadas e circulação entre dentro e fora); CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Comparação): projeto pensado em separado x projeto pensado junto.\n- Estático (Leia a legenda): foto de projeto integrado com a explicação na legenda.\n- Stories: 3 stories com fotos reais de projetos integrados."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: vídeo da Camila falando para a câmera (cerca de 15 s) e 3 ou 4 fotos reais de projetos com a arquitetura integrada ao espaço externo.\nOpcional: foto da Camila com a arquiteta parceira em reunião ou visita (com autorização).\nSe não tiver, o design cria."
+    }
+   ]
+  },
+  {
+   "id": "roteiro-14",
+   "etapa": "roteiro",
+   "numero": 14,
+   "titulo": "Você não precisa chegar sabendo exatamente o que quer para começar um projeto de paisagismo",
+   "formato": "Reels [Selfie]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Reels [Selfie] · gancho, corpo, CTA · 20 a 25 s · a Camila fala direto para a câmera."
+    },
+    {
+     "t": "Gancho (0 a 3 s)",
+     "x": "Texto na tela: VOCÊ NÃO PRECISA CHEGAR COM TUDO PRONTO\nFala: “Você não precisa chegar com o espaço externo pronto na cabeça.”"
+    },
+    {
+     "t": "Corpo (3 a 20 s)",
+     "x": "Texto na tela: 3 PERGUNTAS PARA COMEÇAR\nFala: “No começo, eu só quero te ouvir. Como vocês usam a casa? O que incomoda hoje? E o que não pode faltar? É a partir dessas respostas que eu traduzo a sua rotina em projeto.”\nTexto na tela (em sequência): COMO VOCÊS USAM A CASA? · O QUE INCOMODA HOJE? · O QUE NÃO PODE FALTAR?"
+    },
+    {
+     "t": "Chamada final (20 a 25 s)",
+     "x": "Texto na tela: “Clique na bio e fale comigo”\nFala: “Se você está pensando em começar, clique na bio e fale comigo. A gente conversa sem pressa.”"
+    },
+    {
+     "t": "Cenas",
+     "x": "Camila em ambiente claro da casa ou do escritório, de frente, boa luz natural; cortes curtos entre as três perguntas; no final, olhando para a câmera."
+    },
+    {
+     "t": "Narração (texto corrido)",
+     "x": "Você não precisa chegar com o espaço externo pronto na cabeça. No começo, eu só quero te ouvir. Como vocês usam a casa? O que incomoda hoje? E o que não pode faltar? É a partir dessas respostas que eu traduzo a sua rotina em projeto. Se você está pensando em começar, clique na bio e fale comigo. A gente conversa sem pressa."
+    },
+    {
+     "t": "Legenda",
+     "x": "Você não precisa chegar sabendo exatamente o que quer para começar um projeto de paisagismo. Na primeira conversa, eu pergunto como vocês usam a casa, o que incomoda hoje e o que não pode faltar. O projeto nasce daí. Se você está pensando em começar, clique na bio e fale comigo."
     }
    ]
   },
@@ -123,6 +217,136 @@
    ]
   },
   {
+   "id": "roteiro-16",
+   "etapa": "roteiro",
+   "numero": 16,
+   "titulo": "Se sua arquitetura tem grandes aberturas, envolva o paisagismo enquanto essas vistas ainda podem ser planejadas",
+   "formato": "Carrossel [Véu]",
+   "funcao": null,
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Véu] · Estrutura: Raciocínio · 7 slides · método A.P.E.C. Foto real de projeto ao fundo com véu suave e texto sobre ela. Formato definido pelo rodízio, por combinar com imagens de grandes aberturas."
+    },
+    {
+     "t": "Slide 1 · Atrair",
+     "x": "Sua casa tem grandes aberturas. O que você vai ver por elas?\nImagem: foto real de um interior voltado para o espaço externo, vista pela esquadria."
+    },
+    {
+     "t": "Slide 2 · Permanecer",
+     "x": "Janelão, porta de vidro, vão amplo: a arquitetura foi desenhada para olhar para fora."
+    },
+    {
+     "t": "Slide 3 · Permanecer",
+     "x": "Cada abertura emoldura uma vista. E essa vista vai estar diante de você todos os dias, de dentro de casa."
+    },
+    {
+     "t": "Slide 4 · Permanecer",
+     "x": "Quando o paisagismo entra cedo, dá para decidir o que aparece em cada abertura: uma árvore que enquadra, um plano de folhagem, a luz que entra."
+    },
+    {
+     "t": "Slide 5 · Permanecer",
+     "x": "Depois da obra pronta, a vista já está definida. Quem pensa nela enquanto ainda dá para planejar escolhe o que enxerga."
+    },
+    {
+     "t": "Slide 6 · Envolver",
+     "x": "Qual abertura da sua casa você mais olha? O que gostaria de ver nela? Conta nos comentários."
+    },
+    {
+     "t": "Slide 7 · Concluir",
+     "x": "Clique na bio e fale comigo."
+    },
+    {
+     "t": "Legenda",
+     "x": "Grandes aberturas trazem a paisagem para dentro de casa. Por isso, a vista que cada janela emoldura merece ser planejada enquanto ainda dá para decidir. Qual abertura da sua casa você mais olha? Se a sua arquitetura tem grandes vãos, clique na bio e fale comigo."
+    }
+   ]
+  },
+  {
+   "id": "roteiro-17",
+   "etapa": "roteiro",
+   "numero": 17,
+   "titulo": "O que eu observo na primeira visita ao terreno, antes de desenhar qualquer coisa",
+   "formato": "Stories [Bastidor]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Stories [Bastidor] · sequência de 5 stories feitos no próprio terreno · sem figurinha interativa."
+    },
+    {
+     "t": "Story 1 · Sol",
+     "x": "Texto na tela: Antes de desenhar, eu olho isso. 1: o sol\nCena: vídeo curto ou foto do terreno mostrando de onde vem o sol.\nFala (opcional): “Antes de desenhar qualquer coisa, eu olho onde bate o sol e em que hora do dia. Isso decide muito do que pode viver bem aqui.”"
+    },
+    {
+     "t": "Story 2 · Vistas e aberturas",
+     "x": "Texto na tela: 2: as vistas e as aberturas da casa\nCena: da área externa para dentro, ou de dentro para fora, mostrando janelas e portas.\nFala (opcional): “Depois, olho para a casa. Que vistas as aberturas pedem? O que a família vai ver de dentro?”"
+    },
+    {
+     "t": "Story 3 · Níveis e caimento",
+     "x": "Texto na tela: 3: níveis e caimento do terreno\nCena: detalhe do chão, degraus, trena ou prancheta.\nFala (opcional): “Os níveis e o caimento do terreno também contam. Água, acesso e plantio dependem deles.”"
+    },
+    {
+     "t": "Story 4 · Pergunta à família",
+     "x": "Texto na tela: 4: o que eu pergunto à família\nCena: Camila conversando ou anotando (sem identificar o cliente).\nFala (opcional): “E eu pergunto como a família vive esse espaço, porque o espaço externo precisa caber na rotina de quem vai usar.”"
+    },
+    {
+     "t": "Story 5 · Chamada final",
+     "x": "Texto na tela: Clique na bio e fale comigo\nFala (opcional): “É assim que um projeto começa. Se quiser conversar sobre o seu espaço, clique na bio e fale comigo.”"
+    },
+    {
+     "t": "Observações",
+     "x": "Sem legenda (stories). Não identificar cliente nem endereço. Tom consultivo, sem venda agressiva."
+    }
+   ]
+  },
+  {
+   "id": "roteiro-18",
+   "etapa": "roteiro",
+   "numero": 18,
+   "titulo": "Quanto mais a obra avança, menor a liberdade de decisão",
+   "formato": "Carrossel [Faixa]",
+   "funcao": null,
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Faixa] (Passo a passo) · 7 slides · método A.P.E.C. Cada etapa da obra aparece em uma faixa, e a cada slide as opções abertas para o espaço externo vão diminuindo."
+    },
+    {
+     "t": "Slide 1 · Atrair",
+     "x": "“Quanto mais a obra avança, menos decisões sobram para o espaço externo.”\nImagem: obra em fase inicial ou terreno aberto."
+    },
+    {
+     "t": "Slide 2 · Permanecer",
+     "x": "“Projeto da casa: tudo ainda está aberto. Níveis, acessos, vistas e a relação da casa com o terreno.”\nImagem: planta ou render da casa (identificado como render)."
+    },
+    {
+     "t": "Slide 3 · Permanecer",
+     "x": "“Fundação e estrutura: os níveis da casa já definem como o espaço externo se conecta a ela.”\nImagem: obra na fase de estrutura."
+    },
+    {
+     "t": "Slide 4 · Permanecer",
+     "x": "“Infraestrutura: drenagem, pontos de água e de luz entram ou não entram no planejamento.”\nImagem: obra com infraestrutura à mostra."
+    },
+    {
+     "t": "Slide 5 · Permanecer",
+     "x": "“Pisos e acabamentos: o que já foi definido passa a ser a base do espaço externo.”\nImagem: obra em fase de acabamento."
+    },
+    {
+     "t": "Slide 6 · Envolver",
+     "x": "“Em que etapa está a sua obra hoje? O que ainda está aberto para você decidir?”\nImagem: foto de obra, com espaço para o texto."
+    },
+    {
+     "t": "Slide 7 · Concluir",
+     "x": "“Planejar cedo não significa executar tudo agora. Significa manter as opções abertas. Clique na bio e fale comigo.”\nImagem: espaço externo da CRK pronto."
+    },
+    {
+     "t": "Legenda",
+     "x": "A cada etapa concluída, a obra fecha algumas possibilidades para o espaço externo. Os níveis da casa, a infraestrutura e os pisos vão definindo o que ainda pode ser feito lá fora. Planejar o paisagismo cedo não significa executar tudo imediatamente: significa manter as opções abertas enquanto elas ainda existem. Em que etapa está a sua obra hoje? Conta pra gente nos comentários. E se quiser entender o que ainda dá para decidir na sua, clique na bio e fale comigo."
+    }
+   ]
+  },
+  {
    "id": "roteiro-19",
    "etapa": "roteiro",
    "numero": 19,
@@ -169,6 +393,52 @@
    ]
   },
   {
+   "id": "roteiro-20",
+   "etapa": "roteiro",
+   "numero": 20,
+   "titulo": "Com orçamento limitado, a ordem das decisões importa mais do que a quantidade de plantas",
+   "formato": "Carrossel [Numerado]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Numerado] (Passo a passo) · 7 slides · método A.P.E.C."
+    },
+    {
+     "t": "Slide 1 · Atrair (capa)",
+     "x": "“Orçamento curto não precisa virar espaço externo improvisado.”\nSubtítulo: “A ordem das decisões pesa mais do que a quantidade de plantas.”"
+    },
+    {
+     "t": "Slide 2 · Passo 1",
+     "x": "“1. Defina o que organiza o espaço.” Níveis, circulação e drenagem vêm primeiro, porque são eles que fazem o espaço funcionar no dia a dia."
+    },
+    {
+     "t": "Slide 3 · Passo 2",
+     "x": "“2. Resolva o que é difícil de refazer.” Irrigação, pontos de luz e infraestrutura entram no projeto antes do piso e do plantio, quando ainda é simples de ajustar."
+    },
+    {
+     "t": "Slide 4 · Passo 3",
+     "x": "“3. Plante por fases.” Estrutura e espécies principais primeiro; o preenchimento pode acompanhar o orçamento ao longo do tempo."
+    },
+    {
+     "t": "Slide 5 · Passo 4",
+     "x": "“4. Deixe para depois o que não muda o conjunto.” Com o projeto completo desenhado, o que fica para uma segunda etapa não se perde: já tem lugar certo."
+    },
+    {
+     "t": "Slide 6 · Envolver",
+     "x": "“E se o seu orçamento mudar durante a obra?” Quando as decisões estão em ordem, dá para ajustar a etapa seguinte sem refazer o que já foi feito.\nPergunta aberta: “Qual dessas decisões você deixaria para uma segunda etapa?”"
+    },
+    {
+     "t": "Slide 7 · Concluir",
+     "x": "“Um projeto bem pensado cabe na sua realidade. Clique na bio e fale comigo.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "Orçamento curto não precisa virar espaço externo improvisado. O que faz diferença é a ordem das decisões: primeiro o que organiza o espaço (níveis, circulação, drenagem), depois o que é difícil de refazer (irrigação, iluminação, infraestrutura) e só então o plantio, que pode acontecer por fases. Assim, o projeto fica completo no papel e a execução acompanha o seu momento. Se você está planejando a área externa e quer entender por onde começar, clique na bio e fale comigo."
+    }
+   ]
+  },
+  {
    "id": "roteiro-21",
    "etapa": "roteiro",
    "numero": 21,
@@ -203,6 +473,40 @@
     {
      "t": "Legenda",
      "x": "A foto mostra o resultado. O que faz o espaço funcionar depois da obra está embaixo dela: o nível do terreno, o caimento do piso, a drenagem. Isso precisa ser pensado junto com o projeto, enquanto ainda dá para compatibilizar. Clique na bio e fale comigo."
+    }
+   ]
+  },
+  {
+   "id": "roteiro-23",
+   "etapa": "roteiro",
+   "numero": 23,
+   "titulo": "Quando a área externa funciona, a família passa a usar a casa de outro jeito",
+   "formato": "Reels [Experiência]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Reels [Experiência] (gancho, corpo, CTA) · 12 a 15 s · sem narração, com som ambiente."
+    },
+    {
+     "t": "Gancho (0 a 3 s)",
+     "x": "Plano aberto de uma manhã no espaço externo, luz suave e som ambiente (pássaros, folhas, água se houver)."
+    },
+    {
+     "t": "Corpo (3 a 11 s)",
+     "x": "3 a 4 planos curtos de uso real: café na sombra, circulação entre os ambientes, crianças ao fundo, cadeiras ocupadas. Câmera estável, cortes lentos."
+    },
+    {
+     "t": "Chamada final (11 a 15 s)",
+     "x": "Plano final do espaço ao entardecer, com a frase na tela: “Quando o lado de fora funciona, a casa ganha mais um cômodo.” A chamada fica na legenda.\nTexto na tela: somente a frase final."
+    },
+    {
+     "t": "Legenda",
+     "x": "Quando a área externa funciona, a família passa a usar a casa de outro jeito: o café da manhã muda de lugar, as crianças ganham mais espaço, a tarde fica mais longa. É isso que um projeto pensado para o seu jeito de viver entrega. Quer entender como seria na sua casa? Clique na bio e fale comigo."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Vídeos de 5 a 10 s de um espaço externo da CRK já executado, na vertical, com som ambiente, de preferência com uso real. Depende de gravação nova ou de vídeos de um espaço executado; confirmar a autorização do cliente antes de usar as imagens."
     }
    ]
   },
