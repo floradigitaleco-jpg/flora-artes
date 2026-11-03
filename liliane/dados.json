@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-10-30",
+ "atualizadoEm": "2026-11-03",
  "itens": [
   {
    "id": "i05",
@@ -297,31 +297,6 @@
     "tipo": "video",
     "arquivo": "videos/ideia-32-som-da-agua.mp4",
     "poster": "img/c32-poster.jpg"
-   }
-  },
-  {
-   "id": "c36",
-   "etapa": "aprovado",
-   "numero": 36,
-   "titulo": "Jardim bom é jardim vivido.",
-   "formato": "Carrossel [Numerado]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "Há jardins que impressionam à primeira vista. E há jardins que, além de bonitos, convidam a entrar, sentar e permanecer.\n\nNo meu trabalho, penso a estética junto com a rotina de quem vai viver o espaço. A circulação, os lugares de pausa, as vistas, os sons e a forma como a família deseja aproveitar a área externa fazem parte do projeto.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa fazer sentido para a vida que acontece nela.\n\nQue momento você gostaria que o seu jardim proporcionasse com mais frequência?"
-    }
-   ],
-   "midia": {
-    "tipo": "carrossel",
-    "arquivos": [
-     "img/c36-1.jpg",
-     "img/c36-2.jpg",
-     "img/c36-3.jpg",
-     "img/c36-4.jpg",
-     "img/c36-5.jpg",
-     "img/c36-6.jpg"
-    ]
    }
   }
  ]
