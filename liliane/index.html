@@ -146,13 +146,14 @@ dialog h3{margin:0 0 8px;font-family:var(--display);color:var(--tit);font-size:1
 dialog textarea{width:100%;min-height:180px;padding:12px;border:1.5px solid var(--fg);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px}
 dialog .btn{width:100%}
 
-.mic-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:8px}
-.mic{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 18px;border-radius:999px;border:1.5px solid var(--fg);background:transparent;color:var(--fg);font-weight:600;font-size:15px;cursor:pointer}
-.mic svg{width:20px;height:20px;flex:none}
+.campo{position:relative}
+.campo textarea{padding-right:60px;overflow:hidden;min-height:96px}
+.mic{position:absolute;right:8px;bottom:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border-radius:50%;border:1.5px solid var(--fg);background:var(--card);color:var(--fg);cursor:pointer}
+.mic svg{width:22px;height:22px;flex:none}
 .mic[aria-pressed="true"]{background:var(--aj-bg);color:var(--aj-fg);border-color:var(--aj-bd)}
 .mic[aria-pressed="true"] svg{animation:pulsa 1.1s ease-in-out infinite}
 @keyframes pulsa{50%{opacity:.35}}
-.mic-st{font-size:14px;color:var(--muted)}
+.mic-st{margin:6px 0 0;font-size:14px;color:var(--muted)}
 .envd{margin-top:24px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
 .envd summary{cursor:pointer;min-height:48px;display:flex;align-items:center;padding:8px 16px;font-family:var(--display);font-weight:600;font-size:16px;color:var(--det);list-style:none}
 .envd summary::-webkit-details-marker{display:none}
@@ -252,19 +253,22 @@ async function copiarComAviso(txt,botao,ok){
 }
 $('copiaFechar').onclick=()=>{const d=$('copiaManual');if(d.close)d.close();else d.removeAttribute('open')};
 
+/* caixa de observação cresce com o texto, para conferir sem rolar dentro dela */
+function crescer(ta){if(!ta.offsetParent)return;ta.style.height='auto';ta.style.height=(ta.scrollHeight+3)+'px'}
+function crescerPainel(){document.querySelectorAll('.cm textarea').forEach(crescer)}
+addEventListener('resize',crescerPainel);
 /* ---------- ditado por voz (só aparece onde o aparelho suporta) ---------- */
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
 let ditando=null;
 function microfone(ta,nome){
- const row=el('div','mic-row');
- if(!SR){row.append(el('p','note','Dica: toque no microfone do teclado do celular para falar em vez de digitar.'));return row}
+ const st=el('p','mic-st');st.setAttribute('aria-live','polite');
+ if(!SR){st.textContent='Dica: toque no microfone do teclado do celular para falar em vez de digitar.';return {btn:null,st}}
+ st.textContent='Toque no microfone e fale.';
  const b=el('button','mic');b.type='button';b.setAttribute('aria-pressed','false');
  b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>';
- const tx=el('span',null,'Falar');b.append(tx);
- b.setAttribute('aria-label','Falar a observação sobre '+nome+' em vez de digitar');
- const st=el('span','mic-st');st.setAttribute('aria-live','polite');
+  const rot=()=>b.setAttribute('aria-label',(ativo?'Parar de falar. ':'Falar ')+(ativo?'':'a observação sobre '+nome+' em vez de digitar'));b.title='Falar em vez de digitar';
  let rec=null,ativo=false,base='';
- const fim=msg=>{ativo=false;b.setAttribute('aria-pressed','false');tx.textContent='Falar';st.textContent=msg||'';if(ditando===fim)ditando=null;try{rec&&rec.stop()}catch(e){}rec=null;ta.dispatchEvent(new Event('input',{bubbles:true}))};
+ const fim=msg=>{ativo=false;b.setAttribute('aria-pressed','false');rot();st.textContent=msg||'Toque no microfone e fale.';if(ditando===fim)ditando=null;try{rec&&rec.stop()}catch(e){}rec=null;ta.dispatchEvent(new Event('input',{bubbles:true}))};
  function iniciar(){
   rec=new SR();rec.lang='pt-BR';rec.interimResults=true;rec.continuous=false;
   base=ta.value.trim();
@@ -276,9 +280,9 @@ function microfone(ta,nome){
  b.onclick=()=>{
   if(ativo){fim('Pronto. Confira o texto e corrija se precisar.');return}
   if(ditando)ditando();
-  try{ativo=true;iniciar();ditando=fim;b.setAttribute('aria-pressed','true');tx.textContent='Parar';st.textContent='Ouvindo… fale agora.'}catch(e){fim('Não consegui abrir o microfone.')}
+  try{ativo=true;iniciar();ditando=fim;b.setAttribute('aria-pressed','true');rot();st.textContent='Ouvindo… fale agora.'}catch(e){fim('Não consegui abrir o microfone.')}
  };
- row.append(b,st);return row;
+ rot();return {btn:b,st};
 }
 
 /* ---------- enviados ---------- */
@@ -393,10 +397,10 @@ function card(it,e){
 
  const wrap=el('div','cm');wrap.append(el('h3',null,'Observações'));
  const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que precisa mudar ou o que você achou…';ta.setAttribute('aria-label','Observações sobre #'+it.numero);ta.value=obs[it.id]||'';
- ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();atualizarTudo()});
+ ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();crescer(ta);atualizarTudo()});
  const a=el('a','wa','Enviar este item pelo WhatsApp');a.addEventListener('click',ev=>{if(a.getAttribute('aria-disabled')==='true'){ev.preventDefault();return}depoisDeEnviar([it])});
  links.push(()=>{const l=linha(it);setLink(a,l?'Oi! Aqui é a Liliane. Minha resposta sobre este conteúdo:\n\n'+l:'')});
- wrap.append(ta,microfone(ta,'#'+it.numero),a);c.append(wrap);
+ const campo=el('div','campo');campo.append(ta);const mic=microfone(ta,'#'+it.numero);if(mic.btn)campo.append(mic.btn);wrap.append(campo,mic.st,a);c.append(wrap);
  pinta();
  return c;
 }
@@ -430,6 +434,7 @@ function abrir(i,inicial){
  aba=i;
  ETAPAS.forEach((e,j)=>{const b=$('aba-'+e.k);b.setAttribute('aria-selected',String(j===i));b.tabIndex=j===i?0:-1;$('p-'+e.k).hidden=j!==i});
  $('foot').hidden=ETAPAS[i].leitura;
+ crescerPainel();
  if(!inicial){const topo=document.querySelector('.tabs-faixa').offsetTop;if(window.scrollY>topo)window.scrollTo({top:topo,behavior:reduz()?'auto':'smooth'})}
 }
 let stRod=null,btnTudo=null,btnCopia=null;
