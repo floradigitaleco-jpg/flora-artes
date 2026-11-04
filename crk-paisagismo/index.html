@@ -190,7 +190,7 @@ const ETAPAS=[
  {k:'ideia',aba:'Ideias',nome:'Ideia',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada'],vazio:'Nenhuma ideia para analisar agora.'},
  {k:'roteiro',aba:'Roteiros',nome:'Roteiro',tags:['análise de roteiro','ajuste de roteiro','roteiro aprovado'],vazio:'Nenhum roteiro para analisar agora.'},
  {k:'criativo',aba:'Criativos',nome:'Criativo',tags:['análise do criativo','ajuste no criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'},
- {k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando programação.'}
+ {k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando publicação.'}
 ];
 const CLS=['t-an','t-aj','t-ok','t-no'],VAL=[null,'ajuste','aprovado','naoaprovado'];
 const etapaDe=k=>ETAPAS.find(e=>e.k===k);
@@ -354,6 +354,13 @@ function blocoCriativo(it){
 }
 
 /* ---------- cartão ---------- */
+function quando(it){
+ const t=it.publicacao?new Date(it.publicacao):null;
+ if(!t||isNaN(t))return 'Aprovado. Aguardando a programação nas redes.';
+ const dia=t.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}).replace('.','');
+ const h=t.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}).replace(':00','h').replace(':','h');
+ return 'Aprovado e programado para '+dia+', às '+h+'. Depois de publicado, sai desta lista.';
+}
 function card(it,e){
  const c=el('article','item');c.id='c-'+it.id;
  const h=el('h2',null,'#'+it.numero+' · '+it.titulo);h.id='t-'+it.id;c.setAttribute('aria-labelledby',h.id);c.append(h);
@@ -370,7 +377,7 @@ function card(it,e){
    const lg=el('div','leg');lg.append(el('b',null,'Legenda'));renderTexto(lg,leg.x);
    const cb=el('button','btn sec','Copiar legenda');cb.type='button';cb.style.marginTop='4px';cb.onclick=()=>copiarComAviso(leg.x,cb,'Legenda copiada');lg.append(cb);c.append(lg);
   }
-  c.append(el('p','note','Aprovado. Aguardando a programação nas redes.'));
+  c.append(el('p','note',quando(it)));
   return c;
  }
  (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
@@ -408,7 +415,7 @@ function montar(manter){
   const p=el('section');p.id='p-'+e.k;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby','aba-'+e.k);p.hidden=true;
   const todos=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>a.numero-b.numero),its=todos.filter(x=>!foiEnv(x));
   if(aviso&&manter===i){const tt=el('p','toast',aviso);tt.setAttribute('role','status');p.append(tt)}
-  if(e.leitura&&its.length)p.append(el('p','nota-aba','Estes criativos já foram aprovados. Aqui você só consulta e copia a legenda.'));
+  if(e.leitura&&its.length)p.append(el('p','nota-aba','Estes criativos já foram aprovados e estão programados. Aqui você só consulta e copia a legenda. Quando chega a data e a hora, eles saem da lista.'));
   if(!its.length)p.append(el('p','empty',todos.length?'Tudo desta etapa já foi enviado. Obrigada!':e.vazio));
   its.forEach(it=>p.append(card(it,e)));
   box.append(p);
@@ -462,7 +469,7 @@ async function carregar(){
  const ld=el('div','estado','Carregando os conteúdos…');ld.setAttribute('role','status');box.append(ld);
  try{
   const r=await fetch(DADOS_URL,{cache:'no-store'});if(!r.ok)throw new Error(r.status);
-  const j=await r.json();ITENS=Array.isArray(j.itens)?j.itens:[];montar();
+  const j=await r.json();ITENS=(Array.isArray(j.itens)?j.itens:[]).filter(i=>!(i.publicacao&&Date.parse(i.publicacao)<=Date.now()));montar();
  }catch(err){
   box.textContent='';
   const b=el('div','estado','Não consegui carregar os conteúdos. Confira sua conexão e tente de novo.');b.setAttribute('role','alert');
