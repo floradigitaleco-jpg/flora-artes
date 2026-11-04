@@ -1,33 +1,7 @@
 {
  "cliente": "CRK Paisagismo",
- "atualizadoEm": "2026-11-03",
+ "atualizadoEm": "2026-11-04",
  "itens": [
-  {
-   "id": "criativo-22",
-   "etapa": "criativo",
-   "numero": 22,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Pílula]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
-    }
-   ],
-   "midia": {
-    "tipo": "carrossel",
-    "arquivos": [
-     "criativos/i22-1.jpg",
-     "criativos/i22-2.jpg",
-     "criativos/i22-3.jpg",
-     "criativos/i22-4.jpg",
-     "criativos/i22-5.jpg",
-     "criativos/i22-6.jpg",
-     "criativos/i22-7.jpg"
-    ]
-   }
-  },
   {
    "id": "ideia-19",
    "etapa": "ideia",
@@ -77,32 +51,6 @@
     {
      "t": "O que precisamos",
      "x": "Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra em andamento mostrando nível, drenagem ou tubulação (sem identificar o cliente).\nOpcional: foto do mesmo trecho depois de pronto; detalhe de canaleta ou caixa de passagem integrada ao projeto.\nSe não tiver, o design cria."
-    }
-   ]
-  },
-  {
-   "id": "ideia-22",
-   "etapa": "ideia",
-   "numero": 22,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Pílula]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Por que esta ideia",
-     "x": "A dor: querer usar o espaço externo sem trabalhar para ele. Dúvida real, que a Camila escuta bastante: “Existe realmente um espaço externo de baixa manutenção?”.\nFunção (Atrair): dúvida muito frequente, com alto potencial de salvamento e compartilhamento por quem ainda está se informando.\nPor que agora: responde com honestidade (todo espaço externo pede algum cuidado) e posiciona a CRK como quem projeta para a rotina real da família. Sem promessa absoluta de “baixa manutenção”."
-    },
-    {
-     "t": "Gancho",
-     "x": "“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”"
-    },
-    {
-     "t": "Como executar",
-     "x": "Sugestão: Carrossel [Pílula] (Dúvida), porque o formato pergunta e resposta combina com uma dúvida que o público já faz e deixa cada resposta curta e salvável.\n- Carrossel: pergunta na capa; resposta honesta; escolha de espécies pelo porte e pelo crescimento; acesso, irrigação e podas planejados; a rotina da família define a frequência de cuidado; CTA.\nOutras possibilidades:\n- Estático (Frase): “Manutenção compatível com a rotina começa no projeto.”\n- Reels (Selfie): Camila responde a dúvida em 20 s.\n- Stories: enquete “Quanto tempo por semana você teria para cuidar do espaço externo?”."
-    },
-    {
-     "t": "O que precisamos",
-     "x": "Obrigatório: nada.\nOpcional: foto de espaço externo da CRK já maduro, com anos de plantio; foto do sistema de irrigação ou do acesso para cuidado integrado ao projeto.\nSe não tiver, o design cria."
     }
    ]
   },
@@ -633,52 +581,6 @@
    ]
   },
   {
-   "id": "roteiro-22",
-   "etapa": "roteiro",
-   "numero": 22,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Pílula]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Formato",
-     "x": "Carrossel [Pílula] (Dúvida) · 7 slides · método A.P.E.C. Sem promessa de “baixa manutenção”."
-    },
-    {
-     "t": "Slide 1 · Atrair (capa)",
-     "x": "“Existe espaço externo que não dá trabalho?”"
-    },
-    {
-     "t": "Slide 2 · Permanecer",
-     "x": "“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”"
-    },
-    {
-     "t": "Slide 3 · Permanecer",
-     "x": "“As espécies são escolhidas pelo porte e pelo crescimento.” Plantas que se mantêm no tamanho previsto pedem menos intervenção ao longo do tempo."
-    },
-    {
-     "t": "Slide 4 · Permanecer",
-     "x": "“Acesso, irrigação e podas são planejados desde o projeto.” O cuidado fica possível e organizado, em vez de virar improviso."
-    },
-    {
-     "t": "Slide 5 · Permanecer",
-     "x": "“A rotina da sua família define a frequência de cuidado.” Quanto tempo por semana você tem? Essa resposta orienta as decisões do projeto."
-    },
-    {
-     "t": "Slide 6 · Envolver",
-     "x": "“Quanto tempo por semana você teria para cuidar do seu espaço externo?” Convite para responder nos comentários."
-    },
-    {
-     "t": "Slide 7 · Concluir",
-     "x": "“O cuidado certo é o que cabe na sua vida. Clique na bio e fale comigo.”"
-    },
-    {
-     "t": "Legenda",
-     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
-    }
-   ]
-  },
-  {
    "id": "roteiro-23",
    "etapa": "roteiro",
    "numero": 23,
@@ -773,6 +675,32 @@
      "x": "- Cada story: print da pergunta recebida (sem identificar quem perguntou) + resposta da Camila em texto curto ou vídeo de até 20 s, no tom de primeira reunião: “Foi pensado para...”, “Isso faz diferença porque...”.\n- Último story: “Ficou com outra dúvida? Clique na bio e fale comigo.”\n- Se chegarem poucas perguntas, completar com as dúvidas mais comuns, como “Preciso chegar sabendo exatamente o que quero?”."
     }
    ]
+  },
+  {
+   "id": "aprovado-22",
+   "etapa": "aprovado",
+   "numero": 22,
+   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
+   "formato": "Carrossel [Pílula]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
+    }
+   ],
+   "midia": {
+    "tipo": "carrossel",
+    "arquivos": [
+     "criativos/i22-1.jpg",
+     "criativos/i22-2.jpg",
+     "criativos/i22-3.jpg",
+     "criativos/i22-4.jpg",
+     "criativos/i22-5.jpg",
+     "criativos/i22-6.jpg",
+     "criativos/i22-7.jpg"
+    ]
+   }
   }
  ]
 }
