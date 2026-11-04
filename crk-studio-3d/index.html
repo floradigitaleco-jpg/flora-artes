@@ -363,12 +363,14 @@ function blocoCriativo(it){
 }
 
 /* ---------- cartão ---------- */
+const PRI={altissima:0,alta:1,media:2,baixa:3},PRI_ROT={altissima:'altíssima',alta:'alta',media:'média',baixa:'baixa'};
 function card(it,e){
  const c=el('article','item');c.id='c-'+it.id;
  const h=el('h2',null,'#'+it.numero+' · '+it.titulo);h.id='t-'+it.id;c.setAttribute('aria-labelledby',h.id);c.append(h);
  const m=el('div','pills');
  if(it.formato&&it.etapa!=='criativo')m.append(el('span','fmt',it.formato));
  if(it.funcao&&it.etapa!=='criativo')m.append(el('span','fn','Função: '+it.funcao));
+ if(it.prioridade&&PRI_ROT[it.prioridade]&&it.etapa!=='criativo')m.append(el('span','fn','Prioridade: '+PRI_ROT[it.prioridade]));
  if(m.childNodes.length)c.append(m);
 
  if(it.etapa==='criativo'||it.etapa==='aprovado')c.append(blocoCriativo(it));
@@ -415,7 +417,7 @@ function montar(manter){
   b.onkeydown=ev=>{let j=null;if(ev.key==='ArrowRight')j=(i+1)%ETAPAS.length;if(ev.key==='ArrowLeft')j=(i-1+ETAPAS.length)%ETAPAS.length;if(ev.key==='Home')j=0;if(ev.key==='End')j=ETAPAS.length-1;if(j!==null){ev.preventDefault();abrir(j);$('aba-'+ETAPAS[j].k).focus()}};
   t.append(b);
   const p=el('section');p.id='p-'+e.k;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby','aba-'+e.k);p.hidden=true;
-  const todos=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>a.numero-b.numero),its=todos.filter(x=>!foiEnv(x));
+  const todos=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>(PRI[a.prioridade]??9)-(PRI[b.prioridade]??9)||a.numero-b.numero),its=todos.filter(x=>!foiEnv(x));
   if(aviso&&manter===i){const tt=el('p','toast',aviso);tt.setAttribute('role','status');p.append(tt)}
   if(e.leitura&&its.length)p.append(el('p','nota-aba','Estes criativos já foram aprovados. Aqui você só consulta e copia a legenda.'));
   if(!its.length)p.append(el('p','empty',todos.length?'Tudo desta etapa já foi enviado. Obrigada!':e.vazio));

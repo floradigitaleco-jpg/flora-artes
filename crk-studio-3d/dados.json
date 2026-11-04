@@ -26,7 +26,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: nada.\nOpcional: um trecho de planta de paisagismo e a cena 3D do mesmo trecho (mesmo ponto de vista), de projeto com autorização de publicação.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "altissima"
     },
     {
       "id": "ideia-8",
@@ -52,7 +53,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: planta ou lista de espécies de um projeto já entregue e a cena ou render final desse mesmo projeto, com autorização e @ da profissional que assina o projeto.\nOpcional: gravação de tela curta da passagem da planta para a modelagem (bastidor).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "alta"
     },
     {
       "id": "ideia-9",
@@ -78,7 +80,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: nada.\nOpcional: uma imagem 3D de projeto com autorização de publicação, para ser o fundo da frase.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "ideia-10",
@@ -104,7 +107,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: a lista real do que você pede no briefing (texto), para os itens não ficarem genéricos.\nOpcional: print de uma pasta de entrega de projeto organizada, sem dados de cliente.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "alta"
     },
     {
       "id": "ideia-11",
@@ -130,7 +134,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: narração em áudio (gravada a partir do texto do roteiro, depois da aprovação).\nOpcional: 3 a 5 imagens ou trechos 3D de projetos com autorização, de ambientes variados; trechos do vídeo já publicado da Arq. Lilian Wojcikiewicz, mantendo o crédito.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "ideia-12",
@@ -156,7 +161,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: nada.\nOpcional: uma planta de paisagismo e a cena 3D correspondente, de projeto com autorização, para os slides do meio.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "ideia-13",
@@ -182,7 +188,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: render ou trecho de vídeo do mesmo ponto de vista em 2 ou 3 condições de luz, de projeto com autorização (se houver só uma, geramos as variações de luz do mesmo render).\nOpcional: som ambiente de jardim (pássaros, vento).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "ideia-14",
@@ -208,7 +215,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: nada.\nOpcional: chamada em vídeo curto do Banco de chamadas, para o dia 1 e o dia 2.\nSe não tiver, o design cria (chamada em texto)."
         }
-      ]
+      ],
+      "prioridade": "baixa"
     },
     {
       "id": "ideia-15",
@@ -234,7 +242,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: a sua resposta às perguntas que chegarem, em texto ou vídeo de até 20 segundos, no dia 2.\nOpcional: print de tela de modelagem ou render em andamento, sem dados de cliente; vídeo do Banco de chamadas.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "baixa"
     },
     {
       "id": "ideia-16",
@@ -260,7 +269,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: confirmação de que há agenda para novos projetos e do prazo a divulgar; link do WhatsApp (já na bio).\nOpcional: um render ou frame de vídeo de projeto com autorização, para o fundo.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "baixa"
     },
     {
       "id": "i17",
@@ -286,7 +296,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: os vídeos da pasta Bastidores (ainda a conferir se mostram etapas do processo).\nOpcional: um registro novo de uma etapa específica, se houver.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "i18",
@@ -312,7 +323,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: as 4 imagens do projeto da paisagista Carla Regina Andrade e a autorização dela para divulgar (marcar @cs_paisagismo na legenda).\nOpcional: a planta baixa do mesmo projeto, se ela liberar.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "i19",
@@ -338,7 +350,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: o vídeo 3D escolhido na pasta Imagens e vídeos 3D (VIDEO 01 a 04). Se tiver fala, uma gravação curta da Camila apresentando.\nOpcional: o mesmo trecho em imagem parada para o fim do vídeo.\nSe algum vídeo for de projeto de cliente, confirmar autorização.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "alta"
     },
     {
       "id": "i21",
@@ -364,7 +377,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: renders reais da Studio 3D escolhidos na pasta Imagens e vídeos 3D. Usar só renders, sem imagens geradas por IA.\nOpcional: o tipo de espaço de cada render, para a linha de legenda.\nSe usar projeto de cliente, confirmar autorização.\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "baixa"
     },
     {
       "id": "i22",
@@ -390,7 +404,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: um vídeo da pasta Bastidores (sugestão acima, ainda a conferir).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "alta"
     },
     {
       "id": "i23",
@@ -416,7 +431,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: um vídeo da pasta Bastidores (sugestão acima, ainda a conferir).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
     },
     {
       "id": "i24",
@@ -442,7 +458,8 @@
           "t": "O que precisamos",
           "x": "Obrigatório: dois vídeos da pasta Bastidores (sugestão acima, ainda a conferir).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "alta"
     },
     {
       "id": "i25",
@@ -468,7 +485,332 @@
           "t": "O que precisamos",
           "x": "Obrigatório: uma imagem e um vídeo da pasta Bastidores (sugestão acima, ainda a conferir).\nSe não tiver, o design cria."
         }
-      ]
+      ],
+      "prioridade": "media"
+    },
+    {
+      "id": "i26",
+      "etapa": "ideia",
+      "numero": 26,
+      "titulo": "Do primeiro traço ao render: o Jardim Maze",
+      "formato": "Reels [Antes e depois]",
+      "funcao": "Atrair",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional mostra o traço do anteprojeto e o cliente não consegue imaginar o resultado.\nFunção (Atrair): mostra o caminho do esboço ao 3D num projeto real da Camila."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Do primeiro traço ao render.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Reels [Antes e depois], com o esboço do anteprojeto virando o render da mesma área; fecha convidando a mandar o próximo projeto.\nOutra possibilidade: Carrossel [Dividido], esboço de um lado e render do outro."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: o anteprojeto exportado em imagem (hoje está em DWG) e o render da mesma área.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "altissima"
+    },
+    {
+      "id": "i27",
+      "etapa": "ideia",
+      "numero": 27,
+      "titulo": "O mesmo jardim de dia e à noite: Jardim Maze",
+      "formato": "Carrossel [Dividido]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o cliente só imagina o projeto à luz do dia e não percebe o que a iluminação muda.\nFunção (Qualificar): mostra que o 3D comunica luz e atmosfera, não só forma."
+        },
+        {
+          "t": "Gancho",
+          "x": "“O mesmo jardim, dois momentos.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Carrossel [Dividido], dia de um lado e noite do outro, um slide por perspectiva, com legenda curta; último slide convida a conversar sobre o projeto.\nOutra possibilidade: Reels [Antes e depois] alternando dia e noite."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: pares de imagens do mesmo ponto de vista, de dia e à noite (a conferir).\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "alta"
+    },
+    {
+      "id": "i28",
+      "etapa": "ideia",
+      "numero": 28,
+      "titulo": "Antes de modelar, o estudo: sol, massas e referências",
+      "formato": "Carrossel [Painel]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o cliente vê só o resultado e não percebe o raciocínio por trás do projeto.\nFunção (Qualificar): mostra o raciocínio de projeto, que é o diferencial da Studio 3D."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Antes do render, existe um estudo.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Carrossel [Painel], um slide por etapa de estudo (painel semântico, estudo solar, plano de massas), cada um ligado ao render final."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: imagens do painel, do estudo solar e do plano de massas (a conferir).\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "media"
+    },
+    {
+      "id": "i29",
+      "etapa": "ideia",
+      "numero": 29,
+      "titulo": "A luz do projeto no 3D: Jardim Maze",
+      "formato": "Reels [Dinâmico]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional não sabe como mostrar ao cliente o efeito do projeto de iluminação.\nFunção (Qualificar): mostra o luminotécnico visto no 3D."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Veja a luz antes de instalar.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Reels [Dinâmico], com cortes rápidos das imagens de iluminação e texto curto na tela."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: imagens ou vídeo do luminotécnico (a conferir).\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "media"
+    },
+    {
+      "id": "i30",
+      "etapa": "ideia",
+      "numero": 30,
+      "titulo": "Qual ângulo você pediria para este jardim?",
+      "formato": "Stories [Enquete]",
+      "funcao": "Envolver",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional pede a perspectiva que lhe vem à cabeça e não a que responde à dúvida do cliente.\nFunção (Envolver): abre conversa com arquitetos e paisagistas."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Qual ângulo você pediria primeiro?”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Stories [Enquete], com duas perspectivas do mesmo espaço.\nFigurinha (manual): enquete “Qual ângulo você pediria primeiro?” com as duas opções. A resposta pode virar Stories [Resposta] no dia seguinte."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: duas imagens do mesmo espaço.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "baixa"
+    },
+    {
+      "id": "i31",
+      "etapa": "ideia",
+      "numero": 31,
+      "titulo": "Vitrine do Jardim Maze",
+      "formato": "Stories [Vitrine]",
+      "funcao": "Converter",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional quer ver o acabamento antes de pedir um orçamento.\nFunção (Converter, de forma leve): leva ao portfólio na bio, sem venda agressiva."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Vitrine: Jardim Maze.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Stories [Vitrine], 3 a 4 renders com uma linha curta cada e convite para ver o portfólio."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: renders escolhidos das imagens renderizadas.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "baixa"
+    },
+    {
+      "id": "i32",
+      "etapa": "ideia",
+      "numero": 32,
+      "titulo": "O anteprojeto ao lado do 3D: Bosco di Pietra",
+      "formato": "Carrossel [Dividido]",
+      "funcao": "Atrair",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o cliente olha a planta e não enxerga o espaço pronto.\nFunção (Atrair): mostra o caminho do desenho ao 3D num projeto real da Camila."
+        },
+        {
+          "t": "Gancho",
+          "x": "“O anteprojeto ao lado do 3D.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Carrossel [Dividido], desenho de um lado e render do outro, um slide por área, com legenda curta sobre o que o 3D mostra que o desenho não mostra.\nOutra possibilidade: Reels [Antes e depois]."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: o anteprojeto exportado em imagem e os renders das mesmas áreas.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "altissima"
+    },
+    {
+      "id": "i33",
+      "etapa": "ideia",
+      "numero": 33,
+      "titulo": "Caminhe pelo Bosco di Pietra antes da obra",
+      "formato": "Reels [Misto]",
+      "funcao": "Atrair",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o cliente não sente circulação e escala olhando planta e imagem parada.\nFunção (Atrair): mostra o vídeo de percurso como forma de andar pelo projeto antes da obra."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Caminhe pelo projeto antes de ele existir.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Reels [Misto], com trechos do vídeo 3D e fala curta da Camila.\nOutra possibilidade: Reels [Experiência], só o percurso com som ambiente."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: vídeo 3D de percurso (a conferir se existe) e, se houver fala, gravação curta da Camila.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "alta"
+    },
+    {
+      "id": "i34",
+      "etapa": "ideia",
+      "numero": 34,
+      "titulo": "Uma planta, quatro perguntas do cliente: Bosco di Pietra",
+      "formato": "Carrossel [Numerado]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: uma única imagem não responde a todas as dúvidas do cliente.\nFunção (Qualificar): cada perspectiva responde a uma pergunta diferente."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Uma planta, quatro perguntas.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Carrossel [Numerado], de 1 a 4, cada um com uma pergunta e a perspectiva que a responde; slide inicial com a planta e último slide convidando a conversar sobre o próximo projeto."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: a planta exportada em imagem e 4 perspectivas diferentes (a conferir).\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "media"
+    },
+    {
+      "id": "i35",
+      "etapa": "ideia",
+      "numero": 35,
+      "titulo": "Vegetação e materiais de perto: Bosco di Pietra",
+      "formato": "Carrossel [Painel]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o cliente aprova sem perceber o cuidado com a escolha de plantas e materiais.\nFunção (Qualificar): mostra o detalhe como prova de cuidado de projeto."
+        },
+        {
+          "t": "Gancho",
+          "x": "“O cuidado está no detalhe.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Carrossel [Painel], um detalhe por slide (vegetação, material, luz) com uma frase curta."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: renders de detalhe ou recortes dos renders existentes.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "media"
+    },
+    {
+      "id": "i36",
+      "etapa": "ideia",
+      "numero": 36,
+      "titulo": "Como o Bosco di Pietra foi modelado",
+      "formato": "Stories [Bastidor]",
+      "funcao": "Qualificar",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional não sabe o que acontece entre o briefing e o render.\nFunção (Qualificar): mostra a modelagem base do projeto."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Do modelo base ao render.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Stories [Bastidor], 3 telas com a modelagem base e o render final."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: captura da modelagem base no SketchUp (o modelo pode não ter imagem pronta) e o render final.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "baixa"
+    },
+    {
+      "id": "i37",
+      "etapa": "ideia",
+      "numero": 37,
+      "titulo": "Vitrine do Bosco di Pietra",
+      "formato": "Stories [Vitrine]",
+      "funcao": "Converter",
+      "blocos": [
+        {
+          "t": "Por que esta ideia",
+          "x": "A dor: o profissional quer ver o acabamento antes de pedir um orçamento.\nFunção (Converter, de forma leve): leva ao portfólio na bio, sem venda agressiva."
+        },
+        {
+          "t": "Gancho",
+          "x": "“Vitrine: Bosco di Pietra.”"
+        },
+        {
+          "t": "Como executar",
+          "x": "Sugestão: Stories [Vitrine], 3 a 4 renders com uma linha curta cada e convite para ver o portfólio."
+        },
+        {
+          "t": "O que precisamos",
+          "x": "Obrigatório: renders escolhidos das imagens renderizadas.\nConfirmar a autorização do cliente antes de aprovar (o nome da pasta indica cliente).\nSe não tiver, o design cria."
+        }
+      ],
+      "prioridade": "baixa"
     }
   ]
 }
