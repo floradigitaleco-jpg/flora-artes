@@ -1,142 +1,6 @@
 {
- "atualizado": "2026-11-03T19:29:03.452Z",
+ "atualizado": "2026-11-04T12:46:34.000Z",
  "itens": [
-  {
-   "id": "i24",
-   "etapa": "ideia",
-   "n": 24,
-   "ord": 240,
-   "titulo": "No litoral de Florianópolis, o projeto começa lendo vento, sol e maresia, e só depois escolhe as plantas",
-   "formato": "Carrossel [Galeria]",
-   "funcao": "Atrair",
-   "tema": "Tema 6 · Natureza e clima local",
-   "blocos": [
-    {
-     "t": "Gancho",
-     "x": "“Antes de escolher as plantas, a gente lê o vento, o sol e a maresia do terreno.”"
-    },
-    {
-     "t": "Dor de quem vai ler",
-     "x": "Quer um espaço externo que dê certo em Florianópolis e teme escolher plantas bonitas que não se adaptam ao vento, ao sol e à maresia do terreno."
-    },
-    {
-     "t": "Por que abordar",
-     "x": "Mostra o olhar local da CRK e coloca o projeto antes da lista de espécies, reforçando que paisagismo é leitura de contexto."
-    },
-    {
-     "t": "Como executar",
-     "x": "Carrossel [Galeria]: capa com a frase; 4 fotos de projetos, cada uma com uma leitura de clima em uma linha (vento, sol da tarde, maresia, solo); CTA."
-    }
-   ],
-   "det": [
-    {
-     "t": "Material necessário",
-     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: 4 a 6 fotos de projetos executados perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio."
-    }
-   ]
-  },
-  {
-   "id": "i31",
-   "etapa": "ideia",
-   "n": 31,
-   "ord": 310,
-   "titulo": "Por que a irrigação precisa ser pensada antes de o piso ser assentado",
-   "formato": "Carrossel [Cartões]",
-   "funcao": "Qualificar",
-   "tema": "Tema 7 · A técnica invisível",
-   "blocos": [
-    {
-     "t": "Gancho",
-     "x": "“A parte do espaço externo que ninguém vê é decidida antes do piso.”"
-    },
-    {
-     "t": "Dor de quem vai ler",
-     "x": "A Erica pensa em plantas só no fim da obra e não sabe que parte do que mantém o espaço bonito passa por baixo do piso e precisa ser decidida antes."
-    },
-    {
-     "t": "Por que abordar",
-     "x": "Mostra o raciocínio técnico da Camila e leva quem está construindo a chamar a paisagista cedo. O que não aparece na foto final decide como o espaço funciona com o tempo."
-    },
-    {
-     "t": "Como executar",
-     "x": "Carrossel [Cartões] de 7 slides, com um ponto técnico por cartão: capa com a frase; o que passa por baixo do piso; por que decidir antes; o que muda quando a irrigação é planejada; pergunta final; CTA “Clique na bio e fale comigo”."
-    }
-   ],
-   "det": [
-    {
-     "t": "Material necessário",
-     "x": "Obrigatório: nada.\nOpcional: foto real de uma obra com o piso ou o canteiro ainda abertos, sem identificar o cliente."
-    }
-   ]
-  },
-  {
-   "id": "i32",
-   "etapa": "ideia",
-   "n": 32,
-   "ord": 320,
-   "titulo": "A primeira pergunta que eu faço não é qual planta: é quanto tempo você quer dedicar ao espaço",
-   "formato": "Stories [Selfie]",
-   "funcao": "Qualificar",
-   "tema": "Tema 5 · Espaço externo que cabe na rotina",
-   "blocos": [
-    {
-     "t": "Gancho",
-     "x": "“Antes de escolher qualquer planta, eu pergunto outra coisa.”"
-    },
-    {
-     "t": "Dor de quem vai ler",
-     "x": "A Erica quer um espaço externo bonito, mas tem rotina cheia e teme que ele vire mais uma tarefa."
-    },
-    {
-     "t": "Por que abordar",
-     "x": "O tempo disponível é informação de projeto, não detalhe. Responder isso antes tranquiliza, mostra como a Camila conduz a conversa e filtra quem quer um projeto pensado para a vida real."
-    },
-    {
-     "t": "Como executar",
-     "x": "Stories [Selfie] em 3 stories: 1) a pergunta e o porquê; 2) como a resposta muda o projeto; 3) convite “Clique na bio e fale comigo”."
-    }
-   ],
-   "det": [
-    {
-     "t": "Material necessário",
-     "x": "Obrigatório: 3 vídeos curtos da Camila falando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de um espaço externo de projeto dela como fundo do último story."
-    }
-   ]
-  },
-  {
-   "id": "i33",
-   "etapa": "ideia",
-   "n": 33,
-   "ord": 330,
-   "titulo": "Quando arquiteta e paisagista conversam antes da obra, o morador sente a diferença",
-   "formato": "Reels [Misto]",
-   "funcao": "Converter",
-   "tema": "Tema 2 · Integração arquitetura + paisagismo",
-   "blocos": [
-    {
-     "t": "Gancho",
-     "x": "“Quando a arquiteta e a paisagista conversam antes da obra, quem mora sente a diferença.”"
-    },
-    {
-     "t": "Dor de quem vai ler",
-     "x": "A Erica contrata arquitetura e paisagismo separados e teme que os dois não conversem, deixando o lado de fora como um “extra”."
-    },
-    {
-     "t": "Por que abordar",
-     "x": "Mostra que a CRK trabalha junto da arquitetura e reduz a insegurança de quem está perto de decidir, sem criticar outros profissionais."
-    },
-    {
-     "t": "Como executar",
-     "x": "Reels [Misto] de 25 s: gancho com a frase; corpo com dois ganhos para o morador (vistas pensadas e circulação entre dentro e fora); CTA “Clique na bio e fale comigo”."
-    }
-   ],
-   "det": [
-    {
-     "t": "Material necessário",
-     "x": "Obrigatório: vídeo da Camila falando para a câmera (cerca de 15 s) e 3 ou 4 fotos reais de projetos com a arquitetura integrada ao espaço externo.\nOpcional: foto da Camila com a arquiteta parceira em reunião ou visita (com autorização)."
-    }
-   ]
-  },
   {
    "id": "r14",
    "etapa": "roteiro",
@@ -176,6 +40,60 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: vídeo da Camila gravando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de uma conversa inicial com cliente (só mesa, planta e anotações, sem identificar a pessoa); foto do caderno ou da planta com anotações dela."
+    }
+   ]
+  },
+  {
+   "id": "r15",
+   "etapa": "roteiro",
+   "n": 15,
+   "ord": 150,
+   "titulo": "Planejar antes não significa executar antes",
+   "formato": "Carrossel",
+   "funcao": "",
+   "tema": "",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel · 7 slides."
+    },
+    {
+     "t": "Slide 1 · Atrair (capa)",
+     "x": "“Planejar o paisagismo não significa ter que executá-lo agora.”\nImagem: casa em construção, terreno ou área externa ainda vazia, capa limpa."
+    },
+    {
+     "t": "Slide 2 · Permanecer",
+     "x": "“Durante uma construção, é comum concentrar o orçamento e a atenção na casa. Por isso, muitas pessoas deixam o espaço externo para depois. E não há problema nisso.”"
+    },
+    {
+     "t": "Slide 3 · Envolver",
+     "x": "“Mas existe uma diferença entre deixar a execução para depois e deixar para pensar no espaço externo depois.”"
+    },
+    {
+     "t": "Slide 4 · Envolver",
+     "x": "“Quando o paisagismo entra no planejamento, é possível entender como a área externa vai se relacionar com a casa e com a rotina de quem vai viver ali.”"
+    },
+    {
+     "t": "Slide 5 · Envolver",
+     "x": "“É nesse momento que desejos como sombra, privacidade, espaço para convivência e proximidade com a natureza podem ser considerados. Mesmo que tudo isso só seja executado mais adiante.”"
+    },
+    {
+     "t": "Slide 6 · Concluir",
+     "x": "“A execução pode acontecer no momento mais adequado e até ser feita por etapas. O planejamento serve para que essas possibilidades continuem existindo quando esse momento chegar.”"
+    },
+    {
+     "t": "Slide 7 · CTA",
+     "x": "“Está construindo ou reformando, mas pretende executar o espaço externo só depois? Você já pode começar pelo planejamento. Clique na bio e converse comigo.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "Nem sempre o espaço externo pode ser executado junto com a construção da casa, e não há problema em deixá-lo para outro momento. O que precisa ser diferenciado é a execução do planejamento.\n\nVocê pode decidir implantar depois, quando o orçamento e a fase da obra permitirem. Mas considerar o paisagismo durante o desenvolvimento da casa ajuda a preservar as possibilidades da área externa. É nesse planejamento que desejos como sombra, privacidade, convivência e integração com a natureza começam a encontrar lugar no projeto.\n\nA execução pode acontecer depois e até ser organizada por etapas. O importante é não esperar a casa estar completamente pronta para começar a pensar no espaço externo.\n\nEstá construindo ou reformando e quer incluir o paisagismo no planejamento? Clique na bio e converse comigo."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Imagens sugeridas: casa em obra ou área externa inacabada (slides 1 e 2); Camila analisando um projeto ou um render (slide 4); espaço externo pronto que mostre convivência (slide 5); antes e depois ou implantação (slide 6); Camila ou projeto finalizado (slide 7)."
     }
    ]
   },
@@ -488,6 +406,33 @@
    ]
   },
   {
+   "id": "c22",
+   "etapa": "criativo",
+   "n": 22,
+   "ord": 220,
+   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
+   "formato": "Carrossel [Cartões]",
+   "funcao": "Atrair",
+   "tema": "Tema 5 · Espaço externo que cabe na rotina",
+   "imgs": [
+    "../ideia22/slide-1.jpg",
+    "../ideia22/slide-2.jpg",
+    "../ideia22/slide-3.jpg",
+    "../ideia22/slide-4.jpg",
+    "../ideia22/slide-5.jpg",
+    "../ideia22/slide-6.jpg",
+    "../ideia22/slide-7.jpg"
+   ],
+   "legenda": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo.",
+   "blocos": [
+    {
+     "t": "O que você está analisando",
+     "x": "Carrossel de 7 slides, só com texto, no layout de cartões. Passe os slides como no Instagram (arraste ou use as setas), leia a legenda e marque abaixo se a arte está aprovada ou se precisa de ajuste. Se pedir ajuste, escreva o que muda."
+    }
+   ],
+   "det": []
+  },
+  {
    "id": "r22",
    "etapa": "roteiro",
    "n": 22,
@@ -576,6 +521,40 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: vídeos de 5 a 10 s de um espaço externo da CRK já executado, na vertical, com som ambiente, de preferência com uso real (cadeiras, pessoas de costas, crianças). Confirmar autorização do cliente.\nOpcional: fotos do mesmo espaço em horários diferentes (manhã, fim da tarde, noite com iluminação).\nDependência: depende de gravação nova ou de vídeos de um espaço executado já existentes; sem o vídeo, a peça não pode ser criada."
+    }
+   ]
+  },
+  {
+   "id": "i24",
+   "etapa": "ideia",
+   "n": 24,
+   "ord": 240,
+   "titulo": "No litoral de Florianópolis, o projeto começa lendo vento, sol e maresia, e só depois escolhe as plantas",
+   "formato": "Carrossel [Galeria]",
+   "funcao": "Atrair",
+   "tema": "Tema 6 · Natureza e clima local",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Antes de escolher as plantas, a gente lê o vento, o sol e a maresia do terreno.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Quer um espaço externo que dê certo em Florianópolis e teme escolher plantas bonitas que não se adaptam ao vento, ao sol e à maresia do terreno."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Mostra o olhar local da CRK e coloca o projeto antes da lista de espécies, reforçando que paisagismo é leitura de contexto."
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Galeria]: capa com a frase; 4 fotos de projetos, cada uma com uma leitura de clima em uma linha (vento, sol da tarde, maresia, solo); CTA."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: 4 a 6 fotos de projetos executados perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio."
     }
    ]
   },
@@ -670,31 +649,186 @@
    ]
   },
   {
-   "id": "c22",
-   "etapa": "criativo",
-   "n": 22,
-   "ord": 220,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Cartões]",
-   "funcao": "Atrair",
-   "tema": "Tema 5 · Espaço externo que cabe na rotina",
-   "imgs": [
-    "../ideia22/slide-1.jpg",
-    "../ideia22/slide-2.jpg",
-    "../ideia22/slide-3.jpg",
-    "../ideia22/slide-4.jpg",
-    "../ideia22/slide-5.jpg",
-    "../ideia22/slide-6.jpg",
-    "../ideia22/slide-7.jpg"
-   ],
-   "legenda": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo.",
+   "id": "r29",
+   "etapa": "roteiro",
+   "n": 29,
+   "ord": 290,
+   "titulo": "O valor de um projeto de paisagismo não paga plantas: paga decisões",
+   "formato": "Estático [Frase]",
+   "funcao": "Converter",
+   "tema": "Tema 4 · Investimento e orçamento",
    "blocos": [
     {
-     "t": "O que você está analisando",
-     "x": "Carrossel de 7 slides, só com texto, no layout de cartões. Passe os slides como no Instagram (arraste ou use as setas), leia a legenda e marque abaixo se a arte está aprovada ou se precisa de ajuste. Se pedir ajuste, escreva o que muda."
+     "t": "Formato",
+     "x": "Estático [Frase] · a frase está na arte e a explicação na legenda."
+    },
+    {
+     "t": "Imagem",
+     "x": "Fundo liso na cor bege da identidade, com a frase em destaque. Se houver, foto desfocada de pranchas ou do caderno de anotações da Camila ao fundo (sem dados de clientes)."
+    },
+    {
+     "t": "Texto de apoio",
+     "x": "Você sabia?"
+    },
+    {
+     "t": "Título na imagem",
+     "x": "O que você paga num projeto de paisagismo não são plantas. São decisões.\nDestaque visual: a palavra “decisões” na cor de destaque da CRK."
+    },
+    {
+     "t": "Legenda",
+     "x": "Você sabia que o valor de um projeto de paisagismo não paga plantas? Paga decisões.\n\nAntes de qualquer planta entrar, alguém precisa ler o terreno, entender como a família vive o espaço, definir níveis, circulação, drenagem, irrigação e iluminação, e escolher o que cada espécie vai fazer ali ao longo do tempo. É esse raciocínio que o projeto entrega.\n\nPor isso dois projetos que parecem parecidos na foto podem ter sido pensados de formas muito diferentes.\n\nSe você está comparando propostas e quer entender o que cada uma cobre, clique na bio e fale comigo."
     }
    ],
-   "det": []
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada.\nOpcional: foto de pranchas do projeto ou do caderno de anotações da Camila para o fundo da arte (sem dados de clientes)."
+    }
+   ]
+  },
+  {
+   "id": "r30",
+   "etapa": "roteiro",
+   "n": 30,
+   "ord": 300,
+   "titulo": "Terreno com muita sombra: o que dá para criar de bonito nesse espaço",
+   "formato": "Stories [Vitrine]",
+   "funcao": "Atrair",
+   "tema": "Tema 6 · Natureza e clima local",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Stories [Vitrine] · sequência de 4 stories · sem figurinha interativa. Fotos reais de projetos da Camila em áreas sombreadas."
+    },
+    {
+     "t": "Story 1 · Abertura",
+     "x": "Texto na tela: Sombra não é defeito do terreno. É ponto de partida.\nCena: foto vertical de um espaço sombreado da CRK, em plano aberto.\nFala (opcional): “Terreno com muita sombra não precisa virar um espaço escuro e sem graça. Olha o que dá para criar.”"
+    },
+    {
+     "t": "Story 2 · Vitrine 1",
+     "x": "Texto na tela: Pouca luz muda a escolha das plantas, não a qualidade do espaço.\nCena: foto real 1 de projeto da Camila em área sombreada.\nFala (opcional): “Com pouca luz, o projeto escolhe espécies que vivem bem na sombra. É uma escolha técnica, feita para o seu terreno.”"
+    },
+    {
+     "t": "Story 3 · Vitrine 2",
+     "x": "Texto na tela: Folhagem, textura e iluminação bem pensada dão vida a cada canto.\nCena: foto real 2 de projeto da Camila (ou um antes e depois do mesmo espaço, se houver).\nFala (opcional): “Folhagens diferentes, texturas e uma iluminação bem pensada deixam o espaço acolhedor até no fim do dia.”"
+    },
+    {
+     "t": "Story 4 · Convite",
+     "x": "Texto na tela: Seu terreno tem muita sombra? Clique na bio e fale comigo.\nCena: foto 3 ou a foto do story 1, com espaço livre para o texto.\nFala (opcional): “Se o seu terreno tem muita sombra, vale conversar. Clique na bio e fale comigo.”"
+    },
+    {
+     "t": "Observações",
+     "x": "Não identificar cliente nem endereço. Tom acolhedor e consultivo, sem promessa de resultado."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: 2 a 3 fotos reais de projetos da Camila em áreas sombreadas (verticais, boa resolução).\nOpcional: uma foto do antes de um terreno sombreado, para mostrar a transformação."
+    }
+   ]
+  },
+  {
+   "id": "i31",
+   "etapa": "ideia",
+   "n": 31,
+   "ord": 310,
+   "titulo": "Por que a irrigação precisa ser pensada antes de o piso ser assentado",
+   "formato": "Carrossel [Cartões]",
+   "funcao": "Qualificar",
+   "tema": "Tema 7 · A técnica invisível",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“A parte do espaço externo que ninguém vê é decidida antes do piso.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "A Erica pensa em plantas só no fim da obra e não sabe que parte do que mantém o espaço bonito passa por baixo do piso e precisa ser decidida antes."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Mostra o raciocínio técnico da Camila e leva quem está construindo a chamar a paisagista cedo. O que não aparece na foto final decide como o espaço funciona com o tempo."
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Cartões] de 7 slides, com um ponto técnico por cartão: capa com a frase; o que passa por baixo do piso; por que decidir antes; o que muda quando a irrigação é planejada; pergunta final; CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada.\nOpcional: foto real de uma obra com o piso ou o canteiro ainda abertos, sem identificar o cliente."
+    }
+   ]
+  },
+  {
+   "id": "i32",
+   "etapa": "ideia",
+   "n": 32,
+   "ord": 320,
+   "titulo": "A primeira pergunta que eu faço não é qual planta: é quanto tempo você quer dedicar ao espaço",
+   "formato": "Stories [Selfie]",
+   "funcao": "Qualificar",
+   "tema": "Tema 5 · Espaço externo que cabe na rotina",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Antes de escolher qualquer planta, eu pergunto outra coisa.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "A Erica quer um espaço externo bonito, mas tem rotina cheia e teme que ele vire mais uma tarefa."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "O tempo disponível é informação de projeto, não detalhe. Responder isso antes tranquiliza, mostra como a Camila conduz a conversa e filtra quem quer um projeto pensado para a vida real."
+    },
+    {
+     "t": "Como executar",
+     "x": "Stories [Selfie] em 3 stories: 1) a pergunta e o porquê; 2) como a resposta muda o projeto; 3) convite “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: 3 vídeos curtos da Camila falando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de um espaço externo de projeto dela como fundo do último story."
+    }
+   ]
+  },
+  {
+   "id": "i33",
+   "etapa": "ideia",
+   "n": 33,
+   "ord": 330,
+   "titulo": "Quando arquiteta e paisagista conversam antes da obra, o morador sente a diferença",
+   "formato": "Reels [Misto]",
+   "funcao": "Converter",
+   "tema": "Tema 2 · Integração arquitetura + paisagismo",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Quando a arquiteta e a paisagista conversam antes da obra, quem mora sente a diferença.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "A Erica contrata arquitetura e paisagismo separados e teme que os dois não conversem, deixando o lado de fora como um “extra”."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Mostra que a CRK trabalha junto da arquitetura e reduz a insegurança de quem está perto de decidir, sem criticar outros profissionais."
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Misto] de 25 s: gancho com a frase; corpo com dois ganhos para o morador (vistas pensadas e circulação entre dentro e fora); CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: vídeo da Camila falando para a câmera (cerca de 15 s) e 3 ou 4 fotos reais de projetos com a arquitetura integrada ao espaço externo.\nOpcional: foto da Camila com a arquiteta parceira em reunião ou visita (com autorização)."
+    }
+   ]
   }
  ]
 }
