@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-04T12:46:34.000Z",
+ "atualizado": "2026-11-05T12:46:44.000Z",
  "itens": [
   {
    "id": "r14",
@@ -402,87 +402,6 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra em andamento mostrando nível, drenagem ou tubulação (sem identificar o cliente).\nOpcional: foto do mesmo trecho depois de pronto; detalhe de canaleta ou caixa de passagem integrada ao projeto."
-    }
-   ]
-  },
-  {
-   "id": "c22",
-   "etapa": "criativo",
-   "n": 22,
-   "ord": 220,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Cartões]",
-   "funcao": "Atrair",
-   "tema": "Tema 5 · Espaço externo que cabe na rotina",
-   "imgs": [
-    "../ideia22/slide-1.jpg",
-    "../ideia22/slide-2.jpg",
-    "../ideia22/slide-3.jpg",
-    "../ideia22/slide-4.jpg",
-    "../ideia22/slide-5.jpg",
-    "../ideia22/slide-6.jpg",
-    "../ideia22/slide-7.jpg"
-   ],
-   "legenda": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo.",
-   "blocos": [
-    {
-     "t": "O que você está analisando",
-     "x": "Carrossel de 7 slides, só com texto, no layout de cartões. Passe os slides como no Instagram (arraste ou use as setas), leia a legenda e marque abaixo se a arte está aprovada ou se precisa de ajuste. Se pedir ajuste, escreva o que muda."
-    }
-   ],
-   "det": []
-  },
-  {
-   "id": "r22",
-   "etapa": "roteiro",
-   "n": 22,
-   "ord": 220,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Pílula]",
-   "funcao": "Atrair",
-   "tema": "Tema 5 · Espaço externo que cabe na rotina",
-   "blocos": [
-    {
-     "t": "Formato",
-     "x": "Carrossel [Pílula] · Dúvida · 7 slides. Sem promessa de “baixa manutenção”."
-    },
-    {
-     "t": "Slide 1 · Atrair (capa)",
-     "x": "“Existe espaço externo que não dá trabalho?”"
-    },
-    {
-     "t": "Slide 2 · Resposta honesta",
-     "x": "“Todo espaço externo pede algum cuidado. A questão é quanto, e se isso cabe na sua rotina.”"
-    },
-    {
-     "t": "Slide 3 · Espécies",
-     "x": "“As espécies são escolhidas pelo porte e pelo crescimento.” Plantas que se mantêm no tamanho previsto pedem menos intervenção ao longo do tempo."
-    },
-    {
-     "t": "Slide 4 · Acesso e irrigação",
-     "x": "“Acesso, irrigação e podas são planejados desde o projeto.” O cuidado fica possível e organizado, em vez de virar improviso."
-    },
-    {
-     "t": "Slide 5 · Rotina",
-     "x": "“A rotina da sua família define a frequência de cuidado.” Quanto tempo por semana você tem? Essa resposta orienta as decisões do projeto."
-    },
-    {
-     "t": "Slide 6 · Envolver",
-     "x": "“Quanto tempo por semana você teria para cuidar do seu espaço externo?” Convite para responder nos comentários."
-    },
-    {
-     "t": "Slide 7 · Concluir",
-     "x": "“O cuidado certo é o que cabe na sua vida. Clique na bio e fale comigo.”"
-    },
-    {
-     "t": "Legenda",
-     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
-    }
-   ],
-   "det": [
-    {
-     "t": "Material necessário",
-     "x": "Obrigatório: nada.\nOpcional: foto de espaço externo da CRK já maduro, com anos de plantio; foto do sistema de irrigação ou do acesso para cuidado integrado ao projeto.\nUso no carrossel: foto de espaço maduro no slide 3; foto de irrigação ou acesso no slide 4. Os demais slides são tipografia."
     }
    ]
   },
