@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-05T12:46:44.000Z",
+ "atualizado": "2026-11-07T12:46:31.000Z",
  "itens": [
   {
    "id": "r14",
@@ -252,6 +252,40 @@
    ]
   },
   {
+   "id": "i19",
+   "etapa": "ideia",
+   "n": 19,
+   "ord": 190,
+   "titulo": "Você está planejando a casa inteira. E o lado de fora?",
+   "formato": "Carrossel [Dividido]",
+   "funcao": "",
+   "tema": "",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Você já decidiu o piso, a cor e a iluminação da casa. E o lado de fora?”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Organiza a casa por ambientes e pode não perceber a área externa como parte do mesmo projeto."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Coloca o lado de dentro e o lado de fora na mesma lógica de planejamento, mostrando que a experiência da casa não termina na porta."
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Dividido] em 7 slides, cada um dividido ao meio: interior à esquerda, exterior da mesma casa à direita. Fecha com a chamada suave “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: pares de fotos do mesmo projeto (interior planejado e área externa); uma foto de dentro para fora, pela janela ou porta de vidro."
+    }
+   ]
+  },
+  {
    "id": "r19",
    "etapa": "roteiro",
    "n": 19,
@@ -356,6 +390,40 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: nada.\nOpcional: planta ou render de projeto dividido em etapas (identificar como render quando for o caso); foto de um espaço externo executado por fases.\nUso no carrossel: planta ou render por etapas no slide 5; foto de espaço executado por fases no slide 4. Slides 2, 3 e 6 podem ser só tipografia e ícones."
+    }
+   ]
+  },
+  {
+   "id": "i21",
+   "etapa": "ideia",
+   "n": 21,
+   "ord": 210,
+   "titulo": "A parte do espaço externo que ninguém vê é a que mais pesa depois da obra: nível e drenagem",
+   "formato": "Reels [Dinâmico]",
+   "funcao": "Qualificar",
+   "tema": "Tema 7 · A técnica invisível",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Esse é o pedaço do espaço externo que não aparece na foto.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Drenagem, nível e irrigação que só dão problema depois da obra pronta."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Mostra o domínio técnico que não aparece na foto e por que o projeto precisa entrar enquanto ainda dá para compatibilizar. Reforça que paisagismo é mais do que escolher plantas."
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Dinâmico] de 20 a 30 s: gancho com o espaço pronto; três imagens de obra com legenda curta (nível, caimento e canaletas, tubulação); fechamento com o espaço pronto; CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra mostrando nível, drenagem ou tubulação, sem identificar o cliente.\nOpcional: foto do mesmo trecho depois de pronto."
     }
    ]
   },
@@ -478,6 +546,40 @@
    ]
   },
   {
+   "id": "i25",
+   "etapa": "ideia",
+   "n": 25,
+   "ord": 250,
+   "titulo": "Antes de desenhar o espaço externo, a gente lê o que a arquitetura já disse: piso, muro e fachada",
+   "formato": "Estático [Leia a legenda]",
+   "funcao": "Atrair",
+   "tema": "Tema 2 · Integração arquitetura + paisagismo",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Antes da planta, eu leio o piso, o muro e a fachada.”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Teme um espaço externo desconectado da casa, que não combine com o que já foi construído."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Mostra o método da Camila (entender a casa antes de pensar o espaço externo) de forma simples e salvável. Reforça a integração com a arquitetura e conversa também com arquitetos."
+    },
+    {
+     "t": "Como executar",
+     "x": "Estático [Leia a legenda]: foto da fachada com o espaço externo integrado e a frase de gancho; legenda em 3 parágrafos (o que a arquitetura já define, como a vegetação conversa com isso, o que muda no espaço externo); CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada.\nOpcional: foto da fachada com o espaço externo integrado; detalhes de piso, muro e vegetação lado a lado."
+    }
+   ]
+  },
+  {
    "id": "r25",
    "etapa": "roteiro",
    "n": 25,
@@ -504,6 +606,40 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: nada.\nOpcional: foto da fachada com o espaço externo já integrado (mesmo ângulo da casa); detalhes de piso, muro e vegetação lado a lado; render do projeto, identificado como render."
+    }
+   ]
+  },
+  {
+   "id": "i26",
+   "etapa": "ideia",
+   "n": 26,
+   "ord": 260,
+   "titulo": "Em que fase está a sua obra? A resposta muda o que ainda dá para decidir no espaço externo",
+   "formato": "Stories [Enquete]",
+   "funcao": "Qualificar",
+   "tema": "Tema 1 · Paisagismo desde o início",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“Em que fase está a sua obra?”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Não sabe se ainda dá tempo de pensar o espaço externo."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "A enquete segmenta a audiência por fase da obra e mostra quem está chegando cedo ou tarde, com uma interação simples."
+    },
+    {
+     "t": "Como executar",
+     "x": "Dia 1: enquete com 4 opções (ainda no projeto da casa, em obra, no acabamento, já moro). Dia 2 (Resposta): 3 stories dizendo o que ainda dá para decidir em cada fase, com CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) chamando para votar; foto de obra em andamento."
     }
    ]
   },
@@ -538,6 +674,40 @@
     {
      "t": "Material necessário",
      "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) chamando para votar; foto de obra em andamento."
+    }
+   ]
+  },
+  {
+   "id": "i27",
+   "etapa": "ideia",
+   "n": 27,
+   "ord": 270,
+   "titulo": "O que você gostaria de saber antes de contratar uma paisagista?",
+   "formato": "Stories [Caixinha]",
+   "funcao": "Converter",
+   "tema": "Tema 3 · O processo do projeto",
+   "blocos": [
+    {
+     "t": "Gancho",
+     "x": "“O que você gostaria de saber antes de contratar uma paisagista?”"
+    },
+    {
+     "t": "Dor de quem vai ler",
+     "x": "Tem receio de contratar sem saber o que esperar."
+    },
+    {
+     "t": "Por que abordar",
+     "x": "Abre conversa direta e leva quem está decidindo para o contato. As perguntas viram insumo para as próximas ideias."
+    },
+    {
+     "t": "Como executar",
+     "x": "Dia 1: caixinha de perguntas com a pergunta do gancho. Dia 2 (Resposta): 2 a 3 respostas escolhidas, no tom de primeira reunião, fechando com CTA “Clique na bio e fale comigo”."
+    }
+   ],
+   "det": [
+    {
+     "t": "Material necessário",
+     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) convidando a perguntar."
     }
    ]
   },
