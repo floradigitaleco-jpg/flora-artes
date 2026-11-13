@@ -1,10 +1,25 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-03",
+ "atualizadoEm": "2026-11-13",
  "itens": [
   {
-   "id": "i05",
+   "id": "i00-teste",
    "etapa": "ideia",
+   "numero": 0,
+   "titulo": "TESTE da página (pode usar à vontade)",
+   "formato": "Teste",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Como testar",
+     "x": "Escolha uma tag, escreva uma observação e toque em Enviar este item. Depois confira no Notion a página TESTE."
+    }
+   ],
+   "pagina": "41785198-8c4e-8114-908b-d82186ed7c1b"
+  },
+  {
+   "id": "r05",
+   "etapa": "roteiro",
    "numero": 5,
    "titulo": "Por que eu uso: Capim-do-Texas",
    "formato": "Carrossel [Etiqueta]",
@@ -26,7 +41,8 @@
      "t": "O que precisamos da Liliane",
      "x": "Os critérios dela para usar essa planta (áudio de 1 a 2 minutos ou texto), para o conteúdo sair na voz dela. Fotos reais de projetos com a planta são opcionais."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-817b-9f84-d9e61abeee21"
   },
   {
    "id": "i09",
@@ -52,7 +68,8 @@
      "t": "O que precisamos da Liliane",
      "x": "Gravação dela em um terreno com plantas existentes (pode ser numa visita técnica), explicando como avalia o que aproveitar."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-8125-bd0e-f624d96adbad"
   },
   {
    "id": "i10",
@@ -78,7 +95,8 @@
      "t": "O que precisamos da Liliane",
      "x": "Vídeo vertical de 10 a 20 s da cena, gravado de manhã, em jardim dela ou de cliente com autorização."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-8139-9400-daac9afcd6dc"
   },
   {
    "id": "i12",
@@ -104,7 +122,8 @@
      "t": "O que precisamos da Liliane",
      "x": "Nada para o dia 1. Para o dia 2: uma fala curta dela (20 a 30 s) sobre cada condição de luz."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-810e-82cf-fb16d50a8dc2"
   },
   {
    "id": "i14",
@@ -130,7 +149,8 @@
      "t": "O que precisamos da Liliane",
      "x": "3 a 5 fotos ou vídeos curtos dela trabalhando em um projeto (sem dados do cliente) e uma frase sobre o que está decidindo naquele momento."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-81d9-876c-f0ce01fe149b"
   },
   {
    "id": "r16",
@@ -168,7 +188,8 @@
      "t": "Para a Liliane validar",
      "x": "As 4 perguntas dos stories 2 a 4 são uma sugestão no tom dela: valide ou troque por frases suas. As fotos são de projetos reais que já estão no Drive."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-81cc-89c3-e56f488ffb5a"
   },
   {
    "id": "r26",
@@ -214,7 +235,8 @@
      "t": "Legenda",
      "x": "Antes de escolher espécies ou pensar na estética do jardim, vale entender como esse espaço precisa funcionar na vida real.\n\nEssas perguntas parecem simples, mas ajudam a revelar prioridades que mudam completamente as decisões de um projeto.\n\nUm jardim pensado para receber não nasce das mesmas escolhas de um espaço pensado para crianças, privacidade ou descanso.\n\nSalve este post para responder com calma e compartilhe com alguém que também está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
     }
-   ]
+   ],
+   "pagina": "3b685198-8c4e-8196-a44f-e246bd0ad287"
   },
   {
    "id": "r59",
@@ -248,7 +270,8 @@
      "t": "Para a Liliane validar",
      "x": "A narração traz só o raciocínio geral e não cita espécies. Se quiser falar de plantas a evitar ou cuidados específicos, você mesma diz quais."
     }
-   ]
+   ],
+   "pagina": "40785198-8c4e-819e-830f-d5a41c8fb366"
   },
   {
    "id": "r60",
@@ -278,26 +301,8 @@
      "t": "Para a Liliane validar",
      "x": "Os 3 aprendizados da legenda são propostas no tom dela. Valide ou troque pelos seus antes de a arte ser feita."
     }
-   ]
-  },
-  {
-   "id": "c32",
-   "etapa": "criativo",
-   "numero": 32,
-   "titulo": "O som da água muda o ritmo do dia",
-   "formato": "Reels [Experiência]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "O som da água muda a forma como a gente vive o jardim. 🌿\n\nUma cascata bem pensada cria uma pausa no dia: acalma, abafa o ruído de fora e convida a ficar. Por isso, ao projetar, eu penso também no que se ouve, não só no que se vê.\n\n#PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
-    }
    ],
-   "midia": {
-    "tipo": "video",
-    "arquivo": "videos/ideia-32-som-da-agua.mp4",
-    "poster": "img/c32-poster.jpg"
-   }
+   "pagina": "40785198-8c4e-81e5-b271-ce2c2d664d1e"
   }
  ]
 }
