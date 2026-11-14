@@ -157,6 +157,12 @@ dialog .btn{width:100%}
 .env-it .btn{margin-top:8px;min-height:44px}
 .toast{margin:0 0 14px;padding:12px 14px;border:1.5px solid var(--ok-bd);background:var(--ok-bg);color:var(--ok-fg);border-radius:10px;font-size:15px;font-weight:600}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+button.wa{font-family:inherit}
+button.wa[aria-disabled="true"]{opacity:.45;cursor:default}
+.tag[aria-pressed="true"].t-ne{background:var(--aj-bg);color:var(--aj-fg);border-color:var(--aj-bd)}
+.tags.n5 .tag:last-child{grid-column:1/-1}
+@media (min-width:680px){.tags.n5 .tag:last-child{grid-column:auto}}
 </style>
 </head>
 <body>
@@ -165,7 +171,7 @@ dialog .btn{width:100%}
 <img class="logo" src="logo.png" width="96" height="96" alt="CRK Arquitetura e Paisagismo">
 <div class="eyebrow">CRK Paisagismo · Camila Koerich</div>
 <h1>O que está esperando por você</h1>
-<p>Veja ideias, roteiros e criativos. Marque cada item como aprovado ou peça ajustes, escreva o que mudar e envie tudo pelo WhatsApp.</p>
+<p>Veja ideias, roteiros e criativos. Marque cada item como aprovado ou peça ajustes, escreva o que mudar e envie. Suas respostas chegam direto para a Flora Digital.</p>
 </header>
 <div class="tabs-faixa"><div class="tabs" role="tablist" id="tabs" aria-label="Etapas do conteúdo"></div></div>
 <div id="list"><div class="estado" role="status">Carregando os conteúdos…</div></div>
@@ -182,17 +188,24 @@ dialog .btn{width:100%}
 </dialog>
 <noscript><p>Esta página precisa de JavaScript para mostrar os conteúdos.</p></noscript>
 <script>
-const WA_NUM='';            // WhatsApp que recebe as respostas: DDI + DDD + número, só dígitos (ex.: '5548999999999'). Vazio: o WhatsApp pergunta para quem enviar.
-const KEY='crk-conteudos-v1';
+const HOOK='https://hook.us2.make.com/y9hh3o6b0gbuekflzqy7gou94djm6qtv'; // Make: recebe a resposta e registra no Notion
+const CHAVE='k1rv2qoyyyYnvFmWM2JvQl5Y';
+const CLIENTE='Camila';
+const ST_NOTION={
+ 'ajuste de ideia':'Ajustar Ideia','ideia aprovada':'Ideia aprovada','ideia não aprovada':'Ideia não aprovada','não entendi a ideia':'Não entendi a ideia',
+ 'ajuste de roteiro':'Ajustes no Roteiro','roteiro aprovado':'Roteiro Aprovado',
+ 'ajuste no criativo':'Ajuste no criativo','criativo aprovado':'Criativo Aprovado'
+};
+const KEY='crk-aprovacao-v2';
 const DADOS_URL='dados.json';
 
 const ETAPAS=[
- {k:'ideia',aba:'Ideias',nome:'Ideia',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada'],vazio:'Nenhuma ideia para analisar agora.'},
+ {k:'ideia',aba:'Ideias',nome:'Ideia',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada','não entendi a ideia'],vazio:'Nenhuma ideia para analisar agora.'},
  {k:'roteiro',aba:'Roteiros',nome:'Roteiro',tags:['análise de roteiro','ajuste de roteiro','roteiro aprovado'],vazio:'Nenhum roteiro para analisar agora.'},
  {k:'criativo',aba:'Criativos',nome:'Criativo',tags:['análise do criativo','ajuste no criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'},
  {k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando publicação.'}
 ];
-const CLS=['t-an','t-aj','t-ok','t-no'],VAL=[null,'ajuste','aprovado','naoaprovado'];
+const CLS=['t-an','t-aj','t-ok','t-no','t-ne'],VAL=[null,'ajuste','aprovado','naoaprovado','naoentendi'];
 const etapaDe=k=>ETAPAS.find(e=>e.k===k);
 const $=id=>document.getElementById(id);
 const reduz=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -201,25 +214,28 @@ function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=nu
 let ITENS=[],decisoes={},obs={},enviados={},aba=0,aviso='';
 const links=[];
 try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');decisoes=s.d||{};obs=s.o||{};enviados=s.e||{}}catch(e){}
-/* grava na hora: ao tocar em "Enviar pelo WhatsApp" a página vai para segundo plano e um atraso poderia perder o último toque */
+/* grava na hora: um atraso poderia perder o último toque */
 function save(){try{localStorage.setItem(KEY,JSON.stringify({d:decisoes,o:obs,e:enviados}))}catch(e){}}
 function stat(it){const i=VAL.indexOf(decisoes[it.id]);return i<0?0:i}
 const foiEnv=it=>!!enviados[it.id];
 const analisaveis=()=>ITENS.filter(i=>!etapaDe(i.etapa).leitura&&!foiEnv(i));
-const respondido=it=>stat(it)>0||!!(obs[it.id]||'').trim();
+const respondido=it=>stat(it)>0;
 
-function wa(msg){return 'https://wa.me/'+WA_NUM+'?text='+encodeURIComponent(msg)}
 function linha(it){
  const e=etapaDe(it.etapa);if(!e||e.leitura)return null;
  const i=stat(it),o=(obs[it.id]||'').trim();
- if(!i&&!o)return null;
+ if(!i)return null; /* só envia depois de escolher uma tag além de "análise" */
  return '*#'+it.numero+' · '+it.titulo+'* ('+e.nome+')\nStatus: '+e.tags[i]+(o?'\nObservação: '+o:'');
 }
 function msgTudo(){return 'Olá! Aqui é a Camila, da CRK Paisagismo. Minhas respostas sobre os conteúdos:\n\n'+ITENS.filter(i=>!foiEnv(i)).map(linha).filter(Boolean).join('\n\n')}
-function setLink(a,msg){
- if(msg){a.href=wa(msg);a.target='_blank';a.rel='noopener';a.removeAttribute('aria-disabled')}
- else{a.removeAttribute('href');a.removeAttribute('target');a.setAttribute('aria-disabled','true')}
+function quando(it){
+ const t=it.publicacao?new Date(it.publicacao):null;
+ if(!t||isNaN(t))return 'Aprovado. Aguardando a programação nas redes.';
+ const dia=t.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}).replace('.','');
+ const h=t.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}).replace(':00','h').replace(':','h');
+ return 'Aprovado e programado para '+dia+', às '+h+'. Depois de publicado, sai desta lista.';
 }
+function setAtivo(b,on){if(on)b.removeAttribute('aria-disabled');else b.setAttribute('aria-disabled','true')}
 function updateLinks(){links.forEach(f=>f())}
 
 function renderTexto(box,texto){
@@ -281,14 +297,27 @@ function marcarEnviados(lista){
  lista.forEach(it=>{const l=linha(it);if(!l)return;const i=stat(it);enviados[it.id]={s:etapaDe(it.etapa).tags[i],o:(obs[it.id]||'').trim(),t:agora}});
  save();
 }
-function depoisDeEnviar(lista){
- /* espera o WhatsApp abrir antes de tirar o item da tela */
- setTimeout(()=>{
-  const n=lista.filter(it=>linha(it)).length;if(!n)return;
-  marcarEnviados(lista);
-  aviso=n===1?'Enviado. O item saiu desta lista e está guardado em "Enviados", no fim da página.':n+' itens enviados. Eles saíram desta lista e estão guardados em "Enviados", no fim da página.';
-  montar(aba);avisar(aviso);
- },500);
+let enviando=false;
+/* ao aprovar uma etapa, o Make tira as tags de análise/ajuste dessa mesma etapa */
+const LIMPAR={'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};
+function payload(it){
+ const e=etapaDe(it.etapa),i=stat(it);
+ return {chave:CHAVE,cliente:CLIENTE,item:it.id,pagina:it.pagina,ts:new Date().toISOString(),etapa:it.etapa,ideia:String(it.numero),titulo:it.titulo,rotulo:'#'+it.numero+' · '+it.titulo,tag:e.tags[i],status:ST_NOTION[e.tags[i]]||'',r1:(LIMPAR[e.tags[i]]||[])[0]||'',r2:(LIMPAR[e.tags[i]]||[])[1]||'',r3:(LIMPAR[e.tags[i]]||[])[2]||'',r4:(LIMPAR[e.tags[i]]||[])[3]||'',obs:(obs[it.id]||'').trim()};
+}
+async function enviar(lista,btn){
+ if(enviando)return;
+ const its=lista.filter(it=>linha(it));if(!its.length)return;
+ enviando=true;btn.textContent='Enviando…';btn.setAttribute('aria-disabled','true');
+ const ok=[];let falha=0;
+ for(const it of its){
+  if(!it.pagina){falha++;continue}
+  try{const r=await fetch(HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload(it))});if(r.ok)ok.push(it);else falha++}catch(e){falha++}
+ }
+ enviando=false;
+ if(ok.length)marcarEnviados(ok);
+ const n=ok.length;
+ aviso=(n?(n===1?'Enviado! O item saiu desta lista e está guardado em "Enviados", no fim da página.':n+' itens enviados! Eles saíram desta lista e estão guardados em "Enviados", no fim da página.'):'')+(falha?(n?' ':'')+(falha===1?'1 item não foi enviado':falha+' itens não foram enviados')+'. Suas respostas continuam salvas aqui; tente de novo em instantes.':'');
+ montar(aba);avisar(aviso);
 }
 function desfazer(it){delete enviados[it.id];save();aviso='';montar(aba)}
 function montarEnviados(){
@@ -296,7 +325,7 @@ function montarEnviados(){
  if(!its.length){d.hidden=true;return}
  d.hidden=false;
  const sm=el('summary',null,'Enviados ('+its.length+')');d.append(sm);
- const c=el('div','corpo');c.append(el('p',null,'Estes itens já foram enviados pelo WhatsApp e não aparecem mais nas abas. Se precisar, volte um item para a análise.'));
+ const c=el('div','corpo');c.append(el('p',null,'Estes itens já foram enviados e não aparecem mais nas abas. Se precisar, volte um item para a análise.'));
  its.sort((a,b)=>String(enviados[b.id].t).localeCompare(String(enviados[a.id].t))).forEach(it=>{
   const e=etapaDe(it.etapa),r=enviados[it.id],w=el('div','env-it');
   w.append(el('h3',null,'#'+it.numero+' · '+it.titulo));
@@ -354,13 +383,6 @@ function blocoCriativo(it){
 }
 
 /* ---------- cartão ---------- */
-function quando(it){
- const t=it.publicacao?new Date(it.publicacao):null;
- if(!t||isNaN(t))return 'Aprovado. Aguardando a programação nas redes.';
- const dia=t.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}).replace('.','');
- const h=t.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}).replace(':00','h').replace(':','h');
- return 'Aprovado e programado para '+dia+', às '+h+'. Depois de publicado, sai desta lista.';
-}
 function card(it,e){
  const c=el('article','item');c.id='c-'+it.id;
  const h=el('h2',null,'#'+it.numero+' · '+it.titulo);h.id='t-'+it.id;c.setAttribute('aria-labelledby',h.id);c.append(h);
@@ -382,7 +404,7 @@ function card(it,e){
  }
  (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
 
- const tg=el('div','tags'+(e.tags.length===3?' n3':''));tg.style.setProperty('--n',e.tags.length);tg.setAttribute('role','group');tg.setAttribute('aria-label','Status de #'+it.numero);
+ const tg=el('div','tags'+(e.tags.length===3?' n3':e.tags.length===5?' n5':''));tg.style.setProperty('--n',e.tags.length);tg.setAttribute('role','group');tg.setAttribute('aria-label','Status de #'+it.numero);
  const nota=el('p','note','Escreva abaixo o que precisa mudar.');
  const btns=e.tags.map((nome,i)=>{
   const b=el('button','tag '+CLS[i],nome);b.type='button';
@@ -395,8 +417,8 @@ function card(it,e){
  const wrap=el('div','cm');wrap.append(el('h3',null,'Observações'));
  const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Escreva aqui o que precisa mudar ou o que você achou…';ta.setAttribute('aria-label','Observações sobre #'+it.numero);ta.value=obs[it.id]||'';
  ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();crescer(ta);atualizarTudo()});
- const a=el('a','wa','Enviar este item pelo WhatsApp');a.addEventListener('click',ev=>{if(a.getAttribute('aria-disabled')==='true'){ev.preventDefault();return}depoisDeEnviar([it])});
- links.push(()=>{const l=linha(it);setLink(a,l?'Olá! Aqui é a Camila, da CRK Paisagismo. Minha resposta sobre este conteúdo:\n\n'+l:'')});
+ const a=el('button','wa','Enviar este item');a.type='button';a.addEventListener('click',()=>{if(a.getAttribute('aria-disabled')==='true')return;enviar([it],a)});
+ links.push(()=>setAtivo(a,!!linha(it)));
  const campo=el('div','campo');campo.append(ta);const mic=microfone(ta,'#'+it.numero);if(mic.btn)campo.append(mic.btn);wrap.append(campo,mic.st,a);c.append(wrap);
  pinta();
  return c;
@@ -438,20 +460,20 @@ let stRod=null,btnTudo=null,btnCopia=null;
 function montarRodape(){
  const f=$('foot');f.textContent='';
  f.append(el('h2',null,'Terminou de analisar?'));
- f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, abre o WhatsApp com a mensagem pronta para a Flora Digital e os itens enviados saem da lista.'));
+ f.append(el('p',null,'Suas marcações e observações ficam salvas neste aparelho. Ao enviar, sua resposta chega direto para a Flora Digital e os itens enviados saem da lista.'));
  const ac=el('div','acoes');
- btnTudo=el('a','wa','Enviar tudo pelo WhatsApp');
+ btnTudo=el('button','wa','Enviar tudo');btnTudo.type='button';
  btnCopia=el('button','btn sec','Copiar resposta');btnCopia.type='button';
  btnCopia.onclick=()=>{if(!btnCopia.disabled)copiarComAviso(msgTudo(),btnCopia,'Resposta copiada')};
  ac.append(btnTudo,btnCopia);
  stRod=el('p','st');stRod.setAttribute('aria-live','polite');
  f.append(ac,stRod);
- btnTudo.addEventListener('click',ev=>{if(btnTudo.getAttribute('aria-disabled')==='true'){ev.preventDefault();return}depoisDeEnviar(ITENS.filter(i=>!foiEnv(i)))});
+ btnTudo.addEventListener('click',()=>{if(btnTudo.getAttribute('aria-disabled')==='true')return;enviar(ITENS.filter(i=>!foiEnv(i)),btnTudo)});
  links.push(()=>{
   const ls=ITENS.filter(i=>!foiEnv(i)).map(linha).filter(Boolean);
-  setLink(btnTudo,ls.length?msgTudo():'');btnCopia.disabled=!ls.length;
+  setAtivo(btnTudo,ls.length>0);btnCopia.disabled=!ls.length;
   const tot=analisaveis().length,fe=analisaveis().filter(respondido).length;
-  stRod.textContent=fe+' de '+tot+(tot===1?' item respondido':' itens respondidos')+(fe?'.':'. Marque ao menos um item para poder enviar.');
+  stRod.textContent=fe+' de '+tot+(tot===1?' item respondido':' itens respondidos')+(fe?'.':'. Escolha um status em ao menos um item para poder enviar.');
  });
 }
 function atualizarTudo(){
