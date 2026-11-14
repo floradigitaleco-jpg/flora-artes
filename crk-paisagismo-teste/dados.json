@@ -1,0 +1,21 @@
+{
+ "cliente": "CRK Paisagismo",
+ "atualizadoEm": "2026-11-14",
+ "itens": [
+  {
+   "id": "ideia-99",
+   "etapa": "ideia",
+   "numero": 99,
+   "titulo": "TESTE DO FLUXO (pode ignorar)",
+   "formato": "Post",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Teste",
+     "x": "Item de teste do fluxo de aprovação automática."
+    }
+   ],
+   "pagina": "41885198-8c4e-8187-b004-f9c7abb6761f"
+  }
+ ]
+}
