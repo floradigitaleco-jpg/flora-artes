@@ -1,6 +1,6 @@
 {
  "cliente": "CRK Paisagismo",
- "atualizadoEm": "2026-11-04",
+ "atualizadoEm": "2026-11-14",
  "itens": [
   {
    "id": "ideia-19",
@@ -11,23 +11,24 @@
    "funcao": null,
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "O que comunica: coloca lado de dentro e lado de fora na mesma lógica de planejamento, mostrando que a experiência da casa não termina na porta.\nPercepção desejada: reconhecer que dedicar atenção ao interior e adiar o exterior é planejar só parte da forma de viver a casa.\nLimite: fica no contraste entre interior planejado e exterior esquecido; não entra em erros técnicos, custos ou chamada de contratação."
+     "t": "Análise",
+     "x": "**A dor:** planejar só o lado de dentro da casa e deixar o exterior para depois.\n**Função do conteúdo:** mostrar que a experiência da casa não termina na porta."
     },
     {
      "t": "Gancho",
      "x": "“Você já decidiu o piso, a cor e a iluminação da casa. E o lado de fora?”"
     },
     {
-     "t": "Como executar",
-     "x": "Formato principal: Reels. Contrastar ambientes internos já planejados com a área externa ainda ausente das decisões e terminar deslocando o olhar para fora.\n- Stories: sequência de dois, com interação sobre quando o espaço externo costuma entrar no planejamento e fechamento mostrando que o exterior também participa da experiência da casa.\n- Execução escolhida pelo rodízio: Carrossel [Dividido] (Comparação), com interior à esquerda e exterior à direita da mesma casa."
+     "t": "Formato de execução",
+     "x": "**Carrossel [Dividido] (Comparação):** cada slide dividido ao meio, com o interior à esquerda e o exterior da mesma casa à direita.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: pares de fotos do mesmo projeto da CRK (interior planejado e área externa); uma foto de dentro para fora, pela janela ou porta de vidro; foto de terreno ou área externa ainda sem projeto, sem identificar o cliente.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** nada, se houver fotos no portfólio.\n**Opcional:** pares de fotos do mesmo projeto (interior e área externa); uma foto de dentro para fora, pela janela ou porta de vidro."
     }
    ],
-   "pagina": "3b8851988c4e81caac1ce8c836a7c906"
+   "pagina": "3b8851988c4e81caac1ce8c836a7c906",
+   "prioridade": "média"
   },
   {
    "id": "ideia-21",
@@ -38,23 +39,24 @@
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: drenagem, nível e irrigação que só dão problema depois da obra pronta. Dúvida real: “Qual é a relação entre paisagismo e drenagem da área externa?”.\nFunção (Qualificar): mostra o domínio técnico que não aparece na foto e por que o projeto precisa entrar enquanto dá para compatibilizar.\nPor que agora: reforça que paisagismo é mais do que escolher plantas e sustenta a meta de entrar mais cedo na jornada da obra."
+     "t": "Análise",
+     "x": "**A dor:** drenagem, nível e irrigação que só dão problema depois da obra pronta.\n**Função do conteúdo:** Qualificar. Mostra o domínio técnico que não aparece na foto."
     },
     {
      "t": "Gancho",
      "x": "“Esse é o pedaço do espaço externo que não aparece na foto.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Reels [Dinâmico] (gancho, corpo, CTA), porque narração com legenda sobre imagens de obra mostra o invisível (caimento, canaletas, cortes de nível) sem depender da Camila em cena.\n- Reels: 20 a 30 s. Gancho com o que não se vê depois; 3 imagens de obra com legenda curta (nível, drenagem, tubulação); fechamento com o espaço pronto; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Tópicos): um tópico por slide: nível, drenagem, irrigação, iluminação; CTA.\n- Estático (Leia a legenda): foto de obra com o caimento marcado e legenda explicando o porquê.\n- Stories: bastidor com 3 fotos de obra e uma frase em cada."
+     "t": "Formato de execução",
+     "x": "**Reels [Dinâmico]:** 20 a 30 s, narração com legenda sobre imagens de obra (nível, drenagem, tubulação), sem depender da Camila em cena.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra em andamento mostrando nível, drenagem ou tubulação (sem identificar o cliente).\nOpcional: foto do mesmo trecho depois de pronto; detalhe de canaleta ou caixa de passagem integrada ao projeto.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** áudio da Camila narrando (cerca de 30 s); fotos ou vídeos curtos de obra mostrando nível, drenagem ou tubulação, sem identificar o cliente.\n**Opcional:** foto do mesmo trecho depois de pronto."
     }
    ],
-   "pagina": "407851988c4e81d38f18e6244ea3d7af"
+   "pagina": "407851988c4e81d38f18e6244ea3d7af",
+   "prioridade": "média"
   },
   {
    "id": "ideia-24",
@@ -65,23 +67,24 @@
    "funcao": "Atrair",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: querer um espaço externo que dê certo em Florianópolis e temer escolher plantas bonitas que não se adaptam ao vento, ao sol e à maresia do terreno.\nFunção (Atrair): mostra o olhar local da CRK e aproxima quem mora no litoral da ilha.\nPor que agora: coloca o projeto antes da lista de espécies, reforçando que paisagismo é leitura de contexto."
+     "t": "Análise",
+     "x": "**A dor:** temer escolher plantas bonitas que não se adaptam ao vento, ao sol e à maresia do terreno.\n**Função do conteúdo:** Atrair. Mostra o olhar local da CRK e aproxima quem mora no litoral."
     },
     {
      "t": "Gancho",
      "x": "“Antes de escolher as plantas, a gente lê o vento, o sol e a maresia do terreno.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Carrossel [Galeria] (Imagem e legenda), porque fotos reais de espaços externos no litoral sustentam o argumento e cada legenda traz uma leitura (vento, sol da tarde, maresia, solo).\n- Carrossel: capa com a frase; 4 fotos de projetos, cada uma com uma leitura de clima em uma linha; chamada final.\nOutras possibilidades:\n- Estático (Leia a legenda): foto de espaço externo no litoral com a legenda explicando as três leituras.\n- Reels (Misto): Camila na área externa mostrando o que observa, seguida de imagens de projetos.\n- Stories: Enquete “Seu terreno pega mais sol de manhã ou de tarde?”."
+     "t": "Formato de execução",
+     "x": "**Carrossel [Galeria]:** fotos reais de espaços externos no litoral, cada uma com uma leitura de clima em uma linha.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada, se houver fotos no portfólio.\nOpcional: 4 a 6 fotos de projetos executados perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio.\nSe não tiver, o design cria a arte e os elementos gráficos (fotos de projeto seguem sendo só do portfólio real)."
+     "x": "**Obrigatório:** nada, se houver fotos no portfólio.\n**Opcional:** 4 a 6 fotos de projetos perto do mar ou expostos a vento e sol forte; foto do terreno antes do plantio."
     }
    ],
-   "pagina": "407851988c4e810dbc67fef1079096ba"
+   "pagina": "407851988c4e810dbc67fef1079096ba",
+   "prioridade": "média"
   },
   {
    "id": "ideia-25",
@@ -92,23 +95,24 @@
    "funcao": "Atrair",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: espaço externo desconectado da casa e medo de que o exterior “não combine” com o que já foi construído. Dúvida real: “Como materiais, vegetação e arquitetura são combinados?”.\nFunção (Atrair): mostra o método da Camila (entender a casa antes de pensar o espaço externo) de forma simples e salvável.\nPor que agora: reforça a integração com a arquitetura, posicionamento central da CRK, e conversa também com arquitetos."
+     "t": "Análise",
+     "x": "**A dor:** medo de que o espaço externo “não combine” com o que já foi construído.\n**Função do conteúdo:** Atrair. Mostra o método da Camila: entender a casa antes de pensar no espaço externo."
     },
     {
      "t": "Gancho",
      "x": "“Antes de escolher a planta, eu leio o piso, o muro e a fachada.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Estático [Leia a legenda] (Raciocínio), porque é uma explicação que pede texto, e a imagem só precisa ser forte (casa e espaço externo juntos).\n- Estático: foto ou render (identificado) com a frase de gancho; legenda em 3 parágrafos; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Raciocínio): capa; material do piso; cor e textura do muro e da fachada; como a vegetação responde; CTA.\n- Reels (Selfie): Camila diante da fachada explicando o que olha primeiro.\n- Stories: grade com 4 detalhes de materiais de um projeto."
+     "t": "Formato de execução",
+     "x": "**Estático [Leia a legenda]:** imagem simples e forte (casa e espaço externo juntos), com a explicação na legenda.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada.\nOpcional: foto da fachada com o espaço externo já integrado (mesmo ângulo da casa); detalhes de piso, muro e vegetação lado a lado; render do projeto, identificado como render.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** nada.\n**Opcional:** foto da fachada com o espaço externo integrado (mesmo ângulo da casa); render do projeto, identificado como render."
     }
    ],
-   "pagina": "407851988c4e81598ba8d9f9a02bfab3"
+   "pagina": "407851988c4e81598ba8d9f9a02bfab3",
+   "prioridade": "média"
   },
   {
    "id": "ideia-26",
@@ -119,23 +123,24 @@
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: não saber se ainda dá tempo de pensar o espaço externo. Dúvida real: “Minha obra está quase pronta. Ainda vale a pena fazer um projeto?”.\nFunção (Qualificar): a enquete segmenta a audiência por fase da obra e mostra à Camila quem está chegando cedo ou tarde.\nPor que agora: trabalha o Tema 1 com uma interação simples, sem repetir os conteúdos sobre “o paisagismo por último”."
+     "t": "Análise",
+     "x": "**A dor:** não saber se ainda dá tempo de pensar o espaço externo.\n**Função do conteúdo:** Qualificar. A enquete mostra em que fase da obra cada pessoa está."
     },
     {
      "t": "Gancho",
      "x": "“Em que fase está a sua obra?”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Stories [Enquete] com Stories [Resposta] no dia seguinte, porque a pergunta curta gera resposta rápida e a resposta do dia 2 entrega valor sem pressão.\n- Dia 1: enquete com 4 opções (ainda no projeto da casa, em obra, acabamento, já moro).\n- Dia 2 (Resposta): 2 stories dizendo o que ainda dá para decidir em cada fase, sem urgência artificial; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Comparação): o que dá para decidir em cada fase da obra.\n- Reels (Tela dupla): obra em cima, Camila comentando embaixo."
+     "t": "Formato de execução",
+     "x": "**Stories [Enquete]:** enquete com 4 opções no dia 1 e, no dia seguinte, 2 stories de resposta com o que ainda dá para decidir em cada fase.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) chamando para votar, do Banco de chamadas; foto de obra em andamento.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** nada.\n**Opcional:** vídeo curto da Camila (5 a 10 s) chamando para votar; foto de obra em andamento."
     }
    ],
-   "pagina": "407851988c4e81218e78c695f7b2bbb1"
+   "pagina": "407851988c4e81218e78c695f7b2bbb1",
+   "prioridade": "média"
   },
   {
    "id": "ideia-27",
@@ -146,23 +151,24 @@
    "funcao": "Converter",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: medo de contratar sem saber o que esperar. A caixinha serve justamente para descobrir novas dúvidas.\nFunção (Converter): abre conversa direta e leva quem está decidindo para o contato.\nPor que agora: as perguntas viram insumo para o banco de Dúvidas e para as próximas ideias."
+     "t": "Análise",
+     "x": "**A dor:** medo de contratar sem saber o que esperar.\n**Função do conteúdo:** Converter. Abre conversa direta e revela dúvidas novas."
     },
     {
      "t": "Gancho",
      "x": "“O que você gostaria de saber antes de contratar uma paisagista?”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Stories [Caixinha] com Stories [Resposta] no dia seguinte, porque o público pergunta com liberdade e a Camila responde na própria voz.\n- Dia 1: caixinha com a pergunta.\n- Dia 2 (Resposta): 2 a 3 respostas escolhidas, com CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Dúvida): as 5 perguntas mais comuns antes de contratar, respondidas.\n- Reels (Selfie): Camila responde a pergunta mais recebida."
+     "t": "Formato de execução",
+     "x": "**Stories [Caixinha]:** caixinha de perguntas no dia 1 e, no dia seguinte, 2 a 3 respostas da Camila.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada.\nOpcional: vídeo curto da Camila (5 a 10 s) convidando a perguntar, do Banco de chamadas.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** nada.\n**Opcional:** vídeo curto da Camila (5 a 10 s) convidando a perguntar."
     }
    ],
-   "pagina": "407851988c4e8127802acfc6596b696b"
+   "pagina": "407851988c4e8127802acfc6596b696b",
+   "prioridade": "média"
   },
   {
    "id": "ideia-31",
@@ -173,23 +179,24 @@
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: pensar em plantas só no fim da obra, sem saber que parte do que mantém o espaço bonito passa por baixo do piso e precisa ser decidida antes.\nFunção (Qualificar): mostra o raciocínio técnico da Camila e leva quem está construindo a chamar a paisagista cedo.\nPor que agora: reforça que o que não aparece na foto final decide como o espaço vai funcionar com o tempo. Ângulo novo: irrigação e tubulação antes do piso (a ideia 21 fala de nível e drenagem)."
+     "t": "Análise",
+     "x": "**A dor:** pensar em plantas só no fim da obra, sem saber que parte do que mantém o espaço bonito passa por baixo do piso.\n**Função do conteúdo:** Qualificar. Mostra o raciocínio técnico da Camila e leva quem está construindo a chamar a paisagista cedo."
     },
     {
      "t": "Gancho",
      "x": "“A parte do jardim que ninguém vê é decidida antes do piso.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Carrossel [Cartões] (Tópicos), porque cada ponto técnico cabe em um cartão e o layout não foi usado nas últimas 8 semanas.\n- Carrossel: 7 slides. Capa com a frase; o que passa por baixo do piso; por que decidir antes; o que muda quando a irrigação é planejada; pergunta final; CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Estático (Leia a legenda): foto de obra com o piso ainda aberto e a explicação na legenda.\n- Reels (Misto): Camila na obra e imagens dos pontos de atenção.\n- Stories: 3 stories de bastidor de obra."
+     "t": "Formato de execução",
+     "x": "**Carrossel [Cartões]:** 7 slides, cada ponto técnico em um cartão.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: nada.\nOpcional: foto real de uma obra com o piso ou o canteiro ainda abertos, sem identificar o cliente.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** nada.\n**Opcional:** foto real de uma obra com o piso ou o canteiro ainda abertos, sem identificar o cliente."
     }
    ],
-   "pagina": "40a851988c4e81408cdee98a65914491"
+   "pagina": "40a851988c4e81408cdee98a65914491",
+   "prioridade": "média"
   },
   {
    "id": "ideia-32",
@@ -200,23 +207,24 @@
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: querer um espaço bonito, mas ter rotina cheia e temer que ele vire mais uma tarefa.\nFunção (Qualificar): mostra como a Camila conduz a conversa e filtra quem quer um projeto pensado para a vida real.\nPor que agora: o tempo disponível é informação de projeto, não detalhe. Responder isso antes tranquiliza e aproxima."
+     "t": "Análise",
+     "x": "**A dor:** ter rotina cheia e temer que o espaço vire mais uma tarefa.\n**Função do conteúdo:** Qualificar. Mostra como a Camila conduz a conversa e filtra quem quer um projeto pensado para a vida real."
     },
     {
      "t": "Gancho",
      "x": "“Antes de escolher qualquer planta, eu pergunto outra coisa.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Stories [Selfie] (3 stories), porque a Camila falando direto para a câmera passa o jeito consultivo dela e o layout não foi usado nas últimas 8 semanas.\n- Stories: 1) a pergunta e o porquê; 2) como a resposta muda o projeto; 3) convite “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Reels (Selfie): a mesma ideia em 20 s.\n- Carrossel (Raciocínio): do tempo disponível às decisões de projeto.\n- Estático (Leia a legenda): a pergunta na imagem e a explicação na legenda."
+     "t": "Formato de execução",
+     "x": "**Stories [Selfie]:** 3 stories com a Camila falando direto para a câmera.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: 3 vídeos curtos da Camila falando para a câmera (selfie, vertical, boa luz).\nOpcional: foto de um espaço externo de projeto dela como fundo do último story.\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** 3 vídeos curtos da Camila falando para a câmera (selfie, vertical, boa luz).\n**Opcional:** foto de um espaço externo de projeto dela como fundo do último story."
     }
    ],
-   "pagina": "40a851988c4e81f699cec4817b42e485"
+   "pagina": "40a851988c4e81f699cec4817b42e485",
+   "prioridade": "média"
   },
   {
    "id": "ideia-33",
@@ -227,23 +235,24 @@
    "funcao": "Converter",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "A dor: contratar arquitetura e paisagismo separados e temer que os dois não conversem, deixando o lado de fora como um “extra”.\nFunção (Converter): mostra que a CRK trabalha junto da arquitetura e reduz a insegurança de quem está perto de decidir.\nPor que agora: reforça a integração com a arquitetura e mostra o que o morador ganha, sem criticar outros profissionais. Ângulo novo: a parceria vista pelo morador (a ideia 25 é sobre ler piso, muro e fachada)."
+     "t": "Análise",
+     "x": "**A dor:** contratar arquitetura e paisagismo separados e temer que os dois não conversem.\n**Função do conteúdo:** Converter. Mostra que a CRK trabalha junto da arquitetura."
     },
     {
      "t": "Gancho",
      "x": "“Quando a arquiteta e a paisagista conversam antes da obra, quem mora sente a diferença.”"
     },
     {
-     "t": "Como executar",
-     "x": "Sugestão: Reels [Misto] (gancho, corpo, CTA), porque a Camila aparece falando e imagens de projetos integrados mostram o que muda para o morador.\n- Reels: 25 s. Gancho com a frase; corpo com dois ganhos para o morador (vistas pensadas e circulação entre dentro e fora); CTA “Clique na bio e fale comigo”.\nOutras possibilidades:\n- Carrossel (Comparação): projeto pensado em separado x projeto pensado junto.\n- Estático (Leia a legenda): foto de projeto integrado com a explicação na legenda.\n- Stories: 3 stories com fotos reais de projetos integrados."
+     "t": "Formato de execução",
+     "x": "**Reels [Misto]:** 25 s, a Camila falando e imagens de projetos integrados.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
     },
     {
      "t": "O que precisamos",
-     "x": "Obrigatório: vídeo da Camila falando para a câmera (cerca de 15 s) e 3 ou 4 fotos reais de projetos com a arquitetura integrada ao espaço externo.\nOpcional: foto da Camila com a arquiteta parceira em reunião ou visita (com autorização).\nSe não tiver, o design cria."
+     "x": "**Obrigatório:** vídeo da Camila falando para a câmera (cerca de 15 s) e 3 ou 4 fotos reais de projetos com a arquitetura integrada ao espaço externo.\n**Opcional:** foto da Camila com a arquiteta parceira (com autorização)."
     }
    ],
-   "pagina": "40a851988c4e81eaa1d4e9f172361d9c"
+   "pagina": "40a851988c4e81eaa1d4e9f172361d9c",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-14",
@@ -282,7 +291,8 @@
      "x": "Você não precisa chegar sabendo exatamente o que quer para começar um projeto de paisagismo. Na primeira conversa, eu pergunto como vocês usam a casa, o que incomoda hoje e o que não pode faltar. O projeto nasce daí. Se você está pensando em começar, clique na bio e fale comigo."
     }
    ],
-   "pagina": "407851988c4e818796e4ddc4a99fbbb5"
+   "pagina": "407851988c4e818796e4ddc4a99fbbb5",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-15",
@@ -329,7 +339,8 @@
      "x": "Nem sempre o jardim pode ser executado junto com a construção da casa — e não há problema em deixá-lo para outro momento.\nO que precisa ser diferenciado é a execução do planejamento.\nVocê pode decidir implantar o jardim depois, quando o orçamento e a fase da obra permitirem. Mas considerar o paisagismo durante o desenvolvimento da casa ajuda a preservar as possibilidades da área externa.\nÉ nesse planejamento que desejos como sombra, privacidade, convivência e integração com a natureza começam a encontrar lugar no projeto.\nA execução pode acontecer depois e até ser organizada por etapas. O importante é não esperar a casa estar completamente pronta para começar a pensar no espaço externo.\nAssim, quando chegar o momento de executar, o jardim não precisará ser criado apenas a partir do que restou.\nEstá construindo ou reformando e quer incluir o paisagismo no planejamento?\nClique no link da bio e converse comigo."
     }
    ],
-   "pagina": "3db851988c4e81a6ae2ff13143bbd91c"
+   "pagina": "3db851988c4e81a6ae2ff13143bbd91c",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-16",
@@ -376,7 +387,8 @@
      "x": "Grandes aberturas trazem a paisagem para dentro de casa. Por isso, a vista que cada janela emoldura merece ser planejada enquanto ainda dá para decidir. Qual abertura da sua casa você mais olha? Se a sua arquitetura tem grandes vãos, clique na bio e fale comigo."
     }
    ],
-   "pagina": "3b8851988c4e8117b327c27647e4eb1f"
+   "pagina": "3b8851988c4e8117b327c27647e4eb1f",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-17",
@@ -415,7 +427,8 @@
      "x": "Sem legenda (stories). Não identificar cliente nem endereço. Tom consultivo, sem venda agressiva."
     }
    ],
-   "pagina": "407851988c4e818c94b8f2ce6f8aafec"
+   "pagina": "407851988c4e818c94b8f2ce6f8aafec",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-18",
@@ -462,7 +475,8 @@
      "x": "A cada etapa concluída, a obra fecha algumas possibilidades para o espaço externo. Os níveis da casa, a infraestrutura e os pisos vão definindo o que ainda pode ser feito lá fora. Planejar o paisagismo cedo não significa executar tudo imediatamente: significa manter as opções abertas enquanto elas ainda existem. Em que etapa está a sua obra hoje? Conta pra gente nos comentários. E se quiser entender o que ainda dá para decidir na sua, clique na bio e fale comigo."
     }
    ],
-   "pagina": "3b8851988c4e819fb97af8f6fa43e0d5"
+   "pagina": "3b8851988c4e819fb97af8f6fa43e0d5",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-19",
@@ -509,7 +523,8 @@
      "x": "Quando a gente planeja uma casa, quase tudo dentro dela já tem um motivo: onde a luz entra, por onde se circula, o que fica à vista. O lado de fora, muitas vezes, fica para depois. Mas a experiência de morar não termina na porta. O que você vê da sala, onde a família se reúne e como a casa se relaciona com o exterior fazem parte do mesmo projeto. Se a sua casa está em planejamento, vale olhar para fora junto com o resto. Clique na bio e fale comigo."
     }
    ],
-   "pagina": "3b8851988c4e81caac1ce8c836a7c906"
+   "pagina": "3b8851988c4e81caac1ce8c836a7c906",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-20",
@@ -556,7 +571,8 @@
      "x": "Orçamento curto não precisa virar espaço externo improvisado. O que faz diferença é a ordem das decisões: primeiro o que organiza o espaço (níveis, circulação, drenagem), depois o que é difícil de refazer (irrigação, iluminação, infraestrutura) e só então o plantio, que pode acontecer por fases. Assim, o projeto fica completo no papel e a execução acompanha o seu momento. Se você está planejando a área externa e quer entender por onde começar, clique na bio e fale comigo."
     }
    ],
-   "pagina": "407851988c4e81008776e769b6ba13ee"
+   "pagina": "407851988c4e81008776e769b6ba13ee",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-21",
@@ -595,7 +611,8 @@
      "x": "A foto mostra o resultado. O que faz o espaço funcionar depois da obra está embaixo dela: o nível do terreno, o caimento do piso, a drenagem. Isso precisa ser pensado junto com o projeto, enquanto ainda dá para compatibilizar. Clique na bio e fale comigo."
     }
    ],
-   "pagina": "407851988c4e81d38f18e6244ea3d7af"
+   "pagina": "407851988c4e81d38f18e6244ea3d7af",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-23",
@@ -630,7 +647,8 @@
      "x": "Vídeos de 5 a 10 s de um espaço externo da CRK já executado, na vertical, com som ambiente, de preferência com uso real. Depende de gravação nova ou de vídeos de um espaço executado; confirmar a autorização do cliente antes de usar as imagens."
     }
    ],
-   "pagina": "407851988c4e818281fce1a1e3ff4912"
+   "pagina": "407851988c4e818281fce1a1e3ff4912",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-25",
@@ -649,7 +667,8 @@
      "x": "Antes de escolher uma planta, eu leio a casa.\nO piso diz muito sobre o espaço: o tom, a textura, por onde as pessoas vão circular. O muro e a fachada mostram as cores, os materiais e a proporção que o espaço externo precisa respeitar.\nCom isso entendido, a vegetação entra para conversar com a arquitetura, não para competir com ela. Isso muda o porte das plantas, as cores e até o lugar onde o verde fica. É assim que o espaço externo parece ter sido pensado junto com a casa.\nSe a sua casa está em projeto ou em obra, é um bom momento para olhar para fora. Clique na bio e fale comigo."
     }
    ],
-   "pagina": "407851988c4e81598ba8d9f9a02bfab3"
+   "pagina": "407851988c4e81598ba8d9f9a02bfab3",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-26",
@@ -672,7 +691,8 @@
      "x": "- Story 1: “Ontem eu perguntei em que fase está a sua obra. Em qualquer uma delas, ainda tem algo a decidir no espaço externo.” (se houver resultado, mostrar o print da enquete)\n- Story 2: o que ainda dá para decidir em cada fase, em 4 linhas curtas: “No projeto da casa: níveis, acessos e vistas. Em obra: drenagem, pontos de água e de luz. No acabamento: pisos externos, plantio e iluminação. Já morando: um projeto que respeita o que já existe.”\n- Story 3: “Quer entender o que ainda dá para decidir na sua?” com a chamada final “Clique na bio e fale comigo”."
     }
    ],
-   "pagina": "407851988c4e81218e78c695f7b2bbb1"
+   "pagina": "407851988c4e81218e78c695f7b2bbb1",
+   "prioridade": "média"
   },
   {
    "id": "roteiro-27",
@@ -695,35 +715,92 @@
      "x": "- Cada story: print da pergunta recebida (sem identificar quem perguntou) + resposta da Camila em texto curto ou vídeo de até 20 s, no tom de primeira reunião: “Foi pensado para...”, “Isso faz diferença porque...”.\n- Último story: “Ficou com outra dúvida? Clique na bio e fale comigo.”\n- Se chegarem poucas perguntas, completar com as dúvidas mais comuns, como “Preciso chegar sabendo exatamente o que quero?”."
     }
    ],
-   "pagina": "407851988c4e8127802acfc6596b696b"
+   "pagina": "407851988c4e8127802acfc6596b696b",
+   "prioridade": "média"
   },
   {
-   "id": "aprovado-22",
-   "etapa": "aprovado",
-   "numero": 22,
-   "titulo": "Espaço externo que cabe na rotina: o que dá para decidir no projeto para a manutenção não virar peso",
-   "formato": "Carrossel [Pílula]",
+   "id": "ideia-28",
+   "etapa": "ideia",
+   "numero": 28,
+   "titulo": "Fotos do projeto pronto Bosco di Pietra",
+   "formato": "Carrossel",
+   "funcao": "",
+   "blocos": [
+    {
+     "t": "Análise",
+     "x": "**A dor:** a definir.\n**Função do conteúdo:** caso real, com as fotos do projeto pronto Bosco di Pietra."
+    },
+    {
+     "t": "Gancho",
+     "x": "A definir."
+    },
+    {
+     "t": "Formato de execução",
+     "x": "**Carrossel:** formato e legenda ainda a definir.\n**Faz sentido este formato? Ou prefere outro?** Responda na observação."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "**Obrigatório:** fotos do projeto pronto Bosco di Pietra (o link do material ainda está pendente).\n**Opcional:** nada."
+    }
+   ],
+   "pagina": "407851988c4e81d18a46db9f155e1101",
+   "prioridade": "alta"
+  },
+  {
+   "id": "roteiro-29",
+   "etapa": "roteiro",
+   "numero": 29,
+   "titulo": "O valor de um projeto de paisagismo não paga plantas: paga decisões",
+   "formato": "Estático [Frase]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "Estático [Frase] (curiosidade). A frase está na arte e a explicação na legenda.\n- Imagem: fundo liso na cor bege da identidade, com a frase em destaque. Se houver, foto desfocada de pranchas ou do caderno de anotações da Camila ao fundo (sem dados de clientes).\n- Texto de apoio (pequeno): “Você sabia?”\n- Título na imagem: “O que você paga num projeto de paisagismo não são plantas. São decisões.”\n- Destaque visual: a palavra “decisões” na cor de destaque da CRK."
+    },
+    {
+     "t": "Legenda",
+     "x": "Você sabia que o valor de um projeto de paisagismo não paga plantas? Paga decisões.\nAntes de qualquer planta entrar, alguém precisa ler o terreno, entender como a família vive o espaço, definir níveis, circulação, drenagem, irrigação e iluminação, e escolher o que cada espécie vai fazer ali ao longo do tempo. É esse raciocínio que o projeto entrega.\nPor isso dois projetos que parecem parecidos na foto podem ter sido pensados de formas muito diferentes.\nSe você está comparando propostas e quer entender o que cada uma cobre, clique na bio e fale comigo."
+    }
+   ],
+   "pagina": "408851988c4e81689db1d78968229b1e",
+   "prioridade": "média"
+  },
+  {
+   "id": "roteiro-30",
+   "etapa": "roteiro",
+   "numero": 30,
+   "titulo": "Terreno com muita sombra: o que dá para criar de bonito nesse espaço",
+   "formato": "Stories [Vitrine]",
    "funcao": "Atrair",
    "blocos": [
     {
-     "t": "Legenda",
-     "x": "Existe espaço externo sem nenhum cuidado? Na prática, todo espaço pede alguma atenção. O que o projeto faz é ajustar essa atenção à rotina de quem vive ali: espécies escolhidas pelo porte e pelo crescimento, acesso e irrigação pensados desde o início e podas planejadas. Antes de decidir qualquer planta, vale perguntar quanto tempo você quer dedicar ao espaço. Se quiser conversar sobre o seu caso, clique na bio e fale comigo."
+     "t": "Formato",
+     "x": "Stories [Vitrine], sequência de 4 stories, sem figurinha interativa. Fotos reais de projetos da Camila em áreas sombreadas."
+    },
+    {
+     "t": "Story 1 · Abertura",
+     "x": "Texto na tela: “Sombra não é defeito do terreno. É ponto de partida.”\nCena: foto vertical de um espaço sombreado da CRK, em plano aberto.\nFala (opcional): “Terreno com muita sombra não precisa virar um espaço escuro e sem graça. Olha o que dá para criar.”"
+    },
+    {
+     "t": "Story 2 · Vitrine 1",
+     "x": "Texto na tela: “Pouca luz muda a escolha das plantas, não a qualidade do espaço.”\nCena: foto real 1 de projeto da Camila em área sombreada.\nFala (opcional): “Com pouca luz, o projeto escolhe espécies que vivem bem na sombra. É uma escolha técnica, feita para o seu terreno.”"
+    },
+    {
+     "t": "Story 3 · Vitrine 2",
+     "x": "Texto na tela: “Folhagem, textura e iluminação bem pensada dão vida a cada canto.”\nCena: foto real 2 de projeto da Camila (ou um antes e depois do mesmo espaço, se houver).\nFala (opcional): “Folhagens diferentes, texturas e uma iluminação bem pensada deixam o espaço acolhedor até no fim do dia.”"
+    },
+    {
+     "t": "Story 4 · Convite",
+     "x": "Texto na tela: “Seu terreno tem muita sombra? Clique na bio e fale comigo.”\nCena: foto 3 ou a foto do story 1, com espaço livre para o texto.\nFala (opcional): “Se o seu terreno tem muita sombra, vale conversar. Clique na bio e fale comigo.”"
+    },
+    {
+     "t": "Observações",
+     "x": "Não identificar cliente nem endereço. Conferir as linhas dos stories 2 e 3 contra as fotos escolhidas, sem descrever plantas que não aparecem."
     }
    ],
-   "midia": {
-    "tipo": "carrossel",
-    "arquivos": [
-     "criativos/i22-1.jpg",
-     "criativos/i22-2.jpg",
-     "criativos/i22-3.jpg",
-     "criativos/i22-4.jpg",
-     "criativos/i22-5.jpg",
-     "criativos/i22-6.jpg",
-     "criativos/i22-7.jpg"
-    ]
-   },
-   "publicacao": "2026-11-04T19:00:00-03:00",
-   "pagina": "407851988c4e8112990df9a424d3718a"
+   "pagina": "408851988c4e815994ccd69fc807894a",
+   "prioridade": "média"
   }
  ]
 }
