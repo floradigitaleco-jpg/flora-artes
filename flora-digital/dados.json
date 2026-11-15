@@ -1,0 +1,428 @@
+{
+ "cliente": "Flora Digital",
+ "atualizadoEm": "2026-11-14",
+ "itens": [
+  {
+   "id": "i00-teste",
+   "etapa": "ideia",
+   "numero": 0,
+   "titulo": "TESTE da página (pode usar à vontade)",
+   "formato": "Teste",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Como testar",
+     "x": "Escolha uma tag, escreva uma observação e toque em Enviar este item. Depois confira no Notion a página TESTE."
+    }
+   ],
+   "pagina": "41885198-8c4e-81d6-b0c4-fa7e4cfcb72f"
+  },
+  {
+   "id": "i15",
+   "etapa": "ideia",
+   "numero": 15,
+   "titulo": "O cliente que fecha hoje te viu pela primeira vez há muito tempo",
+   "formato": "Stories [Lembrete]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista só divulga quando termina um projeto e, nas semanas sem contato novo, acha que o conteúdo \"não está dando resultado\".\nA decisão de contratar paisagismo costuma levar tempo e o cliente observa antes de chamar. Lembrar disso sustenta a constância sem prometer número de clientes."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Lembrete: quem te chama hoje já estava te observando antes.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Stories [Lembrete] (1 story): frase única em cartão de notificação, sem material gravado.\nEstático: a frase com a explicação na legenda.\nCarrossel: a jornada do cliente (vê, guarda, compara, chama), um passo por slide.\nReels: a Dominik fala direto para a câmera, 15 a 20 s."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Nada obrigatório. Opcional: uma foto da Dominik ou de uma folhagem para o fundo do cartão."
+    }
+   ],
+   "pagina": "40685198-8c4e-812e-a7af-e26bdf27b1e2"
+  },
+  {
+   "id": "i17",
+   "etapa": "ideia",
+   "numero": 17,
+   "titulo": "O erro de copiar o estilo de quem você admira",
+   "formato": "Estático [Leia a legenda]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista admira outros profissionais, se inspira no feed deles e, sem perceber, acaba com um perfil parecido com o de todo mundo.\nReferência é saudável, cópia apaga a assinatura. Reforça a ideia de posicionamento sem criticar ninguém."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Admirar é ótimo. Copiar é o caminho mais curto para parecer igual.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Estático [Leia a legenda]: o erro em um título curto na imagem; a explicação e o que fazer no lugar ficam na legenda (formato \"erros\", exclusivo da Flora).\nCarrossel: o erro, por que acontece, o que fazer no lugar e pergunta final.\nReels: a Dominik fala para a câmera, 20 a 30 s."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Nada obrigatório. Opcional: uma foto da Dominik de frente, com a mão no queixo ou olhando de lado."
+    }
+   ],
+   "pagina": "40685198-8c4e-817c-ad34-c0ab25506d21"
+  },
+  {
+   "id": "i19",
+   "etapa": "ideia",
+   "numero": 19,
+   "titulo": "Autoridade não é aparecer todo dia: é ser lembrada pelo que você sabe",
+   "formato": "Reels [Tela dupla]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista acha que, para ter autoridade, precisa virar influenciadora, dançar e aparecer todo dia, e por isso evita o perfil.\nReposiciona autoridade como conhecimento mostrado com clareza, coerente com a Flora (estratégica, humana, sem tendência)."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Você não precisa virar influenciadora para ser lembrada como referência.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Tela dupla], 20 a 30 s: em cima a cena de referência, embaixo a Dominik comentando.\nEstático: a frase do gancho e o argumento na legenda.\nCarrossel: 6 slides (o mito, o que é autoridade, 3 formas de mostrar conhecimento, convite)."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: vídeo da Dominik comentando (vertical, boa luz, 20 a 30 s). Opcional: um vídeo curto de referência para a parte de cima."
+    }
+   ],
+   "pagina": "40885198-8c4e-81a1-adf5-e014fec3d92d"
+  },
+  {
+   "id": "i20",
+   "etapa": "ideia",
+   "numero": 20,
+   "titulo": "Você é a designer, a atendente e a social media do seu estúdio?",
+   "formato": "Stories [Selfie]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista faz projeto, atendimento, obra e ainda tenta cuidar do Instagram nas sobras de tempo.\nGera identificação e leva à ideia de ecossistema e apoio contínuo, sem vender de forma direta."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Quantos chapéus você usa no seu estúdio de paisagismo?\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Stories [Selfie] (3 a 4 stories): pergunta de abertura; lista dos papéis; o que muda quando há uma estratégia; convite para conversar.\nEstático: frase do gancho e legenda com a lista.\nCarrossel: 6 slides com os papéis acumulados.\nReels: selfie de 20 s."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: 3 a 4 vídeos curtos da Dominik em selfie (vertical, até 15 s cada)."
+    }
+   ],
+   "pagina": "40885198-8c4e-812e-8375-c4f2b22bb6fa"
+  },
+  {
+   "id": "i21",
+   "etapa": "ideia",
+   "numero": 21,
+   "titulo": "Seu projeto é premiado, mas o perfil parece de outra pessoa: o cliente percebe",
+   "formato": "Carrossel [Véu]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "O trabalho é refinado, mas perfil, cores e legendas não transmitem a mesma qualidade, e o cliente chega com expectativa menor do que o projeto merece.\nConecta a Flora ao posicionamento (a marca acompanha o trabalho) sem criticar o que a paisagista já fez."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"O cliente vê o seu perfil antes de ver o seu projeto.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Véu] (Raciocínio), 7 slides: gancho; o primeiro contato é o perfil; o cliente compara a imagem com o projeto; o que alinhar (voz, visual, destaques); pergunta; convite.\nEstático: o gancho sobre uma foto de projeto, desenvolvimento na legenda.\nReels: a Dominik fala para a câmera com prints da bio e do feed."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Nada obrigatório. Opcional: uma foto de projeto (sua ou de parceira que autorize) para o slide de abertura."
+    }
+   ],
+   "pagina": "40885198-8c4e-8186-bfe3-c3e5010175dc"
+  },
+  {
+   "id": "i22",
+   "etapa": "ideia",
+   "numero": 22,
+   "titulo": "O mesmo trabalho, outro perfil: o que muda quando a marca tem estilo",
+   "formato": "Reels [Antes e depois]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista tem um perfil parecido com o de todas as outras e não sabe como o estilo próprio muda a percepção do cliente.\nTorna o conceito de estilo visível, sem prometer resultado, e mostra o tipo de trabalho que a Flora faz."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Mesmo trabalho, mesma paisagista. O que muda é o jeito de mostrar.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Antes e depois], 15 a 25 s: transição lenta entre o perfil antes e o depois, com texto na tela.\nEstático: imagem dividida (antes e depois) com a explicação na legenda.\nCarrossel: 6 slides, antes no 2, depois no 3 e o que mudou nos seguintes."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: gravação de tela de um perfil de exemplo (antes) e do mesmo reorganizado (depois), sem dados de clientes reais. Se não tiver, o design cria o exemplo."
+    }
+   ],
+   "pagina": "40885198-8c4e-81b1-83d9-f1a17bafbf61"
+  },
+  {
+   "id": "i23",
+   "etapa": "ideia",
+   "numero": 23,
+   "titulo": "Pesquise o seu nome no Google: é isso que o cliente vê antes de te chamar",
+   "formato": "Reels [Misto]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista nunca pesquisou o próprio nome como um cliente faria e não sabe o que aparece: perfil, site, avaliações, fotos antigas.\nQuem indica passa o nome, e o cliente confere o que encontra antes de decidir. Mostra a distância entre o trabalho e a presença digital, sem criticar ninguém."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Pesquise o seu nome agora. É isso que o cliente vê antes de te chamar.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Reels [Misto], 35 a 40 s: a Dominik fala para a câmera e a gravação da busca no Google entra sobre a fala. (O roteiro já está escrito no Notion; vira a próxima etapa se a ideia for aprovada.)\nCarrossel: 7 slides.\nEstático: a frase do gancho e a lista do que conferir, na legenda.\nStories: 3 stories com a pergunta \"quando foi a última vez que você pesquisou o seu nome?\"."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Obrigatório: gravação da Dominik falando (35 a 40 s) e gravação de tela da busca. Dois trechos aguardam definição: o detalhe real da busca e o tema do próximo vídeo."
+    },
+    {
+     "t": "Atenção",
+     "x": "Não prometer posição no Google."
+    }
+   ],
+   "pagina": "40a85198-8c4e-81cf-bcc4-c60050cb7b1a"
+  },
+  {
+   "id": "i24",
+   "etapa": "ideia",
+   "numero": 24,
+   "titulo": "Complete a frase: meu último cliente chegou por...",
+   "formato": "Stories [Moldura]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista não sabe de onde vêm, de fato, os clientes e por isso não sabe o que merece mais atenção.\nPerguntar antes de explicar aproxima, gera respostas reais e dá matéria-prima para novos conteúdos, sem prometer número de clientes."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"Complete: meu último cliente chegou por...\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Stories [Moldura] (2 stories): figurinha Moldura com a frase; no dia seguinte, a Dominik comenta o que mais apareceu, sem citar nomes, e convida para conversar.\nEstático: a frase na imagem e a pergunta nos comentários.\nCarrossel: os caminhos mais comuns pelos quais um cliente chega."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Nada obrigatório além de publicar a figurinha à mão. Opcional: uma chamada em vídeo do Banco de chamadas."
+    },
+    {
+     "t": "Atenção",
+     "x": "Figurinha interativa: publicação manual."
+    }
+   ],
+   "pagina": "40a85198-8c4e-81e4-a7e9-cd0cd27537ef"
+  },
+  {
+   "id": "i25",
+   "etapa": "ideia",
+   "numero": 25,
+   "titulo": "O depoimento que o cliente aceita dar, se você pedir do jeito certo",
+   "formato": "Carrossel [Marcador]",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A paisagista tem clientes satisfeitos, mas sente vergonha ou não sabe como pedir um depoimento, e o projeto fica sem prova.\nO depoimento ajuda o próximo cliente a decidir, e pedir bem é uma prática simples. Mostra o método da Flora (registrar e organizar) sem prometer resultado."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"O depoimento que o seu cliente aceita dar, se você pedir do jeito certo.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Marcador] (Passo a passo), 7 slides: gancho; por que o depoimento importa; quando pedir (na entrega); como pedir (uma pergunta simples); como registrar (áudio ou texto); como pedir autorização de uso; convite.\nEstático: o momento certo de pedir, com os passos na legenda.\nReels: a Dominik fala para a câmera com os passos na tela, 25 s."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "Nada obrigatório. Opcional: uma frase de depoimento real de cliente que tenha autorizado o uso, sem nome."
+    },
+    {
+     "t": "Atenção",
+     "x": "Não mostrar nome nem imagem de clientes sem autorização."
+    }
+   ],
+   "pagina": "40a85198-8c4e-811e-95eb-d2ec42bb1d40"
+  },
+  {
+   "id": "r07",
+   "etapa": "roteiro",
+   "numero": 7,
+   "titulo": "Semana sem cliente novo: indicação não é plano",
+   "formato": "Carrossel [Faixa] · Raciocínio · 8 slides",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Faixa] · Raciocínio · 8 slides · método A.P.E.C. Cada linha do título com uma faixa de cor própria (azul, amarelo-escuro, verde-oliva), fundo azul-escuro da Flora. Sem fotos de projetos."
+    },
+    {
+     "t": "Slide 1 · Atrair",
+     "x": "Semana sem contato novo. E agora?"
+    },
+    {
+     "t": "Slides 2 e 3 · Permanecer",
+     "x": "Indicação é ótima. Mas quem indica é outra pessoa, não você.\n\nQuando a agenda depende só de indicação, ela depende de quando os outros lembram de você."
+    },
+    {
+     "t": "Slides 4 a 6 · Três caminhos",
+     "x": "SER ENCONTRADA: quem busca \"paisagista\" na sua cidade já quer contratar. Perfil e site precisam aparecer ali.\n\nPARCERIAS: profissionais próximos do seu trabalho indicam melhor quando sabem o que você faz de diferente.\n\nCONTEÚDO COM PROVA: projetos, processo e depoimentos mostram por que escolher você antes da primeira conversa."
+    },
+    {
+     "t": "Slide 7 · Envolver",
+     "x": "Hoje, de onde vêm os seus clientes? Conta nos comentários."
+    },
+    {
+     "t": "Slide 8 · Concluir",
+     "x": "Previsibilidade vem de sistema, não de sorte. Se quiser conversar sobre como organizar a entrada de clientes, me chama no direct."
+    },
+    {
+     "t": "Legenda",
+     "x": "Indicação é ótima, mas não está nas suas mãos. Ser encontrada, ter parcerias e mostrar o seu trabalho com prova são três caminhos que você controla melhor. De onde vêm os seus clientes hoje? Se quiser conversar sobre como organizar a entrada de clientes, me chama no direct."
+    }
+   ],
+   "pagina": "40585198-8c4e-81ba-9933-e65946e1e332"
+  },
+  {
+   "id": "r14",
+   "etapa": "roteiro",
+   "numero": 14,
+   "titulo": "A pasta de uma obra, por dentro: onde ficam as fotos e os áudios de cada projeto",
+   "formato": "Stories [Bastidor] · 3 stories",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Stories [Bastidor] · 3 stories em sequência · sem figurinha interativa (a pergunta final é respondida no direct). Print real da estrutura de pastas de uma obra (pasta-modelo, sem nome nem imagem de cliente), com texto em formato de anotação de diário."
+    },
+    {
+     "t": "Story 1 · Abertura",
+     "x": "Texto na tela: Diário da obra · a pasta por dentro\nImagem: print da estrutura de pastas de uma obra.\nFala (opcional): \"Essa é a pasta de uma obra aqui na Flora. Tudo de um projeto mora num lugar só.\""
+    },
+    {
+     "t": "Story 2 · O que vai em cada pasta",
+     "x": "Texto na tela: Antes · Durante · Detalhe · Depois · Depoimento · Áudio\nImagem: o mesmo print, aproximado nas subpastas.\nFala (opcional): \"Cada pasta guarda um momento: o antes do terreno, o durante, os detalhes de plantas e materiais, o depois, a fala do cliente e os áudios com as decisões do projeto.\""
+    },
+    {
+     "t": "Story 3 · Fechamento",
+     "x": "Texto na tela: Como você guarda as fotos das suas obras hoje? Me conta aqui no direct.\nFala (opcional): \"E você, onde ficam as fotos e os áudios das suas obras hoje? Me conta no direct. Se quiser montar uma organização que caiba na sua rotina, é só chamar.\""
+    },
+    {
+     "t": "Para você validar",
+     "x": "Não mostrar nome, endereço nem imagem de clientes. Stories não levam legenda de post. CTA consultivo, sem promessa de resultado."
+    }
+   ],
+   "pagina": "40685198-8c4e-815d-acd2-d16056e0585d"
+  },
+  {
+   "id": "r16",
+   "etapa": "roteiro",
+   "numero": 16,
+   "titulo": "Como começa uma parceria com a Flora: primeiro a escuta, depois a estratégia",
+   "formato": "Reels [Misto] · 28 s",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Reels [Misto] · gancho, corpo, CTA · 25 a 30 s · a Dominik aparece nos dois primeiros passos e depois entram telas e anotações das etapas."
+    },
+    {
+     "t": "Gancho · 0 a 3 s",
+     "x": "Texto na tela: ANTES DE FALAR EM POST...\nFala: \"Antes de falar em post, eu faço outra coisa: escuto.\"\nCena: Dominik em pé ou caminhando, de frente para a câmera."
+    },
+    {
+     "t": "Corpo · 3 a 22 s",
+     "x": "Texto na tela: 1 · ESCUTA   2 · DIAGNÓSTICO\nFala: \"Cada parceria começa por uma conversa sobre o seu negócio, o seu jeito de trabalhar e onde você quer chegar. Depois vem o diagnóstico: onde você está hoje no digital e o que já funciona.\"\nCena: Dominik falando; entra o print do roteiro de perguntas da escuta.\n\nTexto na tela: 3 · ESTRATÉGIA   4 · ORGANIZAÇÃO   5 · EXECUÇÃO   6 · ACOMPANHAMENTO\nFala: \"Com isso, desenho a estratégia, organizo a sua marca e só então vem a execução e o acompanhamento.\"\nCena: imagens de apoio (sem dados de clientes) e cartões das etapas."
+    },
+    {
+     "t": "CTA · 22 a 30 s",
+     "x": "Texto na tela: Quer um caminho feito para o seu estúdio?\nFala: \"Se você quer um caminho feito para o seu estúdio, e não um pacote pronto, me chama no direct.\""
+    },
+    {
+     "t": "Legenda",
+     "x": "Antes de qualquer post, existe uma conversa. Toda parceria começa pela escuta, passa pelo diagnóstico e só depois chega à estratégia, à organização da marca, à execução e ao acompanhamento. Se você quer um caminho pensado para o seu estúdio, me chama no direct para conversarmos sobre o seu posicionamento digital."
+    },
+    {
+     "t": "Para você validar",
+     "x": "Sem promessa de resultado nem prazo. Confirme as etapas reais antes de gravar."
+    }
+   ],
+   "pagina": "40685198-8c4e-811a-aac5-da9e74544424"
+  },
+  {
+   "id": "r18",
+   "etapa": "roteiro",
+   "numero": 18,
+   "titulo": "Seu preço não está alto: o cliente só não viu o que está dentro dele",
+   "formato": "Carrossel [Grafite] · Comparação · 7 slides",
+   "funcao": "Converter",
+   "blocos": [
+    {
+     "t": "Formato",
+     "x": "Carrossel [Grafite] · Comparação · 7 slides · método A.P.E.C. Sem fotos de projetos; fundo escuro e sóbrio (grafite) da paleta da Flora. Nos slides 2 a 4, quadro lado a lado: \"O que o cliente vê\" e \"O que está incluso\"."
+    },
+    {
+     "t": "Slide 1 · Atrair",
+     "x": "Quando o cliente acha caro, muitas vezes ele só não viu o que está incluso."
+    },
+    {
+     "t": "Slide 2 · Permanecer",
+     "x": "O QUE O CLIENTE VÊ: um valor final na proposta e a lista do que será entregue."
+    },
+    {
+     "t": "Slide 3 · Permanecer",
+     "x": "O QUE ESTÁ INCLUSO: estudo do espaço, visitas, projeto, revisões e acompanhamento. Quase nada disso aparece num número."
+    },
+    {
+     "t": "Slide 4 · Permanecer",
+     "x": "Lado a lado: de um lado, o valor. Do outro, as horas de decisão, o cuidado com cada detalhe e a segurança de ter alguém conduzindo."
+    },
+    {
+     "t": "Slide 5 · Permanecer",
+     "x": "Como mostrar na conversa: apresente o processo antes do valor, etapa por etapa. Quem entende o caminho entende o preço."
+    },
+    {
+     "t": "Slide 6 · Envolver",
+     "x": "Na sua última proposta, o que estava incluso e o cliente nem percebeu? Conta nos comentários."
+    },
+    {
+     "t": "Slide 7 · Concluir",
+     "x": "Comunicar o valor também é parte do trabalho. Se quiser conversar sobre como mostrar isso no seu posicionamento, me chama no direct."
+    },
+    {
+     "t": "Legenda",
+     "x": "Preço alto, muitas vezes, é preço que o cliente ainda não conseguiu enxergar. Estudo, visitas, projeto, revisões e acompanhamento fazem parte do que está incluso, mas raramente aparecem numa proposta. Na sua última conversa, o que estava dentro do valor e ficou invisível? Se quiser conversar sobre como comunicar isso no seu posicionamento, me chama no direct."
+    }
+   ],
+   "pagina": "40885198-8c4e-81e2-afd9-c1674742ebf4"
+  }
+ ]
+}
