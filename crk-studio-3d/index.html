@@ -217,7 +217,7 @@ const CLIENTE='Camila';
 const ST_NOTION={
  'ajuste de ideia':'Ajustar Ideia','ideia aprovada':'Ideia aprovada','ideia não aprovada':'Ideia não aprovada','não entendi a ideia':'Não entendi a ideia',
  'ajuste de roteiro':'Ajustes no Roteiro','roteiro aprovado':'Roteiro Aprovado',
- 'ajuste no criativo':'Ajuste no criativo','criativo aprovado':'Criativo Aprovado','captado':'Captado'
+ 'ajuste no criativo':'Ajuste no criativo','criativo aprovado':'Criativo Aprovado','captado':'Material Captado'
 };
 const KEY='crk-studio-3d-v2';
 const DADOS_URL='dados.json';
@@ -324,7 +324,7 @@ function marcarEnviados(lista){
 }
 let enviando=false;
 /* ao aprovar uma etapa, o Make tira as outras tags dessa mesma etapa (nomes novos e antigos; o histórico das etapas anteriores fica) */
-const LIMPAR={'captado':['Para captação','para captação'],
+const LIMPAR={'captado':['Para Captação','Para Capitação'],
  'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada','ideia não aprovada','Análisar Ideia','análise de ideia','ajuste de ideia','Ideia Reprovada'],
  'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro','Analise do Roteiro','Ajustes de Roteiro','análise de roteiro','ajuste de roteiro'],
  'criativo aprovado':['Análise do criativo','análise do criativo','Ajuste no criativo','ajuste no criativo','Analise de Criativo','Ajuste de Criativo']
@@ -356,7 +356,7 @@ async function jaCaptei(it,btn){
  enviando=true;btn.textContent='Enviando…';btn.setAttribute('aria-disabled','true');
  let ok=false;
  try{
-  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status='Captado';p.r1='Para captação';p.obs='';
+  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status=ST_NOTION['captado']||'Captado';p.obs='';const lm=LIMPAR['captado']||[];for(let n=1;n<=9;n++)p['r'+n]=lm[n-1]||'';
   const r=await fetch(HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)});ok=r.ok;
  }catch(e){}
  enviando=false;

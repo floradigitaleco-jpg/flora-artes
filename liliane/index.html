@@ -317,7 +317,7 @@ function marcarEnviados(lista){
 }
 let enviando=false;
 /* ao aprovar uma etapa, o Make tira as tags de análise/ajuste dessa mesma etapa */
-const LIMPAR={'captado':['Para captação','para captação'],'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};
+const LIMPAR={'captado':['Para Captação','Para Capitação'],'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};
 function payload(it){
  const e=etapaDe(it.etapa),i=stat(it);
  return {chave:CHAVE,cliente:CLIENTE,item:it.id,pagina:it.pagina,ts:new Date().toISOString(),etapa:it.etapa,ideia:String(it.numero),titulo:it.titulo,rotulo:'#'+it.numero+' · '+it.titulo,tag:e.tags[i],status:ST_NOTION[e.tags[i]]||'',r1:(LIMPAR[e.tags[i]]||[])[0]||'',r2:(LIMPAR[e.tags[i]]||[])[1]||'',r3:(LIMPAR[e.tags[i]]||[])[2]||'',r4:(LIMPAR[e.tags[i]]||[])[3]||'',obs:(obs[it.id]||'').trim()};
@@ -343,7 +343,7 @@ async function jaCaptei(it,btn){
  enviando=true;btn.textContent='Enviando…';btn.setAttribute('aria-disabled','true');
  let ok=false;
  try{
-  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status='Captado';p.r1='Para captação';p.obs='';
+  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status=ST_NOTION['captado']||'Captado';p.obs='';const lm=LIMPAR['captado']||[];for(let n=1;n<=9;n++)p['r'+n]=lm[n-1]||'';
   const r=await fetch(HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)});ok=r.ok;
  }catch(e){}
  enviando=false;
