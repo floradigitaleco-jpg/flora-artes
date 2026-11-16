@@ -1,0 +1,16 @@
+{
+ "head": "<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#16201d\" media=\"(prefers-color-scheme: dark)\">\n<title>CRK Paisagismo · Conteúdos para aprovar</title>\n<meta name=\"apple-mobile-web-app-title\" content=\"CRK Paisagismo\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"icone-192.png\">\n<link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Open+Sans:wght@400;600;700&display=swap\">",
+ "tokens": "/* Identidade CRK Paisagismo: terracota #bb7048, verde-acinzentado #445d57, bronze #916442, sálvia #adb5a0, bege #dbd7d0, menta #a4dfc3 (só como acento) */\n:root{\n  --bg:#ffffff;--fg:#445d57;--muted:#5f736d;--line:#dbd7d0;--card:#f6f4f0;\n  --tit:#bb7048;--det:#916442;--accent:#445d57;--accent-fg:#ffffff;\n  --pill:#445d57;--pill-fg:#ffffff;--sage:#adb5a0;--mint:#a4dfc3;--stage:#2a3a35;\n  --aj-bg:#f3e3d3;--aj-fg:#7a4524;--aj-bd:#bb7048;\n  --ok-bg:#a4dfc3;--ok-fg:#1f3a33;--ok-bd:#445d57;\n  --no-bg:#916442;--no-fg:#ffffff;--no-bd:#916442;\n  --display:'Comfortaa','Trebuchet MS',system-ui,sans-serif;\n  --body:'Open Sans',system-ui,-apple-system,'Segoe UI',sans-serif;\n}\n@media (prefers-color-scheme:dark){\n  :root{\n    --bg:#16201d;--fg:#e4e1da;--muted:#a9b3aa;--line:#34453f;--card:#1f2b27;\n    --tit:#e39a72;--det:#d4ad84;--accent:#a4dfc3;--accent-fg:#16201d;\n    --pill:#a4dfc3;--pill-fg:#16201d;--sage:#6f7d72;--stage:#0f1513;\n    --aj-bg:#4a3322;--aj-fg:#f0c9a6;--aj-bd:#e39a72;\n    --ok-bg:#1f4a3a;--ok-fg:#a4dfc3;--ok-bd:#a4dfc3;\n    --no-bg:#5a3d28;--no-fg:#f3dcc4;--no-bd:#d4ad84;\n    color-scheme:dark;\n  }\n}",
+ "payload": "/* ao aprovar uma etapa, o Make tira as tags de análise/ajuste dessa mesma etapa */\nconst LIMPAR={'captado':['Para Captação','Para Capitação'],'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};\nfunction payload(it){\n const e=etapaDe(it.etapa),i=stat(it);\n return {chave:CHAVE,cliente:CLIENTE,item:it.id,pagina:it.pagina,ts:new Date().toISOString(),etapa:it.etapa,ideia:String(it.numero),titulo:it.titulo,rotulo:'#'+it.numero+' · '+it.titulo,tag:e.tags[i],status:ST_NOTION[e.tags[i]]||'',r1:(LIMPAR[e.tags[i]]||[])[0]||'',r2:(LIMPAR[e.tags[i]]||[])[1]||'',r3:(LIMPAR[e.tags[i]]||[])[2]||'',r4:(LIMPAR[e.tags[i]]||[])[3]||'',obs:(obs[it.id]||'').trim()};\n}",
+ "nome": "CRK Paisagismo",
+ "logo": "logo.png",
+ "lw": 96,
+ "lh": 96,
+ "alt": "CRK Arquitetura e Paisagismo",
+ "logo_css": ".logo{display:block;width:96px;height:96px;margin:0 0 16px}",
+ "extra_css": ":root{--serif:var(--display)}\n@media (prefers-color-scheme:dark){:focus-visible{outline-color:var(--mint)}}",
+ "rodape": "",
+ "saudacao": "Olá! Aqui é a Camila, da CRK Paisagismo. Minhas respostas sobre os conteúdos:",
+ "captado": "Captado",
+ "destino": "chega direto para a Flora Digital"
+}
