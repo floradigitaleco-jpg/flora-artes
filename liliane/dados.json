@@ -824,6 +824,35 @@
     "poster": "img/c67-poster.jpg"
    },
    "pagina": "41785198-8c4e-81a2-99c8-e395b50f9df9"
+  },
+  {
+   "id": "c80",
+   "etapa": "criativo",
+   "numero": 80,
+   "titulo": "Projeto casa 185: recém-implantado",
+   "formato": "Carrossel",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "🌿 Projeto casa 185, recém-implantado.\nO jardim acabou de ser plantado e já mostra a intenção do projeto: palmeiras que levam o olhar para cima, folhagens de texturas diferentes nos canteiros e vasos que ocupam o deck e a área da piscina.\n\nNão é sobre esperar o jardim crescer para ele ficar bonito. É sobre pensar cada camada desde o primeiro dia, para o tempo só completar o que já foi desenhado.\n\nQuer conversar sobre o projeto da sua área externa? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #ProjetoDePaisagismo #PaisagismoResidencial #JardimRecemImplantado"
+    }
+   ],
+   "midia": {
+    "tipo": "carrossel",
+    "arquivos": [
+     "img/c80-1.jpg",
+     "img/c80-2.jpg",
+     "img/c80-3.jpg",
+     "img/c80-4.jpg",
+     "img/c80-5.jpg",
+     "img/c80-6.jpg",
+     "img/c80-7.jpg",
+     "img/c80-8.jpg",
+     "img/c80-9.jpg"
+    ]
+   },
+   "pagina": "41a85198-8c4e-81b5-9dfb-d57290364c92"
   }
  ]
 }
