@@ -3,21 +3,6 @@
  "atualizadoEm": "2026-11-16",
  "itens": [
   {
-   "id": "i00-teste",
-   "etapa": "ideia",
-   "numero": 0,
-   "titulo": "TESTE da página (pode usar à vontade)",
-   "formato": "Teste",
-   "funcao": "Qualificar",
-   "blocos": [
-    {
-     "t": "Como testar",
-     "x": "Escolha uma tag, escreva uma observação e toque em Enviar este item. Depois confira no Notion a página TESTE."
-    }
-   ],
-   "pagina": "41785198-8c4e-8114-908b-d82186ed7c1b"
-  },
-  {
    "id": "i09",
    "etapa": "ideia",
    "numero": 9,
