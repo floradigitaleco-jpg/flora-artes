@@ -170,6 +170,15 @@ dialog .btn{width:100%}
 .env-it p{margin:0;font-size:14px;color:var(--muted);overflow-wrap:anywhere}
 .env-it .btn{margin-top:8px;min-height:44px}
 .toast{margin:0 0 14px;padding:12px 14px;border:1.5px solid var(--ok-bd);background:var(--ok-bg);color:var(--ok-fg);border-radius:10px;font-size:15px;font-weight:600}
+
+.sec{margin:26px 0 14px;padding-top:18px;border-top:2px solid var(--sage)}
+.sec:first-child{margin-top:0;padding-top:0;border-top:0}
+.sec h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 4px;color:var(--tit)}
+.sec p{margin:0;font-size:14px;color:var(--muted)}
+.prog{display:inline-block;background:var(--ok-bg);color:var(--ok-fg);border:1.5px solid var(--ok-bd);border-radius:999px;padding:4px 12px;font-size:13.5px;font-weight:600}
+.acoes-cap{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:6px}
+.acoes-cap .btn{margin-top:0;align-self:center}
+a.btn.sec,a.btn{text-decoration:none}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
@@ -202,7 +211,7 @@ const CLIENTE='Liliane';
 const ST_NOTION={
  'ajuste de ideia':'Ajustar Ideia','ideia aprovada':'Ideia aprovada','ideia não aprovada':'Ideia não aprovada','não entendi a ideia':'Não entendi a ideia',
  'ajuste de roteiro':'Ajustes no Roteiro','roteiro aprovado':'Roteiro Aprovado',
- 'ajuste no criativo':'Ajuste no criativo','criativo aprovado':'Criativo Aprovado'
+ 'ajuste no criativo':'Ajuste no criativo','criativo aprovado':'Criativo Aprovado','captado':'Captado'
 };
 const KEY='liliane-aprovacao-v1';
 const DADOS_URL='dados.json';
@@ -210,11 +219,12 @@ const DADOS_URL='dados.json';
 const ETAPAS=[
  {k:'ideia',aba:'Ideias',nome:'Ideia',tags:['análise de ideia','ajuste de ideia','ideia aprovada','ideia não aprovada','não entendi a ideia'],vazio:'Nenhuma ideia para analisar agora.'},
  {k:'roteiro',aba:'Roteiros',nome:'Roteiro',tags:['análise de roteiro','ajuste de roteiro','roteiro aprovado'],vazio:'Nenhum roteiro para analisar agora.'},
- {k:'criativo',aba:'Criativos',nome:'Criativo',tags:['análise do criativo','ajuste no criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'},
- {k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando programação.'}
+ {k:'captacao',aba:'Captação',nome:'Captação',tags:[],captacao:true,vazio:'Nenhum conteúdo esperando captação agora.'},
+ {k:'criativo',aba:'Criativos',nome:'Criativo',tags:['análise do criativo','ajuste no criativo','criativo aprovado'],vazio:'Nenhum criativo para analisar agora.'}
 ];
+const E_APROV={k:'aprovado',aba:'Aprovados',nome:'Aprovado',tags:[],leitura:true,vazio:'Nenhum criativo aprovado aguardando publicação.'};
 const CLS=['t-an','t-aj','t-ok','t-no','t-ne'],VAL=[null,'ajuste','aprovado','naoaprovado','naoentendi'];
-const etapaDe=k=>ETAPAS.find(e=>e.k===k);
+const etapaDe=k=>ETAPAS.find(e=>e.k===k)||(k==='aprovado'?E_APROV:null);
 const $=id=>document.getElementById(id);
 const reduz=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
@@ -226,11 +236,11 @@ try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');decisoes=s.d||{};obs=s.o
 function save(){try{localStorage.setItem(KEY,JSON.stringify({d:decisoes,o:obs,e:enviados}))}catch(e){}}
 function stat(it){const i=VAL.indexOf(decisoes[it.id]);return i<0?0:i}
 const foiEnv=it=>!!enviados[it.id];
-const analisaveis=()=>ITENS.filter(i=>!etapaDe(i.etapa).leitura&&!foiEnv(i));
+const analisaveis=()=>ITENS.filter(i=>{const e=etapaDe(i.etapa);return e&&!e.leitura&&!e.captacao&&!foiEnv(i)});
 const respondido=it=>stat(it)>0;
 
 function linha(it){
- const e=etapaDe(it.etapa);if(!e||e.leitura)return null;
+ const e=etapaDe(it.etapa);if(!e||e.leitura||e.captacao)return null;
  const i=stat(it),o=(obs[it.id]||'').trim();
  if(!i)return null; /* só envia depois de escolher uma tag além de "análise" */
  return '*#'+it.numero+' · '+it.titulo+'* ('+e.nome+')\nStatus: '+e.tags[i]+(o?'\nObservação: '+o:'');
@@ -239,6 +249,13 @@ function msgTudo(){return 'Oi! Aqui é a Liliane. Minhas respostas sobre os cont
 function setAtivo(b,on){if(on)b.removeAttribute('aria-disabled');else b.setAttribute('aria-disabled','true')}
 function updateLinks(){links.forEach(f=>f())}
 
+function quandoProg(it){
+ const t=it.publicacao?new Date(it.publicacao):null;
+ if(!t||isNaN(t))return null;
+ const dia=t.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',timeZone:'America/Sao_Paulo'}).replace('.','');
+ const h=t.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Sao_Paulo'}).replace(':00','h').replace(':','h');
+ return 'Programado para '+dia+', às '+h+'. Depois de publicado, sai desta lista.';
+}
 function renderTexto(box,texto){
  let ul=null;
  for(const ln of String(texto).split('\n')){
@@ -300,7 +317,7 @@ function marcarEnviados(lista){
 }
 let enviando=false;
 /* ao aprovar uma etapa, o Make tira as tags de análise/ajuste dessa mesma etapa */
-const LIMPAR={'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};
+const LIMPAR={'captado':['Para captação','para captação'],'ideia aprovada':['Analisar Ideia','Ajustar Ideia','Não entendi a ideia','Ideia não aprovada'],'roteiro aprovado':['Analise Roteiro','Ajustes no Roteiro'],'criativo aprovado':['Análise do criativo','Ajuste no criativo']};
 function payload(it){
  const e=etapaDe(it.etapa),i=stat(it);
  return {chave:CHAVE,cliente:CLIENTE,item:it.id,pagina:it.pagina,ts:new Date().toISOString(),etapa:it.etapa,ideia:String(it.numero),titulo:it.titulo,rotulo:'#'+it.numero+' · '+it.titulo,tag:e.tags[i],status:ST_NOTION[e.tags[i]]||'',r1:(LIMPAR[e.tags[i]]||[])[0]||'',r2:(LIMPAR[e.tags[i]]||[])[1]||'',r3:(LIMPAR[e.tags[i]]||[])[2]||'',r4:(LIMPAR[e.tags[i]]||[])[3]||'',obs:(obs[it.id]||'').trim()};
@@ -318,6 +335,20 @@ async function enviar(lista,btn){
  if(ok.length)marcarEnviados(ok);
  const n=ok.length;
  aviso=(n?(n===1?'Enviado! O item saiu desta lista e está guardado em "Enviados", no fim da página.':n+' itens enviados! Eles saíram desta lista e estão guardados em "Enviados", no fim da página.'):'')+(falha?(n?' ':'')+(falha===1?'1 item não foi enviado':falha+' itens não foram enviados')+'. Suas respostas continuam salvas aqui; tente de novo em instantes.':'');
+ montar(aba);avisar(aviso);
+}
+async function jaCaptei(it,btn){
+ if(enviando)return;
+ if(!it.pagina||!HOOK){aviso='Não consegui avisar agora. Tente de novo em instantes.';montar(aba);avisar(aviso);return}
+ enviando=true;btn.textContent='Enviando…';btn.setAttribute('aria-disabled','true');
+ let ok=false;
+ try{
+  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status='Captado';p.r1='Para captação';p.obs='';
+  const r=await fetch(HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)});ok=r.ok;
+ }catch(e){}
+ enviando=false;
+ if(ok){enviados[it.id]={s:'Captado',o:'',t:new Date().toISOString()};save();aviso='Avisado! Este conteúdo saiu da captação e segue para a edição.'}
+ else aviso='Não consegui avisar agora. Tente de novo em instantes.';
  montar(aba);avisar(aviso);
 }
 function desfazer(it){delete enviados[it.id];save();aviso='';montar(aba)}
@@ -393,6 +424,17 @@ function card(it,e){
  if(m.childNodes.length)c.append(m);
 
  if(it.etapa==='criativo'||it.etapa==='aprovado')c.append(blocoCriativo(it));
+ if(it.etapa==='captacao'){
+  (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
+  const ac=el('div','acoes-cap');
+  if(it.pastaMaterial){const a=el('a','btn','Enviar material');a.href=it.pastaMaterial;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Enviar material de #'+it.numero+' (abre a pasta em outra aba)');ac.append(a)}
+  const jc=el('button','btn sec','Já captei');jc.type='button';jc.setAttribute('aria-label','Avisar que já captei o material de #'+it.numero);
+  jc.onclick=()=>jaCaptei(it,jc);ac.append(jc);c.append(ac);
+  if(!it.pastaMaterial)c.append(el('p','note','Combine com a Flora Digital onde enviar o material deste conteúdo.'));
+  c.append(el('p','note','Depois de enviar tudo, toque em "Já captei". A Flora Digital segue para a edição.'));
+  return c;
+ }
+
 
  const leg=(it.blocos||[]).find(b=>b.t==='Legenda');
  if(e.leitura){
@@ -400,7 +442,7 @@ function card(it,e){
    const lg=el('div','leg');lg.append(el('b',null,'Legenda'));renderTexto(lg,leg.x);
    const cb=el('button','btn sec','Copiar legenda');cb.type='button';cb.style.marginTop='4px';cb.onclick=()=>copiarComAviso(leg.x,cb,'Legenda copiada');lg.append(cb);c.append(lg);
   }
-  c.append(el('p','note','Aprovado. Aguardando a programação nas redes.'));
+  {const q=quandoProg(it);if(q){const pg=el('span','prog','Programado');pg.style.marginBottom='8px';c.insertBefore(pg,c.children[1]||null)}c.append(el('p','note',q||'Aprovado. Aguardando a programação nas redes.'))};
   return c;
  }
  (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
@@ -437,10 +479,19 @@ function montar(manter){
   t.append(b);
   const p=el('section');p.id='p-'+e.k;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby','aba-'+e.k);p.hidden=true;
   const todos=ITENS.filter(x=>x.etapa===e.k).sort((a,b)=>a.numero-b.numero),its=todos.filter(x=>!foiEnv(x));
+  const aprov=e.k==='criativo'?ITENS.filter(x=>x.etapa==='aprovado'&&!foiEnv(x)).sort((a,b)=>String(a.publicacao||'9').localeCompare(String(b.publicacao||'9'))||a.numero-b.numero):[];
   if(aviso&&manter===i){const tt=el('p','toast',aviso);tt.setAttribute('role','status');p.append(tt)}
-  if(e.leitura&&its.length)p.append(el('p','nota-aba','Estes criativos já foram aprovados. Aqui você só consulta e copia a legenda.'));
+  if(e.k==='criativo'){
+   const s1=el('div','sec');s1.append(el('h2',null,'Para analisar'),el('p',null,'Criativos prontos para você aprovar ou pedir ajuste.'));p.append(s1);
+  }
+  if(e.captacao){const nt=el('p','nota-aba','Aqui estão os conteúdos aprovados que precisam de material. Capte ou separe o que está no checklist de cada um e envie pela pasta.');p.append(nt)}
   if(!its.length)p.append(el('p','empty',todos.length?'Tudo desta etapa já foi enviado. Obrigada!':e.vazio));
   its.forEach(it=>p.append(card(it,e)));
+  if(e.k==='criativo'){
+   const s2=el('div','sec');s2.append(el('h2',null,'Aprovados, aguardando publicação'),el('p',null,'Já aprovados e programados. Aqui você só consulta e copia a legenda. Depois de publicado, o criativo sai da lista.'));p.append(s2);
+   if(!aprov.length)p.append(el('p','empty',E_APROV.vazio));
+   aprov.forEach(it=>p.append(card(it,E_APROV)));
+  }
   box.append(p);
  });
  montarRodape();
@@ -453,7 +504,7 @@ function montar(manter){
 function abrir(i,inicial){
  aba=i;
  ETAPAS.forEach((e,j)=>{const b=$('aba-'+e.k);b.setAttribute('aria-selected',String(j===i));b.tabIndex=j===i?0:-1;$('p-'+e.k).hidden=j!==i});
- $('foot').hidden=ETAPAS[i].leitura;
+ $('foot').hidden=!!(ETAPAS[i].leitura||ETAPAS[i].captacao);
  crescerPainel();
  if(!inicial){const topo=document.querySelector('.tabs-faixa').offsetTop;if(window.scrollY>topo)window.scrollTo({top:topo,behavior:reduz()?'auto':'smooth'})}
 }
@@ -480,9 +531,9 @@ function montarRodape(){
 function atualizarTudo(){
  ETAPAS.forEach(e=>{
   const its=ITENS.filter(x=>x.etapa===e.k&&!foiEnv(x)),n=$('n-'+e.k);
-  const pend=e.leitura?its.length:its.filter(x=>stat(x)===0).length;
+  const pend=(e.leitura||e.captacao)?its.length:its.filter(x=>stat(x)===0).length;
   n.textContent=pend;n.classList.toggle('zero',!pend);
-  $('aba-'+e.k).setAttribute('aria-label',e.aba+', '+pend+(e.leitura?(pend===1?' item':' itens'):(pend===1?' pendente':' pendentes')));
+  $('aba-'+e.k).setAttribute('aria-label',e.aba+', '+pend+((e.leitura||e.captacao)?(pend===1?' item':' itens'):(pend===1?' pendente':' pendentes')));
  });
  updateLinks();
 }
@@ -492,7 +543,7 @@ async function carregar(){
  const ld=el('div','estado','Carregando os conteúdos…');ld.setAttribute('role','status');box.append(ld);
  try{
   const r=await fetch(DADOS_URL,{cache:'no-store'});if(!r.ok)throw new Error(r.status);
-  const j=await r.json();ITENS=Array.isArray(j.itens)?j.itens:[];montar();
+  const j=await r.json();ITENS=(Array.isArray(j.itens)?j.itens:[]).filter(i=>!(i.publicacao&&Date.parse(i.publicacao)<=Date.now()));montar();
  }catch(err){
   box.textContent='';
   const b=el('div','estado','Não consegui carregar os conteúdos. Confira sua conexão e tente de novo.');b.setAttribute('role','alert');
