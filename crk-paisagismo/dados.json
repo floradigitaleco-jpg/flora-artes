@@ -1,6 +1,6 @@
 {
  "cliente": "CRK Paisagismo",
- "atualizadoEm": "2026-11-14",
+ "atualizadoEm": "2026-11-16",
  "itens": [
   {
    "id": "ideia-19",
@@ -800,6 +800,69 @@
     }
    ],
    "pagina": "408851988c4e815994ccd69fc807894a",
+   "prioridade": "média"
+  },
+  {
+   "id": "captacao-13-stories",
+   "etapa": "captacao",
+   "numero": 13,
+   "titulo": "Meu espaço é pequeno. Vale a pena contratar uma paisagista?",
+   "formato": "Stories",
+   "funcao": null,
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "Story 1 (enquete): “Deixa eu te fazer uma pergunta: você acha que, só porque o seu espaço é pequeno, não vale a pena contratar uma paisagista?” Enquete: Sim, tenho essa dúvida / Nunca pensei nisso.\nStory 2: “Na verdade, é justamente em um espaço pequeno que cada escolha precisa ser ainda mais bem pensada, para aproveitar cada parte sem prejudicar a circulação ou a função do ambiente.”\nStory 3: “O olhar de uma paisagista ajuda a enxergar possibilidades e fazer o espaço funcionar melhor para a sua rotina. Se quiser aproveitar melhor o seu, clique no link e fale comigo.” Botão: Falar com a Camila."
+    },
+    {
+     "t": "Material Necessário",
+     "x": "**Obrigatório:** vídeo da Camila gravando os 3 stories (vertical, boa luz), com a fala do roteiro.\n**Opcional:** 1 ou 2 fotos reais de um espaço pequeno já executado, para ilustrar o story 2.\nSe não tiver, o design cria."
+    }
+   ],
+   "pastaMaterial": "",
+   "pagina": "3dc851988c4e80c08352c3226fe71617",
+   "prioridade": "média"
+  },
+  {
+   "id": "captacao-13-reels",
+   "etapa": "captacao",
+   "numero": 13,
+   "titulo": "Meu espaço é pequeno. Vale a pena contratar uma paisagista?",
+   "formato": "Reels",
+   "funcao": null,
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "Deixa eu te contar uma coisa. Se você tem um espaço pequeno e fica se perguntando se vale a pena contratar uma paisagista, a resposta é sim. E é justamente por ele ser pequeno que cada escolha precisa ser muito bem pensada. Quando existe pouco espaço, é preciso entender o que realmente cabe ali, garantir uma boa circulação e organizar cada elemento para que o ambiente tenha função. O olhar profissional ajuda a enxergar possibilidades e aproveitar melhor cada parte, sem deixar o espaço carregado ou difícil de usar. Porque paisagismo não é encher o ambiente de plantas. É fazer aquele espaço funcionar para você e para a sua rotina. Espaço pequeno não precisa de menos planejamento. Precisa de escolhas mais precisas. Se você quer aproveitar melhor o seu espaço, clique no link da bio e fale comigo."
+    },
+    {
+     "t": "Material Necessário",
+     "x": "**Obrigatório:** vídeo da Camila falando para a câmera (selfie, plano médio, boa luz), com a fala do roteiro.\n**Opcional:** imagens ou vídeos curtos de espaços pequenos já executados, para inserir entre os trechos da fala.\nSe não tiver, o design cria."
+    }
+   ],
+   "pastaMaterial": "",
+   "pagina": "3dc851988c4e80c0ab36ee22d84ff057",
+   "prioridade": "média"
+  },
+  {
+   "id": "captacao-14",
+   "etapa": "captacao",
+   "numero": 14,
+   "titulo": "Você não precisa chegar sabendo exatamente o que quer para começar um projeto de paisagismo",
+   "formato": "Reels [Selfie]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "Você não precisa chegar com o espaço externo pronto na cabeça. No começo, eu só quero te ouvir. Como vocês usam a casa? O que incomoda hoje? E o que não pode faltar? É a partir dessas respostas que eu traduzo a sua rotina em projeto. Se você está pensando em começar, clique na bio e fale comigo. A gente conversa sem pressa."
+    },
+    {
+     "t": "Material Necessário",
+     "x": "**Obrigatório:** vídeo da Camila gravando para a câmera (selfie, vertical, boa luz).\n**Opcional:** foto de uma conversa inicial com cliente (só mesa, planta e anotações, sem identificar a pessoa); foto do caderno ou da planta com anotações dela.\nSe não tiver, o design cria."
+    }
+   ],
+   "pastaMaterial": "",
+   "pagina": "407851988c4e818796e4ddc4a99fbbb5",
    "prioridade": "média"
   }
  ]
