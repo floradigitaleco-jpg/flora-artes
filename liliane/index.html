@@ -350,11 +350,11 @@ async function jaCaptei(it,btn){
  enviando=true;btn.textContent='Enviando…';btn.setAttribute('aria-disabled','true');
  let ok=false;
  try{
-  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status=ST_NOTION['captado']||'Captado';p.obs='';const lm=LIMPAR['captado']||[];for(let n=1;n<=9;n++)p['r'+n]=lm[n-1]||'';
+  const p=payload(it);p.etapa='captacao';p.tag='captado';p.status=ST_NOTION['captado']||'Captado';p.obs=(obs[it.id]||'').trim();const lm=LIMPAR['captado']||[];for(let n=1;n<=9;n++)p['r'+n]=lm[n-1]||'';
   const r=await fetch(HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)});ok=r.ok;
  }catch(e){}
  enviando=false;
- if(ok){enviados[it.id]={s:'Captado',o:'',t:new Date().toISOString()};save();aviso='Avisado! Este conteúdo saiu da captação e segue para a edição.'}
+ if(ok){enviados[it.id]={s:'Captado',o:(obs[it.id]||'').trim(),t:new Date().toISOString()};save();aviso='Avisado! Este conteúdo saiu da captação e segue para a edição.'}
  else aviso='Não consegui avisar agora. Tente de novo em instantes.';
  montar(aba);avisar(aviso);
 }
@@ -428,18 +428,28 @@ function card(it,e){
  const m=el('div','pills');
  if(it.formato&&it.etapa!=='criativo')m.append(el('span','fmt',it.formato));
  if(it.funcao&&it.etapa!=='criativo'&&it.etapa!=='ideia')m.append(el('span','fn','Função: '+it.funcao));
- if(it.prioridade&&it.etapa!=='criativo')m.append(el('span','fn','Prioridade: '+it.prioridade));
+ if(it.prioridade&&it.etapa!=='criativo')m.append(el('span','fn','Prioridade: '+(it.prioridade==='altissima'?'altíssima':it.prioridade)));
  if(m.childNodes.length)c.append(m);
 
  if(it.etapa==='criativo'||it.etapa==='aprovado')c.append(blocoCriativo(it));
  if(it.etapa==='captacao'){
   (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
   const ac=el('div','acoes-cap');
-  if(it.pastaMaterial){const a=el('a','btn','Enviar material');a.href=it.pastaMaterial;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Enviar material de #'+it.numero+' (abre a pasta em outra aba)');ac.append(a)}
-  const jc=el('button','btn sec','Já captei');jc.type='button';jc.setAttribute('aria-label','Avisar que já captei o material de #'+it.numero);
-  jc.onclick=()=>jaCaptei(it,jc);ac.append(jc);c.append(ac);
-  if(!it.pastaMaterial)c.append(el('p','note','Combine com a Flora Digital onde enviar o material deste conteúdo.'));
-  c.append(el('p','note','Depois de enviar tudo, toque em "Já captei". A Flora Digital segue para a edição.'));
+  if(it.pastaMaterial){const a=el('a','btn sec','Abrir pasta do material');a.href=it.pastaMaterial;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Abrir a pasta do material de #'+it.numero+' (abre em outra aba)');ac.append(a);c.append(ac)}
+  const wrap=el('div','cm');wrap.append(el('h3',null,'Coloque aqui o link do material captado'));
+  const ta=el('textarea');ta.id='obs-'+it.id;ta.placeholder='Coloque aqui o link do material captado (pasta do Drive), selecione a tag e envie.';ta.setAttribute('aria-label','Link do material captado de #'+it.numero);ta.value=obs[it.id]||'';
+  const tg=el('div','tags');tg.style.gridTemplateColumns='1fr';tg.setAttribute('role','group');tg.setAttribute('aria-label','Status de #'+it.numero);
+  const tb=el('button','tag t-ok','Material captado');tb.type='button';
+  const a=el('button','wa','Enviar este item');a.type='button';
+  const pronto=()=>decisoes[it.id]==='captado'&&!!(obs[it.id]||'').trim();
+  const pinta=()=>{tb.setAttribute('aria-pressed',String(decisoes[it.id]==='captado'));setAtivo(a,pronto())};
+  tb.onclick=()=>{if(decisoes[it.id]==='captado')delete decisoes[it.id];else decisoes[it.id]='captado';save();pinta()};
+  ta.addEventListener('input',()=>{obs[it.id]=ta.value;save();crescer(ta);pinta()});
+  a.addEventListener('click',()=>{if(a.getAttribute('aria-disabled')==='true')return;jaCaptei(it,a)});
+  tg.append(tb);
+  const campo=el('div','campo');campo.append(ta);const mic=microfone(ta,'#'+it.numero);if(mic.btn)campo.append(mic.btn);
+  wrap.append(campo,mic.st,tg,a);c.append(wrap);pinta();
+  c.append(el('p','note','Depois que você enviar, a Flora Digital segue para a edição.'));
   return c;
  }
 
@@ -495,7 +505,7 @@ function montar(manter){
   if(e.k==='criativo'){
    const s1=el('div','sec');s1.append(el('h2',null,'Para analisar'),el('p',null,'Criativos prontos para você aprovar ou pedir ajuste.'));p.append(s1);
   }
-  if(e.captacao){const nt=el('p','nota-aba','Aqui estão os conteúdos aprovados que precisam de material. Capte ou separe o que está no checklist de cada um e envie pela pasta.');p.append(nt)}
+  if(e.captacao){const nt=el('p','nota-aba','Aqui estão os conteúdos aprovados que precisam de material. Capte ou separe o que está no checklist de cada um, coloque o material numa pasta do Drive e cole o link na caixa do conteúdo.');p.append(nt)}
   if(!its.length)p.append(el('p','empty',todos.length?'Tudo desta etapa já foi enviado. Obrigada!':e.vazio));
   its.forEach(it=>p.append(card(it,e)));
   if(e.k==='criativo'){

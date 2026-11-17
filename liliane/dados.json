@@ -1,34 +1,7 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-16",
+ "atualizadoEm": "2026-11-17",
  "itens": [
-  {
-   "id": "i09",
-   "etapa": "ideia",
-   "numero": 9,
-   "titulo": "Já tenho plantas no terreno. Dá para aproveitar no projeto?",
-   "formato": "Reels [Misto]",
-   "funcao": "Qualificar",
-   "blocos": [
-    {
-     "t": "Por que esta ideia",
-     "x": "Quem já tem árvores ou plantas no terreno teme perder algo de valor ou conviver com algo que atrapalha o projeto. Mostra a leitura do terreno e tira uma dúvida que costuma travar o primeiro contato."
-    },
-    {
-     "t": "Gancho",
-     "x": "\"Já tem plantas no seu terreno? Elas entram na conversa do projeto.\""
-    },
-    {
-     "t": "Como executar",
-     "x": "Reels [Misto] de 20 a 30 s: a Liliane no terreno explicando o que observa antes de decidir o que fica, com imagens de projeto real e convite à conversa no final."
-    },
-    {
-     "t": "O que precisamos da Liliane",
-     "x": "Gravação dela em um terreno com plantas existentes (pode ser numa visita técnica), explicando como avalia o que aproveitar."
-    }
-   ],
-   "pagina": "40785198-8c4e-8125-bd0e-f624d96adbad"
-  },
   {
    "id": "i10",
    "etapa": "ideia",
@@ -477,6 +450,47 @@
     }
    ],
    "pagina": "40785198-8c4e-81e5-b271-ce2c2d664d1e"
+  },
+  {
+   "id": "k09",
+   "etapa": "captacao",
+   "numero": 9,
+   "titulo": "Já tenho plantas no terreno. Dá para aproveitar no projeto?",
+   "formato": "Reels [Misto]",
+   "funcao": "Qualificar",
+   "prioridade": "altissima",
+   "blocos": [
+    {
+     "t": "Ideia",
+     "x": "Quem já tem árvores ou plantas no terreno teme perder algo de valor ou conviver com algo que atrapalha o projeto. Neste vídeo você mostra, na prática, como olha para o que já existe antes de decidir o que fica."
+    },
+    {
+     "t": "Gancho (0 a 3 s)",
+     "x": "Olhando para a câmera, já no terreno:\n\"Já tem plantas no seu terreno? Elas entram na conversa do projeto.\""
+    },
+    {
+     "t": "Direção de gravação",
+     "x": "Reels [Misto] de 20 a 30 s: você em cena no terreno, explicando o que observa, e depois entram imagens de projetos.\n1. Grave com o celular na vertical, câmera traseira, e limpe a lente antes.\n2. Escolha um terreno com plantas ou árvores que já existem (pode ser numa visita técnica).\n3. Prefira luz natural, de manhã ou fim de tarde. Evite sol a pino e contraluz: não fique com o sol atrás de você.\n4. Plano médio: você aparecendo da cintura para cima e a planta ou árvore ao fundo. Apoie o celular ou peça para alguém segurar firme.\n5. Fale do seu jeito, em frases curtas. Aponte para a planta enquanto explica o que você olha antes de decidir o que fica.\n6. Vento atrapalha o áudio: fique de costas para o vento ou grave num trecho mais protegido.\n7. Pode errar e repetir. Grave de uma vez só, a Flora Digital corta pausas e tropeços na edição."
+    },
+    {
+     "t": "Para fechar a fala (sugestão)",
+     "x": "Um convite à conversa, no seu tom. Exemplo: \"Se você tem plantas no seu terreno, fale comigo para conversarmos. Link na bio.\""
+    },
+    {
+     "t": "Imagens de apoio",
+     "x": "Depois da fala, grave de 3 a 5 takes curtos (5 a 10 s cada): visão geral do terreno, detalhe da folhagem ou do tronco, as plantas existentes de pontos diferentes. Sem placa, endereço ou rosto de cliente na imagem."
+    },
+    {
+     "t": "Material Necessário",
+     "x": "Obrigatório: gravação sua em um terreno com plantas existentes, explicando como você avalia o que aproveitar.\nOpcional: fotos de um projeto em que algo existente foi mantido, de preferência antes e depois no mesmo ângulo. Se não tiver, o design cria."
+    },
+    {
+     "t": "Como enviar",
+     "x": "Coloque o vídeo e as imagens numa pasta do Drive e deixe o acesso como \"qualquer pessoa com o link\". Cole o link da pasta na caixa abaixo, selecione a tag e envie."
+    }
+   ],
+   "pastaMaterial": "",
+   "pagina": "40785198-8c4e-8125-bd0e-f624d96adbad"
   },
   {
    "id": "k48",
