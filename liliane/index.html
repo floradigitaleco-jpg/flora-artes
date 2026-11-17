@@ -433,7 +433,10 @@ function card(it,e){
 
  if(it.etapa==='criativo'||it.etapa==='aprovado')c.append(blocoCriativo(it));
  if(it.etapa==='captacao'){
-  (it.blocos||[]).forEach(b=>c.append(blocoTexto(b.t,b.x)));
+  (it.blocos||[]).forEach(b=>{
+   if(b.copiar){const lg=el('div','leg');lg.append(el('b',null,b.t));renderTexto(lg,b.x);const cb=el('button','btn sec','Copiar '+b.copiar);cb.type='button';cb.style.marginTop='4px';cb.setAttribute('aria-label','Copiar '+b.copiar+' de #'+it.numero);cb.onclick=()=>copiarComAviso(b.x,cb,b.copiar.charAt(0).toUpperCase()+b.copiar.slice(1)+' copiada');lg.append(cb);c.append(lg)}
+   else c.append(blocoTexto(b.t,b.x));
+  });
   const ac=el('div','acoes-cap');
   if(it.pastaMaterial){const a=el('a','btn sec','Abrir pasta do material');a.href=it.pastaMaterial;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Abrir a pasta do material de #'+it.numero+' (abre em outra aba)');ac.append(a);c.append(ac)}
   const wrap=el('div','cm');wrap.append(el('h3',null,'Coloque aqui o link do material captado'));

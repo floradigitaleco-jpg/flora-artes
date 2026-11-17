@@ -465,8 +465,9 @@
      "x": "Reels de 20 a 30 s: você falando no terreno, com imagens de projetos no meio."
     },
     {
-     "t": "Narração (sugestão, troque o que quiser)",
-     "x": "Já tem plantas no seu terreno? Elas entram na conversa do projeto. Antes de decidir o que fica, eu olho para o que já existe e para o que o espaço pede, porque projeto não precisa começar do zero. Cada planta é avaliada dentro do todo, e o que faz sentido se mantém. Se você tem plantas no seu terreno, fale comigo para conversarmos. Link na bio."
+     "t": "Narração (texto corrido)",
+     "copiar": "narração",
+     "x": "Já tem plantas no seu terreno? Elas entram na conversa do projeto. Depois de mais de dez anos de projetos, eu começo sempre pelo que já existe no terreno: a saúde de cada planta, o porte e o lugar onde ela está. Algumas ganham destaque no jardim, outras não fazem sentido no conjunto, e tudo é decidido com intenção. Um projeto bem pensado não precisa começar do zero. Fale comigo pelo WhatsApp. Link na bio."
     },
     {
      "t": "Direção de gravação",
