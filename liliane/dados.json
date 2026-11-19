@@ -246,6 +246,29 @@
    "pagina": "41a85198-8c4e-8193-8c20-d1621c5accda"
   },
   {
+   "id": "i81",
+   "etapa": "ideia",
+   "numero": 81,
+   "titulo": "Pensar o jardim junto com a casa evita refazer depois",
+   "formato": "Carrossel [Editorial]",
+   "funcao": "Qualificar",
+   "pagina": "41c85198-8c4e-81df-93c4-d08abfbb7746",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "Quem constrói ou reforma deixa o jardim para o fim e depois descobre que precisa quebrar piso, mexer em instalações ou abrir mão de espaço para plantar. Mostra o critério de quem pensa a área externa como parte da arquitetura e atrai o cliente que ainda está em obra, o momento certo para chamar a paisagista."
+    },
+    {
+     "t": "Gancho",
+     "x": "\"O jardim que entra no fim da obra costuma custar espaço, tempo e retrabalho.\""
+    },
+    {
+     "t": "Como executar",
+     "x": "Carrossel [Editorial]: o argumento se constrói em etapas e pede um texto mais cuidado. Reforça o diferencial de projeto integrado à arquitetura e à implantação."
+    }
+   ]
+  },
+  {
    "id": "r05-v2",
    "etapa": "roteiro",
    "numero": 5,
@@ -357,33 +380,6 @@
     }
    ],
    "pagina": "3b685198-8c4e-8196-a44f-e246bd0ad287"
-  },
-  {
-   "id": "r36",
-   "etapa": "roteiro",
-   "numero": 36,
-   "titulo": "Jardim bom é jardim vivido.",
-   "formato": "Estático [Leia a legenda]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Formato",
-     "x": "Publicação do Google Meu Negócio: uma foto real com texto corrido, sem texto sobre a imagem."
-    },
-    {
-     "t": "Texto",
-     "x": "Um bom projeto de paisagismo não cria apenas uma vista bonita. Ele transforma a área externa em um espaço que participa da rotina.\n\nTomar um café, reunir a família, caminhar entre as plantas ou desacelerar ouvindo o som da água são experiências que começam com um planejamento atento ao modo de viver de cada cliente.\n\nEm meus projetos, considero circulação, áreas de permanência, vegetação, iluminação e manutenção para criar jardins bonitos, funcionais e feitos para serem vividos.\n\nAtendo Sapiranga e região com projetos de paisagismo personalizados.\n\nQuer transformar sua área externa? Entre em contato para conversar sobre o seu projeto."
-    },
-    {
-     "t": "Imagem",
-     "x": "Uma única fotografia real do jardim sendo utilizado, de preferência com pessoa, café ou chimarrão, sem texto sobreposto. Se não tiver, a Flora Digital escolhe no acervo."
-    },
-    {
-     "t": "Botão sugerido",
-     "x": "Saiba mais, com link para o site."
-    }
-   ],
-   "pagina": "3c385198-8c4e-8018-9c46-cf2ff7b0efff"
   },
   {
    "id": "r59",
@@ -532,34 +528,6 @@
    ],
    "pastaMaterial": "",
    "pagina": "3ab85198-8c4e-8003-af80-ed41d963f27b"
-  },
-  {
-   "id": "k52",
-   "etapa": "captacao",
-   "numero": 52,
-   "titulo": "Como é calculado o valor de um projeto?",
-   "formato": "Reels [Tela dupla]",
-   "funcao": "Qualificar",
-   "blocos": [
-    {
-     "t": "Gancho",
-     "x": "Se você acha que o valor de um projeto depende apenas do tamanho do terreno..."
-    },
-    {
-     "t": "Narração (roteiro aprovado)",
-     "x": "Essa é uma impressão bastante comum. Mas existem muitos fatores envolvidos.\nCada projeto é único. Nós avaliamos o espaço, o nível de detalhamento, a complexidade, os objetivos da família e tudo aquilo que será desenvolvido. Por isso não existe um valor padrão. Existe um projeto pensado exclusivamente para cada cliente.\nSe você quer entender como funciona no seu caso, me chama no WhatsApp pelo link da bio."
-    },
-    {
-     "t": "Legenda",
-     "x": "O valor de um projeto paisagístico vai muito além dos metros quadrados.\n\nCada cliente possui objetivos, necessidades e espaços diferentes.\n\nÉ por isso que cada orçamento é elaborado de forma personalizada.\n\n🌿 Um projeto bem desenvolvido começa entendendo as pessoas antes mesmo de pensar nas plantas."
-    },
-    {
-     "t": "Material Necessário",
-     "x": "Obrigatório: gravação da Liliane mostrando um projeto aberto sobre a mesa e apontando alguns detalhes (sem dados de cliente).\nOpcional: fotos ou vídeo de detalhes do projeto para a metade de cima da tela. Se não tiver, o design cria."
-    }
-   ],
-   "pastaMaterial": "",
-   "pagina": "3ab85198-8c4e-80eb-a96e-e8e238c40a0f"
   },
   {
    "id": "k49",
@@ -730,8 +698,8 @@
    "pagina": "3ab85198-8c4e-8037-8f7b-f002aa6b5ce3"
   },
   {
-   "id": "c79",
-   "etapa": "criativo",
+   "id": "a79",
+   "etapa": "aprovado",
    "numero": 79,
    "titulo": "Que composição é essa? Jardim lateral: bulbine, samambaias e palmeiras",
    "formato": "Reels/composições",
@@ -747,11 +715,12 @@
     "arquivo": "videos/ideia-79-composicao-jardim-lateral.mp4",
     "poster": "img/c79-poster.jpg"
    },
-   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73"
+   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73",
+   "publicacao": "2026-11-19T23:59:00-03:00"
   },
   {
-   "id": "c64",
-   "etapa": "criativo",
+   "id": "a64",
+   "etapa": "aprovado",
    "numero": 64,
    "titulo": "Que composição é essa? Projeto Haras Textor: pedras e pitosporo",
    "formato": "Reels/composições",
@@ -759,7 +728,7 @@
    "blocos": [
     {
      "t": "Legenda",
-     "x": "🌿 Que composição é essa?\nPitosporo rasteiro em primeiro plano, folhagem fina ao fundo e pedras naturais fazendo a ligação entre as duas texturas.\n\nO pitosporo traz o verde intenso e o volume. A folhagem fina contrasta com a folha larga. E a pedra dá peso e leva o olhar pelo jardim.\n\nNão é sobre encher o canteiro de plantas. É sobre dar a cada elemento um papel dentro do projeto.\n\nVamos conversar sobre a sua visão? Link na bio.\n\n#paisagismo #composicaopaisagistica #pitosporo #jardim"
+     "x": "🌿 Que composição é essa?\nAqui temos o Pitosporo anão em primeiro plano, alecrim pendente, lavandas e capim-do-Texas, com um liquidamber que muda a cada estação. E as pedras não estão ali só de enfeite: elas contêm a lateral dos pisantes de acesso.\n\nO pitosporo traz o verde intenso e o volume. O capim e as lavandas trazem textura e leveza. E a pedra dá peso, leva o olhar pelo jardim e ainda cumpre uma função.\n\nNão é sobre encher o canteiro de plantas. É sobre dar a cada elemento um papel dentro do projeto.\n\n#paisagismo #composicaopaisagistica #pitosporo #lavanda #capimdotexas #jardim"
     }
    ],
    "midia": {
@@ -770,8 +739,8 @@
    "pagina": "41085198-8c4e-8059-8c48-fb03689d0fdb"
   },
   {
-   "id": "c65",
-   "etapa": "criativo",
+   "id": "a65",
+   "etapa": "aprovado",
    "numero": 65,
    "titulo": "Que composição é essa? Projeto Haras: buganvília, capim-do-texas e aço corten",
    "formato": "Reels/composições",
@@ -779,7 +748,7 @@
    "blocos": [
     {
      "t": "Legenda",
-     "x": "🌿 Que composição é essa?\nBuganvília florida ao fundo, capim-do-texas com as plumas se movendo no vento e uma folhagem prateada em vaso de aço corten.\n\nA flor traz a cor. O capim traz leveza e movimento. A folhagem cinza acalma o conjunto e a peça de aço dá a base.\n\nCada planta ocupa uma altura e uma textura diferente. É isso que faz a composição parecer natural, mas com intenção.\n\nVamos conversar sobre a sua visão? Link na bio.\n\n#paisagismo #composicaopaisagistica #capimdotexas #buganvilia #jardim"
+     "x": "🌿 Que composição é essa?\nAqui temos a Bouganville florida ao fundo, que foi transplantada de outra propriedade do cliente, uma forração de lavandas e um maciço de capim-do-Texas com as plumas se movendo no vento.\n\nA flor traz a cor. O maciço de capins traz leveza e movimento. A forração de lavandas fecha o canteiro e dá acabamento ao conjunto.\n\nCada planta ocupa uma altura e uma textura diferente. É isso que faz a composição parecer natural, mas com intenção.\n\n#paisagismo #composicaopaisagistica #capimdotexas #buganvilia #lavanda #jardim"
     }
    ],
    "midia": {
@@ -790,36 +759,16 @@
    "pagina": "41085198-8c4e-8079-ace8-ff62a488663b"
   },
   {
-   "id": "c67",
-   "etapa": "criativo",
-   "numero": 67,
-   "titulo": "Saúde e estética das plantas existentes",
-   "formato": "Reels [Selfie]",
-   "funcao": "Qualificar",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "Antes de projetar, eu olho para o que já existe no jardim. 🌿\n\nEm uma intervenção, as plantas de grande porte normalmente são mantidas. E, para isso, é necessário que elas estejam saudáveis. Por isso a avaliação presencial é tão importante.\n\nÉ nela que eu consigo ver se há alguma praga ou infestação e se é possível tratar. Também avalio se aquela planta combina com a nova proposta e se agrega de forma positiva ao paisagismo que vamos planejar.\n\nSaúde e estética precisam andar juntas.\n\nQuer que eu avalie o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
-    }
-   ],
-   "midia": {
-    "tipo": "video",
-    "arquivo": "videos/ideia-67-saude-estetica-plantas-existentes.mp4",
-    "poster": "img/c67-poster.jpg"
-   },
-   "pagina": "41785198-8c4e-81a2-99c8-e395b50f9df9"
-  },
-  {
-   "id": "c80",
-   "etapa": "criativo",
+   "id": "a80",
+   "etapa": "aprovado",
    "numero": 80,
-   "titulo": "Projeto casa 185: recém-implantado",
+   "titulo": "Projeto casa 185: pós imediato da implantação",
    "formato": "Carrossel",
    "funcao": "Qualificar",
    "blocos": [
     {
      "t": "Legenda",
-     "x": "🌿 Projeto casa 185, recém-implantado.\nO jardim acabou de ser plantado e já mostra a intenção do projeto: palmeiras que levam o olhar para cima, folhagens de texturas diferentes nos canteiros e vasos que ocupam o deck e a área da piscina.\n\nNão é sobre esperar o jardim crescer para ele ficar bonito. É sobre pensar cada camada desde o primeiro dia, para o tempo só completar o que já foi desenhado.\n\nQuer conversar sobre o projeto da sua área externa? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #ProjetoDePaisagismo #PaisagismoResidencial #JardimRecemImplantado"
+     "x": "🌿 Projeto casa 185, no pós imediato da implantação.\nLogo após a implantação, o jardim já mostra a intenção do projeto: palmeiras que levam o olhar para cima, folhagens de texturas diferentes nos canteiros e vasos que ocupam o deck e a área da piscina.\n\nNão é sobre esperar o jardim crescer para ele ficar bonito. É sobre pensar cada camada desde o primeiro dia, para o tempo só completar o que já foi desenhado.\n\nQuer conversar sobre o projeto da sua área externa? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #ProjetoDePaisagismo #PaisagismoResidencial"
     }
    ],
    "midia": {

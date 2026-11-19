@@ -1,7 +1,32 @@
 {
  "cliente": "CRK Studio 3D",
- "atualizadoEm": "2026-11-16",
+ "atualizadoEm": "2026-11-19",
  "itens": [
+  {
+   "id": "i20",
+   "etapa": "ideia",
+   "numero": 20,
+   "pagina": "41a85198-8c4e-8017-9a54-dffdfabda4e4",
+   "titulo": "abrir uma caixinha de perguntas",
+   "formato": "Stories [Caixinha]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Por que esta ideia",
+     "x": "A dor: arquitetos e paisagistas têm dúvidas sobre como funciona o serviço de imagens e vídeos 3D (prazo, o que enviar, como é o processo) e nem sempre perguntam.\nFunção: Qualificar. Abre um canal de perguntas direto e mostra a CRK Studio 3D como parceira acessível. As respostas viram insumo para as próximas ideias da página."
+    },
+    {
+     "t": "Gancho",
+     "x": "“Deixe aqui a sua dúvida sobre imagens e vídeos 3D.”"
+    },
+    {
+     "t": "Como executar",
+     "x": "Stories [Caixinha]: a Camila grava a abertura, em vídeo curto, convidando a deixar a dúvida. Figurinha (manual): Caixinha.\nFaz sentido? Ou prefere outro formato?"
+    }
+   ],
+   "prioridade": "altissima",
+   "ordem": 1
+  },
   {
    "id": "i26",
    "etapa": "ideia",
@@ -29,7 +54,7 @@
     }
    ],
    "prioridade": "altissima",
-   "ordem": 1
+   "ordem": 2
   },
   {
    "id": "i32",
@@ -58,7 +83,7 @@
     }
    ],
    "prioridade": "altissima",
-   "ordem": 2
+   "ordem": 3
   },
   {
    "id": "i08",
@@ -87,7 +112,7 @@
     }
    ],
    "prioridade": "alta",
-   "ordem": 3
+   "ordem": 4
   },
   {
    "id": "ideia-10",
@@ -116,7 +141,7 @@
     }
    ],
    "prioridade": "alta",
-   "ordem": 4
+   "ordem": 5
   },
   {
    "id": "i19",
@@ -145,7 +170,7 @@
     }
    ],
    "prioridade": "alta",
-   "ordem": 5
+   "ordem": 6
   },
   {
    "id": "i22",
@@ -174,7 +199,7 @@
     }
    ],
    "prioridade": "alta",
-   "ordem": 6
+   "ordem": 7
   },
   {
    "id": "i24",
@@ -203,7 +228,7 @@
     }
    ],
    "prioridade": "alta",
-   "ordem": 7
+   "ordem": 8
   },
   {
    "id": "i09",
@@ -232,7 +257,7 @@
     }
    ],
    "prioridade": "media",
-   "ordem": 8
+   "ordem": 9
   },
   {
    "id": "i12",
@@ -261,7 +286,7 @@
     }
    ],
    "prioridade": "media",
-   "ordem": 9
+   "ordem": 10
   },
   {
    "id": "i13",
@@ -290,35 +315,6 @@
     }
    ],
    "prioridade": "media",
-   "ordem": 10
-  },
-  {
-   "id": "r07",
-   "etapa": "roteiro",
-   "numero": 7,
-   "pagina": "40785198-8c4e-8108-9a23-de583d60968c",
-   "titulo": "Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.",
-   "formato": "Carrossel [Dividido]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Roteiro",
-     "x": "**Slide 1 (capa):** “Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.” Imagem: o 3D (imagem 3d.jpg) em tela dividida com a planta (planta baixa indicação espécies.jpg).\n**Slide 2:** esquerda “O que você vê na planta” (planta com indicação de espécies); direita “O que o cliente vê” (manchas e símbolos no papel).\n**Slide 3:** esquerda “O que o cliente precisa ver” (imagem 3D do mesmo espaço); direita “Quando ele vê o espaço, ele entende e decide.”\n**Slide 4:** “Quantas vezes você já explicou o mesmo espaço na reunião?”\n**Slide 5:** “Salve para a próxima apresentação e envie para uma colega. Quer ver o seu projeto assim? Chame a CRK Studio 3D no direct.”"
-    },
-    {
-     "t": "Legenda",
-     "x": "Você apresenta a planta, a lista de espécies e as referências, e o cliente responde: “entendi onde ficam as plantas, mas ainda não consigo imaginar como vai ficar”. Isso não é rejeição ao projeto. É falta de imagem. Quando o cliente vê o espaço em 3D, a conversa muda de “o que é isso?” para “quando começamos?”.\nQuer apresentar seu projeto com essa clareza? Chame a CRK Studio 3D no direct ou veja o portfólio pelo link da bio."
-    },
-    {
-     "t": "O que precisamos",
-     "x": "**Obrigatório:** as duas imagens enviadas pela Camila (imagem 3d.jpg e planta baixa indicação espécies.jpg), já na pasta.\nOpcional: nada. Se não tiver, o design cria."
-    }
-   ],
-   "prioridade": "altissima",
-   "link": {
-    "t": "Abrir a pasta no Drive",
-    "u": "https://drive.google.com/drive/folders/1k2beeuEpHEqMNer6Bb8A6xXZiUojoxx4"
-   },
    "ordem": 11
   },
   {
@@ -343,41 +339,12 @@
      "x": "**Obrigatório:** as 6 imagens diurnas da pasta da Camila (Cenas 1, 3, 4, 10, 14 e 18), já enviadas.\nOpcional: nada."
     }
    ],
-   "prioridade": "media",
+   "prioridade": "altissima",
    "link": {
     "t": "Abrir a pasta no Drive",
     "u": "https://drive.google.com/drive/folders/1QC45hB8XHoRV8FwbrueH1cX9rMOQerC2"
    },
    "ordem": 12
-  },
-  {
-   "id": "r39",
-   "etapa": "roteiro",
-   "numero": 39,
-   "pagina": "41785198-8c4e-8130-9d1c-cff68549c230",
-   "titulo": "Jardim Maze | imagens noturnas",
-   "formato": "Carrossel [Galeria]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Roteiro",
-     "x": "**Capa:** a imagem mais bonita do projeto (sugestão: Cena 1 noturna), com a tag “Jardim Maze · imagens noturnas”.\n**Slides 2 em diante:** só imagens do projeto, sem texto (as outras 5 da pasta).\n**Último slide (teste):** sobre a última imagem, o texto “Gostou desse projeto? Já imaginou o seu projeto de paisagismo ou arquitetônico com essa qualidade? Clique no link da bio e entre em contato pelo WhatsApp.”"
-    },
-    {
-     "t": "Legenda",
-     "x": "O Jardim Maze à noite: balizadores e luz quente valorizam os canteiros, a árvore e o pergolado, e o pátio ganha outro clima de permanência depois do pôr do sol. A mesma composição, vista com a iluminação que o projeto propõe.\nRenderização: CRK Studio 3D."
-    },
-    {
-     "t": "O que precisamos",
-     "x": "**Obrigatório:** as 6 imagens noturnas da pasta da Camila (Cenas 1, 3, 4, 9, 16 e 28), já enviadas.\nOpcional: nada."
-    }
-   ],
-   "prioridade": "media",
-   "link": {
-    "t": "Abrir a pasta no Drive",
-    "u": "https://drive.google.com/drive/folders/1gk9SBhdZc058aipHkJ4LTxpcGrPgnGFx"
-   },
-   "ordem": 13
   },
   {
    "id": "r40",
@@ -401,41 +368,12 @@
      "x": "**Obrigatório:** as 3 imagens diurnas da pasta da Camila (Cenas 12, 21 e 29), já enviadas.\nOpcional: nada."
     }
    ],
-   "prioridade": "media",
+   "prioridade": "altissima",
    "link": {
     "t": "Abrir a pasta no Drive",
     "u": "https://drive.google.com/drive/folders/1SjwboqcIV3jlBdP1SoljbnuG9l3BMdYt"
    },
-   "ordem": 14
-  },
-  {
-   "id": "r41",
-   "etapa": "roteiro",
-   "numero": 41,
-   "pagina": "41785198-8c4e-8104-a1e5-caf6520730e5",
-   "titulo": "Bosco di Pietra | imagens noturnas",
-   "formato": "Carrossel [Galeria]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Roteiro",
-     "x": "**Capa:** a imagem mais bonita do projeto (sugestão: Cena 12 noturna), com a tag “Bosco di Pietra · imagens noturnas”.\n**Slides 2 em diante:** só imagens do projeto, sem texto (as outras 2 da pasta).\n**Último slide (teste):** sobre a última imagem, o texto “Gostou desse projeto? Já imaginou o seu projeto de paisagismo ou arquitetônico com essa qualidade? Clique no link da bio e entre em contato pelo WhatsApp.”"
-    },
-    {
-     "t": "Legenda",
-     "x": "O Bosco di Pietra à noite: o cordão de luzes sobre as redes, os balizadores no caminho e a luz sobre o muro de gabião e as árvores mostram como o espaço funciona depois que escurece.\nRenderização: CRK Studio 3D."
-    },
-    {
-     "t": "O que precisamos",
-     "x": "**Obrigatório:** as 3 imagens noturnas da pasta da Camila (Cenas 12, 23 e 29), já enviadas.\nOpcional: nada."
-    }
-   ],
-   "prioridade": "media",
-   "link": {
-    "t": "Abrir a pasta no Drive",
-    "u": "https://drive.google.com/drive/folders/1wr3JKYWU1UjnaIH0PS9ObY3cCcKRsS_C"
-   },
-   "ordem": 15
+   "ordem": 13
   },
   {
    "id": "r42",
@@ -459,12 +397,99 @@
      "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
     }
    ],
-   "prioridade": "media",
+   "prioridade": "altissima",
    "link": {
     "t": "Abrir o vídeo no Drive",
     "u": "https://drive.google.com/file/d/1L48eJwKXLsNAZZ7Bz6VnNr7DLbC5n_BY/view"
    },
+   "ordem": 14
+  },
+  {
+   "id": "r07",
+   "etapa": "roteiro",
+   "numero": 7,
+   "pagina": "40785198-8c4e-8108-9a23-de583d60968c",
+   "titulo": "Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.",
+   "formato": "Carrossel [Dividido]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "**Slide 1 (capa):** “Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.” Imagem: o 3D (imagem 3d.jpg) em tela dividida com a planta (planta baixa indicação espécies.jpg).\n**Slide 2:** esquerda “O que você vê na planta” (planta com indicação de espécies); direita “O que o cliente vê” (manchas e símbolos no papel).\n**Slide 3:** esquerda “O que o cliente precisa ver” (imagem 3D do mesmo espaço); direita “Quando ele vê o espaço, ele entende e decide.”\n**Slide 4:** “Quantas vezes você já explicou o mesmo espaço na reunião?”\n**Slide 5:** “Salve para a próxima apresentação e envie para uma colega. Quer ver o seu projeto assim? Chame a CRK Studio 3D no direct.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "Você apresenta a planta, a lista de espécies e as referências, e o cliente responde: “entendi onde ficam as plantas, mas ainda não consigo imaginar como vai ficar”. Isso não é rejeição ao projeto. É falta de imagem. Quando o cliente vê o espaço em 3D, a conversa muda de “o que é isso?” para “quando começamos?”.\nQuer apresentar seu projeto com essa clareza? Chame a CRK Studio 3D no direct ou veja o portfólio pelo link da bio."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "**Obrigatório:** as duas imagens enviadas pela Camila (imagem 3d.jpg e planta baixa indicação espécies.jpg), já na pasta.\nOpcional: nada. Se não tiver, o design cria."
+    }
+   ],
+   "prioridade": "alta",
+   "link": {
+    "t": "Abrir a pasta no Drive",
+    "u": "https://drive.google.com/drive/folders/1k2beeuEpHEqMNer6Bb8A6xXZiUojoxx4"
+   },
+   "ordem": 15
+  },
+  {
+   "id": "r39",
+   "etapa": "roteiro",
+   "numero": 39,
+   "pagina": "41785198-8c4e-8130-9d1c-cff68549c230",
+   "titulo": "Jardim Maze | imagens noturnas",
+   "formato": "Carrossel [Galeria]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "**Capa:** a imagem mais bonita do projeto (sugestão: Cena 1 noturna), com a tag “Jardim Maze · imagens noturnas”.\n**Slides 2 em diante:** só imagens do projeto, sem texto (as outras 5 da pasta).\n**Último slide (teste):** sobre a última imagem, o texto “Gostou desse projeto? Já imaginou o seu projeto de paisagismo ou arquitetônico com essa qualidade? Clique no link da bio e entre em contato pelo WhatsApp.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "O Jardim Maze à noite: balizadores e luz quente valorizam os canteiros, a árvore e o pergolado, e o pátio ganha outro clima de permanência depois do pôr do sol. A mesma composição, vista com a iluminação que o projeto propõe.\nRenderização: CRK Studio 3D."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "**Obrigatório:** as 6 imagens noturnas da pasta da Camila (Cenas 1, 3, 4, 9, 16 e 28), já enviadas.\nOpcional: nada."
+    }
+   ],
+   "prioridade": "alta",
+   "link": {
+    "t": "Abrir a pasta no Drive",
+    "u": "https://drive.google.com/drive/folders/1gk9SBhdZc058aipHkJ4LTxpcGrPgnGFx"
+   },
    "ordem": 16
+  },
+  {
+   "id": "r41",
+   "etapa": "roteiro",
+   "numero": 41,
+   "pagina": "41785198-8c4e-8104-a1e5-caf6520730e5",
+   "titulo": "Bosco di Pietra | imagens noturnas",
+   "formato": "Carrossel [Galeria]",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Roteiro",
+     "x": "**Capa:** a imagem mais bonita do projeto (sugestão: Cena 12 noturna), com a tag “Bosco di Pietra · imagens noturnas”.\n**Slides 2 em diante:** só imagens do projeto, sem texto (as outras 2 da pasta).\n**Último slide (teste):** sobre a última imagem, o texto “Gostou desse projeto? Já imaginou o seu projeto de paisagismo ou arquitetônico com essa qualidade? Clique no link da bio e entre em contato pelo WhatsApp.”"
+    },
+    {
+     "t": "Legenda",
+     "x": "O Bosco di Pietra à noite: o cordão de luzes sobre as redes, os balizadores no caminho e a luz sobre o muro de gabião e as árvores mostram como o espaço funciona depois que escurece.\nRenderização: CRK Studio 3D."
+    },
+    {
+     "t": "O que precisamos",
+     "x": "**Obrigatório:** as 3 imagens noturnas da pasta da Camila (Cenas 12, 23 e 29), já enviadas.\nOpcional: nada."
+    }
+   ],
+   "prioridade": "alta",
+   "link": {
+    "t": "Abrir a pasta no Drive",
+    "u": "https://drive.google.com/drive/folders/1wr3JKYWU1UjnaIH0PS9ObY3cCcKRsS_C"
+   },
+   "ordem": 17
   },
   {
    "id": "r43",
@@ -488,12 +513,12 @@
      "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
     }
    ],
-   "prioridade": "media",
+   "prioridade": "alta",
    "link": {
     "t": "Abrir o vídeo no Drive",
     "u": "https://drive.google.com/file/d/13MxmaLAVB4g8ISMboVCVFj4OUSUXnd5n/view"
    },
-   "ordem": 17
+   "ordem": 18
   },
   {
    "id": "r44",
@@ -517,12 +542,12 @@
      "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
     }
    ],
-   "prioridade": "media",
+   "prioridade": "alta",
    "link": {
     "t": "Abrir o vídeo no Drive",
     "u": "https://drive.google.com/file/d/1v6unxF9oTZlGioAJGdlXHrHn6Gn4RKGG/view"
    },
-   "ordem": 18
+   "ordem": 19
   }
  ]
 }
