@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-17",
+ "atualizadoEm": "2026-11-19",
  "itens": [
   {
    "id": "i10",
@@ -165,24 +165,24 @@
    "pagina": "41a85198-8c4e-8138-ad95-defe6ffc9a60"
   },
   {
-   "id": "i76",
+   "id": "i76-v2",
    "etapa": "ideia",
    "numero": 76,
-   "titulo": "Planta bonita sozinha não faz projeto: o que faz é a intenção",
+   "titulo": "Você não precisa de uma árvore centenária para ter um jardim magnífico",
    "formato": "Estático [Frase]",
    "funcao": "Qualificar",
    "blocos": [
     {
      "t": "Por que esta ideia",
-     "x": "Quem acha que paisagismo é reunir plantas bonitas não enxerga o planejamento por trás de um jardim que funciona. Afasta a imagem de floricultura e reforça seu diferencial: projeto com intenção, critério e vivência."
+     "x": "Ideia da própria Liliane (17/11). Quem acha que um jardim magnífico depende de plantas enormes ou de muitos anos de crescimento adia o projeto ou deixa de pensar o espaço com critério. A frase mostra que o resultado nasce da intenção do projeto, não do tamanho da planta."
     },
     {
      "t": "Gancho",
-     "x": "\"Planta bonita sozinha não faz projeto. O que faz é a intenção.\""
+     "x": "\"Você não precisa de uma árvore centenária para ter um jardim magnífico.\""
     },
     {
      "t": "Como executar",
-     "x": "Estático [Frase]: a frase sobre uma foto real de projeto, com a legenda aprofundando a ideia e convidando à conversa."
+     "x": "Estático [Frase]: a frase em destaque sobre uma foto real de projeto. A legenda aprofunda: um jardim magnífico nasce de escolha, de proporção e do tempo que o projeto leva para se completar, com convite suave à conversa."
     },
     {
      "t": "O que precisamos da Liliane",
@@ -246,7 +246,7 @@
    "pagina": "41a85198-8c4e-8193-8c20-d1621c5accda"
   },
   {
-   "id": "r05",
+   "id": "r05-v2",
    "etapa": "roteiro",
    "numero": 5,
    "titulo": "Por que eu uso: Capim-do-Texas",
@@ -255,7 +255,7 @@
    "blocos": [
     {
      "t": "Por que esta ideia",
-     "x": "Marcelo vê referências bonitas, mas não consegue avaliar sozinho se uma espécie funciona no terreno dele. Mostra o critério por trás da escolha de uma planta e aproxima o público da forma de pensar da Liliane, sem vender planta. Completa a série \"Por que eu uso\" (guaimbê e pitosporo)."
+     "x": "Marcelo vê referências bonitas, mas não consegue avaliar sozinho se uma espécie funciona no terreno dele. Mostra o critério por trás da escolha de uma planta, agora com as palavras da própria Liliane (resposta de 18/11)."
     },
     {
      "t": "Gancho",
@@ -263,17 +263,17 @@
     },
     {
      "t": "Como executar",
-     "x": "Carrossel [Etiqueta]: slide 1 com o nome da planta; slides do meio com critério de escolha, versatilidade e aplicação no projeto, cada um com foto real; um slide com pergunta ao público; último slide com convite suave para conversar."
+     "x": "Carrossel [Etiqueta], 7 slides: (1) Por que eu uso capim-do-Texas nos meus projetos. (2) Muita gente olha para um capim e pensa em mato. Eu vejo leveza, movimento e fluidez. (3) Leveza e movimento: em maciços, traz leveza, movimento e fluidez para os acabamentos dos canteiros; na cor rubra ou na verde, fica lindo. (4) Resistência: gramínea muito resistente, de pleno sol, que se multiplica em touceira. (5) Aplicação: combinado com pedras e árvores maiores, completa a paisagem; fica muito bem em grandes propriedades, como no projeto do Haras. (6) Pergunta ao público nos comentários. (7) Cada espécie nasce do projeto; convite suave para conversar."
     },
     {
      "t": "Material necessário",
-     "x": "Preciso que você reenvie as informações sobre por que você usa o capim-do-Texas (áudio de 1 a 2 minutos ou texto), para o conteúdo sair na sua voz. Fotos reais de projetos com a planta são opcionais."
+     "x": "Nada novo: confirme se os slides 3 a 5 ficaram fiéis ao que você escreveu. Fotos reais da planta em projetos (como o Haras) são opcionais."
     }
    ],
    "pagina": "40785198-8c4e-817b-9f84-d9e61abeee21"
   },
   {
-   "id": "r16",
+   "id": "r16-v2",
    "etapa": "roteiro",
    "numero": 16,
    "titulo": "Varanda, quintal, piscina ou fachada: cada espaço pede um olhar",
@@ -282,7 +282,7 @@
    "blocos": [
     {
      "t": "Formato",
-     "x": "5 stories no mesmo dia: quatro vitrines com foto real de projeto (uma por tipo de espaço) e uma Caixinha no final. A figurinha da Caixinha é colocada manualmente."
+     "x": "5 stories no mesmo dia: quatro vitrines com foto real de projeto (uma por tipo de espaço) e uma Caixinha no final. Resposta à sua dúvida: você não precisa gravar voz. São só fotos e texto na tela. Os projetos são fotos reais suas que já estão no Drive (uma varanda, um quintal, uma área de piscina e uma fachada); a Flora Digital escolhe e você valida a seleção antes de publicar. A figurinha da Caixinha é colocada manualmente."
     },
     {
      "t": "Story 1 (abertura)",
@@ -306,7 +306,7 @@
     },
     {
      "t": "Para a Liliane validar",
-     "x": "As 4 perguntas dos stories 2 a 4 são uma sugestão no tom dela: valide ou troque por frases suas. As fotos são de projetos reais que já estão no Drive."
+     "x": "Confirme as 4 perguntas dos stories 2 a 4 ou troque por frases suas. Sem gravação de voz. Depois de publicado, você responde as caixinhas."
     }
    ],
    "pagina": "40785198-8c4e-81cc-89c3-e56f488ffb5a"
@@ -421,7 +421,7 @@
    "pagina": "40785198-8c4e-819e-830f-d5a41c8fb366"
   },
   {
-   "id": "r60",
+   "id": "r60-v2",
    "etapa": "roteiro",
    "numero": 60,
    "titulo": "O que dez anos de jardim me ensinaram",
@@ -442,11 +442,11 @@
     },
     {
      "t": "Legenda",
-     "x": "Mais de 10 anos criando jardins me ensinaram algumas coisas que levo para cada projeto. 🌿\n\n1. Um espaço bonito não precisa de mais plantas. Precisa de intenção. Cada decisão, do caminho à sombra, muda a forma como a família vive o espaço.\n\n2. A natureza tem o seu tempo. Um projeto bem feito se completa com os anos, e isso faz parte do resultado.\n\n3. Cada terreno tem o seu jeito. O projeto começa por observá-lo: o sol, a casa e a rotina de quem vai estar ali.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+     "x": "Mais de 10 anos criando jardins me ensinaram algumas coisas que levo para cada projeto. 🌿\n\n1. As plantas são a parte fundamental do paisagismo. Não só pela estética, mas pela capacidade de transformar os espaços e proporcionar boas sensações a quem os usa.\n\n2. Cada projeto é particular e individual. É como se fosse sempre o mais importante que eu farei, porque é o único daquela pessoa e ela merece o melhor. Por isso eu procuro entender o que ela gosta, como quer vivenciar o espaço e o seu estilo de vida, faço as perguntas certas e observo o local para criar a melhor opção para cada cliente.\n\n3. Orientar também é a minha função. Mesmo quando o cliente tem voz ativa para escolher e definir, cabe a mim orientar e apresentar as opções viáveis para que ele chegue ao resultado que deseja. Às vezes diremos não aos nossos clientes, e isso é normal.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
     },
     {
      "t": "Para a Liliane validar",
-     "x": "Os 3 aprendizados da legenda são propostas no tom dela. Valide ou troque pelos seus antes de a arte ser feita."
+     "x": "Confirme que a legenda ficou fiel ao que você escreveu em 18/11 (texto curto)."
     }
    ],
    "pagina": "40785198-8c4e-81e5-b271-ce2c2d664d1e"
