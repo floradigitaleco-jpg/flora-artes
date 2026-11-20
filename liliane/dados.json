@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-19",
+ "atualizadoEm": "2026-11-20",
  "itens": [
   {
    "id": "i10",
@@ -33,7 +33,7 @@
    "id": "i11",
    "etapa": "ideia",
    "numero": 11,
-   "titulo": "Jardim recém-plantado é um começo: veja o que muda em cinco meses",
+   "titulo": "Jardim pós-implantação é um começo: veja o que muda em cinco meses",
    "formato": "Reels [Antes e depois]",
    "funcao": "Atrair",
    "blocos": [
@@ -269,7 +269,7 @@
    ]
   },
   {
-   "id": "r05-v2",
+   "id": "r05-v3",
    "etapa": "roteiro",
    "numero": 5,
    "titulo": "Por que eu uso: Capim-do-Texas",
@@ -277,20 +277,44 @@
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Por que esta ideia",
-     "x": "Marcelo vê referências bonitas, mas não consegue avaliar sozinho se uma espécie funciona no terreno dele. Mostra o critério por trás da escolha de uma planta, agora com as palavras da própria Liliane (resposta de 18/11)."
+     "t": "Formato",
+     "x": "Carrossel [Etiqueta], 7 slides, com as palavras da Liliane (resposta de 18/11)."
     },
     {
-     "t": "Gancho",
-     "x": "\"Por que eu uso capim-do-Texas nos meus projetos.\""
+     "t": "Slide 1 (Atrair)",
+     "x": "Por que eu uso capim-do-Texas nos meus projetos.\nImagem: foto real da planta em projeto (de preferência o maciço do Haras)."
     },
     {
-     "t": "Como executar",
-     "x": "Carrossel [Etiqueta], 7 slides: (1) Por que eu uso capim-do-Texas nos meus projetos. (2) Muita gente olha para um capim e pensa em mato. Eu vejo leveza, movimento e fluidez. (3) Leveza e movimento: em maciços, traz leveza, movimento e fluidez para os acabamentos dos canteiros; na cor rubra ou na verde, fica lindo. (4) Resistência: gramínea muito resistente, de pleno sol, que se multiplica em touceira. (5) Aplicação: combinado com pedras e árvores maiores, completa a paisagem; fica muito bem em grandes propriedades, como no projeto do Haras. (6) Pergunta ao público nos comentários. (7) Cada espécie nasce do projeto; convite suave para conversar."
+     "t": "Slide 2",
+     "x": "ETIQUETA · PLANTA. Uma gramínea muito resistente, que se multiplica em touceiras."
+    },
+    {
+     "t": "Slide 3",
+     "x": "CRITÉRIO 1 · MACIÇO. Tanto na coloração rubra quanto na verde, fica lindo em maciços."
+    },
+    {
+     "t": "Slide 4",
+     "x": "CRITÉRIO 2 · MOVIMENTO. Traz leveza, movimento e fluidez para o acabamento dos canteiros."
+    },
+    {
+     "t": "Slide 5",
+     "x": "APLICAÇÃO · Combinado com pedras e árvores maiores, completa a paisagem. É de pleno sol e fica muito bem em grandes propriedades, como no projeto do Haras.\nImagem: foto real do Haras com o capim junto das pedras e das árvores."
+    },
+    {
+     "t": "Slide 6",
+     "x": "Você já imaginou um maciço de capim assim no seu jardim? Conta nos comentários."
+    },
+    {
+     "t": "Slide 7",
+     "x": "Cada espécie nasce do projeto, não de catálogo. Fale comigo para conversarmos sobre o seu espaço."
+    },
+    {
+     "t": "Legenda",
+     "x": "O capim-do-Texas é uma gramínea muito resistente, que se multiplica em touceiras. Tanto na coloração rubra quanto na verde, ele fica lindo em maciços e traz leveza, movimento e fluidez para o acabamento dos canteiros. Combinado com pedras e árvores maiores, completa a paisagem. É uma planta de pleno sol e fica muito bem em grandes propriedades, como no projeto do Haras. Cada planta que eu uso nasce do projeto e de quem vai viver o espaço. Qual textura você gostaria de ver no seu jardim? Fale comigo para conversarmos sobre a sua visão. Link na bio.\n\n#VivaSeuJardim #Paisagismo"
     },
     {
      "t": "Material necessário",
-     "x": "Nada novo: confirme se os slides 3 a 5 ficaram fiéis ao que você escreveu. Fotos reais da planta em projetos (como o Haras) são opcionais."
+     "x": "Nada a captar: o texto veio de você em 18/11. Confira se os slides ficaram fiéis. Opcional: fotos reais do capim-do-Texas no Haras (maciço, junto das pedras e árvores); se não tiver, o design cria."
     }
    ],
    "pagina": "40785198-8c4e-817b-9f84-d9e61abeee21"
@@ -382,39 +406,33 @@
    "pagina": "3b685198-8c4e-8196-a44f-e246bd0ad287"
   },
   {
-   "id": "r59",
-   "etapa": "roteiro",
+   "id": "k59",
+   "etapa": "captacao",
    "numero": 59,
    "titulo": "Tem criança ou pet em casa? O que pensar antes de escolher as plantas",
    "formato": "Reels [Tela dupla]",
    "funcao": "Qualificar",
    "blocos": [
     {
-     "t": "Formato",
-     "x": "Reels [Tela dupla], de 20 a 30 s. Em cima, 2 ou 3 cenas de jardim de projeto sendo usado por uma família com criança ou pet. Embaixo, a Liliane falando para a câmera."
+     "t": "Gancho",
+     "x": "Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto."
     },
     {
-     "t": "Gancho (0 a 3 s)",
-     "x": "Texto na tela: Tem criança ou pet em casa?\nFala: Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto."
-    },
-    {
-     "t": "Narração (a Liliane grava)",
+     "t": "Narração (roteiro aprovado)",
      "x": "Tem criança ou pet em casa? Antes de escolher as plantas, pense nisto. Quando a família tem criança ou animal de estimação, o jardim precisa funcionar de outro jeito. Eu começo pelo uso: onde as crianças vão correr e brincar, por onde o pet vai circular e onde fica o canto de descanso. Só depois eu escolho as plantas, com critério para cada área, pensando em quem vai estar ali todos os dias. Assim o espaço fica bonito e continua fazendo sentido para a vida da família. Salva este vídeo e me conta nos comentários: quem usa o seu jardim, crianças, pets ou os dois?"
-    },
-    {
-     "t": "Texto na tela",
-     "x": "Primeiro o uso. Depois as plantas.\nNo final: Quem usa o seu jardim?"
     },
     {
      "t": "Legenda",
      "x": "Quando a casa tem criança ou pet, o jardim precisa ser pensado de outro jeito. 🌿\n\nAntes de escolher as plantas, eu observo como a família vive: onde as crianças brincam, por onde o pet circula, onde ficam os momentos de descanso. É a partir desse uso que organizo o espaço e escolho a vegetação de cada área.\n\nPorque um jardim não precisa apenas combinar com a casa. Ele precisa funcionar para quem vive nele todos os dias.\n\nQuem usa o seu jardim: crianças, pets ou os dois? Conta aqui nos comentários.\n\nSe quiser conversar sobre o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
     },
     {
-     "t": "Para a Liliane validar",
-     "x": "A narração traz só o raciocínio geral e não cita espécies. Se quiser falar de plantas a evitar ou cuidados específicos, você mesma diz quais."
+     "t": "Material Necessário",
+     "x": "Obrigatório: gravação sua (de 30 s a 1 min, sem cenário especial) falando a narração. Se quiser citar plantas a evitar ou cuidados específicos, você mesma diz quais; a narração não cita espécies.\nOpcional: fotos ou vídeos de jardins de projeto em que crianças ou pets usam o espaço (com autorização do cliente). Se não tiver, o design cria."
     }
    ],
-   "pagina": "40785198-8c4e-819e-830f-d5a41c8fb366"
+   "pagina": "40785198-8c4e-819e-830f-d5a41c8fb366",
+   "prioridade": "alta",
+   "pastaMaterial": ""
   },
   {
    "id": "r60-v2",
@@ -696,27 +714,6 @@
    ],
    "pastaMaterial": "",
    "pagina": "3ab85198-8c4e-8037-8f7b-f002aa6b5ce3"
-  },
-  {
-   "id": "a79",
-   "etapa": "aprovado",
-   "numero": 79,
-   "titulo": "Que composição é essa? Jardim lateral: bulbine, samambaias e palmeiras",
-   "formato": "Reels/composições",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "Jardim lateral com bulbine, samambaias e palmeiras: uma composição em camadas. 🌿\n\nQuando penso em um canteiro estreito, começo pela altura. Cada camada tem uma função.\n\nNa base, a forração: bulbine e samambaias cobrem o solo e trazem flor laranja quase o ano todo. No meio, guaimbê e pitosporo dão volume e preenchem. E na vertical, as palmeiras rabo-de-raposa e as ravenalas levam o olhar para cima.\n\nO resultado é um jardim que tem profundidade, mesmo em um espaço de passagem.\n\nQuer pensar uma composição assim para o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #JardimLateral #ProjetoDePaisagismo #PaisagismoResidencial"
-    }
-   ],
-   "midia": {
-    "tipo": "video",
-    "arquivo": "videos/ideia-79-composicao-jardim-lateral.mp4",
-    "poster": "img/c79-poster.jpg"
-   },
-   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73",
-   "publicacao": "2026-11-19T23:59:00-03:00"
   },
   {
    "id": "a64",
