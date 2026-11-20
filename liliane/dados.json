@@ -269,57 +269,6 @@
    ]
   },
   {
-   "id": "r05-v3",
-   "etapa": "roteiro",
-   "numero": 5,
-   "titulo": "Por que eu uso: Capim-do-Texas",
-   "formato": "Carrossel [Etiqueta]",
-   "funcao": "Qualificar",
-   "blocos": [
-    {
-     "t": "Formato",
-     "x": "Carrossel [Etiqueta], 7 slides, com as palavras da Liliane (resposta de 18/11)."
-    },
-    {
-     "t": "Slide 1 (Atrair)",
-     "x": "Por que eu uso capim-do-Texas nos meus projetos.\nImagem: foto real da planta em projeto (de preferência o maciço do Haras)."
-    },
-    {
-     "t": "Slide 2",
-     "x": "ETIQUETA · PLANTA. Uma gramínea muito resistente, que se multiplica em touceiras."
-    },
-    {
-     "t": "Slide 3",
-     "x": "CRITÉRIO 1 · MACIÇO. Tanto na coloração rubra quanto na verde, fica lindo em maciços."
-    },
-    {
-     "t": "Slide 4",
-     "x": "CRITÉRIO 2 · MOVIMENTO. Traz leveza, movimento e fluidez para o acabamento dos canteiros."
-    },
-    {
-     "t": "Slide 5",
-     "x": "APLICAÇÃO · Combinado com pedras e árvores maiores, completa a paisagem. É de pleno sol e fica muito bem em grandes propriedades, como no projeto do Haras.\nImagem: foto real do Haras com o capim junto das pedras e das árvores."
-    },
-    {
-     "t": "Slide 6",
-     "x": "Você já imaginou um maciço de capim assim no seu jardim? Conta nos comentários."
-    },
-    {
-     "t": "Slide 7",
-     "x": "Cada espécie nasce do projeto, não de catálogo. Fale comigo para conversarmos sobre o seu espaço."
-    },
-    {
-     "t": "Legenda",
-     "x": "O capim-do-Texas é uma gramínea muito resistente, que se multiplica em touceiras. Tanto na coloração rubra quanto na verde, ele fica lindo em maciços e traz leveza, movimento e fluidez para o acabamento dos canteiros. Combinado com pedras e árvores maiores, completa a paisagem. É uma planta de pleno sol e fica muito bem em grandes propriedades, como no projeto do Haras. Cada planta que eu uso nasce do projeto e de quem vai viver o espaço. Qual textura você gostaria de ver no seu jardim? Fale comigo para conversarmos sobre a sua visão. Link na bio.\n\n#VivaSeuJardim #Paisagismo"
-    },
-    {
-     "t": "Material necessário",
-     "x": "Nada a captar: o texto veio de você em 18/11. Confira se os slides ficaram fiéis. Opcional: fotos reais do capim-do-Texas no Haras (maciço, junto das pedras e árvores); se não tiver, o design cria."
-    }
-   ],
-   "pagina": "40785198-8c4e-817b-9f84-d9e61abeee21"
-  },
-  {
    "id": "r16-v2",
    "etapa": "roteiro",
    "numero": 16,
@@ -714,6 +663,26 @@
    ],
    "pastaMaterial": "",
    "pagina": "3ab85198-8c4e-8037-8f7b-f002aa6b5ce3"
+  },
+  {
+   "id": "a79",
+   "etapa": "aprovado",
+   "numero": 79,
+   "titulo": "Que composição é essa? Jardim lateral: bulbine, samambaias e palmeiras",
+   "formato": "Reels/composições",
+   "funcao": "Atrair",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "Jardim lateral com bulbine, samambaias e palmeiras: uma composição em camadas. 🌿\n\nQuando penso em um canteiro estreito, começo pela altura. Cada camada tem uma função.\n\nNa base, a forração: bulbine e samambaias cobrem o solo e trazem flor laranja quase o ano todo. No meio, guaimbê e pitosporo dão volume e preenchem. E na vertical, as palmeiras rabo-de-raposa e as ravenalas levam o olhar para cima.\n\nO resultado é um jardim que tem profundidade, mesmo em um espaço de passagem.\n\nQuer pensar uma composição assim para o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #JardimLateral #ProjetoDePaisagismo #PaisagismoResidencial"
+    }
+   ],
+   "midia": {
+    "tipo": "video",
+    "arquivo": "videos/ideia-79-composicao-jardim-lateral.mp4",
+    "poster": "img/c79-poster.jpg"
+   },
+   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73"
   },
   {
    "id": "a64",
