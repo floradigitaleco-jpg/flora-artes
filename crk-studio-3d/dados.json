@@ -1,6 +1,6 @@
 {
  "cliente": "CRK Studio 3D",
- "atualizadoEm": "2026-11-19",
+ "atualizadoEm": "2026-11-22",
  "itens": [
   {
    "id": "i20",
@@ -376,35 +376,6 @@
    "ordem": 13
   },
   {
-   "id": "r42",
-   "etapa": "roteiro",
-   "numero": 42,
-   "pagina": "41785198-8c4e-8126-863f-d926973e3672",
-   "titulo": "Vamos de composição #1: o que você achou?",
-   "formato": "Reels [Experiência]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Roteiro",
-     "x": "**Gancho (0-3s):** texto na tela “Vamos de composição #1”.\n**Corpo:** vídeo 3D da composição das plantas, com som ambiente e sem narração. Texto curto na tela: “Veja a composição antes da obra.” Duração alvo: 15 a 25 s.\n**CTA:** texto na tela no final “O que você achou dessa composição?” e convite para responder nos comentários."
-    },
-    {
-     "t": "Legenda",
-     "x": "Vamos de composição #1. O 3D permite ver como as plantas se combinam antes de a obra começar. O que você achou dessa composição? Conta nos comentários.\nVocê é arquiteto ou paisagista e quer mostrar suas composições assim? Chame a gente no direct ou veja o portfólio pelo link da bio."
-    },
-    {
-     "t": "O que precisamos",
-     "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
-    }
-   ],
-   "prioridade": "altissima",
-   "link": {
-    "t": "Abrir o vídeo no Drive",
-    "u": "https://drive.google.com/file/d/1L48eJwKXLsNAZZ7Bz6VnNr7DLbC5n_BY/view"
-   },
-   "ordem": 14
-  },
-  {
    "id": "r07",
    "etapa": "roteiro",
    "numero": 7,
@@ -506,11 +477,11 @@
     },
     {
      "t": "Legenda",
-     "x": "Vamos de composição #2. O 3D permite ver como as plantas se combinam antes de a obra começar. O que você achou dessa composição? Conta nos comentários.\nVocê é arquiteto ou paisagista e quer mostrar suas composições assim? Chame a gente no direct ou veja o portfólio pelo link da bio."
+     "x": "Vamos de composição #2. Mais uma composição vista em 3D antes da obra. O que você achou? Conta nos comentários.\nVocê é arquiteto ou paisagista e quer mostrar suas composições assim? Chame a gente no direct ou veja o portfólio pelo link da bio."
     },
     {
      "t": "O que precisamos",
-     "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
+     "x": "**Obrigatório:** o vídeo 3D da composição #2 (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, o design e a edição criam."
     }
    ],
    "prioridade": "alta",
@@ -535,11 +506,11 @@
     },
     {
      "t": "Legenda",
-     "x": "Vamos de composição #3. O 3D permite ver como as plantas se combinam antes de a obra começar. O que você achou dessa composição? Conta nos comentários.\nVocê é arquiteto ou paisagista e quer mostrar suas composições assim? Chame a gente no direct ou veja o portfólio pelo link da bio."
+     "x": "Vamos de composição #3. Mais uma composição vista em 3D antes da obra. O que você achou? Conta nos comentários.\nVocê é arquiteto ou paisagista e quer mostrar suas composições assim? Chame a gente no direct ou veja o portfólio pelo link da bio."
     },
     {
      "t": "O que precisamos",
-     "x": "**Obrigatório:** o vídeo 3D da composição (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, a edição cria."
+     "x": "**Obrigatório:** o vídeo 3D da composição #3 (arquivo indicado pela Camila; falta confirmar que é o vídeo certo).\nOpcional: música ambiente suave. Se não tiver, o design e a edição criam."
     }
    ],
    "prioridade": "alta",
