@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-20",
+ "atualizadoEm": "2026-11-23",
  "itens": [
   {
    "id": "i10",
@@ -384,7 +384,7 @@
    "pastaMaterial": ""
   },
   {
-   "id": "r60-v2",
+   "id": "r60-v3",
    "etapa": "roteiro",
    "numero": 60,
    "titulo": "O que dez anos de jardim me ensinaram",
@@ -393,19 +393,19 @@
    "blocos": [
     {
      "t": "Formato",
-     "x": "Estático [Leia a legenda], 1080 × 1350. A imagem traz só a pergunta; o conteúdo fica na legenda."
+     "x": "Estático [Leia a legenda], 1080 × 1350. Imagem simples com a pergunta em destaque; o conteúdo fica na legenda."
     },
     {
      "t": "Imagem",
-     "x": "Foto real de jardim de projeto da Liliane, ou detalhe de planta com luz natural, sem pessoas e com respiro para o texto."
+     "x": "Foto real de jardim de projeto da Liliane, ou detalhe de planta com luz natural, sem pessoas e com respiro para o texto. Nunca banco de imagem."
     },
     {
      "t": "Texto na imagem",
-     "x": "O que mais de 10 anos de jardim me ensinaram?\nAssinatura discreta: Liliane Amarante.\n\nVariação em primeira pessoa, se preferir: \"O que eu aprendi com mais de 10 anos criando jardins?\""
+     "x": "O que mais de 10 anos de jardim me ensinaram?\nAssinatura discreta: Liliane Amarante.\n\nVariação, se a Liliane preferir a primeira pessoa: \"O que eu aprendi com mais de 10 anos criando jardins?\""
     },
     {
      "t": "Legenda",
-     "x": "Mais de 10 anos criando jardins me ensinaram algumas coisas que levo para cada projeto. 🌿\n\n1. As plantas são a parte fundamental do paisagismo. Não só pela estética, mas pela capacidade de transformar os espaços e proporcionar boas sensações a quem os usa.\n\n2. Cada projeto é particular e individual. É como se fosse sempre o mais importante que eu farei, porque é o único daquela pessoa e ela merece o melhor. Por isso eu procuro entender o que ela gosta, como quer vivenciar o espaço e o seu estilo de vida, faço as perguntas certas e observo o local para criar a melhor opção para cada cliente.\n\n3. Orientar também é a minha função. Mesmo quando o cliente tem voz ativa para escolher e definir, cabe a mim orientar e apresentar as opções viáveis para que ele chegue ao resultado que deseja. Às vezes diremos não aos nossos clientes, e isso é normal.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
+     "x": "Mais de 10 anos criando jardins me ensinaram três coisas que levo para cada projeto. 🌿\n\n1. As plantas são a parte fundamental do paisagismo. Não só pela estética, mas pela capacidade de transformar os espaços e de proporcionar boas sensações a quem vive neles.\n\n2. Cada projeto é particular e individual. É como se fosse sempre o mais importante que eu vou fazer, porque é o único daquela pessoa, e ela merece o melhor. Por isso eu entendo o que ela gosta, como quer viver aquele lugar e qual é o seu estilo de vida, faço as perguntas certas e olho o espaço para criar a melhor opção para cada cliente.\n\n3. Orientar é a minha função. Mesmo quando o cliente tem voz ativa para escolher e definir, cabe a mim apresentar as opções viáveis para ele chegar ao resultado que deseja. Algumas vezes vamos dizer não ao cliente, e isso é normal.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
     },
     {
      "t": "Para a Liliane validar",
@@ -674,7 +674,7 @@
    "blocos": [
     {
      "t": "Legenda",
-     "x": "Jardim lateral com bulbine, samambaias e palmeiras: uma composição em camadas. 🌿\n\nQuando penso em um canteiro estreito, começo pela altura. Cada camada tem uma função.\n\nNa base, a forração: bulbine e samambaias cobrem o solo e trazem flor laranja quase o ano todo. No meio, guaimbê e pitosporo dão volume e preenchem. E na vertical, as palmeiras rabo-de-raposa e as ravenalas levam o olhar para cima.\n\nO resultado é um jardim que tem profundidade, mesmo em um espaço de passagem.\n\nQuer pensar uma composição assim para o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #JardimLateral #ProjetoDePaisagismo #PaisagismoResidencial"
+     "x": "Jardim tropical junto da piscina com bulbine, samambaias e palmeiras: uma composição em camadas. 🌿\n\nNessa composição as plantas altas como ravenalas e palmeiras trazem verticalidade, tornando mais proporcional e imponente o paisagismo.\n\nNa base, a forração: bulbine e samambaias cobrem o solo e trazem a flor laranja quase o ano todo. No meio, guaimbê e pitosporo dão volume e preenchem. E na vertical, as palmeiras rabo-de-raposa e as ravenalas levam o olhar para cima.\n\nO resultado é um jardim que tem profundidade, mesmo em um espaço de passagem.\n\nQuer pensar uma composição assim para o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #JardimLateral #ProjetoDePaisagismo #PaisagismoResidencial"
     }
    ],
    "midia": {
