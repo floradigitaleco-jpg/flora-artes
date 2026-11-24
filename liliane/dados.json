@@ -712,7 +712,7 @@
    "midia": {
     "tipo": "carrossel",
     "arquivos": [
-     "img/c80-1.jpg",
+     "img/c80-1.jpg?v=2",
      "img/c80-2.jpg",
      "img/c80-3.jpg",
      "img/c80-4.jpg",
@@ -725,6 +725,36 @@
    },
    "pagina": "41a85198-8c4e-81b5-9dfb-d57290364c92",
    "publicacao": "2026-11-26T23:59:00-03:00"
+  },
+  {
+   "id": "a5",
+   "etapa": "aprovado",
+   "numero": 5,
+   "titulo": "Por que eu uso: Capim-do-Texas",
+   "formato": "Carrossel [Etiqueta]",
+   "funcao": "Qualificar",
+   "blocos": [
+    {
+     "t": "Legenda",
+     "x": "O capim-do-Texas é uma gramínea muito resistente, que se multiplica em touceiras. Tanto na coloração rubra quanto na verde, ele fica lindo em maciços e traz leveza, movimento e fluidez para o acabamento dos canteiros. Combinado com pedras e árvores maiores, completa a paisagem. É uma planta de pleno sol e fica muito bem em grandes propriedades, como no projeto do Haras. Cada planta que eu uso nasce do projeto e de quem vai viver o espaço. Qual textura você gostaria de ver no seu jardim? Fale comigo para conversarmos sobre a sua visão. Link na bio.\n\n#VivaSeuJardim #Paisagismo"
+    }
+   ],
+   "midia": {
+    "tipo": "carrossel",
+    "arquivos": [
+     "img/c5-1.jpg",
+     {
+      "tipo": "video",
+      "arquivo": "videos/ideia-5-capim-do-texas-slide2.mp4",
+      "poster": "img/c5-2-poster.jpg"
+     },
+     "img/c5-3.jpg",
+     "img/c5-4.jpg",
+     "img/c5-5.jpg"
+    ]
+   },
+   "pagina": "40785198-8c4e-817b-9f84-d9e61abeee21",
+   "publicacao": "2026-11-30T23:59:00-03:00"
   }
  ]
 }

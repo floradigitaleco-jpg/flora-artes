@@ -128,6 +128,7 @@ button.wa[aria-disabled="true"],.wa[aria-disabled="true"]{opacity:.45;cursor:def
 .viewport::-webkit-scrollbar{display:none}
 .slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;display:flex}
 .slide img{width:100%;height:100%;object-fit:contain;display:block}
+.slide video{width:100%;height:100%;object-fit:contain;display:block;background:var(--stage)}
 .nav{position:absolute;top:calc(50% - 22px);width:44px;height:44px;border-radius:50%;border:0;background:rgba(20,28,25,.66);color:#fff;font-size:24px;line-height:1;cursor:pointer;padding:0;display:flex;align-items:center;justify-content:center}
 .nav[disabled]{opacity:.25;cursor:default}
 .prev{left:10px}.next{right:10px}
@@ -378,17 +379,21 @@ function montarEnviados(){
 function carrossel(imgs,rotulo){
  const box=el('div');box.setAttribute('role','group');box.setAttribute('aria-roledescription','carrossel');box.setAttribute('aria-label',rotulo);
  const st=el('div','stage'),vp=el('div','viewport');vp.tabIndex=0;vp.setAttribute('aria-label',rotulo+': use as setas do teclado para trocar de slide');
- imgs.forEach((src,n)=>{const s=el('div','slide'),im=el('img');im.src=src;im.alt='Slide '+(n+1)+' de '+imgs.length+': '+rotulo;im.loading=n?'lazy':'eager';im.decoding='async';s.append(im);vp.append(s)});
+ imgs.forEach((src,n)=>{const s=el('div','slide');
+  if(src&&typeof src==='object'&&src.tipo==='video'){const v=el('video');v.controls=true;v.playsInline=true;v.preload='metadata';v.src=src.arquivo;if(src.poster)v.poster=src.poster;v.setAttribute('aria-label','Slide '+(n+1)+' de '+imgs.length+' (vídeo): '+rotulo);s.append(v)}
+  else{const im=el('img');im.src=src;im.alt='Slide '+(n+1)+' de '+imgs.length+': '+rotulo;im.loading=n?'lazy':'eager';im.decoding='async';s.append(im)}
+  vp.append(s)});
  const pv=el('button','nav prev','‹'),nx=el('button','nav next','›'),ct=el('div','count'),dt=el('div','dots');
  pv.type=nx.type='button';pv.setAttribute('aria-label','Slide anterior');nx.setAttribute('aria-label','Próximo slide');ct.setAttribute('aria-hidden','true');dt.setAttribute('aria-hidden','true');
  const th=el('div','thumbs'),pontos=[],mini=[];
  imgs.forEach((src,n)=>{
   pontos.push(dt.appendChild(el('span')));
   const b=el('button','thumb');b.type='button';b.setAttribute('aria-label','Ir para o slide '+(n+1));
-  const t=el('img');t.src=src;t.alt='';t.loading='lazy';b.append(t);b.onclick=()=>ir(n);th.append(b);mini.push(b);
+  const t=el('img');t.src=(src&&typeof src==='object')?(src.poster||''):src;t.alt='';t.loading='lazy';b.append(t);b.onclick=()=>ir(n);th.append(b);mini.push(b);
  });
  let cur=0;
  function marcar(n){
+  vp.querySelectorAll('video').forEach(v=>{try{v.pause()}catch(e){}});
   cur=n;ct.textContent=(n+1)+' / '+imgs.length;
   pontos.forEach((p,k)=>p.classList.toggle('on',k===n));
   mini.forEach((b,k)=>{if(k===n)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')});
