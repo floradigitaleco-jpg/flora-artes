@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-23",
+ "atualizadoEm": "2026-11-24",
  "itens": [
   {
    "id": "i10",
@@ -384,37 +384,6 @@
    "pastaMaterial": ""
   },
   {
-   "id": "r60-v3",
-   "etapa": "roteiro",
-   "numero": 60,
-   "titulo": "O que dez anos de jardim me ensinaram",
-   "formato": "Estático [Leia a legenda]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Formato",
-     "x": "Estático [Leia a legenda], 1080 × 1350. Imagem simples com a pergunta em destaque; o conteúdo fica na legenda."
-    },
-    {
-     "t": "Imagem",
-     "x": "Foto real de jardim de projeto da Liliane, ou detalhe de planta com luz natural, sem pessoas e com respiro para o texto. Nunca banco de imagem."
-    },
-    {
-     "t": "Texto na imagem",
-     "x": "O que mais de 10 anos de jardim me ensinaram?\nAssinatura discreta: Liliane Amarante.\n\nVariação, se a Liliane preferir a primeira pessoa: \"O que eu aprendi com mais de 10 anos criando jardins?\""
-    },
-    {
-     "t": "Legenda",
-     "x": "Mais de 10 anos criando jardins me ensinaram três coisas que levo para cada projeto. 🌿\n\n1. As plantas são a parte fundamental do paisagismo. Não só pela estética, mas pela capacidade de transformar os espaços e de proporcionar boas sensações a quem vive neles.\n\n2. Cada projeto é particular e individual. É como se fosse sempre o mais importante que eu vou fazer, porque é o único daquela pessoa, e ela merece o melhor. Por isso eu entendo o que ela gosta, como quer viver aquele lugar e qual é o seu estilo de vida, faço as perguntas certas e olho o espaço para criar a melhor opção para cada cliente.\n\n3. Orientar é a minha função. Mesmo quando o cliente tem voz ativa para escolher e definir, cabe a mim apresentar as opções viáveis para ele chegar ao resultado que deseja. Algumas vezes vamos dizer não ao cliente, e isso é normal.\n\nSão esses aprendizados que guiam as minhas escolhas, do primeiro desenho à implantação.\n\nE você, o que um jardim já te ensinou? Conta aqui nos comentários e compartilhe com quem está pensando em transformar a área externa.\n\nSe quiser conversar sobre a sua visão para o seu espaço, fale comigo pelo WhatsApp. Link na bio.\n\n#ProjetoDePaisagismo #PaisagismoResidencial #PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom"
-    },
-    {
-     "t": "Para a Liliane validar",
-     "x": "Confirme que a legenda ficou fiel ao que você escreveu em 18/11 (texto curto)."
-    }
-   ],
-   "pagina": "40785198-8c4e-81e5-b271-ce2c2d664d1e"
-  },
-  {
    "id": "k09",
    "etapa": "captacao",
    "numero": 9,
@@ -682,7 +651,8 @@
     "arquivo": "videos/ideia-79-composicao-jardim-lateral.mp4",
     "poster": "img/c79-poster.jpg"
    },
-   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73"
+   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73",
+   "publicacao": "2026-11-24T23:59:00-03:00"
   },
   {
    "id": "a64",
@@ -702,7 +672,8 @@
     "arquivo": "videos/ideia-64-composicao-pedras-pitosporo.mp4",
     "poster": "img/c64-poster.jpg"
    },
-   "pagina": "41085198-8c4e-8059-8c48-fb03689d0fdb"
+   "pagina": "41085198-8c4e-8059-8c48-fb03689d0fdb",
+   "publicacao": "2026-12-02T23:59:00-03:00"
   },
   {
    "id": "a65",
@@ -722,7 +693,8 @@
     "arquivo": "videos/ideia-65-composicao-haras.mp4",
     "poster": "img/c65-poster.jpg"
    },
-   "pagina": "41085198-8c4e-8079-ace8-ff62a488663b"
+   "pagina": "41085198-8c4e-8079-ace8-ff62a488663b",
+   "publicacao": "2026-11-28T23:59:00-03:00"
   },
   {
    "id": "a80",
@@ -751,7 +723,8 @@
      "img/c80-9.jpg"
     ]
    },
-   "pagina": "41a85198-8c4e-81b5-9dfb-d57290364c92"
+   "pagina": "41a85198-8c4e-81b5-9dfb-d57290364c92",
+   "publicacao": "2026-11-26T23:59:00-03:00"
   }
  ]
 }

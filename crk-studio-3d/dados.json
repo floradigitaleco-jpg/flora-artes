@@ -1,6 +1,6 @@
 {
  "cliente": "CRK Studio 3D",
- "atualizadoEm": "2026-11-23",
+ "atualizadoEm": "2026-11-24",
  "itens": [
   {
    "id": "i20",
@@ -389,28 +389,6 @@
     "u": "https://drive.google.com/drive/folders/1gk9SBhdZc058aipHkJ4LTxpcGrPgnGFx"
    },
    "ordem": 21
-  },
-  {
-   "id": "c41",
-   "etapa": "aprovado",
-   "numero": 41,
-   "pagina": "41785198-8c4e-8104-a1e5-caf6520730e5",
-   "titulo": "Bosco di Pietra | imagens noturnas",
-   "formato": "Carrossel [Galeria]",
-   "funcao": "Atrair",
-   "blocos": [
-    {
-     "t": "Legenda",
-     "x": "Seu cliente consegue enxergar a iluminação do projeto com essa qualidade antes de aprovar?\nTodo mundo querendo fechar o projeto antes do fim do ano, e o cliente só se encanta quando vê o espaço funcionando à noite, com cada ponto de luz no lugar. É esse acabamento que faz o olho dele brilhar e encurta a decisão.\nVocê desenvolve o projeto. Eu cuido da representação 3D.\nClique no link da bio e me chame no WhatsApp.\nRenderização: CRK Studio 3D."
-    }
-   ],
-   "prioridade": "alta",
-   "publicacao": "2026-11-24T12:00:00-03:00",
-   "link": {
-    "t": "Abrir no Drive",
-    "u": "https://drive.google.com/drive/folders/1wr3JKYWU1UjnaIH0PS9ObY3cCcKRsS_C"
-   },
-   "ordem": 22
   },
   {
    "id": "c43",
