@@ -1,6 +1,6 @@
 {
  "cliente": "Liliane Amarante",
- "atualizadoEm": "2026-11-24",
+ "atualizadoEm": "2026-11-25",
  "itens": [
   {
    "id": "i10",
@@ -634,25 +634,32 @@
    "pagina": "3ab85198-8c4e-8037-8f7b-f002aa6b5ce3"
   },
   {
-   "id": "a79",
-   "etapa": "aprovado",
-   "numero": 79,
-   "titulo": "Que composição é essa? Jardim lateral: bulbine, samambaias e palmeiras",
-   "formato": "Reels/composições",
-   "funcao": "Atrair",
+   "id": "k52",
+   "etapa": "captacao",
+   "numero": 52,
+   "titulo": "Como é calculado o valor de um projeto?",
+   "formato": "Reels [Tela dupla]",
+   "funcao": "Qualificar",
    "blocos": [
     {
+     "t": "Gancho",
+     "x": "Se você acha que o valor de um projeto depende apenas do tamanho do terreno..."
+    },
+    {
+     "t": "Narração (roteiro aprovado)",
+     "x": "Essa é uma impressão bastante comum.\nMas existem muitos fatores envolvidos.\nCada projeto é único.\nNós avaliamos o espaço, o nível de detalhamento, a complexidade, os objetivos da família e tudo aquilo que será desenvolvido.\nPor isso não existe um valor padrão.\nExiste um projeto pensado exclusivamente para cada cliente.\nSe você quer entender como funciona no seu caso, me chama no WhatsApp pelo link da bio."
+    },
+    {
      "t": "Legenda",
-     "x": "Jardim tropical junto da piscina com bulbine, samambaias e palmeiras: uma composição em camadas. 🌿\n\nNessa composição as plantas altas como ravenalas e palmeiras trazem verticalidade, tornando mais proporcional e imponente o paisagismo.\n\nNa base, a forração: bulbine e samambaias cobrem o solo e trazem a flor laranja quase o ano todo. No meio, guaimbê e pitosporo dão volume e preenchem. E na vertical, as palmeiras rabo-de-raposa e as ravenalas levam o olhar para cima.\n\nO resultado é um jardim que tem profundidade, mesmo em um espaço de passagem.\n\nQuer pensar uma composição assim para o seu espaço? Fale comigo pelo WhatsApp. Link na bio.\n\n#PaisagismoSapiranga #PaisagismoNovoHamburgo #PaisagismoCampoBom #JardimLateral #ProjetoDePaisagismo #PaisagismoResidencial"
+     "x": "O valor de um projeto paisagístico vai muito além dos metros quadrados.\n\nCada cliente possui objetivos, necessidades e espaços diferentes.\n\nÉ por isso que cada orçamento é elaborado de forma personalizada.\n\n🌿 Um projeto bem desenvolvido começa entendendo as pessoas antes mesmo de pensar nas plantas."
+    },
+    {
+     "t": "Material Necessário",
+     "x": "Obrigatório: gravação da Liliane mostrando um projeto aberto sobre a mesa e apontando alguns detalhes (sem dados de cliente).\nOpcional: fotos ou vídeo de detalhes do projeto para a metade de cima da tela. Se não tiver, o design cria."
     }
    ],
-   "midia": {
-    "tipo": "video",
-    "arquivo": "videos/ideia-79-composicao-jardim-lateral.mp4",
-    "poster": "img/c79-poster.jpg"
-   },
-   "pagina": "41a85198-8c4e-8136-bcf1-e6039b756b73",
-   "publicacao": "2026-11-24T23:59:00-03:00"
+   "pastaMaterial": "",
+   "pagina": "3ab85198-8c4e-80eb-a96e-e8e238c40a0f"
   },
   {
    "id": "a64",
