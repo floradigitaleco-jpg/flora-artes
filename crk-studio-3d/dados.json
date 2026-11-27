@@ -1,6 +1,6 @@
 {
   "cliente": "CRK Studio 3D",
-  "atualizadoEm": "2026-11-26",
+  "atualizadoEm": "2026-11-27",
   "itens": [
     {
       "id": "i20",
@@ -316,35 +316,6 @@
       ],
       "prioridade": "media",
       "ordem": 11
-    },
-    {
-      "id": "r07",
-      "etapa": "roteiro",
-      "numero": 7,
-      "pagina": "40785198-8c4e-8108-9a23-de583d60968c",
-      "titulo": "Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.",
-      "formato": "Carrossel [Dividido]",
-      "funcao": "Atrair",
-      "blocos": [
-        {
-          "t": "Roteiro",
-          "x": "**Slide 1 (capa):** “Seu cliente não rejeitou o projeto. Ele só não conseguiu imaginar.” Imagem: o 3D (imagem 3d.jpg) em tela dividida com a planta (planta baixa indicação espécies.jpg).\n**Slide 2:** esquerda “O que você vê na planta” (planta com indicação de espécies); direita “O que o cliente vê” (manchas e símbolos no papel).\n**Slide 3:** esquerda “O que o cliente precisa ver” (imagem 3D do mesmo espaço); direita “Quando ele vê o espaço, ele entende e decide.”\n**Slide 4:** “Quantas vezes você já explicou o mesmo espaço na reunião?”\n**Slide 5:** “Salve para a próxima apresentação e envie para uma colega. Quer ver o seu projeto assim? Chame a CRK Studio 3D no direct.”"
-        },
-        {
-          "t": "Legenda",
-          "x": "Você apresenta a planta, a lista de espécies e as referências, e o cliente responde: “entendi onde ficam as plantas, mas ainda não consigo imaginar como vai ficar”. Isso não é rejeição ao projeto. É falta de imagem. Quando o cliente vê o espaço em 3D, a conversa muda de “o que é isso?” para “quando começamos?”.\nQuer apresentar seu projeto com essa clareza? Chame a CRK Studio 3D no direct ou veja o portfólio pelo link da bio."
-        },
-        {
-          "t": "O que precisamos",
-          "x": "**Obrigatório:** as duas imagens enviadas pela Camila (imagem 3d.jpg e planta baixa indicação espécies.jpg), já na pasta.\nOpcional: nada. Se não tiver, o design cria."
-        }
-      ],
-      "prioridade": "alta",
-      "link": {
-        "t": "Abrir a pasta no Drive",
-        "u": "https://drive.google.com/drive/folders/1k2beeuEpHEqMNer6Bb8A6xXZiUojoxx4"
-      },
-      "ordem": 15
     },
     {
       "id": "c38",
